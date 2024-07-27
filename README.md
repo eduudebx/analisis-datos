@@ -3,10 +3,10 @@
  <ul>
     <li><strong>Ciclo 1:</strong>
         <ul>
-            <li><a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-1/calculo">Cálculo Diferencial e Integral básico.</a></li>
-            <li><a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-1/intro-ad">Introducción al Análisis de datos.</a></li>
-            <li><a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-1/programacion">Programación con Python.</a></li>
-            <li><a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-1/estadistica">Estadística Descriptiva.</a></li>
+            <li><a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-1/calculo">Cálculo.</a></li>
+            <li><a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-1/intro-ad">Análisis de datos.</a></li>
+            <li><a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-1/programacion">Programación.</a></li>
+            <li><a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-1/estadistica">Estadística.</a></li>
         </ul>
     </li>
     <li><strong>Ciclo 2:</strong></li>
