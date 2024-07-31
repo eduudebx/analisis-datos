@@ -19,7 +19,7 @@ extremo_sup <- minimo + amplitud * (1: num_intervalos_v2)
 marca_clase <- (extremo_inf + extremo_sup) / 2
 
 tabla_frecuencias <- function(x, y){ 
-    cut1 <- cut(x, breaks = y, right = FALSE, include.loweat = FALSE)
+    cut1 <- cut(x, breaks = y, right = FALSE, include.lowest = TRUE)
     intervalos <- levels(cut1)
     frecuencia_abs <- as.vector(table(cut1))
     frecuencia_rel <- round(frecuencia_abs / longitud, digits = 2)
