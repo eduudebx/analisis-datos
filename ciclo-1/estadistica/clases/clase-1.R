@@ -4,6 +4,7 @@ edades <- c(38,15,10,12,62,46,25,56,27,24,23,21,20,25,38,27,48,35,50,65,
             59,58,47,42,37,35,32,40,28,14,12,24,66,73,72,70,68,65,54,48,
             34,33,21,19,64,59,47,46,30,30)
 
+
 minimo <- min(edades)
 maximo <- max(edades)
 longitud <- length(edades)
@@ -21,12 +22,18 @@ tabla_frecuencias <- function(x, y){
     frecuencia_abs <- as.vector(table(cut1))
     frecuencia_rel <- round(frecuencia_abs / longitud, digits = 2)
     frecuencia_abs_acum <- cumsum(frecuencia_abs)
-    frecuencia_rel_acum <- cumsum(frecuencia_rel)
+    frecuencia_rel_acum <- cumsum(frecuencia_rel)  
+
+    hist(edades, main = 'Tabla de Frecuencias de edades', ylab = 'Frecuencias', xlab = 'Edades', col = '#00C1FF', breaks = seq(minimo, maximo, amplitud))
+
     tabla <- data.frame(intervalos, marca_clase, frecuencia_abs, frecuencia_abs_acum, frecuencia_rel, frecuencia_rel_acum)
 }
 
+
 tabla_resultante <- tabla_frecuencias(x = edades, y = extremos)
 View(tabla_resultante)
+
+
 
 
 
