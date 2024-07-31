@@ -8,28 +8,30 @@ edades <- c(38,15,10,12,62,46,25,56,27,24,23,21,20,25,38,27,48,35,50,65,
 minimo <- min(edades)
 maximo <- max(edades)
 longitud <- length(edades)
+print(longitud)
 num_intervalos_v1 <- sqrt(longitud)
 num_intervalos_v2 <- nclass.Sturges(edades)
 amplitud <- (maximo - minimo) / num_intervalos_v2
 extremos <- minimo + amplitud * (0: num_intervalos_v2)
+print(extremos)
 extremo_inf <- minimo + amplitud * (0: (num_intervalos_v2 - 1))
 extremo_sup <- minimo + amplitud * (1: num_intervalos_v2)
 marca_clase <- (extremo_inf + extremo_sup) / 2
 
 tabla_frecuencias <- function(x, y){ 
-    cut1 <- cut(x, breaks = y, right = FALSE, include.loweat = b)
+    cut1 <- cut(x, breaks = y, right = FALSE, include.loweat = FALSE)
     intervalos <- levels(cut1)
     frecuencia_abs <- as.vector(table(cut1))
     frecuencia_rel <- round(frecuencia_abs / longitud, digits = 2)
     frecuencia_abs_acum <- cumsum(frecuencia_abs)
     frecuencia_rel_acum <- cumsum(frecuencia_rel)  
-
-    hist(edades, main = 'Tabla de Frecuencias de edades', ylab = 'Frecuencias', xlab = 'Edades', col = '#00C1FF', breaks = seq(minimo, maximo, amplitud))
-
+    
+    hist(x, main = 'Tabla de Frecuencias de edades', ylab = 'Frecuencias', xlab = 'Edades', col = '#00C1FF', include.lowest = TRUE, right = FALSE, breaks = y)
     tabla <- data.frame(intervalos, marca_clase, frecuencia_abs, frecuencia_abs_acum, frecuencia_rel, frecuencia_rel_acum)
 }
 
 
+print(maximo)
 tabla_resultante <- tabla_frecuencias(x = edades, y = extremos)
 View(tabla_resultante)
 
