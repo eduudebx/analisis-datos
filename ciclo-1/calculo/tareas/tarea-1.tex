@@ -5,12 +5,13 @@
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage[margin = 2.54cm]{geometry}
-\usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{enumitem}
 \usepackage{parskip}
 \usepackage{bm}
 \usepackage[x11names,table]{xcolor}
+\usepackage{amsmath}
+
 
 
 % ----------------- CONFIGURACIONES -----------------
@@ -158,15 +159,33 @@
 
 
             % EJERCICIO 8: ---------------------------------------------------
-            \item Sea: \[
-                            \bm{f(x) = \begin{cases}
-                                x & \text{si } x < 0 \\
-                                x^2 & \text{si } 0 \leq x \leq 2 \\
-                                8 - x & \text{si } x > 2
-                            \end{cases}}
-                        \]
+            \item Sea: 
+                \[
+                    \boldsymbol{
+                        f(x) = 
+                        \left\{
+                            \begin{array}{ll}
+                                x - 1 & ,\ \text{si} \ x < 2 \\
+                                x ^2 - 4x + 6 & ,\ \text{si} \ x \geq 2
+                            \end{array}
+                        \right.
+                    }
+                \]
+
             % EJERCICIO 9: ---------------------------------------------------
-            \item Sea:
+            \item Sea: 
+                \[
+                    \boldsymbol{
+                        f(x) = 
+                        \left\{
+                            \begin{array}{ll}
+                                x & ,\ \text{si} \ x < 0 \\
+                                x ^2 & ,\ \text{si} \ 0 < x \leq 2 \\
+                                8 - x & ,\ \text{si} \ x > 2
+                            \end{array}
+                        \right.
+                    }
+                \]
             
             
             % EJERCICIO 10: ---------------------------------------------------
