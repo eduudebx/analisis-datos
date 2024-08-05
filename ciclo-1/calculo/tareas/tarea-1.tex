@@ -5,14 +5,18 @@
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage[margin = 2.54cm]{geometry}
+\usepackage{amsmath}
 \usepackage{graphicx}
-\usepackage{xcolor}
 \usepackage{enumitem}
 \usepackage{parskip}
+\usepackage{bm}
+\usepackage[x11names,table]{xcolor}
 
-% ----------------- ARCHIVOS EXTERNOS -----------------
+
+% ----------------- CONFIGURACIONES -----------------
 \input{../../../docs/portada-tareas/formato}
 \input{../../../docs/portada-tareas/definicion}
+\definecolor{celeste}{HTML}{94E4F1}
 
 
 % ----------------- PORTADA -----------------
@@ -34,16 +38,142 @@
         \textbf{Resolver los siguientes ejercicios:}
 
         \begin{enumerate}
+            % EJERCICIO 1: ---------------------------------------------------
             \item Estime el valor del límite haciendo una tabla de valores, compruebe su trabajo con una gráfica:
+                \begin{enumerate}[label=\textbf{\arabic*)}] 
+                    \item \[\bm{\lim_{x \to 5} \frac{x ^2 - 25}{x - 5}}\]
+                    \item \[\bm{\lim_{x \to 3} \frac{x ^2 - x - 6}{x - 3}}\]
+                \end{enumerate}
+
+
+            % EJERCICIO 2: ---------------------------------------------------
             \item Complete la tabla de valores (a cinco lugares decimales), y use la tabla para estimar el valor del límite:
+                \begin{enumerate}[label=\textbf{\arabic*)}] 
+                    \item \[\bm{\lim_{x \to 4} \frac{\sqrt{x} - 2}{x - 4}}\]
+                        \begin{table}[h]
+                            \centering
+                            \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
+                                \hline
+                                $\bm{x}$ & 3.9 & 3.99 & 3.999 & 3.9999 & 3.99999 & \textbf{4} & 4.00001 & 4.0001 & 4.001 & 4.01 & 4.1 \\
+                                \hline
+                                $\bm{f(x)}$ &  &  &  &  &  &  &  &  &  &  &  \\
+                                \hline
+                            \end{tabular}
+                        \end{table}
+
+
+                    \item \[\bm{\lim_{x \to 2} \frac{x - 2}{x ^2 + x - 6}}\]
+                        \begin{table}[h]
+                            \centering
+                            \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
+                                \hline
+                                $\bm{x}$ & 1.9 & 1.99 & 1.999 & 1.9999 & 1.99999 & \textbf{2} & 2.00001 & 2.0001 & 2.001 & 2.01 & 2.1 \\
+                                \hline
+                                $\bm{f(x)}$ &  &  &  &  &  &  &  &  &  &  &  \\
+                                \hline
+                            \end{tabular}
+                        \end{table}
+                        
+
+                    \item \[\bm{\lim_{x \to 1} \frac{x - 1}{x ^3 - 1}}\]
+                        \begin{table}[h]
+                            \centering
+                            \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
+                                \hline
+                                $\bm{x}$ & 0.9 & 0.99 & 0.999 & 0.9999 & 0.99999 & \textbf{1} & 1.00001 & 1.0001 & 1.001 & 1.01 & 1.1 \\
+                                \hline
+                                $\bm{f(x)}$ &  &  &  &  &  &  &  &  &  &  &  \\
+                                \hline
+                            \end{tabular}
+                        \end{table}
+
+                \end{enumerate}
+            
+            % EJERCICIO 3: ---------------------------------------------------
+            \newpage
             \item Para la función $f$ cuya gráfica nos dan, exprese el valor de la cantidad dada si existe; si no existe, explique por qué:
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.4\textwidth]{img/t1-ej3.png}
+                \end{figure}
+            
+                \begin{enumerate}[label=\textbf{\alph*.}]
+                    \item \[\bm{\lim_{t \to 0 ^-} g(t)}\]
+                    \item \[\bm{\lim_{t \to 0 ^+} g(t)}\]
+                    \item \[\bm{\lim_{t \to 0} g(t)}\]
+                    \item \[\bm{\lim_{t \to 2 ^-} g(t)}\]
+                    \item \[\bm{\lim_{t \to 2 ^+} g(t)}\]
+                    \item \[\bm{\lim_{t \to 2} g(t)}\]
+                    \item \[\bm{g(2)}\]
+                    \item \[\bm{\lim_{t \to 4} g(t)}\]
+                \end{enumerate}
+            
+            % EJERCICIO 4: ---------------------------------------------------
             \item Use la tabla de valores para estimar el valor del límite. A continuación, use una calculadora gráfica para confirmar gráficamente sus resultados:
+                \begin{enumerate}[label=\textbf{\arabic*)}] 
+                    \item \[\bm{\lim_{x \to -4} \frac{x + 4}{x ^2 + 7x + 12}}\]
+                    \item \[\bm{\lim_{x \to 1} \frac{x ^3 - 1}{x ^2 - 1}}\]
+                    \item \[\bm{\lim_{x \to 0} \frac{5 ^x - 3^x }{x}}\]
+                    \item \[\bm{\lim_{x \to 0} \frac{\sqrt{x + 9} - 3}{x}}\]
+                \end{enumerate}
+
+            
+            % EJERCICIO 5: ---------------------------------------------------
             \item Evalúe el límite y justifique cada paso al indicar las leyes de límites apropiadas:
+                \begin{enumerate}[label=\textbf{\arabic*)}] 
+                    \item \[\bm{\lim_{x \to 4} (5x ^2 - 2x + 3)}\]
+                    \item \[\bm{\lim_{x \to 3} (x ^3 + 2)(x ^2 - 5x)}\]
+                    \item \[\bm{\lim_{x \to -1} \frac{x - 2 }{x ^2 + 4x - 3}}\]
+                    \item \[\bm{\lim_{x \to 1} \left(\frac{x^4 + x^2 - 6}{x^4 + 2x + 3}\right)^2}\]
+                \end{enumerate}
+
+            
+            % EJERCICIO 6: ---------------------------------------------------
             \item Evalúe el límite si existe:
+                \begin{enumerate}[label=\textbf{\arabic*)}] 
+                    \item \[\bm{\lim_{x \to 2} \frac{x ^2 + x - 6}{x - 2}}\]
+                    \item \[\bm{\lim_{x \to -4} \frac{x ^2 + 5x +4}{x ^2 + 3x - 4}}\]
+                    \item \[\bm{\lim_{x \to 2} \frac{x ^2 - x + 6}{x + 2}}\]
+                    \item \[\bm{\lim_{x \to 1} \frac{x ^3 - 1}{x ^2 - 1}}\]
+                    \item \[\bm{\lim_{t \to -3} \frac{t ^2 - 9}{2t ^2 + 7t + 3}}\]
+                    \item \[\bm{\lim_{h \to 0} \frac{\sqrt{1 + h} - 1}{h}}\]
+                    \item \[\bm{\lim_{h \to 0} \frac{(2 + h) ^3 - 8}{h}}\]
+                    \item \[\bm{\lim_{x \to 2} \frac{x ^4 - 16}{x - 2}}\]
+                    \item \[\bm{\lim_{x \to 7} \frac{\sqrt{x + 2} - 3}{x - 7}}\]
+                    \item \[\bm{\lim_{h \to 0} \frac{(3 + h)^{-1} - 3^{-1}}{h}}\]
+                    \item \[\bm{\lim_{x \to -4} \frac{\frac{1}{4} + \frac{1}{x}}{4 + x}}\]
+                    \item \[\bm{\lim_{t \to 0} \left(\frac{1}{t} - \frac{1}{t ^2 + t}\right)}\]
+                \end{enumerate}
+            
+            % EJERCICIO 7: ---------------------------------------------------
             \item Encuentre el límite, si existe. Si el límite no existe, explique por qué:
+                \begin{enumerate}[label=\textbf{\arabic*)}] 
+                    \item \[\bm{\lim_{x \to -4} \left| x + 4 \right|}\]
+                    \item \[\bm{\lim_{x \to -4 ^-} \frac{\left| x + 4 \right|}{x + 4}}\]
+                    \item \[\bm{\lim_{x \to 2} \frac{\left| x - 2 \right|}{x - 2}}\]
+                    \item \[\bm{\lim_{x \to 1.5} \frac{2x ^2 - 3x}{\left| 2x - 3 \right|}}\]
+                    \item \[\bm{\lim_{x \to 0 ^-} \left(\frac{1}{x} - \frac{1}{\left| x \right|}\right)}\]
+                    \item \[\bm{\lim_{x \to 0 ^+} \left(\frac{1}{x} - \frac{1}{\left| x \right|}\right)}\]
+                \end{enumerate}
+
+
+            % EJERCICIO 8: ---------------------------------------------------
+            \item Sea: \[
+                            \bm{f(x) = \begin{cases}
+                                x & \text{si } x < 0 \\
+                                x^2 & \text{si } 0 \leq x \leq 2 \\
+                                8 - x & \text{si } x > 2
+                            \end{cases}}
+                        \]
+            % EJERCICIO 9: ---------------------------------------------------
             \item Sea:
-            \item Sea:
+            
+            
+            % EJERCICIO 10: ---------------------------------------------------
             \item Resuelva los siguientes límites al infinito:
+                
+
+        
         \end{enumerate}
 
 \end{document}
