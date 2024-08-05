@@ -20,6 +20,10 @@ if [[ "${BASH_SOURCE[0]}" != "${0}" ]]; then
         cd ~/Documentos/.Eduardo/GH/analisis-datos/
     }
 
+    chrome(){
+        google-chrome --new-window $1        
+    }
+
     # Miniconda ---------------------------------------------------
     base(){
         conda activate base
