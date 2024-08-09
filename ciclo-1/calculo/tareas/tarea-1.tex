@@ -42,48 +42,113 @@
             % EJERCICIO 1: ---------------------------------------------------
             \item Estime el valor del límite haciendo una tabla de valores, compruebe su trabajo con una gráfica:
                 \begin{enumerate}[label=\textbf{\arabic*)}] 
-                    \item \[\bm{\lim_{x \to 5} \frac{x ^2 - 25}{x - 5}}\]
-                    \item \[\bm{\lim_{x \to 3} \frac{x ^2 - x - 6}{x - 3}}\]
+                    \item \[\bm{\lim_{x \to 5} \frac{x ^2 - 25}{x - 5}} \approx 10 \] 
+                     
+                        \begin{itemize}
+                            \item $\frac{4.9^2 - 25}{4.9 - 5} = 9.9$ \hspace{1cm} $\frac{4.99^2 - 25}{4.99 - 5} = 9.99$ \hspace{1cm} $\frac{4.999^2 - 25}{4.999 - 5} = 9.999$
+                            \item $\frac{5.001^2 - 25}{5.001 - 5} = 10.001$ \hspace{1cm} $\frac{5.01^2 - 25}{5.01 - 5} = 10.01 $ \hspace{1cm} $\frac{5.1^2 - 25}{5.1 - 5} = 10.1 $
+                        \end{itemize}
+
+                        \begin{table}[h]
+                            \centering
+                            \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
+                                \hline
+                                $\bm{x}$    & 4.9 & 4.99 & 4.999  & \textbf{5} & 5.001 & 5.01 & 5.1 \\
+                                \hline
+                                $\bm{f(x)}$ & 9.9 & 9.99 & 9.999  & \textit{10} & 10.001 & 10.01 & 10.1 \\
+                                \hline
+                            \end{tabular}
+                        \end{table}
+
+                        \begin{figure}[h!]
+                            \centering
+                            \includegraphics[width=0.4\textwidth]{img/t1-ej1-1.png}
+                        \end{figure}
+
+
+
+                    \item \[\bm{\lim_{x \to 3} \frac{x ^2 - x - 6}{x - 3}} \approx 5\]
+                        
+                        \begin{itemize}
+                            \item $\frac{2.9^2 - 2.9 - 6}{2.9 - 3} = 4.9 $ \hspace{1cm} $\frac{2.99^2 - 2.99 - 6}{2.99 - 3} = 4.99 $ \hspace{1cm} $\frac{2.999^2 - 2.999 - 6}{2.999 - 3} = 4.999 $
+                            \item $\frac{3.001^2 - 3.001 - 6}{3.001 - 3} = 5.001 $ \hspace{1cm} $\frac{3.01^2 - 3.01 - 6}{3.01 - 3} = 5.01 $ \hspace{1cm} $\frac{3.1^2 - 3.1 - 6}{3.1 - 3} = 5.1 $
+                        \end{itemize}
+
+                        \begin{table}[h]
+                            \centering
+                            \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
+                                \hline
+                                $\bm{x}$    & 2.9 & 2.99 & 2.999  & \textbf{3} & 3.001 & 3.01 & 3.1 \\
+                                \hline
+                                $\bm{f(x)}$ & 4.9 & 4.99 & 4.999  & \textit{5} & 5.001 & 5.01 & 5.1 \\
+                                \hline
+                            \end{tabular}
+                        \end{table}
+
+                        \newpage
+                        \begin{figure}[h!]
+                            \centering
+                            \includegraphics[width=0.4\textwidth]{img/t1-ej1-2.png}
+                        \end{figure}
+
                 \end{enumerate}
 
 
             % EJERCICIO 2: ---------------------------------------------------
             \item Complete la tabla de valores (a cinco lugares decimales), y use la tabla para estimar el valor del límite:
                 \begin{enumerate}[label=\textbf{\arabic*)}] 
-                    \item \[\bm{\lim_{x \to 4} \frac{\sqrt{x} - 2}{x - 4}}\]
+                    \item \[\bm{\lim_{x \to 4} \frac{\sqrt{x} - 2}{x - 4}} \approx 0.25 \]
+                        
+                        \begin{itemize}
+                            \item $\frac{\sqrt{3.9} - 2}{3.9 - 4} = 0.252$ \hspace{1cm} $\frac{\sqrt{3.99} - 2}{3.99 - 4} = 0.25$ \hspace{1cm} $\frac{\sqrt{3.999} - 2}{3.999 - 4} = 0.25$ \vspace{0.2cm} \\ $\frac{\sqrt{3.9999} - 2}{3.9999 - 4} = 0.25$ \hspace{1cm} $\frac{\sqrt{3.99999} - 2}{3.99999 - 4} = 0.25$
+                            \item $\frac{\sqrt{4.00001} - 2}{4.00001 - 4} = 0.25$ \hspace{1cm} $\frac{\sqrt{4.0001} - 2}{4.0001 - 4} = 0.25$ \hspace{1cm} $\frac{\sqrt{4.001} - 2}{4.001 - 4} = 0.25$ \vspace{0.2cm} \\$\frac{\sqrt{4.01} - 2}{4.01 - 4} = 0.25$ \hspace{1cm} $\frac{\sqrt{4.1} - 2}{4.1 - 4} = 0.248$
+                        \end{itemize}
+
                         \begin{table}[h]
                             \centering
                             \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
                                 \hline
                                 $\bm{x}$ & 3.9 & 3.99 & 3.999 & 3.9999 & 3.99999 & \textbf{4} & 4.00001 & 4.0001 & 4.001 & 4.01 & 4.1 \\
                                 \hline
-                                $\bm{f(x)}$ &  &  &  &  &  &  &  &  &  &  &  \\
+                                $\bm{f(x)}$ & 0.252 & 0.25 & 0.25 & 0.25 & 0.25 & \textit{0.25} & 0.25 & 0.25 & 0.25 & 0.25 & 0.248 \\
                                 \hline
                             \end{tabular}
                         \end{table}
 
 
-                    \item \[\bm{\lim_{x \to 2} \frac{x - 2}{x ^2 + x - 6}}\]
+                    \item \[\bm{\lim_{x \to 2} \frac{x - 2}{x ^2 + x - 6}} \approx 0.2\]
+                    
+                        \begin{itemize}
+                            \item $\frac{1.9 - 2}{1.9^2 + 1.9 - 6} = 0.204$ \hspace{1cm} $\frac{1.99 - 2}{1.99^2 + 1.99 - 6} = 0.2$ \hspace{1cm} $\frac{1.999 - 2}{1.999^2 + 1.999 - 6} = 0.2$ \vspace{0.2cm} \\$\frac{1.9999 - 2}{1.9999^2 + 1.9999 - 6} = 0.2$ \hspace{1cm} $\frac{1.99999 - 2}{1.99999^2 + 1.99999 - 6} = 0.2$
+                            \item $\frac{2.00001 - 2}{2.00001^2 + 2.00001 - 6} = 0.2$ \hspace{1cm} $\frac{2.0001 - 2}{2.0001^2 + 2.0001 - 6} = 0.2$ \hspace{1cm} $\frac{2.001 - 2}{2.001^2 + 2.001 - 6} = 0.2$ \vspace{0.2cm} \\$\frac{2.01 - 2}{2.01^2 + 2.01 - 6} = 0.2$ \hspace{1cm} $\frac{2.1 - 2}{2.1^2 + 2.1 - 6} = 0.196$ 
+                        \end{itemize}
+
                         \begin{table}[h]
                             \centering
                             \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
                                 \hline
                                 $\bm{x}$ & 1.9 & 1.99 & 1.999 & 1.9999 & 1.99999 & \textbf{2} & 2.00001 & 2.0001 & 2.001 & 2.01 & 2.1 \\
                                 \hline
-                                $\bm{f(x)}$ &  &  &  &  &  &  &  &  &  &  &  \\
+                                $\bm{f(x)}$ & 0.204 & 0.2 & 0.2 & 0.2 & 0.2 & \textit{0.2} & 0.2 & 0.2 & 0.2 & 0.2 & 0.196 \\
                                 \hline
                             \end{tabular}
                         \end{table}
                         
 
-                    \item \[\bm{\lim_{x \to 1} \frac{x - 1}{x ^3 - 1}}\]
+                    \item \[\bm{\lim_{x \to 1} \frac{x - 1}{x ^3 - 1}} \approx 0.333 \]
+                    
+                        \begin{itemize}
+                            \item $\frac{0.9 - 1}{0.9^3 - 1} = 0.369$ \hspace{1cm} $\frac{0.99 - 1}{0.99^3 - 1} = 0.337$ \hspace{1cm} $\frac{0.999 - 1}{0.999^3 - 1} = 0.334$ \vspace{0.2cm} \\$\frac{0.9999 - 1}{0.9999^3 - 1} = 0.333$ \hspace{1cm} $\frac{0.99999 - 1}{0.99999^3 - 1} = 0.333$ 
+                            \item $\frac{1.00001 - 1}{1.00001^3 - 1} = 0.333$ \hspace{1cm} $\frac{1.0001 - 1}{1.0001^3 - 1} = 0.333$ \hspace{1cm} $\frac{1.001 - 1}{1.001^3 - 1} = 0.333$ \vspace{0.2cm} \\$\frac{1.01 - 1}{1.01^3 - 1} = 0.33$ \hspace{1cm}  $\frac{1.1 - 1}{1.1^3 - 1} = 0.302$
+                        \end{itemize}
+
                         \begin{table}[h]
                             \centering
                             \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
                                 \hline
                                 $\bm{x}$ & 0.9 & 0.99 & 0.999 & 0.9999 & 0.99999 & \textbf{1} & 1.00001 & 1.0001 & 1.001 & 1.01 & 1.1 \\
                                 \hline
-                                $\bm{f(x)}$ &  &  &  &  &  &  &  &  &  &  &  \\
+                                $\bm{f(x)}$ & 0.369 & 0.337 & 0.334 & 0.333 & 0.333 & \textit{0.333} & 0.333 & 0.333 & 0.333 & 0.33 & 0.302 \\
                                 \hline
                             \end{tabular}
                         \end{table}
@@ -91,7 +156,6 @@
                 \end{enumerate}
             
             % EJERCICIO 3: ---------------------------------------------------
-            \newpage
             \item Para la función $f$ cuya gráfica nos dan, exprese el valor de la cantidad dada si existe; si no existe, explique por qué:
                 \begin{figure}[h!]
                     \centering
@@ -99,14 +163,14 @@
                 \end{figure}
             
                 \begin{enumerate}[label=\textbf{\alph*.}]
-                    \item \[\bm{\lim_{t \to 0 ^-} g(t)}\]
-                    \item \[\bm{\lim_{t \to 0 ^+} g(t)}\]
-                    \item \[\bm{\lim_{t \to 0} g(t)}\]
-                    \item \[\bm{\lim_{t \to 2 ^-} g(t)}\]
-                    \item \[\bm{\lim_{t \to 2 ^+} g(t)}\]
-                    \item \[\bm{\lim_{t \to 2} g(t)}\]
-                    \item \[\bm{g(2)}\]
-                    \item \[\bm{\lim_{t \to 4} g(t)}\]
+                    \item \[\bm{\lim_{t \to 0 ^-} g(t)} \approx -1\]
+                    \item \[\bm{\lim_{t \to 0 ^+} g(t)} \approx -2\]
+                    \item \[\bm{\lim_{t \to 0} g(t)}\] El límite no existe porque \[\lim_{t \to 0 ^-} g(t) \ne \lim_{t \to 0 ^+} g(t)\]
+                    \item \[\bm{\lim_{t \to 2 ^-} g(t)} \approx 2\]
+                    \item \[\bm{\lim_{t \to 2 ^+} g(t)} \approx 0\]
+                    \item \[\bm{\lim_{t \to 2} g(t)}\] El límite no existe porque \[\lim_{t \to 2 ^-} g(t) \ne \lim_{t \to 2 ^+} g(t)\]
+                    \item \[\bm{g(2)} = 1\]
+                    \item \[\bm{\lim_{t \to 4} g(t)} \approx 3\]
                 \end{enumerate}
             
             % EJERCICIO 4: ---------------------------------------------------
