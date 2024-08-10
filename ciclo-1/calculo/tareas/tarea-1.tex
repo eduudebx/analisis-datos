@@ -313,12 +313,91 @@
             \vspace{1cm}\hrule
             \item \textbf{Encuentre el límite, si existe. Si el límite no existe, explique por qué:}
                 \begin{enumerate}[label=\textbf{\arabic*)}] 
-                    \item \[\bm{\lim_{x \to -4} \left| x + 4 \right|}\]
-                    \item \[\bm{\lim_{x \to -4 ^-} \frac{\left| x + 4 \right|}{x + 4}}\]
-                    \item \[\bm{\lim_{x \to 2} \frac{\left| x - 2 \right|}{x - 2}}\]
-                    \item \[\bm{\lim_{x \to 1.5} \frac{2x ^2 - 3x}{\left| 2x - 3 \right|}}\]
-                    \item \[\bm{\lim_{x \to 0 ^-} \left(\frac{1}{x} - \frac{1}{\left| x \right|}\right)}\]
-                    \item \[\bm{\lim_{x \to 0 ^+} \left(\frac{1}{x} - \frac{1}{\left| x \right|}\right)}\]
+                    \item \[\bm{\lim_{x \to -4} \left| x + 4 \right|} = \left| (-4) + 4 \right| = \left| 0 \right| = 0\]
+                    \item \[\bm{\lim_{x \to -4 ^-} \frac{\left| x + 4 \right|}{x + 4}} \approx -1\]
+                        \begin{itemize}
+                            \item $\frac{\left| (-4.1) + 4 \right|}{(-4.1) + 4} =  -1$ \hspace{1cm} $\frac{\left| (-4.01) + 4 \right|}{(-4.01) + 4} =  -1$ \hspace{1cm} $\frac{\left| (-4.001) + 4 \right|}{(-4.001) + 4} =  -1$
+                        \end{itemize}
+
+                        \begin{table}[h]
+                            \centering
+                            \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
+                                \hline
+                                $\bm{x}$    & -4.1 & -4.01 & -4.001  & \textbf{-4} \\
+                                \hline
+                                $\bm{f(x)}$ & -1 & -1 & -1  & \textit{-1} \\
+                                \hline
+                            \end{tabular}
+                        \end{table}
+
+                    \item \[\bm{\lim_{x \to 2} \frac{\left| x - 2 \right|}{x - 2}}\] El límite no existe porque: \[\lim_{x \to 2^-} \frac{\left| x - 2 \right|}{x - 2} \neq \lim_{x \to 2^+} \frac{\left| x - 2 \right|}{x - 2}\]
+                    
+                        \begin{itemize}
+                            \item $\frac{\left| (1.9) - 2 \right|}{(1.9) + 4} =  -1$ \hspace{1cm} $\frac{\left| (1.99) - 2 \right|}{(1.99) - 2} =  -1$ \hspace{1cm} $\frac{\left| (1.999) - 2 \right|}{(1.999) - 2} =  -1$
+                            \item $\frac{\left| (2.001) - 2 \right|}{(2.001) - 2} =  1$ \hspace{1cm} $\frac{\left| (2.01) - 2 \right|}{(2.01) - 2} =  1$ \hspace{1cm} $\frac{\left| (2.1) - 2 \right|}{(2.1) - 2} =  1$
+                        \end{itemize}
+
+                        \begin{table}[h]
+                            \centering
+                            \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
+                                \hline
+                                $\bm{x}$    & 1.9 & 1.99 & 1.999  & \textbf{2} & 2.001 & 2.01 & 2.1 \\
+                                \hline
+                                $\bm{f(x)}$ & -1 & -1 & -1  & \( \not\exists \) & 1 & 1 & 1 \\
+                                \hline
+                            \end{tabular}
+                        \end{table}
+
+                    \item \[\bm{\lim_{x \to 1.5} \frac{2x ^2 - 3x}{\left| 2x - 3 \right|}}\] El límite no existe porque: \[\lim_{x \to 1.5^-} \frac{2x ^2 - 3x}{\left| 2x - 3 \right|} \neq \lim_{x \to 1.5^+} \frac{2x ^2 - 3x}{\left| 2x - 3 \right|}\]
+                    
+                        \begin{itemize}
+                            \item $\frac{2(1.49)^2 - 3(1.49)}{\left| 2(1.49) - 3 \right|} = -1.49$ \hspace{0.3cm} $\frac{2(1.499)^2 - 3(1.499)}{\left| 2(1.499) - 3 \right|} = -1.499$ \hspace{0.3cm} $\frac{2(1.4999)^2 - 3(1.4999)}{\left| 2(1.4999) - 3 \right|} = -1.4999$ 
+                            \item $\frac{2(1.5001)^2 - 3(1.5001)}{\left| 2(1.5001) - 3 \right|} = 1.5001$ \hspace{0.5cm} $\frac{2(1.501)^2 - 3(1.501)}{\left| 2(1.501) - 3 \right|} = 1.501$ \hspace{0.5cm} $\frac{2(1.51)^2 - 3(1.51)}{\left| 2(1.51) - 3 \right|} = 1.51$ 
+                        \end{itemize}
+
+                        \begin{table}[h]
+                            \centering
+                            \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
+                                \hline
+                                $\bm{x}$    & 1.49 & 1.499 & 1.4999  & \textbf{1.5} & 1.5001 & 1.501 & 1.51 \\
+                                \hline
+                                $\bm{f(x)}$ & -1.49 & -1.499 & -1.499 & \( \not\exists \) & 1.5001 & 1.501 & 1.51 \\
+                            \end{tabular}
+                        \end{table}
+
+                    \item \[\bm{\lim_{x \to 0 ^-} \left(\frac{1}{x} - \frac{1}{\left| x \right|}\right)} \approx -\infty\]
+                        \begin{itemize}
+                            \item $\left(\frac{1}{(-0.1)} - \frac{1}{\left| -0.1 \right|}\right) = -20$ \hspace{1cm} $\left(\frac{1}{(-0.01)} - \frac{1}{\left| -0.01 \right|}\right) = -200$ \vspace{0.2cm} \\$\left(\frac{1}{(-0.001)} - \frac{1}{\left| -0.001 \right|}\right) = -2000$
+                        \end{itemize}
+
+                        \begin{table}[h]
+                            \centering
+                            \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
+                                \hline
+                                $\bm{x}$    & -0.1 & -0.01 & -0.001  & \textbf{0} \\
+                                \hline
+                                $\bm{f(x)}$ & -20 & -200 & -2000  & \( -\infty \) \\
+                                \hline
+                            \end{tabular}
+                        \end{table}
+                    
+                    \newpage
+                    \item \[\bm{\lim_{x \to 0 ^+} \left(\frac{1}{x} - \frac{1}{\left| x \right|}\right)} \approx 0\]
+                        \begin{itemize}
+                            \item $\left(\frac{1}{(0.001)} - \frac{1}{\left| 0.001 \right|}\right) = 0$ \hspace{1cm} $\left(\frac{1}{(0.01)} - \frac{1}{\left| 0.01 \right|}\right) = 0$ \vspace{0.2cm} \\$\left(\frac{1}{(0.1)} - \frac{1}{\left| 0.1 \right|}\right) = 0$
+                        \end{itemize}
+
+                        \begin{table}[h]
+                            \centering
+                            \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
+                                \hline
+                                $\bm{x}$ & \textbf{0} & 0.001 & 0.01 & 0.1\\
+                                \hline
+                                $\bm{f(x)}$ & \textit{0} & 0 & 0 & 0 \\
+                                \hline
+                            \end{tabular}
+                        \end{table}
+
                 \end{enumerate}
 
 
@@ -337,6 +416,16 @@
                     }
                 \]
 
+                \begin{enumerate}[label=\textbf{(\alph*)}]
+                    \item \textbf{Encuentre:} \[\bm{\lim_{x \to 2^-} f(x)} = \lim_{x \to 2^-} x - 1 = (2) - 1 = 1\] \vspace{0.2cm}\\ \[\bm{\lim_{x \to 2^+} f(x)} = \lim_{x \to 2^+} x ^2 - 4x + 6 = (2)^2 - 4(2) + 6 = 2\]
+                    \item \textbf{¿Existe el} $\bm{\lim_{x \to 2} f(x)}$\textbf{?} El límite no existe porque $lim_{x \to 2^-} f(x) \neq lim_{x \to 2^+} f(x)$
+                    \item \textbf{Trace la gráfica de} $\bm{f}$
+                        \begin{figure}[h!]
+                            \centering
+                            \includegraphics[width=0.6\textwidth]{img/t1-ej8.png}
+                        \end{figure}
+                \end{enumerate}
+
             % EJERCICIO 9: ---------------------------------------------------
             \vspace{1cm}\hrule
             \item \textbf{Sea: }
@@ -352,18 +441,37 @@
                         \right.
                     }
                 \]
+
+                \begin{enumerate}[label=\textbf{(\alph*)}]
+                    \item \textbf{Evalúe cada límite si existe:} 
+                        \begin{enumerate}[label=\textbf{(\roman*)}]
+                            \item \[\bm{\lim_{x \to 0^+} h(x)} = \lim_{x \to 0^+} x^2 = (0)^2 = 0\]
+                            \item \[\bm{\lim_{x \to 0} h(x)} \approx 0\] \[\lim_{x \to 0^-} x = (0) = 0 \] \[\lim_{x \to 0^-} h(x) = \lim_{x \to 0^+} h(x) = \lim_{x \to 0} h(x) = 0\]
+                            \item \[\bm{\lim_{x \to 1} h(x)} = \lim_{x \to 1} x^2 = (1)^2 = 1\] 
+                            \item \[\bm{\lim_{x \to 2^-} h(x)} = \lim_{x \to 2^-} x^2 = (2)^2 = 4\]
+                            \item \[\bm{\lim_{x \to 2^+} h(x)} = \lim_{x \to 2^+} 8 - x = 8 - (2) = 6\]
+                            \item \[\bm{\lim_{x \to 2} h(x)}\] El límite no existe porque $lim_{x \to 2^-} h(x) \neq lim_{x \to 2^+} h(x)$
+                        \end{enumerate}
+
+                    \newpage
+                    \item \textbf{Trace la gráfica de} $\bm{h}$
+                        \begin{figure}[h!]
+                            \centering
+                            \includegraphics[width=0.7\textwidth]{img/t1-ej9.png}
+                        \end{figure}
+                \end{enumerate}
             
             
             % EJERCICIO 10: ---------------------------------------------------
             \vspace{1cm}\hrule
             \item \textbf{Resuelva los siguientes límites al infinito:}
                 \begin{enumerate}[label=\textbf{\arabic*)}] 
-                    \item \[\bm{\lim_{x \to +\infty} \left( \frac{x^3 + 1}{x - 1} - \frac{x}{4} \right)}\]
-                    \item \[\bm{\lim_{x \to +\infty} \left( 4x^2 - \sqrt{x^4 + 1} \right)}\]
-                    \item \[\bm{\lim_{x \to +\infty} \left( 2x - 1 - \sqrt{4x^2 + 1} \right)}\]
-                    \item \[\bm{\lim_{x \to +\infty} \frac{5x + 8}{-5x + 2}}\]
-                    \item \[\bm{\lim_{x \to -\infty} \frac{x^2 + 3x + 5}{x^4 - x - 6}}\]
-                    \item \[\bm{\lim_{x \to +\infty} \frac{\sqrt[3]{x^7 - 4x^3}}{x^2 + 5x}}\]
+                    \item \[\bm{\lim_{x \to +\infty} \left( \frac{x^3 + 1}{x - 1} - \frac{x}{4} \right)} = \lim_{x \to +\infty} \frac{4(x^3 + 1) - x(x - 1)}{4(x - 1)} = \lim_{x \to +\infty} \frac{4x^3 - x^2 + x + 4}{4x - 4}\] \[= \frac{4(\infty)^3}{4(\infty)} = \infty\]
+                    \item \[\bm{\lim_{x \to +\infty} \left( 4x^2 - \sqrt{x^4 + 1} \right)} = \lim_{x \to +\infty} \left( 4x^2 - \sqrt{x^4 + 1} \right) \cdot \frac{4x^2 + \sqrt{x^4 + 1}}{4x^2 + \sqrt{x^4 + 1}}\] \[= \lim_{x \to +\infty} \frac{16x^4 - (x^4 + 1)}{4x^2 + \sqrt{x^4 + 1}} = \lim_{x \to +\infty} \frac{15x^4 - 1}{4x^2 + \sqrt{x^4 + 1}} = \frac{15(\infty)^4}{4(\infty)^2} = \infty\]
+                    \item \[\bm{\lim_{x \to +\infty} \left( 2x - 1 - \sqrt{4x^2 + 1} \right)} = \lim_{x \to +\infty} - 1 + 2x - \sqrt{4x^2 + 1}\] \[= \lim_{x \to +\infty} (-1) + \lim_{x \to +\infty} (2x - \sqrt{4x^2 + 1}) = -1 + \lim_{x \to +\infty} \frac{(2x - \sqrt{4x^2 + 1})(2x + \sqrt{4x^2 + 1})}{2x + \sqrt{4x^2 + 1}}\] \[= -1 + \lim_{x \to +\infty} \frac{4x^2 - (4x^2 + 1)}{2x + \sqrt{4x^2 + 1}} = -1 + \lim_{x \to +\infty} -\frac{1}{2x + \sqrt{4x^2 + 1}} = -1 - \frac{1}{\infty} = - 1 - 0 = -1\]
+                    \item \[\bm{\lim_{x \to +\infty} \frac{5x + 8}{-5x + 2}} = \frac{5(\infty)}{-5(\infty)} = -1\]
+                    \item \[\bm{\lim_{x \to -\infty} \frac{x^2 + 3x + 5}{x^4 - x - 6}} = \frac{(-\infty)^2}{(-\infty)^4} = 0\]
+                    \item \[\bm{\lim_{x \to +\infty} \frac{\sqrt[3]{x^7 - 4x^3}}{x^2 + 5x}} = \frac{(\infty)^{\frac{7}{3}}}{(\infty)^2} = \infty\]
                 \end{enumerate}
 
         
