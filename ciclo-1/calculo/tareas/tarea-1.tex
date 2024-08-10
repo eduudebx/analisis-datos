@@ -36,11 +36,11 @@
     \input{../../../docs/portada-tareas/plantilla}
 
     \section*{\centering Taller de ejercicios - Límites}
-        \textbf{Resolver los siguientes ejercicios:}
+        \textbf{Resolver los siguientes ejercicios:} \vspace{1cm} \hrule
 
-        \begin{enumerate}
+        \begin{enumerate}[label=\textbf{\arabic*.}]
             % EJERCICIO 1: ---------------------------------------------------
-            \item Estime el valor del límite haciendo una tabla de valores, compruebe su trabajo con una gráfica:
+            \item \textbf{Estime el valor del límite haciendo una tabla de valores, compruebe su trabajo con una gráfica:}
                 \begin{enumerate}[label=\textbf{\arabic*)}] 
                     \item \[\bm{\lim_{x \to 5} \frac{x ^2 - 25}{x - 5}} \approx 10 \] 
                      
@@ -95,7 +95,8 @@
 
 
             % EJERCICIO 2: ---------------------------------------------------
-            \item Complete la tabla de valores (a cinco lugares decimales), y use la tabla para estimar el valor del límite:
+            \vspace{1cm}\hrule
+            \item \textbf{Complete la tabla de valores (a cinco lugares decimales), y use la tabla para estimar el valor del límite:}
                 \begin{enumerate}[label=\textbf{\arabic*)}] 
                     \item \[\bm{\lim_{x \to 4} \frac{\sqrt{x} - 2}{x - 4}} \approx 0.25 \]
                         
@@ -156,7 +157,8 @@
                 \end{enumerate}
             
             % EJERCICIO 3: ---------------------------------------------------
-            \item Para la función $f$ cuya gráfica nos dan, exprese el valor de la cantidad dada si existe; si no existe, explique por qué:
+            \vspace{1cm}\hrule
+            \item \textbf{Para la función $f$ cuya gráfica nos dan, exprese el valor de la cantidad dada si existe; si no existe, explique por qué:}
                 \begin{figure}[h!]
                     \centering
                     \includegraphics[width=0.4\textwidth]{img/t1-ej3.png}
@@ -164,7 +166,7 @@
             
                 \begin{enumerate}[label=\textbf{\alph*.}]
                     \item \[\bm{\lim_{t \to 0 ^-} g(t)} \approx -1\]
-                    \item \[\bm{\lim_{t \to 0 ^+} g(t)} \approx -2\]
+                    \item \[\bm{\lim_{t \to 0 ^+} g(t)} \approx -2\] \newpage
                     \item \[\bm{\lim_{t \to 0} g(t)}\] El límite no existe porque \[\lim_{t \to 0 ^-} g(t) \ne \lim_{t \to 0 ^+} g(t)\]
                     \item \[\bm{\lim_{t \to 2 ^-} g(t)} \approx 2\]
                     \item \[\bm{\lim_{t \to 2 ^+} g(t)} \approx 0\]
@@ -174,27 +176,124 @@
                 \end{enumerate}
             
             % EJERCICIO 4: ---------------------------------------------------
-            \item Use la tabla de valores para estimar el valor del límite. A continuación, use una calculadora gráfica para confirmar gráficamente sus resultados:
+            \vspace{1cm}\hrule
+            \item \textbf{Use la tabla de valores para estimar el valor del límite. A continuación, use una calculadora gráfica para confirmar gráficamente sus resultados:}
                 \begin{enumerate}[label=\textbf{\arabic*)}] 
-                    \item \[\bm{\lim_{x \to -4} \frac{x + 4}{x ^2 + 7x + 12}}\]
-                    \item \[\bm{\lim_{x \to 1} \frac{x ^3 - 1}{x ^2 - 1}}\]
-                    \item \[\bm{\lim_{x \to 0} \frac{5 ^x - 3^x }{x}}\]
-                    \item \[\bm{\lim_{x \to 0} \frac{\sqrt{x + 9} - 3}{x}}\]
+                    \item \[\bm{\lim_{x \to -4} \frac{x + 4}{x ^2 + 7x + 12}} \approx -1\]
+                        
+                        \begin{itemize}
+                            \item $\frac{-4.1 + 4}{(-4.1)^2 + 7(-4.1) + 12} =  -0.909$ \hspace{1cm} $\frac{-4.01 + 4}{(-4.01)^2 + 7(-4.01) + 12} =  -0.99$ \vspace{0.2cm} \\$\frac{-4.001 + 4}{(-4.001)^2 + 7(-4.001) + 12} =  -0.999$
+                            \item $\frac{-3.999 + 4}{(-3.999)^2 + 7(-3.999) + 12} =  -1.001$ \hspace{1cm} $\frac{-3.99 + 4}{(-3.99)^2 + 7(-3.99) + 12} =  -1.01$ \vspace{0.2cm} \\$\frac{-3.9 + 4}{(-3.9)^2 + 7(-3.9) + 12} =  -1.111$ 
+                        \end{itemize}
+
+                        \begin{table}[h]
+                            \centering
+                            \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
+                                \hline
+                                $\bm{x}$    & -4.1 & -4.01 & -4.001  & \textbf{-4} & -3.999 & -3.99 & -3.9 \\
+                                \hline
+                                $\bm{f(x)}$ & -0.909 & -0.99 & -0.999  & \textit{-1} & -1.001 & -1.01 & -1.111 \\
+                                \hline
+                            \end{tabular}
+                        \end{table}
+
+                        \begin{figure}[h!]
+                            \centering
+                            \includegraphics[width=0.7\textwidth]{img/t1-ej4-1.png}
+                        \end{figure}
+                    
+                    
+
+                    \item \[\bm{\lim_{x \to 1} \frac{x ^3 - 1}{x ^2 - 1}} \approx 1.5\]
+                    
+                        \begin{itemize}
+                            \item $\frac{0.9^3 - 1}{0.9^2 - 1} =  1.426 $ \hspace{1cm} $\frac{0.99^3 - 1}{0.99^2 - 1} =  1.493 $ \hspace{1cm}  $\frac{0.999^3 - 1}{0.999^2 - 1} =  1.499 $
+                            \item $\frac{1.001^3 - 1}{1.001^2 - 1} =  1.501 $ \hspace{1cm} $\frac{1.01^3 - 1}{1.01^2 - 1} =  1.508 $ \hspace{1cm} $\frac{1.1^3 - 1}{1.1^2 - 1} =  1.576 $
+                        \end{itemize}
+
+                        \begin{table}[h]
+                            \centering
+                            \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
+                                \hline
+                                $\bm{x}$    & 0.9 & 0.99 & 0.999  & \textbf{1} & 1.001 & 1.01 & 1.1 \\
+                                \hline
+                                $\bm{f(x)}$ & 1.426 & 1.493 & 1.499  & \textit{1.5} & 1.501 & 1.508 & 1.576 \\
+                                \hline
+                            \end{tabular}
+                        \end{table}
+
+                        \begin{figure}[h!]
+                            \centering
+                            \includegraphics[width=0.4\textwidth]{img/t1-ej4-2.png}
+                        \end{figure}
+                    
+                    
+                    \item \[\bm{\lim_{x \to 0} \frac{5 ^x - 3^x }{x}} \approx 0.5\]
+                    
+                        \begin{itemize}
+                            \item $\frac{5^{-0.1} - 3^{-0.1}}{-0.1} = 0.446 $ \hspace{1cm} $\frac{5^{-0.01} - 3^{-0.01}}{-0.01} = 0.504 $ \hspace{1cm} $\frac{5^{-0.001} - 3^{-0.001}}{-0.001} = 0.51 $ 
+                            \item $\frac{5^0.001 - 3^0.001}{0.001} =  0.512$ \hspace{1cm} $\frac{5^0.01 - 3^0.01}{0.01} =  0.518$ \hspace{1cm} $\frac{5^0.1 - 3^0.1}{0.1} =  0.585$ \hspace{1cm} 
+                        \end{itemize}
+
+                        \begin{table}[h]
+                            \centering
+                            \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
+                                \hline
+                                $\bm{x}$    & -0.1 & -0.01 & -0.001  & \textbf{0} & 0.001 & 0.01 & 0.1 \\
+                                \hline
+                                $\bm{f(x)}$ & 0.446 & 0.504 & 0.51  & \textit{0.5} & 0.512 & 0.518 & 0.585 \\
+                                \hline
+                            \end{tabular}
+                        \end{table}
+
+                        \newpage
+                        \begin{figure}[h!]
+                            \centering
+                            \includegraphics[width=0.4\textwidth]{img/t1-ej4-3.png}
+                        \end{figure}
+                    
+                    
+                    \item \[\bm{\lim_{x \to 0} \frac{\sqrt{x + 9} - 3}{x}} \approx 0.17\]
+                
+                        \begin{itemize}
+                            \item $\frac{\sqrt{-0.1 + 9} - 3}{-0.1} = 0.167$ \hspace{1cm} $\frac{\sqrt{-0.01 + 9} - 3}{-0.01} = 0.167$ \hspace{1cm} $\frac{\sqrt{-0.001 + 9} - 3}{-0.001} = 0.167$ 
+                            \item $\frac{\sqrt{0.001 + 9} - 3}{0.001} = 0.167$ \hspace{1cm} $\frac{\sqrt{0.01 + 9} - 3}{0.01} = 0.167$ \hspace{1cm} $\frac{\sqrt{0.1 + 9} - 3}{0.1} = 0.166$  
+                        \end{itemize}
+
+                        \begin{table}[h]
+                            \centering
+                            \begin{tabular}{|>{\columncolor{celeste}}l|l|l|l|l|l|l|l|l|l|l|l|}
+                                \hline
+                                $\bm{x}$    & -0.1 & -0.01 & -0.001  & \textbf{0} & 0.001 & 0.01 & 0.1 \\
+                                \hline
+                                $\bm{f(x)}$ & 0.167 & 0.167 & 0.167  & \textit{0.17} & 0.167 & 0.167 & 0.166 \\
+                                \hline
+                            \end{tabular}
+                        \end{table}
+
+                        \begin{figure}[h!]
+                            \centering
+                            \includegraphics[width=0.7\textwidth]{img/t1-ej4-4.png}
+                        \end{figure}
+                
+                
                 \end{enumerate}
 
             
             % EJERCICIO 5: ---------------------------------------------------
-            \item Evalúe el límite y justifique cada paso al indicar las leyes de límites apropiadas:
+            \vspace{1cm}\hrule
+            \item \textbf{Evalúe el límite y justifique cada paso al indicar las leyes de límites apropiadas:}
                 \begin{enumerate}[label=\textbf{\arabic*)}] 
-                    \item \[\bm{\lim_{x \to 4} (5x ^2 - 2x + 3)}\]
-                    \item \[\bm{\lim_{x \to 3} (x ^3 + 2)(x ^2 - 5x)}\]
-                    \item \[\bm{\lim_{x \to -1} \frac{x - 2 }{x ^2 + 4x - 3}}\]
-                    \item \[\bm{\lim_{x \to 1} \left(\frac{x^4 + x^2 - 6}{x^4 + 2x + 3}\right)^2}\]
+                    \item \[\bm{\lim_{x \to 4} (5x ^2 - 2x + 3)}\] Por la ley de la suma/resta: \[\lim_{x \to 4} 5x^2 - \lim_{x \to 4} 2x + \lim_{x \to 4} 3\] Evaluando los límites: \[= 5(4)^2 - 2(4) + 3 = 75\]
+                    \item \[\bm{\lim_{x \to 3} (x ^3 + 2)(x ^2 - 5x)}\] Por la ley del producto: \[\lim_{x \to 3} x ^3 + 2 \cdot \lim_{x \to 3} x ^2 - 5x \] Por la ley de la suma/resta: \[\left(\lim_{x \to 3} x^3 + \lim_{x \to 3} 2\right) \cdot \left(\lim_{x \to 3} x^2 - \lim_{x \to 3} 5x\right)\] Evaluando los límites: \[= ((3)^3 + 2) \cdot ((3)^2 - 5(3)) = -174\]
+                    \item \[\bm{\lim_{x \to -1} \frac{x - 2 }{x ^2 + 4x - 3}}\] Por la ley del cociente: \[\frac{\lim_{x \to -1} x - 2}{\lim_{x \to -1} x ^2 + 4x - 3}\] Por la ley de la suma/resta: \[\frac{\lim_{x \to -1} x - \lim_{x \to -1}2}{\lim_{x \to -1} x ^2 + \lim_{x \to -1} 4x - \lim_{x \to -1} 3}\] Evaluando los límites: \[= \frac{(-1) - 2}{(-1)^2 + 4(-1) - 3} = 0.5\]
+                    \item \[\bm{\lim_{x \to 1} \left(\frac{x^4 + x^2 - 6}{x^4 + 2x + 3}\right)^2}\] Por la ley de la potencia: \[\left(\lim_{x \to 1} \frac{x^4 + x^2 - 6}{x^4 + 2x + 3}\right)^2\] Por la ley del cociente: \[\left(\frac{\lim_{x \to 1} x^4 + x^2 - 6}{\lim_{x \to 1}  x^4 + 2x + 3}\right)^2\] Por la ley de la suma/resta: \[\left(\frac{\lim_{x \to 1} x^4 + \lim_{x \to 1} x^2 - \lim_{x \to 1} 6}{\lim_{x \to 1}  x^4 + \lim_{x \to 1} 2x + \lim_{x \to 1} 3}\right)^2\] Evaluando los límites: \[= \left(\frac{(1)^4 + (1)^2 - 6}{(1)^4 + 2(1) + 3}\right)^2 \approx 0.4444\]
                 \end{enumerate}
 
             
             % EJERCICIO 6: ---------------------------------------------------
-            \item Evalúe el límite si existe:
+            \vspace{1cm}\hrule
+            \item \textbf{Evalúe el límite si existe:}
                 \begin{enumerate}[label=\textbf{\arabic*)}] 
                     \item \[\bm{\lim_{x \to 2} \frac{x ^2 + x - 6}{x - 2}}\]
                     \item \[\bm{\lim_{x \to -4} \frac{x ^2 + 5x +4}{x ^2 + 3x - 4}}\]
@@ -211,7 +310,8 @@
                 \end{enumerate}
             
             % EJERCICIO 7: ---------------------------------------------------
-            \item Encuentre el límite, si existe. Si el límite no existe, explique por qué:
+            \vspace{1cm}\hrule
+            \item \textbf{Encuentre el límite, si existe. Si el límite no existe, explique por qué:}
                 \begin{enumerate}[label=\textbf{\arabic*)}] 
                     \item \[\bm{\lim_{x \to -4} \left| x + 4 \right|}\]
                     \item \[\bm{\lim_{x \to -4 ^-} \frac{\left| x + 4 \right|}{x + 4}}\]
@@ -223,7 +323,8 @@
 
 
             % EJERCICIO 8: ---------------------------------------------------
-            \item Sea: 
+            \vspace{1cm}\hrule
+            \item \textbf{Sea: }
                 \[
                     \boldsymbol{
                         f(x) = 
@@ -237,7 +338,8 @@
                 \]
 
             % EJERCICIO 9: ---------------------------------------------------
-            \item Sea: 
+            \vspace{1cm}\hrule
+            \item \textbf{Sea: }
                 \[
                     \boldsymbol{
                         h(x) = 
@@ -253,7 +355,8 @@
             
             
             % EJERCICIO 10: ---------------------------------------------------
-            \item Resuelva los siguientes límites al infinito:
+            \vspace{1cm}\hrule
+            \item \textbf{Resuelva los siguientes límites al infinito:}
                 \begin{enumerate}[label=\textbf{\arabic*)}] 
                     \item \[\bm{\lim_{x \to +\infty} \left( \frac{x^3 + 1}{x - 1} - \frac{x}{4} \right)}\]
                     \item \[\bm{\lim_{x \to +\infty} \left( 4x^2 - \sqrt{x^4 + 1} \right)}\]
