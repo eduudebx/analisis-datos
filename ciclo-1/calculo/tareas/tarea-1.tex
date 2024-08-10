@@ -295,18 +295,18 @@
             \vspace{1cm}\hrule
             \item \textbf{Evalúe el límite si existe:}
                 \begin{enumerate}[label=\textbf{\arabic*)}] 
-                    \item \[\bm{\lim_{x \to 2} \frac{x ^2 + x - 6}{x - 2}}\]
-                    \item \[\bm{\lim_{x \to -4} \frac{x ^2 + 5x +4}{x ^2 + 3x - 4}}\]
-                    \item \[\bm{\lim_{x \to 2} \frac{x ^2 - x + 6}{x + 2}}\]
-                    \item \[\bm{\lim_{x \to 1} \frac{x ^3 - 1}{x ^2 - 1}}\]
-                    \item \[\bm{\lim_{t \to -3} \frac{t ^2 - 9}{2t ^2 + 7t + 3}}\]
-                    \item \[\bm{\lim_{h \to 0} \frac{\sqrt{1 + h} - 1}{h}}\]
-                    \item \[\bm{\lim_{h \to 0} \frac{(2 + h) ^3 - 8}{h}}\]
-                    \item \[\bm{\lim_{x \to 2} \frac{x ^4 - 16}{x - 2}}\]
-                    \item \[\bm{\lim_{x \to 7} \frac{\sqrt{x + 2} - 3}{x - 7}}\]
-                    \item \[\bm{\lim_{h \to 0} \frac{(3 + h)^{-1} - 3^{-1}}{h}}\]
-                    \item \[\bm{\lim_{x \to -4} \frac{\frac{1}{4} + \frac{1}{x}}{4 + x}}\]
-                    \item \[\bm{\lim_{t \to 0} \left(\frac{1}{t} - \frac{1}{t ^2 + t}\right)}\]
+                    \item \[\bm{\lim_{x \to 2} \frac{x ^2 + x - 6}{x - 2}} = \lim_{x \to 2} \frac{(x + 3)(x - 2)}{x - 2} = \lim_{x \to 2} x + 3 = (2) + 3 = 5\]
+                    \item \[\bm{\lim_{x \to -4} \frac{x ^2 + 5x +4}{x ^2 + 3x - 4}} = \lim_{x \to -4} \frac{(x + 4)(x + 1)}{(x + 4)(x - 1)} = \lim_{x \to -4} \frac{x + 1}{x - 1} = \frac{(-4) + 1}{(-4) - 1} = \frac{-3}{-5} = \frac{3}{5}\]
+                    \item \[\bm{\lim_{x \to 2} \frac{x ^2 - x + 6}{x + 2}} = \frac{(2)^2 - (2) + 6}{(2) + 2} = \frac{8}{4} = 2\]     
+                    \item \[\bm{\lim_{x \to 1} \frac{x ^3 - 1}{x ^2 - 1}} = \lim_{x \to 1} \frac{(x - 1)(x^2 + x + 1)}{(x + 1)(x - 1)} = \lim_{x \to 1} \frac{x^2 + x + 1}{x + 1} = \frac{(1)^2 + (1) + 1}{(1) + 1} = \frac{3}{2}\]
+                    \item \[\bm{\lim_{t \to -3} \frac{t ^2 - 9}{2t ^2 + 7t + 3}} = \lim_{t \to -3} \frac{(t - 3)(t + 3)}{(2t + 1)(t + 3)} = \lim_{t \to -3} \frac{t - 3}{2t + 1} = \frac{(-3) - 3}{2(-3) + 1} = \frac{-6}{-5} = \frac{6}{5}\]
+                    \item \[\bm{\lim_{h \to 0} \frac{\sqrt{1 + h} - 1}{h}} = \lim_{h \to 0} \frac{\sqrt{1 + h} - 1}{h} \cdot \frac{\sqrt{1 + h} + 1}{\sqrt{1 + h} + 1} = \lim_{h \to 0} \frac{1 + h - 1}{h(\sqrt{1 + h} + 1)}\] \[= \lim_{h \to 0} \frac{1}{\sqrt{1 + h} + 1} = \frac{1}{\sqrt{1 + (0)} + 1} = \frac{1}{2}\] 
+                    \item \[\bm{\lim_{h \to 0} \frac{(2 + h) ^3 - 8}{h}} = \lim_{h \to 0} \frac{2^3 + 3(2^2)(h) + 3(2)(h^2) + h^3 - 8}{h}\] \[= \lim_{h \to 0} \frac{12h + 6h^2 + h^3}{h} = \lim_{h \to 0} \frac{h(12 + 6h + h^2)}{h} = \lim_{h \to 0} h^2 + 6h + 12 = (0)^2 + 6(0) + 12 = 12\]
+                    \item \[\bm{\lim_{x \to 2} \frac{x ^4 - 16}{x - 2}} = \lim_{x \to 2} \frac{(x^2 + 4)(x^2 - 4)}{x - 2} = \lim_{x \to 2} \frac{(x^2 + 4)(x + 2)(x - 2)}{x - 2}\] \[= \lim_{x \to 2} (x^2 + 4)(x + 2) = ((2)^2 + 4) \cdot ((2) + 2) = 32\]
+                    \item \[\bm{\lim_{x \to 7} \frac{\sqrt{x + 2} - 3}{x - 7}} = \lim_{x \to 7} \frac{\sqrt{x + 2} - 3}{x - 7} \cdot \frac{\sqrt{x + 2} + 3}{\sqrt{x + 2} + 3} =  \lim_{x \to 7} \frac{x + 2 - 9}{(x - 7)(\sqrt{x + 2} + 3)}\] \[=  \lim_{x \to 7} \frac{x - 7}{(x - 7)(\sqrt{x + 2} + 3)} = \lim_{x \to 7} \frac{1}{\sqrt{x + 2} + 3} = \frac{1}{\sqrt{(7)+ 2} + 3} = \frac{1}{6}\]
+                    \item \[\bm{\lim_{h \to 0} \frac{(3 + h)^{-1} - 3^{-1}}{h}} = \lim_{h \to 0} \frac{(3 + h)^{-1}}{h} - \frac{3^{-1}}{h} = \lim_{h \to 0} \frac{1}{h(3 + h)} - \frac{1}{3h}\] \[= \lim_{h \to 0} \frac{1}{3h + h^2} - \frac{1}{3h} = \lim_{h \to 0} \frac{3h - (3h + h^2)}{(3h + h^2)(3h)} = \lim_{h \to 0} \frac{-h^2}{9h^2 +3h^3} = \lim_{h \to 0} \frac{-h^2}{3h^2(3 + h)}\] \[\lim_{h \to 0} \frac{-1}{9 + 3h} = \frac{-1}{9 + 3(0)} = -\frac{1}{9}\]
+                    \item \[\bm{\lim_{x \to -4} \frac{\frac{1}{4} + \frac{1}{x}}{4 + x}} = \lim_{x \to -4} \frac{\frac{x + 4}{4x}}{4 + x} = \lim_{x \to -4} \frac{x + 4}{4x(x + 4)} = \lim_{x \to -4} \frac{1}{4x} = \frac{1}{4(-4)} = -\frac{1}{16}\]
+                    \item \[\bm{\lim_{t \to 0} \left(\frac{1}{t} - \frac{1}{t ^2 + t}\right)} = \lim_{t \to 0} \frac{t ^2 + t - t}{t(t ^2 + t)} = \lim_{t \to 0} \frac{t^2}{t^2(t + 1)} = \lim_{t \to 0} \frac{1}{t + 1} = \frac{1}{(0) + 1} = 1\] 
                 \end{enumerate}
             
             % EJERCICIO 7: ---------------------------------------------------
