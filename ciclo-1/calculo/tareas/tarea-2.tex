@@ -41,20 +41,81 @@
         \vspace{0.5cm}
         \begin{enumerate}[label=\textbf{\arabic*)}] 
             \hrule\item \[\bm{f(x) = (x^3 + 2x) e^x}\]
+                \[f'(x) = (3x^2 + 2)e^x + (x^3 + 2x) e^x\] 
+                \[f'(x) = (3x^2e^x + 2e^x) + (x^3e^x + 2xe^x)\] 
+                \[f'(x) = x^3e^x + 3x^2e^x + 2xe^x + 2e^x\] 
+
             \hrule\item \[\bm{y = \frac{x}{e^x}}\]
+                \[y' = \frac{e^x - xe^x}{(e^x)^2}\]
+                \[y' = \frac{e^x (1 - x)}{(e^x)^2}\]
+                \[y' = \frac{1 - x}{e^x}\]
+
             \hrule\item \[\bm{g(x) = \frac{1 + 2x}{3 - 4x}}\]
-            \hrule\item \[\bm{H(u) = (u - \sqrt{u})(u + \sqrt{u})}\]
-            \hrule\item \[\bm{J(v) = (v^3 - 2v)(v^{-4} + v^{-2})}\]
-            \hrule\item \[\bm{F(y) = \left(\frac{1}{y^2} - \frac{3}{y^4}\right)(y + 5y^3)}\]
-            \hrule\item \[\bm{f(z) = (1 - e^z)(z + e^z)}\]
+                \[g'(x) = \frac{2(3 - 4x) - (1 + 2x)(-4)}{(3 - 4x)^2}\]
+                \[g'(x) = \frac{6 - 8x + 4 + 8x}{(3 - 4x)^2}\]
+                \[g'(x) = \frac{10 }{(3 - 4x)^2}\]
+
+            \hrule\item \[\bm{H(u) = (u - \sqrt{u})(u + \sqrt{u})} = (u - u^{1/2})(u + u^{1/2})\]
+                \[H'(u) = \left(1 - \frac{u^{-1/2}}{2}\right)(u + u^{1/2}) + (u - u^{1/2})\left(1 + \frac{u^{-1/2}}{2}\right)\]
+                \[H'(u) = \left(1 - \frac{1}{2\sqrt{u}}\right)(u + \sqrt{u}) + (u - \sqrt{u})\left(1 + \frac{1}{2\sqrt{u}}\right)\]
+                \[H'(u) = u - \frac{u}{2\sqrt{u}} + \sqrt{u} - \frac{1}{2} + u + \frac{u}{2\sqrt{u}} - \sqrt{u} - \frac{1}{2}\]
+                \[H'(u) = 2u - 1\]
+
+            \newpage
+            \hrule\item \[\bm{J(v) = (v^3 - 2v)(v^{-4} + v^{-2})} = v^{-1} + v - 2v^{-3} - 2v^{-1} = -v^{-1} + v - 2v^{-3}\]
+                \[J'(v) = v^{-2} + 1 + 6v^{-4}\]
+                \[J'(v) = \frac{6}{v^4} + \frac{1}{v^2} + 1\]
+
+            \hrule\item \[\bm{F(y) = \left(\frac{1}{y^2} - \frac{3}{y^4}\right)(y + 5y^3)} = \frac{1}{y} + 5y - \frac{3}{y^3} - \frac{15}{y} = 5y - \frac{3}{y^3} - \frac{14}{y}\]
+                \[F(y) = 5y - 3y^{-3} - 14y^{-1}\]
+                \[F'(y) = 5 + 9y^{-4} + 14y^{-2}\]
+                \[F'(y) = \frac{9}{y^4} + \frac{14}{y^2} + 5\]
+
+            \hrule\item \[\bm{f(z) = (1 - e^z)(z + e^z)} = z + e^z - ze^z - e^{2z}\]
+                \[f'(z) = 1 + e^z - (e^z + ze^z) - (2e^{2z})\]
+                \[f'(z) = 1 + e^z - e^z - ze^z -2e^{2z}\]
+                \[f'(z) = -2e^{2z} - ze^z + 1\]
+
             \hrule\item \[\bm{y = \frac{x^3}{1 - x^2}}\]
+                \[y' = \frac{3x^2 (1 - x^2) - x^3(- 2x)}{(1 - x^2)^2}\]
+                \[y' = \frac{3x^2 - 3x^4 + 2x^4}{(1 - x^2)^2}\]
+                \[y' = \frac{3x^2 - x^4}{(1 - x^2)^2}\]
+
+
             \hrule\item \[\bm{y = \frac{t^2 + 2}{t^4 - 3t^2 + 1}}\]
-            \hrule\item \[\bm{y = e^p(p + p \sqrt{p})}\]
-            \hrule\item \[\bm{y = \frac{v^3 - 2v \sqrt{v}}{v}}\]
+                \[y' = \frac{2t(t^4 - 3t^2 + 1) - (t^2 + 2)(4t^3 - 6t)}{(t^4 - 3t^2 + 1)^2}\]
+                \[y' = \frac{2t^5 - 6t^3 + 2t - (4t^5 - 6t^3 + 8t^3 - 12t)}{(t^4 - 3t^2 + 1)^2}\]
+                \[y' = \frac{2t^5 - 6t^3 + 2t - 4t^5 + 6t^3 - 8t^3 + 12t}{(t^4 - 3t^2 + 1)^2}\]
+                \[y' = \frac{-2t^5 - 8t^3 + 14t}{(t^4 - 3t^2 + 1)^2}\]
+
+            \hrule\item \[\bm{y = e^p(p + p \sqrt{p})} = e^p(p + pp^{1/2}) = e^p(p + p^{3/2})\]
+                \[y' = e^p(p + p^{3/2}) + e^p\left(1 + \frac{3p^{1/2}}{2}\right)\]
+                \[y' = e^p p + e^p p^{3/2} + e^p + \frac{3e^p p^{1/2}}{2}\]
+                \[y' = e^p p + e^p \sqrt{p^3} + \frac{3e^p \sqrt{p}}{2} + e^p\]
+
+
+            \hrule\item \[\bm{y = \frac{v^3 - 2v \sqrt{v}}{v}} = \frac{v(v^2 - 2v^{1/2})}{v} = v^2 - 2v^{1/2}\]
+                \[y' = 2v - \frac{1}{\sqrt{v}}\]
+
             \hrule\item \[\bm{f(t) = \frac{2t}{2 + \sqrt{t}}}\]
+                \[f'(t) = \frac{2(2 + t^{1/2}) - 2t(\frac{t^{-1/2}}{2})}{(2 + \sqrt{t})^2}\]
+                \[f'(t) = \frac{4 + 2t^{1/2} - t^{1/2}}{(2 + \sqrt{t})^2}\]
+                \[f'(t) = \frac{4 + t^{1/2}}{(2 + \sqrt{t})^2}\]
+                \[f'(t) = \frac{4 + \sqrt{t}}{(2 + \sqrt{t})^2}\]
+
             \hrule\item \[\bm{f(x) = \frac{A}{B + Ce^x}}\]
+                \[f'(x) = \frac{- A(Ce^x)}{(B + Ce^x)^2}\]
+                \[f'(x) = \frac{- ACe^x}{(B + Ce^x)^2}\]
+
             \hrule\item \[\bm{g(x) = \sqrt{x} e^x}\]
+                \[g'(x) = \left(\frac{x^{-1/2}}{2} e^x\right) + x^{1/2} e^x\]
+                \[g'(x) = \frac{e^x}{2\sqrt{x}} + e^x \sqrt{x}\]
+
             \hrule\item \[\bm{y = \frac{e^x}{1 - e^x}}\]
+                \[y' = \frac{e^x(1 - e^x) - e^x(-e^x)}{(1 - e^x)^2}\]
+                \[y' = \frac{e^x - e^{2x} + e^{2x}}{(1 - e^x)^2}\]
+                \[y' = \frac{e^x}{(1 - e^x)^2}\]
+
             \hrule\item \[\bm{G(x) = \frac{x^2 - 2}{2x + 1}}\]
             \hrule\item \[\bm{y = \frac{x + 1}{x^3 + x - 2}}\]
             \hrule\item \[\bm{y = \frac{t}{(t - 1)^2}}\]
@@ -69,22 +130,22 @@
     \section*{Actividad N°2:}
         \vspace{0.5cm}
         \begin{enumerate}[label=\textbf{\arabic*)}] 
-            \hrule\item \[\bm{f(x) = 3x^2 - 2}\]
-            \hrule\item \[\bm{}\]
-            \hrule\item \[\bm{}\]
-            \hrule\item \[\bm{}\]
-            \hrule\item \[\bm{}\]
-            \hrule\item \[\bm{}\]
-            \hrule\item \[\bm{}\]
-            \hrule\item \[\bm{}\]
-            \hrule\item \[\bm{}\]
-            \hrule\item \[\bm{}\]
-            \hrule\item \[\bm{}\]
-            \hrule\item \[\bm{}\]
-            \hrule\item \[\bm{}\]
-            \hrule\item \[\bm{}\]
-            \hrule\item \[\bm{}\]
-            \hrule\item \[\bm{}\]
+            \hrule\item \[\bm{f(x) = 3x^2 - 2\cos{x}}\]
+            \hrule\item \[\bm{f(x) = \sqrt{x}\sen{x}}\]
+            \hrule\item \[\bm{f(x) = \sen{x} + \frac{1}{2}\cot{x}}\]
+            \hrule\item \[\bm{y = 2\sec{x} - \csc{x} }\]
+            \hrule\item \[\bm{y = \sec{\theta}\tan{\theta}}\]
+            \hrule\item \[\bm{g(\theta) = e^{\theta}(\tan{\theta} - \theta)}\]
+            \hrule\item \[\bm{y = c\cos{t} + t^2 \sen{t}}\]
+            \hrule\item \[\bm{f(t) = \frac{\cot{t}}{e^t}}\]
+            \hrule\item \[\bm{y = \frac{x}{2 - \tan{x}}}\]
+            \hrule\item \[\bm{y = \sen{\theta} \cos{\theta}}\]
+            \hrule\item \[\bm{f(\theta) = \frac{\sec{\theta}}{1 + \sec{\theta}}}\]
+            \hrule\item \[\bm{y = \frac{\cos{x}}{1 - \sen{x}}}\]
+            \hrule\item \[\bm{y = \frac{t \sen{t}}{1 + t}}\]
+            \hrule\item \[\bm{y = \frac{1 - \sec{x}}{\tan{x}}}\]
+            \hrule\item \[\bm{f(x) = xe^x \csc{x}}\]
+            \hrule\item \[\bm{y = x^2 \sen{x}\tan{x}}\]
         \end{enumerate}
 
 \end{document}
