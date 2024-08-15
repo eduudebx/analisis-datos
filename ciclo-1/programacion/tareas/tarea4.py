@@ -1,4 +1,5 @@
 # Ejercicio con Listas, Tuplas y Conjuntos: ------------------------------------------------
+# Eduardo Mendieta - Freddy Montalván.
 
 lista = []
 tupla = ()
