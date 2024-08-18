@@ -86,28 +86,62 @@ main <- function(){
     datos_limpios <- read_excel('datos-limpios.xlsx')
     #print(nrow(datos))
 
-    par(mfrow = c(1, 2))
+    #par(mfrow = c(1, 2))
 
+    # GRÁFICA 1: ---------------------------------------------------
     frecuencias_familia <- table(datos_limpios$Familia)
     empleado_ventas <- table(datos_limpios$Empleado)
 
-    barplot(frecuencias_familia, 
-        col = '#33B8FF', 
-        xlab = 'Categoría', 
-        ylab = 'Cantidad de ventas', 
-        main = 'Ventas por categoría de producto', 
-        las = 1)
-    grid(nx = NA, ny = NULL, lty = 2, col = '#1B060B', lwd = 2)
+    #barplot(frecuencias_familia, 
+     #   col = '#33B8FF', 
+      #  xlab = 'Categoría', 
+       # ylab = 'Cantidad de ventas', 
+      #  main = 'Ventas por categoría de producto', 
+      #  las = 1)
+    #grid(nx = NA, ny = NULL, lty = 2, col = '#1B060B', lwd = 2)
 
-    
-    plot(empleado_ventas, 
-     type = "l", 
-     col = 'blue', 
-     xlab = 'Empleado', 
-     ylab = 'Cantidad de vendida', 
-     main = 'Ventas por Empleado')
-    grid(nx = NA, ny = NULL, lty = 2, col = '#1B060B', lwd = 2)
+    # GRÁFICA 2: ---------------------------------------------------
+
+    datos_limpios$Fecha <- as.Date(datos_limpios$Fecha, format = "%d/%m/%Y")
+    datos_limpios$AnioVenta <- format(datos_limpios$Fecha, "%Y")
+    datos_limpios$AnioVenta <- as.numeric(as.character(datos_limpios$AnioVenta))
+
+    datos_limpios$NombreEmpleado <- paste("Empleado", datos_limpios$Empleado)
+
+
+    ultimo_anio <- max(datos_limpios$AnioVenta)
+
+    # Filtrar los empleados que tienen ventas mayores a cero en el último año
+    empleados_filtrados <- unique(datos_limpios$NombreEmpleado[
+    datos_limpios$AnioVenta == ultimo_anio & datos_limpios$Ventas > 0
+    ])
+
+    # Filtrar los datos para incluir solo los empleados seleccionados
+    datos_filtrados <- subset(datos_limpios, NombreEmpleado %in% empleados_filtrados)
+
+    ventas_por_empleado_anio <- datos_filtrados %>%
+  group_by(NombreEmpleado, AnioVenta) %>%
+  summarise(Ventas = sum(Ventas), .groups = 'drop') %>%
+  spread(key = AnioVenta, value = Ventas, fill = 0)
+
+  # Preparar el gráfico
+plot(ventas_por_empleado_anio[,2], type = "l", col = 1, lwd = 2,
+     xlab = "Año", ylab = "Número de Ventas",
+     main = "Número de Ventas por Empleado en Diferentes Años",
+     xaxt = "n")
+
+# Añadir las líneas para los otros empleados
+for (i in 2:ncol(ventas_por_empleado_anio)) {
+  lines(ventas_por_empleado_anio[,i], col = i)
 }
 
+# Añadir las etiquetas de los ejes x
+axis(1, at = 1:ncol(ventas_por_empleado_anio), labels = colnames(ventas_por_empleado_anio)[-1])
+
+# Añadir leyenda
+legend("topright", legend = ventas_por_empleado_anio$NombreEmpleado, col = 1:nrow(ventas_por_empleado_anio), lty = 1, lwd = 2, title = "Empleados")
+
+
+}
 
 main()
