@@ -21,7 +21,7 @@
 
 % -------------------- DEFINICIÓN DE LA PORTADA --------------------
 \rutaLogo{../../../../docs/img/logo-ista.png}
-\tema{\\ \vspace{0.5cm} Aplicación del proceso de Análisis de Datos a un dataset de ventas de llantas \\ \vspace{1.2cm}}
+\tema{\\ \vspace{0.5cm} Proceso de tratamiento de los datos en un conjunto de datos de ventas de llantas \\ \vspace{1.2cm}}
 \etiquetaAutores{Integrantes:}
 \alumno{Nube Gutierrez\\Eduardo Mendieta\vspace{0.7cm}}
 \materia{Introducción a Big Data \vspace{0.7cm}}
@@ -37,7 +37,7 @@
     \tableofcontents
     \newpage
 
-    \section*{\centering Aplicación del proceso de Análisis de Datos a un dataset de ventas de llantas}
+    \section*{\centering Proceso de tratamiento de los datos en un conjunto de datos de ventas de llantas}
 
     % 1.Introducción: ...................................................
     \section{Introducción}
@@ -58,11 +58,136 @@
     % 3.Paso a Paso: ...................................................
     \newpage
     \section{Paso a paso}
-        \subsection{Preparación}
-        \subsection{Organización}
-        \subsection{Limpieza}
-        \subsection{Transformación}
-        \subsection{Visualización}
+    
+        Para la realización del proceso de tratamiento de datos, hemos elegido un conjunto de datos sobre ventas de llantas proporcionado en un archivo Excel y la herramienta R para su análisis, preparación y visualización. R es un lenguaje de programación y un entorno de software especializado en el análisis estadístico y la visualización de datos. Su amplia gama de paquetes y funciones permite transformar datos mediante técnicas avanzadas de manipulación y modelado, facilitando la limpieza, integración y análisis. Además, R destaca en la visualización de datos, ofreciendo herramientas para crear gráficos y visualizaciones interactivas y personalizables que ayudan a interpretar y comunicar resultados de manera efectiva. 
+        
+        A continuación, se detallan cada uno de los pasos realizados para completar este proceso:
+
+        \subsection{Adquisición y preparación}
+            
+            \begin{itemize}
+                \item El set de datos es el siguiente:
+                    \begin{figure}[h]
+                        \centering 
+                        \includegraphics[width=1\textwidth]{img/limpieza-1.png}
+                        \caption{Archivo Excel con los datos}
+                \end{figure}
+
+                \item Iniciamos creando un script en R en la misma carpeta en la que se encuentra el conjunto de datos. Una vez creado el script, Utilizamos la función \texttt{read\_excel()} de la biblioteca \texttt{readxl} para cargar los datos en el entorno de R.
+                    \begin{figure}[h]
+                        \centering 
+                        \includegraphics[width=0.7\textwidth]{img/limpieza-2.png}
+                        \caption{Cargando los datos en R}
+                    \end{figure}
+
+                    \newpage
+                    \begin{figure}[h]
+                        \centering 
+                        \includegraphics[width=1\textwidth]{img/limpieza-3.png}
+                        \caption{Visualización de los datos en R}
+                    \end{figure}
+
+            \end{itemize}
+
+
+        \subsection{Organización y limpieza}
+
+            \begin{itemize}
+                \item Usando la función \texttt{nrow()} podemos observar el conjunto de datos tiene \texttt{127266 filas}. Aplicamos un filtro para observar si existen filas que esten completamente en blanco y como resultado existen \texttt{11 filas}. Para eliminar dichas filas creamos una nueva variable que almacene los \texttt{datos limpios} y aplicando nuevamente el filtro extraemos unicamente la filas que contienen datos, quedando un total de \texttt{127255 filas}.
+                    \begin{figure}[h]
+                        \centering 
+                        \includegraphics[width=1\textwidth]{img/limpieza-4.png}
+                        \caption{Eliminando filas vacias}
+                    \end{figure}
+
+                \item Ordenamos las filas utilizando alguna columna con la función \texttt{arrange()} de la biblioteca \texttt{dplyr}, en este caso \texttt{Empleado}, con el objetivo de poder visualizar si existen filas duplicadas. Aplicamos un filtro para identificar y eliminar filas repetidas. En el conjunto de datos existen \texttt{24923 filas repetidas}, luego de este proceso, tendremos un total de \texttt{102332 filas}.
+                    \begin{figure}[h]
+                        \centering 
+                        \includegraphics[width=1\textwidth]{img/limpieza-5.png}
+                        \caption{Visualización de datos repetidos}
+                    \end{figure}
+
+                    \newpage
+                    \begin{figure}[h]
+                        \centering 
+                        \includegraphics[width=1\textwidth]{img/limpieza-6.png}
+                        \caption{Eliminando datos repetidos}
+                    \end{figure}
+                
+                \item Buscamos el número de valores faltantes por columna utilizando la función \texttt{colSums()}, para aplicar cualquier operación de limpieza en el caso de encontrar datos faltantes. Podemos observar que el número de datos faltantes es \texttt{cero} en todas las columnas.
+                    \begin{figure}[h]
+                        \centering 
+                        \includegraphics[width=0.8\textwidth]{img/limpieza-7.png}
+                        \caption{Buscando datos faltantes por columna}
+                    \end{figure}
+                
+                \item Validamos que las columnas \texttt{Empleado, CodigoFamilia, Ventas, Area} y \texttt{Cantidad}, tengan números enteros mayores a cero. Luego de la validación la unica que no cumplia con esta restricción es \texttt{Cantidad} puesto que tiene unicamente 2 celdas con valores decimales \texttt{'1.068, 1.006'} extos valores fueron redondeados al inmediato superior.
+                    \begin{figure}[h]
+                        \centering 
+                        \includegraphics[width=1\textwidth]{img/limpieza-8.png}
+                        \caption{Validando colunmas con valores enteros}
+                    \end{figure}
+
+                    \newpage
+                    \begin{figure}[h]
+                        \centering 
+                        \includegraphics[width=1\textwidth]{img/limpieza-9.png}
+                        \caption{Corrigiendo datos de la columna \texttt{Cantidad}}
+                    \end{figure}
+                
+                \item En la columna \texttt{Fecha}, validamos que todos los campos tengan el formato \texttt{mes/dia/año}. Al realizar dicha validación, todos los campos cumplen con la condición. Procedemos a cambiar el formato de la fecha a \texttt{dia/mes/año}.
+                    \begin{figure}[h]
+                        \centering 
+                        \includegraphics[width=1\textwidth]{img/limpieza-10.png}
+                        \caption{Validando colunma de \texttt{Fecha}}
+                    \end{figure}
+
+                    \begin{figure}[h]
+                        \centering 
+                        \includegraphics[width=0.6\textwidth]{img/limpieza-11.png}
+                        \caption{Formato de fecha \texttt{dia/mes/año}}
+                    \end{figure}
+                
+                
+                \item En el caso de las columnas \texttt{NombreCliente, Descripcion, Familia, Localidad} y \texttt{ Sede} cambiamos su formato de texto a \texttt{capitalize} de tal modo que todas tengan el mismo formato. Esto utilizando la biblioteca \texttt{stringr}.
+                    \newpage    
+                    \begin{figure}[h]
+                        \centering 
+                        \includegraphics[width=0.5\textwidth]{img/limpieza-12.png}
+                        \caption{Dando un unico formato a las columnas tipo \texttt{String}}
+                    \end{figure}
+
+                    \begin{figure}[h]
+                        \centering 
+                        \includegraphics[width=1\textwidth]{img/limpieza-13.png}
+                        \caption{Visualización del resultado final}
+                    \end{figure}
+                
+                \item Una vez culminado el proceso de limpieza, de un total de \texttt{127266 registros} del set de datos original, el resultado es uno con \texttt{102332}. En total se han eliminado un total de \texttt{24934 registros}.
+                    \begin{figure}[h]
+                        \centering 
+                        \includegraphics[width=1\textwidth]{img/limpieza-14.png}
+                        \caption{Exportación de set de datos limpio}
+                    \end{figure}
+            
+            \end{itemize}
+
+
+        \newpage    
+        \subsection{Transformación y visualización}
+            \begin{itemize}
+                \item Previo a la depuración de los datos, se generó un \texttt{Modelo Relacional} con el fin de darle estructura a la información y tener una idea de cómo deberíamos tratarla.
+                    \begin{figure}[h]
+                        \centering 
+                        \includegraphics[width=1\textwidth]{img/transformacion-1.png}
+                        \caption{Modelo Físico - Relacional}
+                    \end{figure}
+                
+                \item 
+            \end{itemize}
+
+
+        \subsection{}
 
 
     % 4.Conclusiones: ...................................................
