@@ -1,4 +1,6 @@
 library(readxl)
+library(RColorBrewer)
+library(plotrix)
 
 
 grafica1 <- function(datos_limpios){
@@ -24,6 +26,29 @@ grafica1 <- function(datos_limpios){
 }
 
 
+grafica2 <- function(datos_limpios){
+
+    categorias <- unique(datos_limpios$Familia)
+    
+    cantidades <- vector('numeric')
+    for(categoria in categorias){
+        datos_filtrados <- datos_limpios[datos_limpios$Familia == categoria, ]
+        cantidades <- c(cantidades, length(datos_filtrados$Familia))
+    }
+    porcentajes <- round(cantidades / sum(cantidades) * 100, 1)
+    pie3D(cantidades, labels = paste(categorias, porcentajes, '%', sep=' '), explode = 0.1, 
+          main = 'Porcentaje de categorias vendidas')
+}
+
+
+grafica3 <- function(datos_limpios){
+    sedes = unique(datos_limpios$Sede)
+    anios = unique(datos_limpios$AnioVenta)
+
+    
+}
+
+
 
 main <- function(){
     datos_limpios <- read_excel('datos-limpios.xlsx')
@@ -34,7 +59,7 @@ main <- function(){
 
     datos_limpios$AnioVenta <- as.numeric(as.character(datos_limpios$AnioVenta))
 
-    grafica1(datos_limpios)
+    grafica3(datos_limpios)
 }
 
 main()
