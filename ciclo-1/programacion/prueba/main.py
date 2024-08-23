@@ -1,0 +1,3 @@
+import factura
+
+factura.facturar()
