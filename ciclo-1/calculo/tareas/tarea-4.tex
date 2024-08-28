@@ -43,11 +43,13 @@
     \end{figure}
 
     \begin{enumerate}[label=\textbf{\arabic*)}] 
-        \item \[\bm{V = x^2y}\]
+        \item Al buscar las dimenciones de la caja estas deben ser mayores a cero.
+        
+        \item Utilizamos el volumen para encontrar el lado $y$: \[\bm{V = x^2y}\]
             \[x^2y = 288\]
             \[y = \frac{288}{x^2}\]
 
-        \item \[\bm{f(x) = 5x^2 + 3x^2 + 3(4xy)} = 8x^2 + 3456x^{-1}\]
+        \item Buscamos los puntos críticos: \[\bm{f(x) = 5x^2 + 3x^2 + 3(4xy)} = 8x^2 + 3456x^{-1}\]
             \[f'(x) = 16x - \frac{3456}{x^2}\]
             \[16x - \frac{3456}{x^2} = 0\]
             \[\frac{16x^3 - 3456}{x^2} = 0\]
@@ -57,6 +59,19 @@
             \[x = \sqrt[3]{216}\]
             \[x = 6\]
 
-        \item 
+        \item verificamos que el punto critico $x = 6$ sea un mínimo: \[f''(x) = 16 + \frac{6912}{x^3}\]
+            \[f''(6) = 16 + \frac{6912}{(6)^3}\]
+            \[f''(6) = 16 + \frac{6912}{216}\]
+            \[f''(6) = 16 + 32 = 48\]
+
+            Al evaluar en la segunda derivada el resultado es positivo por lo que existe un mínimo en $x = 6$.
+        
+        \item El precio más económico posible es:
+            \[f(6) = 8(6)^2 + \frac{3456}{(6)} = 288 + 576 = 864\]
+            \textbf{Respuesta:} \$864.
+        
+        \item Buscamos las dimenciones de la caja:
+            \[y = \frac{288}{x^2} = \frac{288}{(6)^2} = 8\]
+            \textbf{Respuesta:} La caja debe tener dimenciones $x = 6cm$ y $y = 8cm$.
     \end{enumerate}
 \end{document}
