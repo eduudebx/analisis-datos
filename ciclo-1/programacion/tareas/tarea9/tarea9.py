@@ -1,12 +1,11 @@
 import tkinter as tk
 from tkinter import ttk
-from PIL import Image, ImageTk
 
 
 # Ventana principal: ------------------------------------------------------------------------
 ventana = tk.Tk()
 ventana.title('Registro de mascotas')
-ventana.geometry('800x300')
+ventana.geometry('580x300')
 
 
 # Etiquetas: --------------------------------------------------------------------------------
@@ -32,9 +31,9 @@ lbl_sexo.grid(column = 0, row = 4)
 
 
 # Selector de imagen: -----------------------------------------------------------------------
-foto = tk.PhotoImage(file='perro.png')
-lbl_foto_mascota = ttk.Label(ventana, image=foto)
-lbl_foto_mascota.grid(column = 3, row = 0)
+#foto = tk.PhotoImage(file='perro.png')
+#lbl_foto_mascota = ttk.Label(ventana, image=foto)
+#lbl_foto_mascota.grid(column = 3, row = 0)
 
 
 # Cajas de texto: ---------------------------------------------------------------------------
