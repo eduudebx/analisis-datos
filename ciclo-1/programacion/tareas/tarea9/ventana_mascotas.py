@@ -1,5 +1,28 @@
 import tkinter as tk
 from tkinter import ttk
+from tkinter import messagebox
+import sqlite3 as db
+
+
+
+# Comunicación con la base de datos: --------------------------------------------------------
+def init_db():
+    conn = db.connect('mascotas.db')
+    cursor = conn.cursor()
+    cursor.execute('''CREATE TABLE IF NOT EXISTS mascota(
+                   id INTEGER PRIMARY KEY,
+                   ruta_foto TEXT,
+                   nombre TEXT,
+                   apellido TEXT,
+                   estatura REAL,
+                   peso REAL,
+                   fecha_nacimiento TEXT,
+                   raza TEXT,
+                   sexo TEXT)''')
+    conn.commit()
+    conn.close()
+
+
 
 
 # Ventana principal: ------------------------------------------------------------------------
@@ -73,7 +96,27 @@ rbtn_macho.grid(column=2, row=4)
 
 # Botones: ----------------------------------------------------------------------------------
 def registrar_mascota():
-    pass
+    
+    url_foto = ''
+    nombre = txt_nombre.get()
+    apellido = txt_apellido.get()
+    estatura = float(txt_estatura.get()) if txt_estatura.get() != '' else 0
+    peso = float(txt_peso.get()) if txt_peso.get() != '' else 0
+    fecha_nac = txt_fecha_nac.get()
+    raza = combo_raza.get()
+    sexo = 'Hembra' if rbtn_sexo_selec.get() == 1 else 'Macho'
+
+    if nombre and apellido and estatura and peso and fecha_nac and raza and sexo:
+        conn = db.connect('mascotas.db')
+        cursor = conn.cursor()
+        cursor.execute('INSERT INTO mascota(ruta_foto, nombre, apellido, estatura, peso, fecha_nacimiento, raza, sexo) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
+                       (url_foto, nombre, apellido, estatura, peso, fecha_nac, raza, sexo))
+        conn.commit()
+        conn.close()
+        messagebox.showinfo('Info', 'Guardado exitosamente!')
+    else:
+        messagebox.showwarning('Advertencia', 'Debe completar todos los campos!')
+
 
 btn_registrar = tk.Button(ventana, text='Registrar', command=registrar_mascota, pady=5)
 btn_salir = tk.Button(ventana, text='Salir', command=ventana.destroy, pady=5)
@@ -83,4 +126,5 @@ btn_salir.grid(column=2, row=5)
 
 
 # Ejecución de la ventana: ------------------------------------------------------------------
+init_db()
 ventana.mainloop()
