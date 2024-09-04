@@ -1,0 +1,50 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[margin = 2.54cm]{geometry}
+
+
+\begin{document}
+    \section*{\centering Formulario - Estadística Descriptiva}
+
+    \section{Tablas de frecuencias Acumuladas}
+        \begin{itemize}
+            \item Rango: \[R = max - min\]
+            \item Regla de Sturges, número de intervalos o clases:\[k = 1 + 3.322 \cdot \log{n}\] donde $n$: cantidad de datos. $k \longrightarrow$ Entero impar mas cercano.
+            \item Ancho del intervalo: \[a = \frac{R}{k}\] Se redondea al inmediatro superior en caso de tener decimales.
+            \item Marca de clase: $(ExtremoInf + ExtremoSup)/2$
+        \end{itemize}
+
+    \section{Medidas de tendencia central en datos agrupados}
+        \begin{itemize}
+            \item \textbf{Moda:} Se busca el intervalo modal(Mayor frecuencia Absoluta $f_{i}$):]
+                \[Mo = L_{i} + \frac{f_{i} - f_{i - 1}}{(f_{i} - f_{i - 1}) + (f_{i} - f_{i + 1})} \cdot a_{i}\]
+
+            \item \textbf{Mediana o percentil 50:} En datos no agrupados corresponte al valor central si el número de datos es impar y al promedio de los 2 valores centrales si el número de datos es par.
+                En datos agrupados se busca el intervalo de la mediana, este se busca en las frecuencias absolutas $f_{i}$ y es aquel donde se encuentra contenido $n/2$, donde $n$ es el número de datos:
+                \[Me = L_{i} + \frac{\frac{n}{2} - F_{i - 1}}{f_{i}} \cdot a_{i}\] Donde $F_{i - 1}$ es la frecuencia acumulada del intervalo anterior.
+            
+            \item \textbf{Promedio o media aritmética:}
+                \begin{itemize}
+                    \item \textbf{Tabla con datos sin agrupar:}
+                        \[\bar{x} = \frac{x_{1}\cdot f_{1} + x_{2}\cdot f_{2} + x_{3}\cdot f_{3} + x_{4}\cdot f_{4} ...}{n}\] Donde $x_{i}$ es el dato y $f_{i}$ es la frecuencia.
+
+                    \item \textbf{Tabla con datos agrupados:} Se utiliza la misma formula anterior, en este caso $x_{i}$ representa la marca de clase.
+
+                \end{itemize}
+        \end{itemize}
+
+
+        \section{Medidas de posición}
+            \begin{itemize}
+                \item \textbf{Cuartiles:}
+                    \begin{itemize}
+                        \item \textbf{Datos sin agrupar:} donde $k = 1, 2, 3, 4$
+                            \[Q_{k} = \frac{k \cdot n}{4}\]
+
+                        \item \textbf{Datos agrupados:} Utilizando la formula anterior buscamos dentro de las frecuencias absolutas acumuladas $F_{i}$, donde se encuentra contenido dicho valor y utilizamos ese intervalo.
+                            \[Q_{k} = L_{i} + \frac{\frac{k \cdot n}{4} - F_{i}}{f_i} \\]
+                    \end{itemize}
+            \end{itemize}
+\end{document}
