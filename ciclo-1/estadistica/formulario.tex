@@ -44,7 +44,9 @@
                             \[Q_{k} = \frac{k \cdot n}{4}\]
 
                         \item \textbf{Datos agrupados:} Utilizando la formula anterior buscamos dentro de las frecuencias absolutas acumuladas $F_{i}$, donde se encuentra contenido dicho valor y utilizamos ese intervalo.
-                            \[Q_{k} = L_{i} + \frac{\frac{k \cdot n}{4} - F_{i}}{f_i} \\]
+                            \[Q_{k} = L_{i} + \frac{\frac{k \cdot n}{4} - F_{i - 1}}{f_i} \cdot a_{i}\]
                     \end{itemize}
+
+                    \item Para \texttt{Diciles y percentiles} se aplica la misma formula tanto para datos agrupados como no agrupados, con la unica diferencia que en lugar de dividir para 4, se divide para \texttt{10 y 100} respectimente y el valor de $k$ va hasta \texttt{1 hasta 10 y 100} respectivamente.
             \end{itemize}
 \end{document}
