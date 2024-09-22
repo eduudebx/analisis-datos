@@ -3,7 +3,7 @@
  <ul>
     <li><strong>Ciclo 1:</strong>
         <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-1/matematica">Cálculo</a>, 
-        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-1/intro-bd">Intro AD</a>, 
+        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-1/intro-ad">Intro AD</a>, 
         <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-1/programacion">Programación</a>, 
         <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-1/estadistica">Estadística</a>.
     </li>
