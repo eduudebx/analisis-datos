@@ -8,10 +8,10 @@
         <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-1/estadistica">Estadística</a>.
     </li>
     <li><strong>Ciclo 2:</strong>
-        <a href="">Probabilidad</a>, 
-        <a href="">Minería de datos</a>, 
-        <a href="">Aprendizaje de máquina</a>, 
-        <a href="">BD 1</a>.
+        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-2/probabilidad">Probabilidad</a>, 
+        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-2/mineria">Minería de datos</a>, 
+        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-2/aprendizaje-mqn">Aprendizaje de máquina</a>, 
+        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-2/bd-1">BD 1</a>.
     </li>
     <li><strong>Ciclo 3:</strong>
         <a href="">BD no relacional</a>, 
