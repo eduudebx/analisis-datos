@@ -7,5 +7,8 @@ cursaron el primer ciclo 2024-1 de la carrera de Big Data del Tecnológico del A
 
 VARIABLES: -------------------------------------------------------------------
 
-edad, horas_estudio_dia, trabaja, 
-
+Edad, Género, Promedio_estadistica, Promedio_matematica, Promedio_programacion, Promedio_bigdata, Promedio_ofimatica,
+Faltas_estadistica, Faltas_matematica, Faltas_programacion, Faltas_bigdata, faltas_ofimatica, 
+Estilo_aprendizaje(visual, auditivo, kinestésico, Lectura/Escritura, Multimodal, otro),
+Metodos_estudio(), Horas_diarias_estudio, Participacion_clases, Acceso_recursos_tecnologicos, Acceso_internet, Motivacion_carrera,
+Objetivos_academicos, estres, Satisfaccion_ensenanza, Actitudes_hacia_tecnologia

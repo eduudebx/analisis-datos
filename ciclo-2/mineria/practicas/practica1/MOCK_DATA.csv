@@ -1,0 +1,1001 @@
+id,nombre,apellido,edad,Genero,promedio_estadistica,promedio_matematica,promedio_programacion,promedio_bigdata,promedio_ofimatica,faltas_estadistica,faltas_matematica,faltas_programacion,faltas_bigdata,faltas_ofimatica,estilo_aprendizaje,metodos_estudio,horas_diarias_estudio,participacion_clases,acceso_recursos_tecnologicos,acceso_internet,motivacion_carrera,objetivos_academicos,estres,satisfaccion_ensenanza,actitud_hacia_tecnologia
+1,Marlo,Gaggen,24,Male,9.67,9.2,4.76,5.7,5.9,0.42,0.44,0.14,0.7,0.98,otro,flashcards,3,true,true,true,true,true,true,false,false
+2,Diann,Fever,33,Female,8.41,9.36,5.05,8.91,7.77,0.96,0.26,0.85,0.22,0.48,visual,enseñanza a otros,5,false,true,false,false,true,true,false,false
+3,Gibbie,Rathmell,26,Male,5.19,6.9,8.89,9.01,9.85,0.71,0.51,0.07,0.91,0.43,auditivo,autoevaluación y pruebas prácticas,5,true,false,false,true,true,true,false,true
+4,Yuri,Andreacci,22,Male,9.46,8.55,5.0,9.59,4.08,0.27,0.0,0.19,0.67,0.96,otro,uso de tecnología,5,true,true,true,false,false,false,false,false
+5,Armstrong,Shear,33,Male,7.22,2.29,2.62,1.36,5.61,0.32,0.77,0.17,0.92,0.2,kinestésico,uso de tecnología,1,false,true,false,false,true,false,true,false
+6,Claus,Luther,34,Male,1.91,5.11,4.95,3.77,5.92,0.98,0.05,0.73,0.51,0.12,otro,enseñanza a otros,6,true,true,true,true,true,true,false,true
+7,Templeton,Purches,36,Male,1.49,1.73,3.24,3.53,1.19,0.98,0.6,0.53,0.87,0.1,kinestésico,lectura activa,6,true,false,true,false,false,true,true,false
+8,Marlin,Hobden,34,Male,7.43,0.08,4.43,1.84,4.18,0.22,0.08,0.43,0.73,0.38,auditivo,mapas mentales,3,true,false,false,true,false,false,true,false
+9,Deloria,Vanyakin,36,Female,4.57,0.58,0.0,5.99,1.7,0.02,0.98,0.62,0.76,0.48,kinestésico,técnica Pomodoro,1,true,false,false,true,true,false,true,true
+10,Darsey,Maren,18,Female,4.58,1.72,8.1,1.76,8.32,0.65,0.19,0.14,0.23,0.66,visual,autoevaluación y pruebas prácticas,2,false,false,false,true,true,false,true,true
+11,Windy,Bollom,28,Female,9.43,7.28,0.54,2.29,8.71,0.16,0.72,0.03,0.42,0.99,kinestésico,autoevaluación y pruebas prácticas,1,true,false,false,true,false,true,true,false
+12,Rodie,Neilus,20,Female,1.04,0.16,3.06,1.52,8.75,0.03,0.15,0.52,0.92,0.63,auditivo,lectura activa,5,true,true,false,false,true,true,false,true
+13,Mame,Robbings,32,Female,1.33,1.36,9.04,1.84,4.51,0.86,0.92,0.03,0.51,0.67,auditivo,Toma de apuntes,6,false,true,false,false,false,true,false,false
+14,Page,Howorth,40,Female,1.0,9.06,4.49,1.0,3.55,0.89,0.56,0.47,0.25,0.25,otro,enseñanza a otros,5,true,false,false,true,false,true,false,true
+15,Christian,Ludovici,39,Female,5.48,1.35,3.18,3.27,3.65,0.49,0.9,0.97,0.42,0.32,visual,autoevaluación y pruebas prácticas,1,true,true,false,true,false,false,true,false
+16,See,Martensen,36,Male,0.44,3.2,5.6,1.67,1.06,0.26,0.97,0.85,0.24,0.32,Lectura/Escritura,flashcards,8,false,true,false,false,true,true,true,false
+17,Alphonse,Tomkowicz,30,Male,4.23,7.42,1.07,1.12,0.44,0.26,0.72,0.78,0.04,0.12,visual,enseñanza a otros,2,true,false,true,true,false,true,false,true
+18,Carlotta,Milmo,24,Female,5.1,9.64,3.44,3.2,2.95,0.99,0.69,0.16,0.16,0.75,visual,lectura activa,2,false,true,false,false,true,true,true,false
+19,Melba,Sharpin,28,Female,2.66,5.27,7.29,9.69,7.02,0.64,0.41,0.76,0.06,0.11,kinestésico,Toma de apuntes,3,true,true,true,false,false,true,false,false
+20,Marven,Dadswell,33,Male,8.25,2.84,5.04,6.89,1.43,0.61,0.41,0.38,0.76,0.82,visual,autoevaluación y pruebas prácticas,8,false,false,false,true,false,false,false,false
+21,Rodrique,Bailie,32,Male,9.1,1.48,1.58,2.2,8.15,0.31,0.11,0.67,0.12,0.3,visual,grupos de estudio,4,false,false,false,true,false,false,true,false
+22,Simona,Fetherby,31,Female,2.53,5.59,8.9,0.56,7.59,0.47,0.93,0.22,1.0,0.77,kinestésico,técnica Pomodoro,4,false,true,true,true,false,false,true,false
+23,Theadora,Jonas,38,Female,8.29,7.67,8.0,3.2,0.9,0.47,0.04,0.94,0.27,0.13,kinestésico,mapas mentales,6,false,false,true,true,true,false,false,true
+24,Giacomo,Peppin,36,Male,0.28,9.03,6.52,7.52,0.8,0.39,0.47,0.09,0.77,0.76,otro,lectura activa,8,false,false,true,true,true,false,true,false
+25,Sarajane,Mila,23,Female,7.25,8.8,6.67,9.85,0.72,0.78,0.95,0.32,0.04,0.72,Lectura/Escritura,autoevaluación y pruebas prácticas,7,false,false,false,true,true,true,true,true
+26,Liuka,Younger,26,Female,4.59,7.38,4.78,8.5,2.66,0.69,0.27,0.77,0.58,0.85,kinestésico,flashcards,6,true,true,false,false,true,false,true,true
+27,Collen,Jelf,31,Female,1.62,0.25,9.16,5.31,0.87,0.95,0.92,0.26,0.08,0.05,Lectura/Escritura,autoevaluación y pruebas prácticas,3,true,true,true,true,true,true,true,false
+28,Arleen,Pylkynyton,38,Female,4.28,7.11,5.39,6.38,4.63,0.68,0.02,0.91,0.13,0.91,otro,enseñanza a otros,1,false,true,false,true,false,true,true,true
+29,Arvin,Menichi,33,Male,8.4,7.5,7.77,1.85,9.02,0.28,0.75,0.04,0.41,0.92,kinestésico,flashcards,1,true,true,false,false,true,false,false,false
+30,Jeannie,Lahive,32,Female,2.68,4.05,2.02,3.57,6.17,0.17,0.87,0.22,0.27,0.84,otro,lectura activa,6,true,false,false,false,true,false,true,false
+31,Gwenni,Panting,32,Female,8.42,3.17,9.08,9.34,4.67,0.43,0.33,0.32,0.89,0.57,Multimodal,autoevaluación y pruebas prácticas,5,false,false,false,true,true,true,true,false
+32,Leeland,Stearn,25,Male,0.7,8.82,1.72,8.77,4.08,0.98,0.23,0.83,0.6,0.59,Lectura/Escritura,lectura activa,1,false,false,false,true,true,true,false,false
+33,Ervin,Dilliway,21,Male,9.98,0.99,2.96,4.18,2.08,0.59,0.47,0.27,0.47,0.56,Multimodal,mapas mentales,3,false,false,true,true,true,false,true,true
+34,Cacilie,Nibley,33,Female,4.61,9.3,6.14,2.33,9.41,0.44,0.02,0.83,0.26,0.29,Lectura/Escritura,otro,4,true,false,false,false,true,false,false,true
+35,Vida,Viant,33,Female,3.41,1.98,6.24,9.32,4.1,0.35,0.16,0.09,0.83,0.91,visual,autoevaluación y pruebas prácticas,3,false,false,false,false,false,false,true,false
+36,Hillard,Tick,37,Male,9.57,1.05,3.77,3.86,8.02,0.08,0.91,0.16,0.45,0.84,kinestésico,resúmenes,2,false,true,false,false,false,false,false,false
+37,Inglebert,Kyd,32,Male,9.14,4.43,8.33,9.74,0.24,0.31,0.66,0.1,0.08,0.18,Lectura/Escritura,resúmenes,1,false,true,true,false,false,false,false,true
+38,Reginald,McKniely,24,Male,0.5,7.03,3.57,3.27,1.91,0.45,0.19,0.05,0.99,0.31,auditivo,autoevaluación y pruebas prácticas,4,false,false,true,false,true,false,false,false
+39,Bordie,Huscroft,37,Male,1.46,9.04,5.67,9.45,2.17,0.93,0.29,0.35,0.45,0.89,Multimodal,técnica Pomodoro,3,true,true,false,true,true,false,false,true
+40,Ax,Hawkridge,20,Male,8.83,0.16,4.31,2.01,7.52,0.09,0.88,0.47,0.45,0.2,visual,mapas mentales,3,true,true,false,true,false,true,true,true
+41,Shep,Cuerda,39,Male,9.13,0.54,1.85,2.19,0.27,0.27,0.47,0.96,0.07,0.84,otro,técnica Pomodoro,8,true,true,true,true,true,true,true,true
+42,Gabbie,Georgi,18,Female,8.76,0.57,5.3,6.06,5.09,0.73,0.97,0.87,0.08,0.21,kinestésico,resúmenes,0,true,true,false,true,false,true,false,true
+43,Burton,Yeend,26,Male,6.51,9.07,5.2,8.46,2.67,0.1,0.36,0.74,0.19,0.62,auditivo,uso de tecnología,3,false,false,true,true,true,true,true,false
+44,Lilian,Dauby,33,Female,6.36,3.21,6.32,4.02,9.18,0.09,0.9,0.83,0.77,0.07,Multimodal,grupos de estudio,5,true,true,false,false,true,false,true,false
+45,Hamish,Murley,29,Male,9.11,3.94,0.3,9.18,0.21,0.97,0.8,0.08,0.56,0.56,kinestésico,otro,3,false,false,false,true,true,false,true,false
+46,Mattias,Searle,22,Male,9.34,0.93,5.06,0.28,5.03,0.77,0.15,0.49,0.56,0.17,otro,autoevaluación y pruebas prácticas,3,true,false,false,false,true,false,false,false
+47,Kayley,Ungaretti,21,Female,0.25,3.67,0.31,1.25,8.65,0.01,0.54,0.06,0.27,0.38,Lectura/Escritura,resúmenes,2,false,true,true,false,false,false,true,false
+48,Asa,Rodliff,23,Male,2.47,2.69,2.02,5.13,6.09,0.96,0.62,0.2,0.83,0.17,kinestésico,enseñanza a otros,5,false,true,false,true,true,false,false,false
+49,Bogey,Emons,24,Male,0.26,9.88,5.53,7.1,6.69,0.73,0.39,0.56,0.91,0.86,visual,mapas mentales,6,false,false,false,true,true,true,false,true
+50,Marysa,Shiril,29,Female,6.85,9.13,0.18,7.95,9.86,0.48,0.65,0.54,0.46,0.98,kinestésico,lectura activa,3,false,false,false,true,false,false,false,true
+51,Ania,Setchell,21,Female,8.64,4.49,3.41,2.64,4.72,0.7,0.51,0.82,0.3,0.95,kinestésico,resúmenes,3,true,true,false,true,true,true,true,false
+52,Cassy,Vasquez,39,Female,4.69,8.94,3.07,0.21,4.17,0.66,0.22,0.67,0.4,0.79,kinestésico,autoevaluación y pruebas prácticas,6,true,false,false,true,false,true,true,true
+53,Annnora,Smurfitt,28,Female,4.81,1.79,1.5,5.11,6.8,0.83,0.55,0.1,0.9,0.13,Multimodal,flashcards,5,false,true,false,false,true,true,true,false
+54,Idette,Lesley,25,Female,7.11,0.3,0.37,9.82,3.07,0.48,0.3,0.23,0.54,0.34,Multimodal,autoevaluación y pruebas prácticas,1,true,false,true,true,true,true,true,false
+55,Hetty,Bandiera,40,Female,4.42,7.55,3.74,8.53,7.95,0.94,0.27,0.98,0.45,0.02,auditivo,uso de tecnología,6,false,false,false,false,false,true,false,false
+56,Brana,Gribble,21,Female,7.72,1.11,5.42,8.51,3.27,0.14,0.43,0.89,0.16,0.46,auditivo,uso de tecnología,7,true,false,false,true,false,false,false,false
+57,Immanuel,Parsonson,26,Male,0.31,2.43,2.87,6.77,1.9,0.91,0.65,0.87,0.01,0.66,Lectura/Escritura,uso de tecnología,4,true,false,false,true,true,false,true,true
+58,Shoshanna,Caselick,40,Female,1.35,6.95,0.53,2.43,2.82,0.01,0.9,0.92,0.04,0.23,auditivo,lectura activa,7,true,false,true,true,true,true,false,false
+59,Amalia,Klewer,40,Female,3.51,5.54,0.47,1.26,9.22,0.64,0.79,0.27,0.99,0.48,Lectura/Escritura,uso de tecnología,2,false,false,false,false,false,true,true,true
+60,Janie,Garrand,25,Female,5.77,9.58,3.22,1.38,4.45,0.98,0.78,0.2,0.3,0.18,auditivo,grupos de estudio,3,true,true,true,false,true,false,true,true
+61,West,Grcic,30,Male,0.25,2.29,8.52,0.54,2.34,0.82,0.87,0.77,0.17,0.43,auditivo,resúmenes,8,true,false,false,true,false,false,false,true
+62,Oberon,Baline,28,Male,3.8,6.5,8.26,5.29,9.05,0.04,0.67,0.88,0.83,0.22,otro,técnica Pomodoro,5,false,false,false,false,true,false,false,false
+63,Dar,Soreau,37,Male,2.03,6.7,1.92,2.11,9.12,0.94,0.6,0.14,0.5,0.51,visual,mapas mentales,7,true,false,false,true,false,true,false,true
+64,Edy,Issacov,20,Female,4.66,1.55,3.6,0.3,6.59,0.76,0.43,0.86,0.22,0.58,otro,autoevaluación y pruebas prácticas,5,true,false,false,true,false,false,false,true
+65,Hermon,Bachman,21,Male,9.42,2.82,1.22,7.89,8.8,0.97,0.26,0.53,0.65,0.25,otro,uso de tecnología,4,true,true,true,true,true,false,false,true
+66,Marsh,Demann,32,Male,2.02,8.9,5.67,3.53,6.03,0.18,0.98,0.01,0.08,0.54,kinestésico,grupos de estudio,4,true,true,false,false,false,false,false,true
+67,Teresita,Paula,38,Female,2.05,1.34,4.53,5.59,7.31,0.65,0.03,0.49,0.38,0.06,otro,grupos de estudio,0,false,false,true,true,true,true,false,true
+68,Kerwinn,Ragbourne,29,Male,8.55,9.54,5.28,8.05,3.58,0.92,0.61,0.65,0.8,0.11,auditivo,técnica Pomodoro,2,true,false,false,true,true,false,false,false
+69,Ramonda,Androck,20,Female,5.46,3.77,5.49,4.03,7.9,0.17,0.49,0.05,0.08,0.46,Multimodal,lectura activa,7,false,false,true,false,true,false,true,false
+70,Ryun,Browne,22,Male,4.32,9.1,3.16,4.89,0.39,0.25,0.44,0.21,0.27,0.47,auditivo,mapas mentales,3,true,false,true,true,false,false,true,false
+71,Corenda,Ricioppo,31,Female,5.21,2.04,2.03,9.38,8.75,0.6,0.8,0.96,0.36,0.1,Multimodal,uso de tecnología,0,true,false,true,false,true,false,true,false
+72,Mitch,Orrick,27,Male,3.17,0.93,3.47,4.09,6.65,0.4,0.23,0.0,0.9,0.86,otro,otro,3,true,false,false,false,false,false,false,true
+73,Gayle,Mance,19,Female,6.75,4.65,7.0,6.19,6.52,1.0,0.43,0.58,0.37,0.86,otro,resúmenes,6,false,false,true,false,false,false,false,true
+74,Salvidor,Sundin,33,Male,4.2,3.29,5.46,0.15,2.05,0.56,0.19,0.61,0.42,0.97,auditivo,enseñanza a otros,5,false,false,true,true,true,true,true,false
+75,Rem,Kerry,35,Male,2.05,2.17,6.04,4.77,7.44,0.29,0.19,0.34,0.04,0.67,auditivo,mapas mentales,3,false,true,true,false,true,false,true,true
+76,Neely,Milazzo,35,Female,4.44,3.96,6.84,8.76,0.5,0.34,0.75,0.34,0.58,1.0,Lectura/Escritura,grupos de estudio,5,true,true,true,true,false,true,true,true
+77,Donny,Mintram,33,Female,0.44,8.17,1.93,3.8,2.21,0.69,0.95,0.65,0.87,0.69,Multimodal,grupos de estudio,8,true,false,true,false,false,false,false,false
+78,Galven,Doige,39,Male,9.39,9.06,5.67,3.43,9.18,0.67,0.46,0.72,0.25,0.12,otro,mapas mentales,3,true,true,true,false,true,true,true,false
+79,Carla,Karpmann,29,Female,6.33,1.8,6.0,0.6,7.0,0.78,0.16,0.49,0.75,0.2,kinestésico,enseñanza a otros,0,true,true,true,true,false,false,false,false
+80,Joachim,Bollam,29,Male,5.73,7.92,3.64,2.17,8.29,0.62,0.71,0.45,0.29,0.33,visual,lectura activa,1,false,false,false,true,true,true,false,false
+81,Waldo,Snoxill,24,Male,9.92,4.39,3.03,9.25,6.02,0.52,0.43,1.0,0.53,0.96,kinestésico,técnica Pomodoro,8,true,true,false,false,false,true,true,true
+82,Augie,Gollin,19,Male,3.92,8.42,3.86,2.53,3.17,0.59,0.21,0.72,0.41,0.25,kinestésico,lectura activa,5,true,false,true,true,false,true,false,false
+83,Dave,Crabtree,31,Male,2.33,3.41,4.8,0.39,9.58,0.17,0.98,0.29,0.48,0.62,visual,técnica Pomodoro,3,true,true,false,false,true,false,true,true
+84,Keary,Matyashev,23,Male,2.29,3.68,4.9,8.66,3.28,0.35,0.95,0.35,0.18,0.95,Multimodal,otro,5,true,false,false,false,true,true,false,false
+85,Titus,Paule,34,Male,7.07,3.86,7.71,2.45,2.89,0.49,0.72,0.15,0.97,0.92,kinestésico,otro,4,false,false,false,true,true,true,false,false
+86,Elvira,Deer,38,Female,0.49,6.94,0.69,9.45,7.36,0.08,0.0,0.94,0.73,0.77,auditivo,flashcards,5,true,false,true,false,false,true,false,true
+87,Adelind,Iddiens,19,Female,6.05,1.09,3.16,8.86,0.67,0.55,0.78,0.3,0.71,0.64,otro,uso de tecnología,8,false,false,false,true,false,true,false,false
+88,Lodovico,Vinau,39,Male,5.04,0.29,5.0,4.8,9.99,0.7,0.17,0.51,0.66,0.9,kinestésico,enseñanza a otros,5,false,true,true,false,false,true,false,true
+89,Daisey,Oliver-Paull,33,Female,5.82,7.28,1.58,5.47,3.51,0.03,0.91,0.44,0.96,0.2,visual,técnica Pomodoro,4,false,false,false,false,true,true,true,false
+90,Adam,Glidder,23,Male,0.43,1.0,1.53,7.1,2.53,0.72,0.95,0.27,0.59,0.98,kinestésico,otro,1,true,false,true,false,true,false,true,false
+91,Sydel,Fuke,39,Female,3.37,3.57,2.56,7.82,0.0,0.73,0.06,0.98,0.1,0.47,otro,autoevaluación y pruebas prácticas,0,false,false,false,false,true,false,true,false
+92,Ezra,Handforth,24,Male,8.82,4.76,2.22,8.39,7.51,0.04,0.11,0.95,0.88,0.58,Multimodal,autoevaluación y pruebas prácticas,5,false,false,false,false,true,true,true,false
+93,Josephine,MacKaig,24,Female,3.42,8.48,8.27,4.23,1.07,0.27,0.17,0.84,0.3,0.81,Lectura/Escritura,lectura activa,2,true,true,false,true,true,false,false,false
+94,Laurent,Blacksell,18,Male,4.05,8.92,7.23,9.04,1.25,0.55,0.71,0.76,0.12,0.16,auditivo,enseñanza a otros,3,true,false,false,false,false,true,true,false
+95,Malcolm,Jarry,30,Male,6.62,6.66,2.13,4.4,0.77,0.78,0.54,0.69,0.82,0.22,kinestésico,técnica Pomodoro,5,true,true,false,true,true,true,true,true
+96,Freddie,Nealon,25,Female,5.91,6.12,2.94,4.72,9.33,0.75,0.22,0.84,0.74,0.77,auditivo,otro,8,false,true,false,false,true,true,true,false
+97,Leeland,Chalfain,24,Male,7.61,1.88,8.39,5.91,0.73,0.63,0.9,0.43,0.04,0.06,visual,grupos de estudio,3,true,true,true,true,true,false,true,false
+98,Darbie,Catt,34,Female,4.76,2.28,5.04,7.85,5.31,0.95,0.0,0.41,0.49,0.85,otro,Toma de apuntes,8,true,true,false,false,false,false,true,false
+99,Irving,Bessett,39,Male,4.25,2.71,6.63,6.41,0.84,0.42,0.66,0.1,0.06,0.98,visual,enseñanza a otros,2,false,false,false,false,false,true,true,true
+100,Rafa,Donhardt,25,Female,8.26,9.76,5.91,5.62,2.57,0.08,0.28,0.79,0.79,0.11,auditivo,flashcards,6,true,false,false,true,true,false,true,false
+101,Pietro,Sheed,39,Male,2.92,9.08,9.34,7.42,4.3,0.93,0.2,0.27,0.86,0.53,Multimodal,enseñanza a otros,3,false,true,true,true,true,false,false,true
+102,Ian,Waggitt,28,Male,5.58,8.1,2.0,5.33,4.9,0.69,0.4,0.19,0.26,0.66,kinestésico,técnica Pomodoro,5,false,false,false,false,true,true,false,true
+103,Stephani,Worham,24,Female,8.83,8.67,7.81,5.61,5.52,0.48,0.86,0.01,0.77,0.12,otro,Toma de apuntes,5,true,false,false,true,true,false,false,false
+104,Francyne,Kemmish,37,Female,7.61,7.95,1.14,4.23,8.94,0.95,0.34,0.91,0.67,0.02,Lectura/Escritura,lectura activa,8,true,true,true,true,false,true,true,false
+105,Candide,Darinton,31,Female,7.4,0.58,5.64,1.33,1.64,0.04,0.27,0.52,0.64,0.2,visual,autoevaluación y pruebas prácticas,2,false,false,true,true,true,true,true,true
+106,Jerry,Raoult,22,Female,8.88,2.39,2.86,6.93,0.51,0.72,0.59,0.23,0.49,0.07,Multimodal,flashcards,5,false,true,true,false,false,true,false,false
+107,Allissa,Hadny,35,Female,1.57,0.31,0.43,3.41,4.86,0.81,0.42,0.64,0.55,0.28,auditivo,resúmenes,8,true,false,false,true,true,true,false,false
+108,Vickie,Sulland,35,Female,7.08,9.15,9.25,1.16,1.11,0.91,0.39,0.81,0.87,0.98,visual,grupos de estudio,0,false,false,true,true,false,false,false,true
+109,Liam,Schutt,38,Male,2.41,8.08,5.82,4.9,2.97,0.92,0.54,0.8,0.91,0.74,Lectura/Escritura,técnica Pomodoro,5,true,true,true,true,false,true,true,false
+110,Ingram,Ors,34,Male,3.52,3.82,0.91,1.51,2.58,0.72,0.39,0.69,0.97,0.34,auditivo,Toma de apuntes,0,true,false,true,false,false,true,false,false
+111,Eugen,Rickford,24,Male,2.39,5.77,3.16,0.17,3.24,0.78,0.47,0.86,0.82,0.08,kinestésico,otro,6,false,true,false,true,false,true,false,true
+112,Allene,Primo,40,Female,7.15,8.31,1.97,5.53,3.4,0.62,0.56,0.23,0.61,0.8,otro,grupos de estudio,0,false,true,true,false,false,true,true,true
+113,Matt,Farrear,19,Male,3.38,8.61,9.65,6.48,6.46,0.33,0.58,0.02,0.21,0.07,auditivo,técnica Pomodoro,4,false,false,true,true,true,true,false,true
+114,Parnell,Medwell,36,Male,1.28,0.74,9.73,0.97,4.82,0.51,0.79,0.23,0.31,0.65,Multimodal,uso de tecnología,0,true,false,false,true,true,false,true,true
+115,Gabriellia,MacLaren,25,Female,6.21,2.91,4.63,4.05,6.68,0.12,0.34,0.48,1.0,0.86,Multimodal,autoevaluación y pruebas prácticas,2,true,true,true,true,true,false,true,true
+116,Adelaide,Floyd,31,Female,5.72,9.71,5.5,1.3,7.62,0.63,0.94,0.44,0.3,0.03,auditivo,uso de tecnología,7,true,true,false,true,true,true,false,false
+117,Grata,Mertel,30,Female,9.7,3.57,6.06,0.63,0.28,0.17,0.07,0.78,0.6,0.98,Lectura/Escritura,lectura activa,8,false,true,true,true,true,false,false,true
+118,Smitty,Danielis,29,Male,9.73,9.51,0.58,1.01,3.86,0.07,0.74,0.97,0.67,0.91,kinestésico,otro,4,true,false,true,false,true,false,true,true
+119,Chas,Debrett,32,Male,9.58,3.49,4.02,3.79,5.84,0.17,0.7,0.35,0.84,0.41,Lectura/Escritura,autoevaluación y pruebas prácticas,2,false,false,false,false,true,true,true,true
+120,Vaughan,Odeson,38,Male,9.16,3.0,0.07,1.14,4.67,0.97,0.17,0.53,0.83,0.23,visual,resúmenes,5,false,false,true,true,true,false,false,true
+121,Bernard,Chasson,19,Male,8.71,4.9,8.07,3.13,8.25,0.9,0.32,0.8,0.98,0.6,kinestésico,Toma de apuntes,6,false,false,true,false,true,false,false,true
+122,Terrill,Ferneley,28,Male,1.32,9.28,1.21,7.98,8.13,0.43,0.1,0.76,0.08,0.47,otro,grupos de estudio,6,true,true,false,false,false,false,false,false
+123,Chrystal,Hammor,31,Female,9.86,2.38,2.94,5.08,1.28,0.73,0.47,0.91,0.46,0.86,otro,Toma de apuntes,5,true,true,false,false,true,true,true,true
+124,Tandie,Charlotte,31,Female,7.84,1.81,5.65,1.96,1.49,0.85,0.79,0.75,0.9,0.28,kinestésico,Toma de apuntes,3,false,false,false,true,true,false,true,true
+125,Thane,Berrane,40,Male,6.37,7.53,4.47,3.99,2.05,0.63,0.18,0.35,0.69,0.46,Multimodal,autoevaluación y pruebas prácticas,1,true,false,true,true,true,true,false,false
+126,Audrey,Neeves,40,Female,5.49,7.2,6.49,0.81,1.87,0.78,0.84,0.71,0.52,0.91,Multimodal,lectura activa,2,true,true,false,false,false,false,false,false
+127,Arney,Fechnie,32,Male,6.98,8.18,2.93,4.45,7.03,0.32,0.64,0.27,0.82,0.38,Lectura/Escritura,grupos de estudio,0,true,false,false,true,true,true,true,false
+128,Vally,Bleasdale,39,Female,2.74,7.62,6.58,0.12,1.39,0.58,0.05,0.4,0.82,0.49,visual,lectura activa,2,false,false,false,false,false,true,true,true
+129,Katey,Gilkison,21,Female,8.98,8.52,7.61,4.46,9.18,0.12,0.43,0.86,0.17,0.5,Lectura/Escritura,mapas mentales,0,true,false,true,false,false,false,true,true
+130,Virgilio,Housam,32,Male,1.28,2.47,0.67,3.02,0.19,0.4,0.53,0.26,0.19,0.79,Multimodal,enseñanza a otros,3,true,true,true,false,true,false,true,false
+131,Rickert,Saleway,27,Male,1.81,6.43,6.39,1.33,9.8,0.67,0.19,0.95,0.26,0.33,auditivo,otro,3,true,false,true,true,true,true,true,false
+132,Perice,Thake,28,Male,6.62,7.36,0.92,1.02,6.4,0.63,0.93,0.31,0.18,0.99,auditivo,resúmenes,5,true,false,false,false,true,true,true,false
+133,Zaccaria,Babinski,24,Male,5.27,8.37,0.56,4.34,8.18,0.35,0.64,0.11,0.45,0.22,auditivo,grupos de estudio,8,true,true,false,true,false,true,false,false
+134,Carilyn,Lindegard,36,Female,2.95,4.95,9.14,7.24,4.95,0.76,0.34,0.6,0.46,0.56,kinestésico,enseñanza a otros,5,true,true,false,true,false,true,false,false
+135,Idelle,Bunton,31,Female,7.34,9.22,3.25,3.42,7.52,0.03,0.79,0.1,0.45,0.3,kinestésico,técnica Pomodoro,3,true,false,true,false,true,false,false,true
+136,Alric,Bridgman,29,Male,9.76,9.94,9.26,3.85,1.89,0.7,0.19,0.16,0.31,0.03,otro,uso de tecnología,5,false,true,false,true,true,true,false,true
+137,Niel,Antonowicz,23,Male,8.62,6.89,1.46,2.36,0.42,0.68,0.79,0.86,0.74,0.71,kinestésico,lectura activa,3,false,true,true,false,false,true,false,true
+138,Ardis,Station,20,Female,3.96,0.91,8.51,2.47,2.06,0.7,0.0,0.02,0.74,0.65,visual,uso de tecnología,2,true,false,true,false,true,true,true,true
+139,Ignazio,Valder,23,Male,5.99,2.83,4.11,8.41,2.22,0.34,0.67,0.1,0.11,0.25,Multimodal,grupos de estudio,4,true,true,true,true,false,true,false,true
+140,Elwood,Roper,37,Male,2.23,2.36,6.74,5.82,2.23,0.82,0.64,0.47,0.27,0.6,Lectura/Escritura,mapas mentales,8,true,false,false,true,true,true,true,true
+141,Jana,Veel,23,Female,3.88,1.06,9.71,4.96,7.77,0.68,0.61,0.5,0.04,0.66,visual,técnica Pomodoro,5,true,false,false,true,false,true,true,true
+142,Kaitlynn,La Vigne,27,Female,6.39,1.16,4.42,5.87,9.16,0.66,0.17,0.75,0.32,0.47,otro,mapas mentales,1,true,true,true,false,false,true,false,false
+143,Louis,Janovsky,38,Male,4.97,6.68,4.47,0.35,9.14,0.83,0.14,0.22,0.57,0.56,kinestésico,otro,5,true,false,false,false,true,true,true,false
+144,Alastair,Domotor,24,Male,2.07,6.25,8.67,4.72,1.55,0.94,0.76,0.81,0.37,0.73,visual,enseñanza a otros,8,true,true,false,false,true,true,true,false
+145,Gus,Phateplace,32,Male,3.68,8.84,4.86,6.48,4.36,0.9,0.6,0.08,0.33,0.43,Multimodal,uso de tecnología,7,true,false,true,true,false,false,true,true
+146,Nata,Grahamslaw,38,Female,4.97,4.35,1.77,2.07,1.87,0.73,0.09,0.49,0.49,0.55,otro,flashcards,0,false,false,false,false,false,true,false,true
+147,Stanton,Slarke,35,Male,1.51,6.53,7.55,2.43,9.87,0.05,0.32,0.25,0.85,0.8,kinestésico,resúmenes,3,false,true,true,false,false,false,false,false
+148,Hedvige,Fessions,30,Female,2.23,5.83,6.75,7.08,6.29,0.38,0.73,0.73,0.11,0.77,visual,enseñanza a otros,2,false,true,false,false,true,true,true,true
+149,Jarib,Skottle,20,Male,6.86,2.66,0.03,2.33,6.28,0.62,0.75,0.39,0.14,0.94,visual,técnica Pomodoro,1,true,true,false,false,false,false,true,true
+150,Bobbye,Junkison,29,Female,4.89,4.74,6.73,3.0,6.32,0.48,0.4,0.95,0.1,0.59,Lectura/Escritura,otro,5,true,false,false,true,false,false,true,true
+151,Edie,Keave,40,Female,8.08,0.34,0.23,9.89,9.75,0.68,0.78,0.19,0.18,0.21,otro,mapas mentales,7,true,false,true,false,true,true,true,false
+152,Robbyn,MacDwyer,32,Female,0.41,1.35,8.73,4.35,3.48,0.39,0.25,0.23,0.19,0.14,otro,uso de tecnología,7,true,false,false,false,false,false,true,false
+153,Fayina,Clew,38,Female,0.07,3.2,7.16,1.51,8.31,0.82,0.37,0.7,0.66,0.51,kinestésico,autoevaluación y pruebas prácticas,0,false,false,true,true,true,false,false,true
+154,Thelma,Cass,29,Female,4.06,4.48,2.86,4.68,3.68,0.14,0.24,0.6,0.2,0.23,auditivo,grupos de estudio,5,false,false,false,false,true,false,false,true
+155,Les,Conisbee,25,Male,5.93,0.04,2.69,8.31,8.51,0.08,0.04,0.8,0.35,0.17,visual,técnica Pomodoro,3,true,false,false,false,false,true,false,true
+156,Enrique,Cossans,29,Male,4.2,0.32,7.35,9.11,7.22,0.97,0.51,0.09,0.08,0.77,kinestésico,resúmenes,1,false,false,true,true,false,true,true,false
+157,Bart,Pakenham,22,Male,8.33,7.84,4.79,1.73,7.33,0.6,0.73,0.36,0.24,0.23,auditivo,flashcards,3,false,false,false,true,false,false,true,false
+158,Rutherford,Izaac,22,Male,4.95,0.7,3.03,3.89,4.11,0.39,0.18,0.11,0.01,0.22,visual,técnica Pomodoro,5,false,false,false,false,true,true,false,true
+159,Kriste,Bartusek,40,Female,9.16,0.36,9.76,8.74,4.07,0.43,0.24,0.68,0.65,0.62,kinestésico,lectura activa,6,false,true,true,true,true,true,true,true
+160,Feodora,Tother,27,Female,4.54,4.04,5.73,5.16,6.35,0.92,0.64,0.92,0.93,0.94,auditivo,técnica Pomodoro,8,false,false,false,true,true,true,false,true
+161,Gretel,Daymont,40,Female,9.61,8.12,9.08,8.38,3.02,0.1,0.85,0.41,0.93,0.73,otro,autoevaluación y pruebas prácticas,5,false,false,false,false,false,true,false,false
+162,Golda,Crutch,32,Female,8.92,6.5,7.13,5.91,4.84,0.86,0.24,0.33,0.38,0.28,otro,lectura activa,5,false,false,false,true,true,true,false,true
+163,Gilberta,Dankov,26,Female,0.49,2.29,6.91,8.53,7.26,0.25,0.69,0.51,0.65,0.08,auditivo,mapas mentales,3,true,true,true,false,false,true,true,false
+164,Britt,Mc Queen,18,Male,2.24,1.44,2.38,2.46,1.86,0.08,0.31,0.08,0.6,0.85,kinestésico,grupos de estudio,4,false,false,true,false,true,false,false,false
+165,Norma,Roussell,18,Female,8.16,0.61,6.64,9.12,2.78,0.4,0.82,0.61,0.44,0.52,Lectura/Escritura,autoevaluación y pruebas prácticas,1,true,false,true,true,true,true,true,false
+166,Berton,Greetland,19,Male,0.17,9.59,7.4,7.52,7.35,0.71,0.76,0.75,0.93,0.0,visual,autoevaluación y pruebas prácticas,7,false,true,true,true,false,true,true,true
+167,Hobey,Father,25,Male,9.11,4.26,9.59,8.28,6.17,0.73,0.47,0.06,0.72,0.02,kinestésico,uso de tecnología,3,true,true,true,true,false,true,false,true
+168,Lynnett,Durrett,40,Female,9.89,1.47,7.07,6.8,6.3,0.01,0.31,0.89,0.13,0.95,otro,uso de tecnología,1,false,false,true,false,false,false,false,false
+169,Ransom,Piesold,25,Male,8.94,5.34,0.14,5.65,4.18,0.56,0.73,0.39,0.21,0.03,visual,autoevaluación y pruebas prácticas,4,false,false,true,false,false,true,true,true
+170,Flem,Matussow,36,Male,2.66,6.85,3.57,3.3,0.82,0.92,0.05,0.64,0.15,0.02,kinestésico,uso de tecnología,2,true,true,true,false,true,true,false,false
+171,Marabel,Limbrick,20,Female,0.33,0.02,4.19,0.78,3.49,0.93,0.49,0.02,0.94,0.36,Multimodal,otro,8,false,true,false,true,true,true,false,false
+172,Jerrome,Kubera,33,Male,9.0,0.32,8.71,2.88,9.88,0.01,0.24,0.34,0.33,0.95,visual,técnica Pomodoro,8,true,true,true,true,true,false,true,false
+173,Murry,MacElholm,29,Male,8.83,3.47,4.74,1.06,2.7,0.71,0.84,0.77,0.94,0.9,Multimodal,enseñanza a otros,7,true,false,false,false,false,false,true,false
+174,Mort,Kittle,24,Male,6.28,3.15,7.81,5.15,4.19,0.65,0.77,0.16,0.56,0.91,visual,enseñanza a otros,2,true,true,false,false,true,true,true,false
+175,Britni,Mound,36,Female,8.27,5.74,7.7,5.02,8.86,0.06,0.01,0.65,0.77,0.04,otro,Toma de apuntes,5,false,true,false,false,false,true,false,true
+176,Simona,Wibrew,19,Female,1.11,8.04,4.89,0.54,3.49,0.1,0.14,1.0,0.98,0.74,Multimodal,uso de tecnología,3,false,true,true,false,true,true,true,true
+177,Aurelea,Cardall,35,Female,4.43,7.05,6.46,6.73,4.6,0.8,0.6,0.04,0.27,0.41,kinestésico,uso de tecnología,6,false,true,false,true,true,true,false,false
+178,Gwynne,Battisson,18,Female,3.16,7.46,7.1,4.61,7.81,0.7,0.21,0.66,0.34,0.06,Lectura/Escritura,mapas mentales,0,true,false,false,false,true,true,true,true
+179,Pierson,Harbor,23,Male,1.86,1.0,4.03,9.18,1.39,0.34,0.61,0.67,0.99,0.32,Multimodal,enseñanza a otros,4,true,false,true,true,true,false,true,false
+180,Rube,Willcocks,26,Male,4.84,3.79,1.76,6.82,9.24,0.84,0.94,0.79,0.1,0.27,kinestésico,mapas mentales,6,true,true,true,true,true,true,true,false
+181,Dulcie,Clewlow,36,Female,3.51,6.98,8.82,8.22,6.76,0.02,0.61,0.26,0.36,0.54,Multimodal,autoevaluación y pruebas prácticas,8,false,true,true,false,false,true,true,false
+182,Prue,Malkinson,34,Female,5.37,2.45,2.4,9.19,6.34,0.68,0.43,0.07,0.32,0.37,visual,enseñanza a otros,6,false,true,false,false,false,true,true,false
+183,Clovis,Luquet,26,Female,9.98,2.44,8.7,9.66,3.47,0.35,0.79,0.61,0.17,0.72,otro,lectura activa,3,true,true,true,true,false,false,false,false
+184,Agnola,Eagland,26,Female,6.44,7.35,1.35,6.02,3.52,0.44,0.1,0.57,0.74,0.82,auditivo,enseñanza a otros,2,true,false,false,false,true,false,false,true
+185,Umeko,Meo,21,Female,7.12,2.87,4.1,8.32,2.55,0.27,0.28,0.41,0.06,0.97,Multimodal,autoevaluación y pruebas prácticas,5,true,true,false,false,false,false,false,true
+186,Thorndike,Redwall,38,Male,9.84,6.9,0.37,8.16,8.08,0.25,0.58,0.04,0.09,0.6,kinestésico,resúmenes,6,true,false,false,true,false,false,true,false
+187,Alis,Spurret,24,Female,2.37,3.57,8.42,1.91,1.78,0.63,0.24,0.32,0.48,0.78,Multimodal,uso de tecnología,0,false,false,false,false,false,false,true,true
+188,Penn,How to preserve,32,Male,3.05,8.59,1.38,3.69,2.69,0.41,0.4,0.63,0.63,0.5,Lectura/Escritura,autoevaluación y pruebas prácticas,6,true,true,false,true,true,true,true,true
+189,Woodrow,Alker,33,Male,3.61,1.62,7.65,9.81,9.45,0.67,0.13,0.46,0.26,0.16,Lectura/Escritura,uso de tecnología,2,true,true,false,false,false,false,true,false
+190,Cozmo,Vasiltsov,32,Male,6.49,0.55,3.35,9.91,5.09,0.11,0.35,0.6,0.48,0.97,Multimodal,resúmenes,1,false,true,true,true,false,false,true,true
+191,Pall,Cotesford,38,Male,7.54,0.17,5.63,2.63,8.22,0.12,0.66,0.97,0.01,0.42,visual,grupos de estudio,8,false,true,true,true,false,false,true,false
+192,Linn,Levee,21,Male,4.93,1.23,1.87,8.97,2.27,0.03,0.51,0.7,0.16,0.42,otro,grupos de estudio,0,false,false,false,false,false,true,false,false
+193,Aurora,Feasley,33,Female,2.32,1.46,7.35,3.55,0.94,0.87,0.44,0.24,0.83,0.49,kinestésico,mapas mentales,7,false,true,false,true,false,false,true,true
+194,Noel,Hecks,26,Female,9.33,8.32,7.73,5.77,1.0,0.7,0.15,0.67,0.79,0.63,Lectura/Escritura,flashcards,8,false,true,false,false,false,true,false,true
+195,Welch,Goode,19,Male,7.4,5.66,9.27,5.06,6.83,0.44,0.06,0.0,0.82,0.14,kinestésico,autoevaluación y pruebas prácticas,3,true,true,true,false,false,true,true,true
+196,Nicolais,Welfair,33,Male,2.21,8.16,1.76,9.57,1.58,0.89,0.15,0.32,0.79,0.75,auditivo,lectura activa,7,false,false,false,false,true,true,true,true
+197,Olwen,Fetherston,27,Female,4.82,5.62,5.83,6.56,5.2,0.26,0.31,0.58,0.03,0.33,otro,Toma de apuntes,7,false,false,false,false,true,true,true,false
+198,Yalonda,Geratasch,36,Female,5.96,8.93,6.41,2.5,5.62,0.29,0.46,0.79,0.49,0.47,kinestésico,flashcards,1,false,false,false,false,false,true,true,true
+199,Marcelline,Poynzer,24,Female,8.44,6.88,5.38,9.03,7.28,0.97,0.13,0.66,0.61,0.35,otro,grupos de estudio,6,true,true,false,true,false,true,true,true
+200,Concordia,Menchenton,28,Female,2.19,3.82,2.46,6.11,8.78,0.48,0.71,0.1,0.93,0.16,otro,Toma de apuntes,1,false,false,false,true,true,true,true,true
+201,Ferne,Charman,26,Female,0.24,4.58,6.93,4.98,1.18,0.39,0.57,0.45,0.67,0.99,auditivo,otro,6,true,false,true,true,true,false,true,false
+202,Gayla,Samet,25,Female,1.57,6.06,5.6,7.79,9.37,0.8,0.58,0.03,0.58,0.94,Multimodal,mapas mentales,7,false,true,false,true,true,true,false,true
+203,Royall,Andrioli,22,Male,6.0,8.98,9.52,5.14,0.85,0.76,0.55,0.37,0.4,0.61,kinestésico,flashcards,0,false,true,false,false,false,false,true,false
+204,Laurene,Broke,30,Female,4.03,8.7,5.29,0.68,7.66,0.66,0.43,0.35,0.89,0.2,Lectura/Escritura,resúmenes,8,false,false,true,true,true,true,false,true
+205,Sherline,McLane,31,Female,3.25,4.17,6.85,8.96,7.88,0.19,0.81,0.5,0.89,0.67,Lectura/Escritura,resúmenes,5,true,false,true,false,true,false,true,false
+206,Earvin,Girone,26,Male,9.25,1.62,1.17,7.39,0.14,0.55,0.8,0.05,0.65,0.75,kinestésico,lectura activa,7,true,false,true,true,true,true,true,false
+207,Pavlov,Stevings,33,Male,3.57,1.43,4.49,0.09,0.46,0.53,0.43,0.33,0.83,0.85,visual,flashcards,7,false,false,true,false,true,false,true,false
+208,Ailene,Fearnside,28,Female,9.91,9.46,2.72,6.24,5.37,0.89,0.46,0.9,0.92,0.22,visual,grupos de estudio,2,true,true,true,false,false,true,false,true
+209,Cecilla,Kliemke,25,Female,5.77,3.68,7.31,9.36,4.23,0.15,0.55,0.29,0.1,0.92,Lectura/Escritura,uso de tecnología,6,false,false,true,false,false,false,false,true
+210,Daria,Stubbington,29,Female,3.51,8.56,7.52,2.14,4.64,0.9,0.36,0.72,0.16,0.15,auditivo,flashcards,5,false,false,true,false,true,false,false,true
+211,Englebert,Brine,37,Male,6.46,7.38,7.37,6.7,9.02,0.3,0.03,0.48,0.85,0.24,Lectura/Escritura,grupos de estudio,8,true,true,false,true,true,false,true,true
+212,Murdock,Kitchener,29,Male,1.05,3.68,4.91,6.49,0.5,0.86,0.15,0.98,0.72,0.58,auditivo,técnica Pomodoro,3,false,false,true,true,false,false,false,true
+213,Petronella,Wickersley,38,Female,4.44,2.83,3.58,0.51,1.39,0.86,0.4,0.55,0.99,0.79,Multimodal,otro,1,true,false,true,false,false,true,true,false
+214,Lilyan,Bottoms,19,Female,4.84,7.51,9.45,8.79,0.77,0.65,0.94,0.42,0.52,0.75,otro,Toma de apuntes,2,true,false,true,false,true,true,false,false
+215,Whit,Ledgeway,20,Male,7.67,3.74,2.76,3.18,8.56,0.7,0.09,0.55,0.13,0.53,visual,técnica Pomodoro,3,false,true,false,true,true,false,true,false
+216,Banky,Breeds,33,Male,5.06,5.32,3.67,7.06,8.92,0.26,0.44,0.29,0.15,0.76,visual,técnica Pomodoro,0,true,false,true,true,false,false,false,true
+217,Corty,Berni,29,Male,0.68,6.01,4.86,3.01,3.71,0.89,0.05,0.34,0.07,0.57,kinestésico,Toma de apuntes,7,false,false,true,true,true,true,true,false
+218,Aline,Michelmore,38,Female,7.78,8.22,9.36,3.52,1.36,0.97,0.62,0.29,0.91,0.87,otro,lectura activa,5,false,true,false,true,true,true,false,false
+219,Damiano,Gyorgy,29,Male,4.07,5.68,6.97,0.79,8.0,0.1,0.16,0.52,0.08,0.17,auditivo,mapas mentales,4,false,true,true,false,true,false,true,true
+220,Billie,Whiteway,32,Female,6.49,7.87,5.56,9.73,3.64,0.11,0.68,0.08,0.8,0.14,auditivo,otro,0,true,true,true,false,false,false,true,true
+221,Mickie,Launder,39,Male,3.41,6.84,2.99,5.07,7.06,0.77,0.52,0.98,0.96,0.86,visual,mapas mentales,4,false,true,true,true,true,true,false,false
+222,Isaac,Chatwin,24,Male,7.02,7.59,1.35,0.91,0.97,0.25,0.86,0.91,0.66,0.38,Lectura/Escritura,mapas mentales,2,true,true,true,false,false,false,false,false
+223,Kenyon,Robke,38,Male,1.88,2.2,1.97,4.33,7.2,0.62,0.85,0.4,0.56,0.42,visual,enseñanza a otros,1,true,true,false,false,true,false,true,true
+224,Tiphanie,Karczinski,38,Female,2.15,2.96,9.96,9.42,7.43,0.56,0.65,0.76,0.62,0.87,kinestésico,mapas mentales,8,true,false,false,true,true,true,true,false
+225,Blondelle,Syred,34,Female,5.24,6.18,5.92,0.8,8.02,0.2,0.48,0.12,0.19,0.01,auditivo,otro,4,true,true,false,true,false,true,false,false
+226,Florencia,Tedder,24,Female,7.89,4.49,6.59,8.0,2.98,0.48,0.91,0.25,0.6,0.39,kinestésico,resúmenes,2,false,false,true,false,false,true,true,true
+227,Rodolph,Potticary,27,Male,8.56,5.44,6.62,6.19,5.01,0.11,0.13,0.78,0.57,0.21,auditivo,flashcards,5,false,false,false,false,true,true,true,false
+228,Denyse,Keady,19,Female,2.27,7.58,9.67,3.5,0.1,0.23,0.56,0.92,0.08,0.57,Multimodal,uso de tecnología,0,true,true,true,false,true,true,false,false
+229,Jae,Sywell,23,Male,1.75,8.04,2.66,4.01,7.93,0.74,0.24,0.27,0.61,0.8,kinestésico,técnica Pomodoro,2,false,true,true,true,true,true,false,true
+230,Art,Hindge,32,Male,8.13,9.42,8.59,3.7,4.84,0.31,0.11,0.01,0.42,0.18,Multimodal,enseñanza a otros,7,false,true,true,true,false,true,true,true
+231,Bartolemo,Blew,29,Male,4.97,6.8,0.1,9.71,0.57,0.94,0.45,0.44,0.32,0.63,auditivo,enseñanza a otros,8,false,false,true,false,false,false,false,false
+232,Evaleen,Chatell,39,Female,4.5,5.01,1.62,8.59,9.2,0.05,0.69,0.41,0.34,0.72,Multimodal,enseñanza a otros,8,true,false,true,false,true,true,true,true
+233,Lucina,Krabbe,38,Female,7.42,3.9,6.54,3.37,8.69,0.69,0.77,0.8,0.83,0.23,kinestésico,uso de tecnología,8,true,false,false,true,false,false,true,true
+234,Abey,MacCafferky,36,Male,9.2,5.08,2.23,7.38,7.94,0.88,0.19,0.84,0.59,0.05,visual,resúmenes,5,false,true,true,true,false,false,true,false
+235,Walliw,Kenealy,22,Female,3.17,7.05,4.55,1.95,7.17,0.24,0.27,0.62,0.38,0.96,visual,flashcards,1,true,false,false,true,true,true,false,false
+236,Esteban,Reaper,21,Male,7.08,1.99,4.67,8.38,1.07,0.02,0.12,0.54,0.14,0.81,otro,enseñanza a otros,2,false,false,false,false,true,false,true,true
+237,Erek,McTague,26,Male,1.92,7.17,8.59,2.94,3.09,0.37,0.22,0.2,0.31,0.38,visual,técnica Pomodoro,4,false,true,false,false,false,false,true,true
+238,Flory,Lampett,25,Male,9.79,2.77,5.92,3.57,9.32,1.0,0.33,0.14,0.57,0.94,auditivo,flashcards,1,false,true,true,true,true,false,false,false
+239,Kathy,Toplin,40,Female,2.05,2.8,4.71,2.46,9.25,0.8,0.45,0.63,0.68,0.13,visual,resúmenes,3,false,false,true,false,false,true,false,true
+240,Alexandr,Tesauro,38,Male,4.13,6.5,4.8,3.75,6.86,0.66,0.87,0.75,0.0,0.12,otro,grupos de estudio,5,true,false,false,true,false,true,true,true
+241,Nicolea,Whetson,25,Female,5.42,8.55,4.05,8.06,3.4,0.03,0.44,0.93,0.42,0.99,kinestésico,técnica Pomodoro,1,false,false,false,false,true,false,false,true
+242,Barrie,Quinion,29,Male,2.68,1.58,4.61,2.48,8.9,0.6,0.1,0.1,0.28,0.31,otro,otro,0,false,false,true,true,true,true,false,false
+243,Gregory,Itzkovwich,34,Male,1.27,8.89,1.11,9.97,6.56,0.07,0.62,0.97,0.55,0.15,auditivo,Toma de apuntes,7,true,true,false,true,true,true,false,false
+244,Olin,Wannes,32,Male,2.86,9.54,1.43,1.7,9.19,0.96,0.16,0.3,0.7,0.9,kinestésico,técnica Pomodoro,7,true,false,true,true,true,false,false,true
+245,Alejandrina,Oret,27,Female,6.87,8.17,1.59,1.82,9.85,0.46,0.94,0.72,0.58,0.87,Lectura/Escritura,resúmenes,2,false,true,false,true,false,false,false,true
+246,Berti,Staunton,38,Male,9.32,2.57,0.65,7.98,2.3,0.62,0.22,0.71,0.59,0.93,auditivo,resúmenes,4,false,true,false,false,true,false,false,true
+247,Tabbatha,Kendle,33,Female,2.46,9.48,7.75,0.52,1.38,0.4,0.39,0.19,0.22,0.77,Multimodal,técnica Pomodoro,2,true,false,false,true,false,false,true,true
+248,Kelci,MacNamee,18,Female,9.06,7.17,0.68,7.2,3.13,0.76,0.82,0.83,0.78,0.96,Multimodal,uso de tecnología,4,false,false,true,true,false,true,true,false
+249,Lek,Saulter,34,Male,7.01,6.59,1.32,8.01,3.44,0.3,0.31,0.51,0.19,0.7,visual,uso de tecnología,5,false,true,true,true,false,false,false,true
+250,Gratiana,Pyrah,36,Female,0.85,2.01,1.83,5.05,3.76,0.08,0.17,0.55,0.67,0.25,otro,autoevaluación y pruebas prácticas,2,false,true,false,false,false,false,false,false
+251,Andrus,Swaine,30,Male,0.17,3.98,7.73,6.83,5.76,0.79,0.05,0.22,0.06,0.76,visual,lectura activa,6,false,false,false,true,true,false,true,false
+252,Calvin,Goldwater,20,Male,4.02,9.22,1.64,8.06,1.69,0.46,0.69,0.61,0.42,0.77,otro,flashcards,5,true,true,false,false,false,false,false,false
+253,Betti,Southwood,24,Female,1.92,2.25,7.05,5.54,1.26,0.82,0.23,0.1,0.19,0.08,Lectura/Escritura,otro,7,true,true,false,true,true,true,false,true
+254,Friederike,Gozzard,30,Female,3.23,9.41,5.23,4.14,5.67,0.16,0.12,0.25,0.03,0.34,otro,técnica Pomodoro,8,false,true,true,true,false,false,true,true
+255,Dallis,Matonin,39,Male,2.48,4.39,4.27,4.78,5.36,0.42,0.01,0.23,0.69,0.44,visual,autoevaluación y pruebas prácticas,4,true,true,false,false,true,true,true,true
+256,Jules,Bowdery,18,Male,6.1,2.65,3.58,1.89,7.83,0.24,0.92,0.79,0.21,0.83,otro,mapas mentales,0,true,true,true,false,true,true,false,true
+257,Krystal,Maggs,37,Female,7.17,0.99,0.71,6.78,0.79,0.42,0.88,0.04,0.44,0.67,auditivo,autoevaluación y pruebas prácticas,1,false,false,false,false,false,true,true,true
+258,Taite,Provis,31,Male,9.58,5.4,1.0,2.01,0.51,0.3,0.15,0.21,0.38,0.71,visual,otro,7,true,false,false,false,true,false,false,false
+259,Ramonda,Lawrie,27,Female,3.42,9.38,0.95,6.49,5.97,0.93,0.11,0.05,0.32,0.5,visual,mapas mentales,4,false,true,true,false,true,false,false,true
+260,Aryn,Gregoli,27,Female,9.0,6.97,2.76,9.52,6.43,0.41,0.35,0.32,0.54,0.51,visual,otro,8,false,false,false,true,false,false,false,false
+261,Virgilio,Harome,23,Male,2.01,6.63,6.48,3.92,4.56,0.96,0.18,0.77,0.73,0.24,Multimodal,Toma de apuntes,3,false,false,true,false,true,false,false,true
+262,Brigitta,Shreenan,33,Female,5.56,2.47,3.84,2.68,2.14,0.32,0.62,0.28,0.63,0.15,kinestésico,técnica Pomodoro,7,false,true,true,true,true,true,false,false
+263,Berti,Kemball,31,Male,1.38,3.64,6.37,5.98,7.2,0.2,0.45,0.71,0.02,0.95,Multimodal,Toma de apuntes,7,false,true,false,false,true,false,true,true
+264,Odilia,Siuda,21,Female,3.83,2.23,7.56,7.87,7.88,0.56,0.31,0.5,0.23,0.02,Multimodal,flashcards,1,false,false,true,true,false,true,false,false
+265,Mose,Sewards,38,Male,4.11,9.76,4.36,8.81,5.21,0.4,0.12,0.56,0.29,0.13,otro,autoevaluación y pruebas prácticas,7,true,false,true,true,true,false,true,false
+266,Valry,Trudgian,40,Female,0.38,3.35,8.8,0.15,7.69,0.15,0.89,0.43,0.06,0.13,Multimodal,autoevaluación y pruebas prácticas,2,false,true,true,true,false,false,true,true
+267,Gabbi,Penton,38,Female,4.19,6.79,6.6,5.63,3.92,0.08,0.5,0.17,0.1,0.12,otro,Toma de apuntes,5,true,false,true,false,true,true,true,false
+268,Cordelie,Burghill,32,Female,8.54,0.57,6.68,2.67,9.12,0.18,0.76,0.27,0.41,0.11,auditivo,Toma de apuntes,2,true,false,false,true,true,true,true,false
+269,Lauren,Lofty,33,Male,10.0,0.26,4.19,9.6,3.51,0.21,0.53,0.61,0.26,0.65,auditivo,enseñanza a otros,7,false,false,false,false,true,false,false,false
+270,Asa,Hambrick,33,Male,5.87,9.33,6.49,2.74,5.88,0.45,0.93,0.36,0.08,0.16,auditivo,resúmenes,5,false,true,false,true,true,false,false,false
+271,Irwin,McClean,28,Male,1.78,9.21,8.39,5.9,9.07,0.79,0.42,0.19,0.82,0.64,auditivo,lectura activa,4,false,true,true,true,true,false,false,false
+272,Doralyn,Maysor,26,Female,1.02,3.13,1.69,0.97,5.94,1.0,0.8,0.51,0.42,0.31,auditivo,autoevaluación y pruebas prácticas,7,true,false,true,true,false,true,false,true
+273,Pavla,Guymer,30,Female,7.94,5.01,6.16,4.72,3.19,0.96,0.65,0.71,0.45,0.61,visual,grupos de estudio,8,true,false,false,true,false,false,false,true
+274,Boone,Lavarack,38,Male,6.05,0.97,6.31,0.53,3.76,0.08,0.22,0.45,0.71,0.59,visual,mapas mentales,3,false,false,true,false,true,false,false,false
+275,Ivor,Fasham,36,Male,2.11,0.16,9.07,0.76,5.71,0.27,0.31,0.07,0.99,0.48,Lectura/Escritura,otro,8,false,true,true,false,false,false,true,false
+276,Allyson,Staterfield,27,Female,7.54,9.21,8.24,6.3,7.76,0.71,0.86,0.81,0.46,0.55,Lectura/Escritura,grupos de estudio,7,true,false,true,true,true,false,false,false
+277,Cletus,Hammerman,24,Male,2.09,2.36,9.44,7.3,4.45,0.95,0.64,0.75,0.94,0.89,otro,otro,4,true,false,true,true,false,true,false,true
+278,Sephira,Pidwell,22,Female,1.58,1.8,9.42,0.98,0.32,0.48,0.18,0.61,0.49,0.74,Multimodal,grupos de estudio,7,true,false,false,true,true,false,true,false
+279,Howard,Midlane,34,Male,7.2,2.58,5.9,2.3,7.14,0.59,0.58,0.69,0.76,0.8,auditivo,Toma de apuntes,3,true,false,false,true,false,false,true,true
+280,Kaiser,McCluskey,40,Male,8.8,1.18,8.66,3.8,2.52,0.93,0.37,0.18,0.38,0.84,kinestésico,grupos de estudio,2,true,true,true,false,false,true,false,true
+281,Judas,Adkins,20,Male,8.11,2.75,1.39,6.97,8.38,0.08,0.94,0.12,0.1,0.38,auditivo,resúmenes,4,false,true,false,true,true,true,false,true
+282,Minerva,Wealleans,31,Female,5.31,9.17,1.4,9.71,8.77,0.89,0.21,0.85,0.07,0.04,otro,enseñanza a otros,0,false,false,true,false,true,true,false,false
+283,Caddric,Kissock,32,Male,0.08,9.76,2.38,9.19,8.68,0.1,0.19,0.53,0.49,0.4,otro,técnica Pomodoro,4,false,false,true,true,false,true,true,false
+284,Cassius,Collicott,37,Male,8.54,4.29,5.9,9.42,7.96,0.43,0.79,0.42,0.17,0.97,auditivo,uso de tecnología,0,false,false,true,false,true,false,false,false
+285,Paddie,Weathey,27,Male,7.75,3.91,9.85,3.48,0.14,0.31,0.17,0.45,0.77,0.02,otro,grupos de estudio,6,false,false,true,true,true,false,true,true
+286,Janot,Duckerin,30,Female,5.87,1.17,8.38,2.65,4.62,0.35,0.39,0.45,0.31,0.31,Lectura/Escritura,Toma de apuntes,1,false,true,false,false,true,false,true,true
+287,Derward,MacKeever,25,Male,0.68,4.73,8.31,9.57,4.16,0.03,0.15,0.85,0.59,0.92,Multimodal,resúmenes,2,false,false,false,true,true,false,true,false
+288,Currey,Jeens,22,Male,3.43,9.26,3.55,5.76,6.98,0.47,0.63,0.68,0.53,0.86,Lectura/Escritura,grupos de estudio,4,true,false,false,true,false,true,false,false
+289,Larry,Loney,27,Male,6.15,7.79,1.96,6.98,6.28,0.51,0.33,0.37,0.8,0.23,otro,otro,7,false,true,false,true,false,true,false,false
+290,Derril,Elstone,27,Male,7.92,5.7,5.98,5.0,7.83,0.6,0.19,0.32,0.36,0.72,auditivo,Toma de apuntes,0,true,false,true,true,true,true,false,true
+291,Orsola,Bannerman,32,Female,4.16,3.77,3.24,8.93,2.93,0.97,0.81,0.75,0.58,0.57,Multimodal,grupos de estudio,4,false,false,true,true,true,false,false,true
+292,Mordecai,Swinnard,36,Male,6.85,5.56,0.15,0.12,0.13,0.39,0.87,0.57,0.81,0.58,auditivo,grupos de estudio,1,false,false,false,true,true,true,false,false
+293,Alvina,Gobel,40,Female,3.94,3.76,0.69,8.26,3.23,0.74,0.17,0.71,0.46,0.01,kinestésico,lectura activa,0,true,true,false,false,false,false,true,true
+294,Edsel,Bengle,33,Male,0.33,6.04,4.41,1.32,5.21,0.96,0.4,0.22,0.55,0.25,Lectura/Escritura,grupos de estudio,8,false,false,true,true,false,true,true,false
+295,Manny,Cutsforth,38,Male,0.92,5.83,3.14,8.33,9.56,0.61,0.01,0.01,0.66,0.84,auditivo,autoevaluación y pruebas prácticas,1,true,false,true,false,false,false,false,false
+296,Morton,O'Crevan,23,Male,0.48,2.03,3.79,3.32,8.81,0.39,0.87,0.85,0.42,0.36,otro,técnica Pomodoro,7,false,true,true,true,true,false,true,false
+297,Irma,Harrhy,31,Female,9.74,7.39,7.33,1.04,5.31,0.35,0.18,0.81,0.5,0.19,otro,otro,4,true,false,false,true,true,false,true,true
+298,Babara,Pepineaux,35,Female,4.04,7.0,3.54,2.52,5.54,0.56,0.08,0.46,0.48,0.93,otro,mapas mentales,7,true,true,true,false,true,false,false,true
+299,Frank,Rizzardini,22,Male,6.99,5.22,3.7,8.66,2.12,0.39,0.9,0.1,0.84,0.24,Multimodal,mapas mentales,5,false,false,false,false,false,true,true,true
+300,Quill,O'Kuddyhy,35,Male,1.77,3.99,2.99,8.99,5.04,0.86,0.32,0.32,0.35,0.66,Lectura/Escritura,técnica Pomodoro,0,false,true,true,true,false,false,true,true
+301,Marijo,Kennet,38,Female,6.51,7.41,0.18,1.79,3.47,0.62,0.78,0.6,0.05,0.29,kinestésico,flashcards,1,true,true,false,false,false,true,true,false
+302,Ignacius,Pilger,28,Male,2.36,1.9,3.48,2.29,7.39,0.62,0.41,0.56,0.75,0.01,Multimodal,uso de tecnología,5,false,true,false,true,false,true,false,true
+303,Sigfrid,Newcomb,20,Male,5.13,2.04,4.05,7.53,2.9,0.61,0.15,0.08,0.4,0.99,kinestésico,mapas mentales,6,true,true,false,false,false,false,false,true
+304,Germaine,Maybey,25,Male,4.44,2.99,7.11,0.89,5.4,0.73,0.35,0.71,0.59,0.86,visual,autoevaluación y pruebas prácticas,8,false,true,true,true,false,false,false,false
+305,Ula,Purkiss,21,Female,6.03,4.59,4.92,1.89,8.83,0.33,0.73,0.41,0.11,0.0,Lectura/Escritura,enseñanza a otros,5,true,false,false,false,true,true,false,false
+306,Chiquia,Newbold,32,Female,9.38,9.97,1.95,5.26,1.26,0.24,0.97,0.85,0.95,0.84,visual,otro,5,false,false,true,false,true,true,false,false
+307,Javier,Whitwham,18,Male,3.37,6.04,0.68,9.63,7.29,0.81,0.28,0.49,0.89,0.23,kinestésico,flashcards,5,false,false,false,true,true,false,false,true
+308,Bernice,Burford,34,Female,3.66,5.01,2.18,9.49,4.28,0.78,0.16,0.71,0.73,0.88,auditivo,técnica Pomodoro,6,false,true,false,false,false,true,true,true
+309,Sayres,Girauld,26,Male,3.97,2.89,8.2,4.49,3.92,0.91,0.2,0.42,0.2,0.22,visual,técnica Pomodoro,1,false,false,false,true,false,true,false,false
+310,Merill,Walsom,35,Male,0.39,9.42,3.36,7.38,6.0,0.55,0.2,0.45,0.75,0.95,otro,uso de tecnología,1,false,false,false,true,false,false,true,false
+311,Monah,Mylechreest,33,Female,8.63,7.78,1.78,2.5,4.2,0.06,0.11,0.09,0.66,0.69,auditivo,técnica Pomodoro,2,false,true,false,true,false,true,false,true
+312,Bridget,Ahmad,26,Female,0.74,1.96,8.06,9.84,3.08,0.16,0.97,0.41,0.6,0.54,Lectura/Escritura,enseñanza a otros,4,false,false,false,true,false,false,false,true
+313,Gib,Dye,33,Male,9.19,2.37,0.51,9.79,5.37,0.43,0.5,0.03,0.49,0.67,Multimodal,resúmenes,7,true,true,false,false,false,false,false,true
+314,Robbyn,Girdlestone,26,Female,0.87,5.15,0.9,8.63,3.3,0.89,0.98,0.4,0.38,0.25,kinestésico,uso de tecnología,2,false,false,true,true,false,false,true,true
+315,Kearney,Klaus,31,Male,7.26,1.35,3.85,4.19,2.22,0.79,0.81,0.81,0.63,0.36,Multimodal,mapas mentales,6,true,false,false,true,true,true,false,true
+316,Hewie,Claibourn,37,Male,6.66,4.04,4.03,6.69,4.07,0.72,0.05,0.31,0.78,0.81,auditivo,enseñanza a otros,8,false,true,false,true,false,false,false,true
+317,Harriette,Jenyns,19,Female,9.22,1.75,1.36,8.37,5.85,0.78,0.38,0.0,0.81,0.35,Lectura/Escritura,técnica Pomodoro,1,true,false,true,true,false,true,true,false
+318,Vally,Lopes,18,Female,3.47,7.78,2.37,0.61,9.61,0.38,0.03,0.24,0.47,0.7,otro,otro,4,false,false,false,false,true,false,true,false
+319,Craggy,Ferber,27,Male,7.88,4.08,9.81,9.45,0.7,0.02,0.85,0.18,0.29,0.62,auditivo,flashcards,2,false,false,true,false,true,true,false,true
+320,Justinian,Petyankin,25,Male,0.42,4.84,4.55,8.46,7.14,0.53,0.0,0.71,0.13,0.93,Multimodal,flashcards,5,false,false,false,true,false,false,false,true
+321,Therese,Ortsmann,19,Female,5.5,3.44,2.12,3.88,3.2,0.29,0.6,0.96,0.9,0.06,visual,enseñanza a otros,0,true,true,false,true,false,false,false,true
+322,Vidovic,Vanyatin,31,Male,1.8,8.62,1.17,7.5,9.12,0.25,0.87,0.99,0.25,0.41,auditivo,flashcards,0,false,false,false,false,false,true,true,true
+323,Cassaundra,Caldecott,36,Female,9.24,0.34,4.39,0.77,5.77,0.79,0.15,0.33,0.4,0.19,Multimodal,técnica Pomodoro,6,true,true,false,false,false,true,false,true
+324,Dagny,Karus,25,Male,4.24,5.28,7.39,9.19,6.96,0.24,0.05,0.16,0.62,0.37,Multimodal,uso de tecnología,2,true,false,false,true,false,false,true,false
+325,Ephrayim,Wickett,32,Male,3.47,0.81,7.76,4.74,6.26,0.91,0.33,0.61,0.29,0.87,Multimodal,grupos de estudio,3,true,false,false,true,false,true,false,true
+326,Dewain,Hammerberg,25,Male,6.29,8.98,7.02,8.44,3.76,0.09,0.16,0.62,0.24,0.19,kinestésico,lectura activa,6,false,true,true,false,true,false,true,false
+327,Ianthe,Swidenbank,26,Female,7.03,7.2,7.37,4.14,7.41,0.24,0.26,0.89,0.12,0.67,auditivo,Toma de apuntes,7,false,false,false,false,true,false,false,false
+328,Inez,Bigby,31,Female,4.89,4.8,9.59,4.93,1.71,0.82,0.49,0.2,0.63,0.7,auditivo,mapas mentales,6,true,false,true,false,true,true,false,false
+329,Noell,Parsell,29,Female,1.41,7.26,7.32,3.48,0.07,0.66,0.98,0.11,0.27,0.31,kinestésico,lectura activa,6,true,true,true,false,true,false,false,false
+330,Layton,Malenfant,22,Male,1.52,0.43,5.0,9.38,0.56,0.49,0.24,0.34,0.64,0.35,auditivo,otro,3,true,false,false,true,true,true,true,false
+331,Gray,McGorley,37,Female,4.35,9.59,4.46,8.8,7.71,0.96,0.73,0.29,0.27,0.87,Multimodal,Toma de apuntes,3,false,true,true,false,false,true,true,false
+332,Nickolai,Screach,26,Male,8.73,6.86,0.23,5.0,2.19,0.72,0.29,0.52,0.28,0.39,Multimodal,técnica Pomodoro,6,false,false,true,false,false,false,true,false
+333,Brewer,Kender,32,Male,5.51,2.55,2.78,0.49,1.4,0.37,0.54,0.43,0.97,0.03,Multimodal,mapas mentales,6,true,true,true,false,true,true,false,true
+334,Larisa,Mattia,38,Female,2.58,2.67,3.36,8.73,1.5,0.51,0.52,0.41,0.13,0.36,visual,mapas mentales,2,false,false,true,false,true,false,false,true
+335,Giavani,Mouland,36,Male,3.87,8.81,8.54,2.77,5.94,0.78,0.55,0.03,0.91,0.52,Multimodal,enseñanza a otros,1,false,false,true,true,true,true,true,false
+336,Damita,Takos,34,Female,7.15,2.89,7.74,9.0,4.91,0.36,0.28,0.96,0.08,0.61,visual,uso de tecnología,1,false,false,false,true,true,true,false,true
+337,Bethanne,Kluger,26,Female,1.89,1.52,9.78,7.14,7.16,0.49,0.35,0.82,0.78,0.9,Multimodal,resúmenes,2,false,false,true,true,true,true,false,true
+338,Conny,Jopson,32,Male,8.02,7.36,3.85,7.89,2.63,0.81,0.32,0.06,0.03,0.78,otro,flashcards,8,true,true,false,false,true,false,false,true
+339,Maris,Speechley,25,Female,5.13,5.48,8.1,2.33,9.91,0.37,0.86,0.02,0.15,0.84,Lectura/Escritura,mapas mentales,4,true,true,true,false,true,true,false,true
+340,Abran,Lightwing,18,Male,3.21,4.0,3.76,0.9,1.02,0.71,0.75,0.71,0.49,0.86,kinestésico,técnica Pomodoro,0,true,false,true,false,true,false,false,true
+341,Anya,Carl,18,Female,0.4,3.54,6.93,8.63,4.06,0.13,0.88,0.52,0.66,0.63,kinestésico,otro,5,true,true,false,true,true,false,true,false
+342,Elvina,Slisby,19,Female,6.39,8.31,0.76,3.36,8.37,0.18,0.62,0.25,0.07,0.31,Multimodal,técnica Pomodoro,7,false,false,false,true,false,true,true,false
+343,Florette,Gilling,25,Female,1.7,1.28,6.58,9.4,7.66,0.31,0.3,0.89,0.93,0.1,auditivo,otro,1,false,false,false,true,false,true,true,false
+344,Fania,Scrammage,24,Female,0.16,8.55,9.9,1.12,1.93,0.66,0.29,0.38,0.28,1.0,Lectura/Escritura,uso de tecnología,7,false,true,false,false,false,false,false,true
+345,Carolus,Wittman,34,Male,7.49,0.82,4.79,8.0,8.36,0.19,0.09,0.55,0.19,0.39,visual,lectura activa,1,true,true,true,true,true,true,false,false
+346,Calypso,Larkkem,32,Female,1.47,9.74,2.88,7.81,7.03,0.18,0.29,0.43,0.55,0.47,otro,flashcards,4,true,true,true,true,false,false,true,true
+347,Elysha,Cant,32,Female,9.49,4.23,1.4,9.14,3.43,0.58,0.73,0.18,0.37,0.56,otro,lectura activa,1,false,true,true,false,true,true,false,false
+348,Celestina,Seagood,28,Female,9.31,2.89,7.71,0.61,0.23,0.43,0.27,0.91,0.57,0.39,Lectura/Escritura,enseñanza a otros,3,true,true,true,true,false,false,false,false
+349,Lilith,Mephan,39,Female,8.27,5.06,3.29,3.02,7.36,0.09,0.56,0.52,0.75,0.76,Lectura/Escritura,resúmenes,8,false,false,true,true,false,false,false,false
+350,Godfree,Trevains,24,Male,3.98,8.21,8.34,2.65,3.65,0.9,0.85,0.2,0.65,0.86,visual,enseñanza a otros,5,true,true,false,true,false,true,false,true
+351,Bessy,Asey,39,Female,9.24,7.67,5.1,8.95,4.81,0.6,0.86,0.65,0.12,0.78,visual,lectura activa,5,false,true,false,true,false,true,true,true
+352,Merell,Darnborough,35,Male,3.55,2.36,9.81,3.2,3.88,0.41,0.08,0.4,0.75,0.27,kinestésico,uso de tecnología,2,false,false,false,true,true,true,true,true
+353,Debora,Order,34,Female,4.03,8.43,3.59,7.51,8.82,0.22,0.59,0.25,0.77,0.59,visual,mapas mentales,8,false,true,true,true,true,false,false,true
+354,Sonny,Whitfield,19,Female,3.01,9.8,9.88,7.24,6.73,0.81,0.04,0.72,0.94,0.65,auditivo,enseñanza a otros,3,false,false,false,true,true,false,false,true
+355,Alford,Slogrove,35,Male,1.65,4.48,9.25,4.28,0.2,0.34,0.95,0.99,0.82,0.19,otro,mapas mentales,4,true,false,false,false,true,false,false,false
+356,Shayne,Weepers,18,Male,2.35,8.74,8.42,9.75,2.67,0.95,0.59,0.05,0.11,0.46,otro,otro,0,true,true,false,true,false,false,true,true
+357,Rayshell,Fessby,20,Female,1.21,8.63,2.71,6.87,2.47,0.45,0.02,0.97,0.12,0.28,otro,grupos de estudio,7,true,true,true,true,true,true,true,true
+358,Wiatt,Morrott,23,Male,0.81,5.4,3.29,1.3,8.56,0.92,0.11,0.81,0.03,0.38,visual,flashcards,4,true,true,true,true,true,true,true,true
+359,Floyd,Stapleton,36,Male,7.52,8.07,9.94,0.45,1.57,0.51,0.42,0.38,0.29,0.89,Multimodal,autoevaluación y pruebas prácticas,4,true,true,true,true,true,false,false,false
+360,Theodosia,Pomfrey,26,Female,5.83,7.96,7.79,6.32,4.44,0.77,0.31,0.69,0.67,0.71,kinestésico,otro,0,true,false,true,false,false,true,false,false
+361,Hasty,Elsip,32,Male,4.12,9.03,0.25,5.05,9.69,0.35,0.21,0.5,0.74,0.55,Multimodal,flashcards,2,true,true,false,true,true,true,true,false
+362,Torie,Petz,39,Female,7.51,4.96,6.86,3.07,3.27,0.6,0.09,0.24,0.98,0.08,otro,autoevaluación y pruebas prácticas,7,true,true,false,false,true,false,true,true
+363,Bibbie,Clowton,37,Female,9.34,9.72,3.58,8.68,7.23,0.82,0.51,0.38,0.64,0.23,auditivo,técnica Pomodoro,0,false,false,false,true,true,false,false,true
+364,Mariejeanne,Minchella,37,Female,1.38,1.67,9.04,1.46,5.79,0.92,0.38,0.65,1.0,0.14,Lectura/Escritura,mapas mentales,4,false,true,true,false,false,true,false,false
+365,Mari,Fieller,27,Female,9.96,2.09,0.43,6.43,2.09,0.7,0.46,0.31,0.08,0.41,visual,grupos de estudio,6,true,true,false,true,false,true,true,false
+366,Terry,Menure,34,Female,4.15,5.28,3.56,2.02,7.89,0.98,0.21,0.82,0.31,0.27,Lectura/Escritura,grupos de estudio,2,false,false,false,false,true,true,false,true
+367,Onofredo,New,33,Male,8.49,4.47,1.39,5.5,3.82,0.65,0.01,0.97,0.16,0.66,Lectura/Escritura,resúmenes,6,false,false,true,true,true,false,false,false
+368,Deeann,Rushmere,33,Female,2.16,5.87,4.22,7.85,5.71,0.59,0.01,0.12,0.38,0.68,Multimodal,grupos de estudio,5,false,true,false,false,false,true,false,true
+369,Ambur,Grabeham,32,Female,1.8,8.67,8.72,8.21,1.3,0.88,0.99,0.97,0.97,0.1,kinestésico,resúmenes,3,true,false,true,true,true,true,true,true
+370,Bab,Shallow,24,Female,8.36,1.76,9.75,5.47,9.73,0.09,0.68,0.92,0.09,0.04,Lectura/Escritura,lectura activa,0,false,false,false,false,true,false,true,false
+371,Cynthea,Iacofo,34,Female,5.22,5.54,7.35,7.29,7.39,0.02,0.13,0.7,0.47,0.39,Lectura/Escritura,autoevaluación y pruebas prácticas,3,true,true,false,true,false,false,false,false
+372,Basil,Butler,24,Male,7.01,5.47,2.77,1.46,4.28,0.7,0.63,0.6,0.22,0.02,Multimodal,grupos de estudio,0,false,true,true,false,false,true,false,false
+373,Egbert,Treanor,34,Male,2.18,8.2,8.6,8.27,4.15,0.26,0.16,0.84,0.47,0.35,otro,lectura activa,3,false,false,true,true,true,false,true,true
+374,Davey,Jeeves,21,Male,1.94,8.5,9.38,5.68,7.53,0.19,0.76,0.81,0.19,0.41,kinestésico,resúmenes,3,true,false,false,true,true,true,true,true
+375,Dave,Kubacki,18,Male,1.11,0.43,7.5,5.66,8.32,0.34,0.98,0.75,0.18,0.6,visual,enseñanza a otros,4,true,true,true,true,false,false,false,false
+376,Davidson,Nitto,20,Male,7.37,6.26,9.7,5.64,1.52,0.21,0.17,0.9,0.27,0.4,Multimodal,resúmenes,1,true,false,true,true,false,false,false,false
+377,Alida,Wince,37,Female,6.97,4.9,2.68,4.03,3.06,0.64,0.61,0.09,0.73,0.92,Multimodal,técnica Pomodoro,7,true,false,false,true,false,false,false,false
+378,Nathalie,Peregrine,21,Female,0.63,6.53,3.32,6.96,4.19,0.48,0.5,0.2,0.26,0.51,Multimodal,flashcards,3,true,false,false,true,true,true,true,true
+379,Essy,Greneham,29,Female,0.07,4.82,0.36,5.1,4.23,0.04,0.22,0.59,0.42,0.22,visual,grupos de estudio,5,true,false,false,true,false,true,false,false
+380,Sylvan,Whorton,40,Male,3.87,3.95,3.02,0.61,6.03,0.46,0.06,0.24,0.98,0.99,Multimodal,resúmenes,0,true,false,true,true,false,false,false,false
+381,Mendy,Hurworth,28,Male,0.48,8.12,6.61,5.2,5.94,0.7,0.7,0.48,0.78,0.71,Multimodal,grupos de estudio,1,false,true,true,true,false,true,true,false
+382,Shaw,McEvoy,33,Male,3.5,3.49,0.67,0.57,9.03,0.25,0.12,0.35,0.79,0.31,Lectura/Escritura,uso de tecnología,5,false,true,true,false,true,false,false,true
+383,Weston,Jammes,32,Male,9.82,8.94,9.42,1.23,6.62,0.7,0.38,0.7,0.43,0.56,auditivo,lectura activa,5,false,true,false,false,false,false,true,false
+384,Danni,Chichgar,18,Female,5.17,7.89,6.84,5.5,3.15,0.5,0.59,0.03,0.36,0.92,kinestésico,flashcards,0,false,true,false,false,false,false,false,true
+385,Eamon,Biggans,32,Male,5.68,5.64,5.08,5.69,8.12,0.53,0.11,0.37,0.18,0.77,Lectura/Escritura,técnica Pomodoro,7,false,false,true,true,false,false,false,false
+386,Weider,Kenefick,19,Male,2.44,3.74,2.62,2.45,9.44,0.28,0.42,0.34,0.9,1.0,auditivo,autoevaluación y pruebas prácticas,1,true,true,true,true,false,true,true,false
+387,Barry,Luparti,40,Male,1.12,4.13,3.71,2.7,7.19,0.92,0.07,0.3,0.67,0.73,kinestésico,grupos de estudio,5,true,true,true,false,true,false,true,false
+388,Michaelina,Beynon,32,Female,1.29,8.39,3.32,8.03,0.07,0.13,0.38,0.5,0.21,0.15,otro,otro,1,true,false,true,true,true,true,true,true
+389,Darrick,Benbrick,35,Male,0.03,1.86,9.09,5.63,6.86,0.79,0.89,0.81,0.78,0.85,visual,lectura activa,1,true,false,true,false,false,false,true,false
+390,Heida,Horsley,29,Female,1.6,2.89,9.93,7.16,2.99,0.07,0.49,0.97,0.16,0.26,visual,enseñanza a otros,2,false,false,false,true,true,true,true,false
+391,Sterling,Goodban,36,Male,8.58,4.1,6.63,4.2,1.45,0.24,0.93,0.8,0.75,0.49,visual,técnica Pomodoro,7,true,false,false,false,true,false,true,false
+392,Ky,Ferry,24,Male,6.35,1.43,8.54,4.54,8.55,0.21,0.93,0.32,0.79,0.65,Multimodal,otro,6,false,true,true,false,true,false,true,true
+393,Georgie,Ohrtmann,30,Female,6.59,8.27,6.51,8.39,0.52,0.4,0.32,0.38,0.72,0.16,otro,grupos de estudio,8,true,false,false,true,false,true,false,true
+394,Andy,Hiddy,19,Female,6.75,8.74,4.43,6.1,1.09,0.35,0.32,0.28,0.36,0.77,Lectura/Escritura,enseñanza a otros,4,false,true,true,true,true,false,false,false
+395,Chevalier,Sellars,30,Male,6.41,2.11,8.9,1.31,0.37,0.8,0.53,0.74,0.39,0.03,visual,autoevaluación y pruebas prácticas,4,true,false,false,true,false,false,true,true
+396,Hermann,Pollack,23,Male,5.71,2.13,1.9,0.55,9.22,0.09,0.13,0.74,0.28,0.94,otro,autoevaluación y pruebas prácticas,6,true,false,false,true,false,false,false,true
+397,Aloysia,Osbourne,19,Female,4.54,4.26,2.9,7.62,5.87,0.92,0.57,0.64,0.12,0.4,Lectura/Escritura,uso de tecnología,4,false,false,true,false,true,false,false,false
+398,Petronella,Trebbett,36,Female,1.46,3.65,6.96,6.47,9.84,0.39,0.25,0.99,0.74,0.88,otro,uso de tecnología,2,true,false,false,true,true,false,false,true
+399,Lucina,Medina,33,Female,4.07,3.5,7.74,9.95,4.95,0.27,0.8,0.23,0.4,0.84,Multimodal,mapas mentales,3,false,true,true,true,true,false,true,false
+400,Cull,Parkman,34,Male,7.26,6.13,3.01,8.86,1.85,0.91,0.81,0.64,0.85,0.53,visual,resúmenes,0,false,true,true,true,false,false,false,false
+401,Rubi,Skells,26,Female,7.97,5.97,0.47,5.56,4.3,0.46,0.92,0.97,0.4,0.93,visual,flashcards,7,false,false,false,true,true,true,false,false
+402,Murdock,Balasin,39,Male,1.87,0.44,7.14,1.38,5.46,0.9,0.27,0.88,0.36,0.94,Lectura/Escritura,Toma de apuntes,0,false,false,false,false,false,true,false,false
+403,Faustina,Menchenton,33,Female,7.82,1.02,4.65,0.29,3.86,0.94,0.17,0.45,0.47,0.91,visual,autoevaluación y pruebas prácticas,7,false,true,true,false,false,true,false,true
+404,Marshall,Hartnup,19,Male,0.46,6.74,9.88,3.92,7.15,0.54,0.64,0.8,0.46,0.61,auditivo,lectura activa,2,true,false,true,true,true,false,false,false
+405,Connor,Heiden,40,Male,1.73,1.72,0.81,7.87,4.05,0.74,0.15,0.88,0.29,0.57,Multimodal,flashcards,5,false,false,true,true,false,true,false,true
+406,Joane,Chatten,38,Female,5.52,3.94,1.39,2.44,9.54,0.74,0.97,0.28,0.09,0.85,visual,uso de tecnología,1,false,false,true,true,true,true,true,false
+407,Nikolaos,Underhill,31,Male,1.19,8.9,4.33,7.84,7.04,0.32,0.1,0.33,0.12,0.65,kinestésico,enseñanza a otros,2,false,true,false,false,true,false,false,true
+408,Michele,Plaice,26,Female,5.62,4.65,4.41,3.03,3.6,0.5,0.87,0.42,0.74,0.03,auditivo,otro,4,true,true,false,true,false,false,true,true
+409,Jacintha,Smale,39,Female,9.33,5.26,5.1,5.27,8.17,0.66,0.97,0.53,0.71,0.55,auditivo,lectura activa,2,false,true,false,false,false,false,false,false
+410,Erena,Munday,18,Female,8.95,3.18,6.3,2.07,1.45,0.24,0.33,0.71,0.06,0.61,otro,autoevaluación y pruebas prácticas,1,true,true,true,false,true,true,true,true
+411,Gardener,Moynihan,20,Male,6.19,9.0,9.25,1.97,4.12,0.38,0.48,0.41,0.65,0.24,visual,lectura activa,5,true,false,true,false,false,false,false,true
+412,Cariotta,Capponeer,35,Female,1.13,3.22,7.91,5.72,7.79,0.52,0.48,0.06,0.76,0.86,kinestésico,uso de tecnología,6,true,true,false,true,true,false,true,false
+413,Corine,Cordrey,35,Female,7.06,5.19,4.46,7.72,9.8,0.74,0.7,0.83,0.47,0.38,Multimodal,mapas mentales,4,true,false,true,true,true,false,false,true
+414,Briana,Lunn,38,Female,8.52,0.84,3.89,1.17,4.36,0.93,0.38,0.79,0.57,0.7,auditivo,técnica Pomodoro,2,true,true,false,true,true,false,false,false
+415,Lanita,Petz,18,Female,0.3,3.96,0.5,2.65,1.86,0.34,0.47,0.05,0.73,0.79,auditivo,Toma de apuntes,4,true,false,false,true,true,false,true,false
+416,Grissel,Cossans,40,Female,5.05,5.35,7.55,1.9,4.9,0.75,0.39,0.91,0.15,0.6,kinestésico,flashcards,1,false,false,true,false,true,false,false,false
+417,Idell,Mustarde,35,Female,7.37,3.91,7.89,0.94,4.53,0.94,0.26,0.84,0.59,0.35,visual,lectura activa,0,false,true,true,false,false,true,false,false
+418,Melvyn,Chisolm,25,Male,3.55,1.92,3.62,2.19,7.3,0.98,0.39,0.5,0.81,0.16,Multimodal,lectura activa,3,false,true,true,true,false,false,true,true
+419,Marcus,Spilstead,38,Male,2.47,4.09,1.02,8.43,0.76,0.18,0.97,0.85,0.25,0.33,Lectura/Escritura,autoevaluación y pruebas prácticas,8,false,true,false,true,true,false,false,false
+420,Fayette,Carletto,37,Female,5.33,8.61,3.31,7.42,9.37,0.21,0.37,0.17,0.07,0.75,otro,flashcards,0,true,false,true,false,false,false,true,true
+421,Grenville,Bowlas,26,Male,5.2,4.87,3.52,0.58,7.08,0.51,0.82,0.68,0.5,0.31,kinestésico,resúmenes,5,false,false,true,true,true,false,false,true
+422,Andree,Verheijden,25,Female,8.31,6.82,0.17,5.84,2.93,0.14,0.53,0.97,0.42,0.8,Lectura/Escritura,técnica Pomodoro,3,true,false,true,false,true,false,true,true
+423,Rab,Kerfoot,23,Male,0.39,1.6,9.98,1.35,9.68,0.29,0.69,0.68,0.23,0.28,otro,autoevaluación y pruebas prácticas,8,false,false,true,false,true,true,false,false
+424,Korney,Ridett,18,Female,2.79,8.18,2.56,4.38,9.54,0.56,0.36,0.89,0.45,0.18,visual,autoevaluación y pruebas prácticas,3,true,false,true,true,true,false,true,false
+425,Zsa zsa,Abramino,29,Female,5.81,6.24,6.35,0.3,1.35,0.1,0.56,0.94,0.24,0.16,otro,uso de tecnología,7,false,false,false,true,false,false,true,true
+426,Bill,Sawl,37,Female,9.63,9.33,3.25,0.43,0.38,0.09,0.89,0.49,0.75,0.42,kinestésico,enseñanza a otros,5,false,false,true,false,true,true,false,false
+427,Belita,MacNeely,26,Female,2.76,2.67,1.19,7.41,4.67,0.36,0.74,0.6,0.6,0.36,visual,resúmenes,4,true,true,true,true,false,true,true,false
+428,Flory,Leggs,22,Male,6.75,1.02,5.97,4.61,2.69,0.38,0.75,0.18,0.11,0.02,auditivo,enseñanza a otros,4,false,false,false,true,true,false,true,true
+429,Yale,Fibbings,20,Male,2.95,9.55,3.19,4.73,0.8,0.71,0.27,0.72,0.72,0.15,auditivo,resúmenes,0,true,true,false,false,true,false,true,false
+430,Rana,Bartlomiej,22,Female,6.77,7.79,3.19,2.56,0.27,0.65,0.28,0.27,0.89,0.09,kinestésico,enseñanza a otros,3,true,false,false,true,true,true,true,false
+431,Mollie,Busswell,36,Female,8.13,8.91,1.01,9.01,6.41,0.58,0.33,0.82,0.56,0.34,visual,resúmenes,6,true,false,false,true,false,true,true,false
+432,Emilie,O'Fergus,25,Female,9.5,8.9,8.4,3.49,6.24,0.67,0.07,0.51,0.71,0.95,kinestésico,Toma de apuntes,2,false,false,true,true,true,false,false,true
+433,Ancell,Bumphrey,37,Male,1.76,0.28,1.66,3.33,0.17,0.12,0.82,0.72,0.77,0.68,auditivo,uso de tecnología,8,true,false,true,true,false,false,false,true
+434,Tamma,Wylder,38,Female,5.83,4.48,4.65,3.29,6.67,0.9,0.69,0.02,0.78,0.98,auditivo,lectura activa,3,true,false,false,false,true,true,false,true
+435,Yorke,Walkington,38,Male,5.32,5.35,7.18,6.82,3.48,0.13,0.12,0.77,0.91,0.32,otro,uso de tecnología,1,true,false,false,true,true,true,true,false
+436,Redd,Lindblad,35,Male,1.43,9.5,2.62,4.72,9.1,0.1,0.29,0.52,0.0,0.14,Lectura/Escritura,uso de tecnología,0,true,false,true,false,true,true,true,false
+437,Rem,Tomasz,21,Male,7.58,6.57,9.31,2.74,2.63,0.02,0.2,0.31,0.65,0.55,otro,grupos de estudio,6,false,true,false,false,false,true,false,false
+438,Charline,Dewicke,28,Female,4.58,0.94,7.88,8.91,0.56,0.17,0.68,0.23,0.09,0.5,Multimodal,enseñanza a otros,1,true,true,false,true,true,false,false,true
+439,Marjy,O'Clery,33,Female,8.33,3.86,4.2,7.15,6.24,0.11,0.64,0.54,0.09,0.62,visual,Toma de apuntes,0,true,true,false,true,true,false,true,false
+440,Erich,Ferrarese,34,Male,0.76,3.63,4.68,6.88,3.93,0.67,0.85,0.63,0.13,0.19,otro,otro,0,true,true,false,true,false,false,true,true
+441,Kris,Ropkins,20,Female,8.67,8.19,6.26,7.3,8.3,0.05,0.29,0.83,0.26,0.41,visual,resúmenes,2,false,false,false,true,false,false,true,false
+442,Salomon,Odell,21,Male,3.33,8.17,3.17,2.8,5.49,0.53,0.08,0.4,0.71,0.98,Lectura/Escritura,enseñanza a otros,0,true,false,true,false,true,false,true,false
+443,Saidee,Edgeworth,29,Female,8.53,2.17,5.83,6.3,7.76,0.66,0.69,0.18,0.1,0.96,visual,uso de tecnología,4,true,false,true,true,true,false,false,false
+444,Sorcha,Nightingale,39,Female,9.2,9.27,9.21,6.19,2.75,0.95,0.94,0.32,0.11,0.31,auditivo,Toma de apuntes,5,true,false,false,true,true,false,true,false
+445,Vaclav,Crimmins,34,Male,2.75,8.65,2.75,1.08,6.45,0.68,0.23,0.61,0.93,0.34,Multimodal,técnica Pomodoro,4,false,false,false,false,false,false,true,false
+446,Moore,Piris,34,Male,8.85,3.09,1.79,2.66,4.25,0.86,0.6,0.11,0.46,0.26,kinestésico,lectura activa,8,false,true,false,true,true,true,false,false
+447,Jamey,Cobbing,34,Male,2.39,9.94,4.28,8.27,9.28,0.8,0.68,0.36,0.13,0.11,visual,lectura activa,0,true,true,false,false,false,true,false,true
+448,Merle,Gauld,31,Male,1.15,9.6,2.66,6.82,2.09,0.57,0.37,0.79,0.52,0.62,Lectura/Escritura,mapas mentales,2,true,false,true,false,true,true,true,true
+449,Ervin,Studman,36,Male,6.16,6.18,7.45,3.28,5.96,0.52,0.51,0.35,0.47,0.71,kinestésico,enseñanza a otros,1,false,true,true,true,false,false,false,false
+450,Saudra,Stiddard,18,Female,3.86,0.44,1.67,5.41,0.72,0.65,0.12,0.25,0.92,0.31,Multimodal,Toma de apuntes,5,false,true,true,true,true,true,true,true
+451,Carilyn,Fludder,38,Female,7.46,1.4,6.47,4.06,1.62,0.89,0.53,0.75,0.68,0.96,auditivo,otro,4,false,true,true,true,false,true,true,true
+452,Ellsworth,Janaway,37,Male,2.49,8.37,7.56,0.98,0.16,0.62,0.33,0.15,0.51,0.96,Multimodal,lectura activa,0,false,true,false,true,false,true,false,true
+453,Zena,Kyle,32,Female,9.61,0.41,2.07,6.06,7.17,0.49,1.0,0.93,0.04,0.58,Multimodal,flashcards,1,true,true,true,true,false,true,true,true
+454,Vanni,Temperton,26,Female,1.17,0.98,1.1,1.55,5.99,0.47,0.73,1.0,0.9,0.23,visual,mapas mentales,7,false,true,true,true,false,true,true,false
+455,Arel,Bourchier,38,Male,1.27,5.83,7.8,9.92,5.13,0.23,0.14,0.74,0.79,0.37,auditivo,mapas mentales,3,true,true,true,true,true,true,true,true
+456,Diann,Avrasin,25,Female,0.04,0.62,0.46,7.28,0.16,0.44,0.76,0.95,0.47,0.38,otro,enseñanza a otros,1,true,false,false,true,false,false,true,false
+457,Holly,Lots,40,Male,5.35,8.08,2.92,9.32,6.55,0.11,0.18,0.92,0.59,0.58,visual,grupos de estudio,1,true,true,false,false,false,false,false,false
+458,Margarette,Johnsson,40,Female,1.27,0.77,9.78,9.96,1.45,0.84,0.92,0.49,0.43,0.88,visual,Toma de apuntes,0,true,false,true,true,true,true,true,false
+459,Yorker,Sidle,19,Male,1.01,8.36,8.73,0.06,4.86,0.37,0.47,0.04,0.05,0.29,kinestésico,Toma de apuntes,2,false,true,false,false,true,true,true,false
+460,Atalanta,Naisbitt,25,Female,3.74,7.8,9.04,4.35,5.24,0.87,0.01,0.52,0.24,0.2,auditivo,técnica Pomodoro,2,false,true,true,false,true,false,true,true
+461,Addi,Janacek,34,Female,0.17,9.1,1.01,7.88,5.67,0.06,0.41,0.07,0.7,0.2,kinestésico,lectura activa,0,false,false,false,true,true,false,true,false
+462,Holt,Axelbee,39,Male,3.34,5.96,8.95,3.24,4.55,0.65,0.41,0.03,0.64,0.46,visual,mapas mentales,6,true,true,false,false,true,true,true,false
+463,Jena,McTrustie,33,Female,7.11,8.1,4.12,8.94,9.43,0.6,0.37,0.66,0.55,0.81,kinestésico,grupos de estudio,4,true,true,false,true,false,true,true,false
+464,Patrice,Leicester,32,Male,5.01,0.15,4.73,1.22,4.02,0.64,0.55,0.16,0.98,0.74,visual,grupos de estudio,3,false,true,true,true,true,false,true,true
+465,Sukey,Coal,24,Female,4.7,8.75,9.47,4.5,1.97,0.9,1.0,0.48,0.48,0.73,otro,grupos de estudio,5,true,false,true,false,false,true,true,false
+466,Illa,Ipsgrave,28,Female,0.19,3.05,3.55,2.54,5.46,0.1,0.94,0.78,0.8,0.85,visual,grupos de estudio,1,true,false,false,true,true,false,true,false
+467,Addie,Kix,31,Female,8.23,0.86,8.31,0.18,2.87,0.09,0.0,0.96,0.78,0.03,otro,otro,8,false,true,false,false,true,false,false,false
+468,Belia,Bailles,19,Female,5.56,5.76,2.54,9.16,6.04,0.89,0.14,0.09,0.89,0.09,auditivo,flashcards,1,true,false,false,true,false,true,false,false
+469,Moselle,Jori,34,Female,4.91,4.94,2.23,9.44,3.26,0.88,0.63,0.74,0.46,0.21,Multimodal,otro,3,true,true,false,true,false,false,false,false
+470,Ikey,Powney,31,Male,1.84,5.36,9.01,9.39,4.74,0.29,0.08,0.62,0.57,0.06,Lectura/Escritura,lectura activa,5,false,false,false,true,false,false,false,false
+471,Madel,Duddan,34,Female,2.57,1.11,3.09,8.24,3.27,0.74,0.64,0.94,0.66,0.84,otro,otro,6,false,true,true,true,true,true,true,false
+472,Lurleen,Osmond,40,Female,7.69,9.97,2.01,1.02,3.81,0.32,0.59,0.73,0.46,0.27,otro,resúmenes,2,true,true,false,true,false,true,false,false
+473,Tonye,Britee,31,Female,4.83,9.58,7.41,8.08,9.33,0.92,0.15,0.65,0.23,0.95,otro,lectura activa,5,false,true,true,false,false,true,false,false
+474,Zak,Guslon,31,Male,1.59,2.49,5.37,4.11,2.2,0.51,0.3,0.07,0.78,0.96,kinestésico,uso de tecnología,4,true,false,true,false,false,false,true,true
+475,Chrisy,Crutch,28,Male,8.73,3.4,7.47,9.7,8.25,0.86,0.69,0.67,0.01,0.62,visual,resúmenes,1,false,true,false,true,false,true,true,false
+476,Whittaker,Coppock.,38,Male,9.75,2.56,9.97,2.95,4.33,0.22,0.97,0.07,0.15,0.41,auditivo,uso de tecnología,2,true,false,false,true,true,true,true,false
+477,Andrei,Kender,24,Female,7.61,1.1,0.02,4.04,8.51,0.6,0.54,0.77,0.08,0.93,visual,enseñanza a otros,5,true,false,true,false,false,false,true,true
+478,Juan,Caseri,21,Male,4.91,1.04,5.4,8.56,7.02,0.94,0.05,0.26,0.05,0.59,kinestésico,uso de tecnología,2,true,false,false,false,false,false,true,false
+479,Ileane,Dyka,39,Female,1.36,8.9,8.49,9.29,5.26,0.89,0.79,0.35,0.53,0.07,Lectura/Escritura,técnica Pomodoro,2,false,false,false,false,false,true,false,true
+480,Barty,Fane,30,Male,4.94,7.5,7.21,0.73,5.08,0.56,0.57,0.7,0.77,0.91,Multimodal,mapas mentales,3,true,true,true,false,false,false,true,false
+481,Lula,Pamphilon,38,Female,3.91,9.35,0.19,5.79,2.56,0.04,0.41,0.51,0.42,0.27,Lectura/Escritura,otro,3,true,true,true,false,true,false,false,false
+482,Winston,Ternott,34,Male,4.34,1.54,8.93,5.94,1.87,0.45,0.21,0.92,0.71,0.26,kinestésico,lectura activa,7,false,true,true,true,false,false,true,true
+483,Marlene,Renton,22,Female,0.67,2.76,8.22,3.34,1.89,0.93,0.76,0.72,0.45,0.17,auditivo,grupos de estudio,4,false,false,false,true,false,true,true,false
+484,Augie,Caze,33,Male,0.69,1.54,4.1,1.2,0.62,0.56,0.13,0.66,0.15,0.84,otro,otro,8,false,true,true,true,false,false,true,true
+485,Bordy,Ragat,36,Male,8.38,2.44,8.3,7.94,7.19,0.08,0.67,0.95,0.36,0.58,kinestésico,flashcards,1,false,true,false,false,false,false,false,true
+486,Amata,Canceller,32,Female,3.89,6.27,2.73,5.19,9.92,0.7,0.99,0.11,0.57,0.95,auditivo,uso de tecnología,6,false,true,false,false,true,false,false,true
+487,Enos,Willans,29,Male,7.8,4.44,2.87,1.73,1.53,0.05,0.79,0.66,0.87,0.22,kinestésico,lectura activa,5,true,false,true,false,true,false,false,true
+488,Millisent,O'Lagen,35,Female,3.22,6.9,0.91,1.22,1.95,0.74,0.57,0.1,0.41,0.2,visual,otro,4,false,false,false,false,true,false,false,true
+489,Pinchas,Fisk,19,Male,5.06,0.14,1.24,0.37,3.76,0.43,0.17,0.61,0.91,0.7,kinestésico,técnica Pomodoro,6,false,true,true,false,false,false,true,true
+490,Claude,Bilfoot,37,Female,1.0,1.85,3.89,7.6,4.11,0.8,0.11,0.54,0.71,0.83,Multimodal,uso de tecnología,0,false,true,false,false,true,false,true,false
+491,Ban,Falco,39,Male,9.06,6.68,3.27,5.3,4.12,0.01,0.47,0.38,0.21,0.12,Lectura/Escritura,Toma de apuntes,4,false,false,true,false,true,true,true,false
+492,Hughie,Carradice,35,Male,8.61,6.07,7.43,2.73,4.66,0.18,0.72,0.63,0.56,0.72,Lectura/Escritura,lectura activa,3,true,false,true,true,false,false,true,true
+493,Julian,Pattle,22,Male,7.15,2.57,8.45,3.55,9.61,0.61,0.38,0.51,0.99,0.15,visual,grupos de estudio,4,true,true,false,true,false,false,false,true
+494,Wendie,McDirmid,24,Female,6.22,2.03,1.18,3.79,3.69,0.41,0.68,0.83,0.32,0.38,Multimodal,uso de tecnología,5,true,false,true,true,true,false,true,false
+495,Torry,Jansa,26,Male,6.97,1.11,2.04,9.77,0.07,0.08,0.98,0.71,0.53,0.63,Multimodal,flashcards,1,true,true,true,true,true,false,false,false
+496,Barbaraanne,Carver,28,Female,8.5,7.29,0.75,2.83,8.89,0.93,0.45,0.84,0.49,0.27,Lectura/Escritura,flashcards,8,false,true,true,false,true,false,true,false
+497,Woodrow,Van der Hoven,27,Male,4.01,4.96,4.53,2.6,9.64,0.85,0.57,0.13,0.41,0.8,Lectura/Escritura,enseñanza a otros,8,true,false,true,false,true,false,false,false
+498,Boniface,Pelman,35,Male,2.31,1.58,9.96,3.8,9.22,0.08,0.78,0.27,0.13,0.88,Multimodal,mapas mentales,3,false,true,true,false,true,false,false,false
+499,Guido,Ridsdell,28,Male,2.58,5.5,8.44,6.72,4.16,0.2,0.08,0.01,0.46,0.93,Multimodal,autoevaluación y pruebas prácticas,4,true,true,false,false,true,true,true,false
+500,Walton,Buckberry,21,Male,4.67,7.08,7.72,5.36,0.46,0.94,0.31,0.83,0.46,0.87,auditivo,mapas mentales,5,true,false,true,true,false,true,true,true
+501,Nissy,Beig,26,Female,6.64,0.34,3.84,8.27,0.88,0.09,0.91,0.9,0.3,0.67,Lectura/Escritura,uso de tecnología,5,false,false,false,true,true,false,false,false
+502,Willy,Ferrar,29,Male,5.62,0.55,9.45,4.26,1.53,0.4,0.74,0.28,0.77,0.58,auditivo,enseñanza a otros,6,false,false,false,false,false,true,true,false
+503,Ravid,Jobes,32,Male,1.96,0.71,9.32,1.46,6.95,0.51,0.58,0.07,0.85,0.97,Multimodal,resúmenes,0,false,true,false,false,false,false,false,true
+504,Leeann,Priestley,35,Female,6.3,6.1,0.06,2.23,9.63,0.78,0.75,0.5,0.69,0.71,otro,enseñanza a otros,5,false,true,false,true,true,true,false,false
+505,Sidnee,Cloney,20,Male,2.16,7.24,1.2,2.97,8.67,0.64,0.05,0.3,0.17,0.07,visual,uso de tecnología,6,false,true,false,true,true,true,true,false
+506,Priscella,Gabler,20,Female,2.93,8.56,4.64,5.0,0.56,0.71,0.02,0.77,0.53,0.15,Multimodal,mapas mentales,5,true,true,false,true,false,true,false,false
+507,Lemmy,Longland,39,Male,3.44,2.31,8.07,4.79,2.64,0.2,0.32,0.03,0.95,0.45,kinestésico,Toma de apuntes,2,true,false,true,true,true,false,false,false
+508,Cheri,La Rosa,25,Female,4.82,1.35,1.3,1.32,1.94,0.37,0.78,0.54,0.72,0.9,Multimodal,grupos de estudio,8,true,false,true,true,true,false,true,true
+509,Jewel,Ramel,25,Female,4.61,4.37,7.76,6.04,3.74,0.01,0.82,0.24,0.66,0.49,visual,resúmenes,5,true,false,true,false,false,true,false,true
+510,Wiley,Zorro,24,Male,7.39,6.47,9.02,8.22,9.29,0.94,0.16,0.34,0.89,0.41,visual,uso de tecnología,4,false,false,false,false,false,false,true,false
+511,Mia,Sleith,32,Female,0.63,5.54,3.17,0.74,0.28,0.39,0.92,0.8,0.73,0.13,kinestésico,otro,6,false,true,true,false,false,false,true,true
+512,Warde,Episcopi,38,Male,5.0,3.28,8.0,1.87,8.08,0.69,0.54,0.16,0.62,0.1,visual,otro,1,true,false,true,true,false,false,false,true
+513,Shalom,Scamerden,24,Male,6.26,5.02,4.0,6.29,5.0,0.16,0.77,0.41,0.46,0.2,visual,grupos de estudio,4,true,false,true,false,true,true,true,true
+514,Elliot,Bennitt,20,Male,1.18,0.84,6.47,9.84,1.71,0.28,0.29,0.5,0.77,0.68,Lectura/Escritura,técnica Pomodoro,7,false,true,true,true,true,true,false,true
+515,Giulio,Stenet,32,Male,6.76,5.99,1.53,1.73,7.11,0.47,0.05,0.53,0.08,0.64,kinestésico,autoevaluación y pruebas prácticas,8,false,false,true,true,true,true,false,false
+516,Carmen,Bonifacio,18,Female,4.73,9.55,8.42,6.65,3.18,0.71,0.46,0.56,0.79,0.88,kinestésico,Toma de apuntes,5,false,true,false,false,true,false,false,true
+517,Aretha,Swanton,27,Female,8.06,4.51,7.36,2.03,8.38,0.25,0.23,0.76,0.21,0.97,Lectura/Escritura,mapas mentales,1,false,true,false,false,false,false,false,true
+518,Libbie,Raubenheimers,19,Female,7.43,5.14,8.64,3.7,4.25,0.35,0.46,0.49,0.62,0.18,visual,autoevaluación y pruebas prácticas,8,true,true,true,false,false,true,true,true
+519,Willi,Adolf,33,Male,3.6,4.34,3.94,0.86,0.98,0.61,0.93,0.47,0.98,0.6,Multimodal,uso de tecnología,6,true,false,false,false,false,true,true,false
+520,Stanislaus,Arkell,39,Male,1.55,8.04,5.64,9.62,0.81,0.89,0.43,0.15,0.39,0.36,otro,grupos de estudio,1,true,true,true,false,true,true,true,false
+521,Krysta,Over,38,Female,1.98,9.88,1.35,7.9,2.36,0.1,0.13,0.82,0.15,0.72,Multimodal,grupos de estudio,6,true,false,true,false,false,true,false,false
+522,Linn,Bentzen,40,Female,8.37,4.51,6.52,5.86,8.29,0.24,0.72,0.08,0.55,0.59,auditivo,autoevaluación y pruebas prácticas,1,true,true,false,false,false,true,false,true
+523,Loni,Dat,33,Female,2.79,2.93,4.22,3.29,0.06,0.93,0.73,0.85,0.24,0.73,auditivo,uso de tecnología,5,false,false,false,false,true,false,true,true
+524,Zarah,Kundert,19,Female,2.4,3.67,4.09,8.48,3.88,0.69,0.95,0.75,0.06,0.89,kinestésico,mapas mentales,5,true,false,false,true,false,false,false,false
+525,Sandy,Oak,35,Female,4.53,7.99,0.66,6.51,8.25,0.28,0.56,0.69,0.3,0.41,Multimodal,resúmenes,8,false,false,false,true,false,false,false,true
+526,Paquito,Hempel,32,Male,6.08,8.38,7.01,8.2,3.21,0.08,0.36,0.27,0.12,0.92,kinestésico,grupos de estudio,5,false,false,false,false,false,true,true,true
+527,Hunt,Bottomley,22,Male,8.85,3.13,6.24,4.6,4.49,0.37,0.69,0.37,0.12,0.08,Multimodal,otro,1,false,true,false,false,false,false,false,false
+528,Theadora,Ferraretto,40,Female,2.82,6.69,7.54,8.47,1.85,0.03,0.41,0.9,0.8,0.15,auditivo,flashcards,4,false,true,true,true,false,true,false,true
+529,Dorolice,Basketfield,33,Female,5.31,2.6,7.93,1.82,9.84,0.12,0.03,0.55,0.81,0.48,Multimodal,técnica Pomodoro,5,false,true,false,true,true,true,true,true
+530,Lia,Stokes,27,Female,8.11,4.66,7.24,2.69,5.8,0.4,0.13,0.24,0.0,0.68,auditivo,lectura activa,1,true,false,true,false,false,false,false,true
+531,Kaylil,Sime,21,Female,7.35,1.11,1.48,5.88,3.65,0.62,0.93,0.27,0.85,0.49,auditivo,uso de tecnología,6,false,true,true,true,false,false,true,true
+532,Nannie,Sushams,26,Female,5.15,7.24,1.94,6.63,5.55,0.73,0.87,0.32,0.24,0.44,otro,resúmenes,6,false,true,false,false,false,true,true,true
+533,Ange,Acory,39,Female,6.6,9.59,7.06,4.56,9.43,0.08,0.12,0.23,0.0,0.85,kinestésico,resúmenes,0,false,false,false,true,true,true,false,false
+534,Celestyna,Robertucci,39,Female,6.51,6.04,9.13,7.53,1.29,0.41,0.2,0.25,0.27,0.74,kinestésico,resúmenes,0,true,true,false,true,true,true,true,false
+535,Dewitt,Schwartz,21,Male,1.22,9.74,4.2,1.95,3.91,0.84,0.13,0.71,0.33,0.34,auditivo,autoevaluación y pruebas prácticas,2,false,false,true,false,true,true,true,true
+536,Salim,Bagguley,40,Male,4.23,7.08,0.59,2.4,3.95,0.72,0.87,0.72,0.1,0.06,auditivo,flashcards,5,true,false,false,false,false,false,true,false
+537,Zared,Swadon,25,Male,8.31,1.82,0.51,8.64,4.3,0.05,0.31,0.85,0.79,0.29,auditivo,técnica Pomodoro,1,true,true,false,false,true,true,false,false
+538,Pauli,Lebond,26,Female,7.15,0.85,4.43,0.03,9.27,0.18,0.69,0.73,0.05,0.04,Lectura/Escritura,flashcards,8,false,false,false,true,true,false,false,false
+539,Dolly,Zohrer,19,Female,8.62,3.48,6.13,3.55,3.53,0.89,0.93,0.19,0.11,0.89,Lectura/Escritura,enseñanza a otros,1,false,false,false,true,true,true,true,true
+540,Grata,Conaboy,30,Female,2.22,4.26,2.52,2.96,4.42,0.02,0.51,0.69,0.16,0.66,Multimodal,autoevaluación y pruebas prácticas,0,false,true,true,true,false,true,true,false
+541,Hyacinthe,Wabey,40,Female,3.57,5.71,2.36,1.66,5.73,0.85,0.44,0.23,0.58,0.6,Lectura/Escritura,técnica Pomodoro,0,false,false,true,true,true,true,true,true
+542,Dalli,Rolls,26,Male,2.53,1.29,2.44,2.38,9.26,0.72,0.96,0.75,0.55,0.74,Multimodal,enseñanza a otros,7,false,false,true,false,true,true,true,false
+543,Zarah,Rabier,22,Female,2.2,4.05,6.09,5.04,4.48,0.73,0.82,0.83,0.82,0.66,Lectura/Escritura,uso de tecnología,2,false,false,false,true,false,true,false,false
+544,Barbi,Grestie,36,Female,4.14,8.69,9.95,9.26,8.48,0.57,0.49,0.08,0.04,0.19,otro,autoevaluación y pruebas prácticas,3,false,true,true,true,true,true,true,false
+545,Phyllida,McCullen,37,Female,1.87,3.4,7.54,2.74,0.85,0.29,0.08,0.47,0.72,0.84,Multimodal,uso de tecnología,1,true,true,true,true,true,false,true,true
+546,Rocky,Bryenton,19,Male,0.5,0.13,6.83,9.9,6.28,0.6,0.21,0.01,0.23,0.73,visual,uso de tecnología,5,false,true,false,false,true,false,true,false
+547,Annabella,Sammonds,20,Female,9.63,6.25,9.93,4.14,0.6,0.16,0.85,0.56,0.38,0.66,Multimodal,flashcards,3,false,true,true,true,false,false,true,true
+548,Constantine,Lukianov,31,Female,0.25,4.73,3.63,9.79,7.0,0.35,0.93,0.19,0.12,0.51,Multimodal,flashcards,4,false,false,false,false,true,true,true,false
+549,Zolly,Rubra,38,Male,5.8,1.63,2.97,4.29,7.98,0.65,0.16,0.64,0.39,0.81,auditivo,técnica Pomodoro,8,false,true,true,false,false,false,false,true
+550,Kenyon,Leppington,39,Male,2.63,1.45,1.79,3.3,9.45,0.84,0.03,0.56,0.45,0.98,auditivo,mapas mentales,8,true,true,false,true,false,false,true,false
+551,Hortense,Balser,38,Female,7.03,9.42,5.69,2.91,7.35,0.25,0.91,0.03,0.19,0.58,kinestésico,lectura activa,0,false,true,false,false,false,false,true,false
+552,Sanford,Freed,28,Male,4.75,7.15,6.27,1.42,8.47,0.35,0.1,0.71,0.56,0.02,visual,mapas mentales,4,false,true,false,false,false,true,false,false
+553,Alejandra,Gouldsmith,24,Female,6.0,6.23,6.15,7.19,0.59,0.33,0.67,0.32,0.34,0.06,visual,enseñanza a otros,7,true,true,true,true,false,true,false,false
+554,Rani,Fishbourne,30,Female,5.25,6.66,3.33,4.25,0.97,0.5,0.1,0.57,0.31,0.85,otro,flashcards,8,false,true,true,false,false,true,true,false
+555,Stephenie,Henrique,27,Female,8.19,0.04,3.28,7.11,6.34,0.48,0.28,0.3,0.92,0.08,auditivo,otro,7,false,true,false,true,false,true,true,true
+556,Veronika,Nolder,31,Female,7.97,9.2,0.63,1.56,1.45,0.55,0.48,0.7,0.57,0.15,Lectura/Escritura,otro,5,false,false,false,false,true,false,true,false
+557,Dee,Roebottom,26,Female,0.64,8.51,4.62,7.62,7.31,0.33,0.02,0.7,0.97,0.34,kinestésico,resúmenes,0,true,true,false,true,false,false,false,false
+558,Amber,Aire,21,Female,0.15,6.97,8.13,4.67,6.99,0.54,0.0,0.94,0.67,0.88,otro,otro,2,false,false,true,true,false,true,false,true
+559,Noel,Ferrieri,25,Female,2.83,2.57,1.87,9.09,3.87,0.56,0.78,0.18,0.05,0.9,kinestésico,uso de tecnología,7,false,false,true,false,false,true,false,false
+560,Ario,Vinsen,35,Male,6.21,6.87,5.8,8.96,0.4,0.87,0.81,0.21,0.92,0.01,visual,otro,8,true,false,false,true,true,false,true,true
+561,Berny,Lukovic,35,Female,8.98,8.16,7.02,0.3,4.06,0.41,0.32,0.35,0.54,0.91,Multimodal,uso de tecnología,1,false,false,false,false,false,true,false,false
+562,Slade,Roglieri,37,Male,1.26,2.11,8.4,7.8,4.84,0.89,0.29,0.62,0.4,0.73,auditivo,resúmenes,5,false,true,true,false,false,true,false,true
+563,Avril,Worsom,38,Female,0.1,6.11,4.08,2.78,7.42,1.0,0.76,0.85,0.39,0.99,kinestésico,flashcards,8,false,false,true,false,true,true,false,true
+564,Walther,Kaley,38,Male,4.48,7.69,5.27,0.89,7.3,0.36,0.63,0.77,0.29,0.93,otro,resúmenes,2,false,true,true,false,true,false,false,true
+565,Leontine,Craiker,31,Female,5.33,4.33,9.8,8.53,8.46,0.37,0.84,0.72,0.72,0.71,Lectura/Escritura,autoevaluación y pruebas prácticas,4,false,false,false,false,true,true,true,false
+566,Denny,Dabbs,30,Female,8.28,0.75,4.22,7.19,5.15,0.72,0.41,0.82,0.06,0.18,auditivo,autoevaluación y pruebas prácticas,7,true,false,true,true,false,true,true,true
+567,Aloysia,Soal,40,Female,5.1,7.22,5.48,0.53,9.86,0.03,0.53,0.58,0.64,0.45,kinestésico,grupos de estudio,1,false,false,false,true,true,false,false,true
+568,Imogen,Bumpass,39,Female,1.99,3.55,2.13,3.82,0.07,0.43,0.95,0.53,0.58,0.67,Multimodal,flashcards,3,false,true,true,false,true,false,true,false
+569,Morris,Watmough,35,Male,3.79,9.91,6.44,7.92,4.94,0.32,0.24,0.38,0.96,0.4,auditivo,uso de tecnología,8,false,false,false,true,true,false,true,true
+570,Winne,Ride,22,Female,6.46,1.22,6.0,6.49,4.98,0.79,0.44,0.79,0.82,0.82,Lectura/Escritura,flashcards,5,true,false,false,true,false,true,true,false
+571,Leroi,Pollicott,36,Male,8.57,9.28,3.46,8.46,6.35,0.24,0.66,0.43,0.12,0.37,otro,resúmenes,2,false,false,false,false,true,true,false,true
+572,Vail,Woloschinski,30,Male,1.45,5.58,5.56,0.45,5.35,0.84,0.49,0.03,0.62,0.02,auditivo,otro,1,false,true,false,false,true,true,true,true
+573,Eada,Knowles,28,Female,9.81,9.04,4.59,5.08,5.79,0.08,0.76,0.28,0.28,0.97,Multimodal,flashcards,8,true,false,false,false,true,false,false,false
+574,Starlene,Dupoy,30,Female,9.09,1.0,5.66,2.37,0.96,0.9,0.57,0.39,0.87,0.9,Multimodal,uso de tecnología,0,false,true,true,true,true,true,true,true
+575,Jerri,Wurst,39,Male,5.28,8.31,3.58,5.47,4.21,0.37,0.55,0.01,0.8,0.38,otro,otro,2,false,false,false,false,false,true,false,false
+576,Whitney,Scanlan,23,Male,7.22,8.56,5.32,1.78,6.69,0.56,0.47,0.23,0.95,0.36,otro,lectura activa,1,false,false,false,true,false,false,false,true
+577,Carol-jean,Joss,21,Female,7.3,4.26,8.58,2.65,0.72,0.31,0.28,0.8,0.59,0.4,kinestésico,flashcards,1,true,false,true,true,false,false,true,true
+578,Deidre,Fancott,28,Female,1.32,3.54,2.04,3.84,4.7,0.75,0.76,0.91,0.35,0.2,Multimodal,autoevaluación y pruebas prácticas,5,false,true,true,false,true,false,false,true
+579,Lynnea,Sargison,35,Female,5.09,1.88,3.48,3.41,9.78,0.84,0.97,0.12,0.31,0.51,kinestésico,enseñanza a otros,0,false,true,false,false,false,false,true,false
+580,Nils,Ferrino,22,Male,8.23,9.62,0.06,9.84,5.39,0.17,0.14,0.26,0.88,0.32,otro,lectura activa,0,true,true,false,false,false,false,true,true
+581,Angelina,Malzard,21,Female,6.28,9.1,7.8,6.71,8.77,0.92,0.34,0.61,0.98,0.54,visual,grupos de estudio,8,false,false,true,true,false,true,false,true
+582,Craggy,Kmiec,22,Male,3.64,2.57,8.2,4.38,1.28,0.33,0.27,0.1,0.63,0.76,Lectura/Escritura,lectura activa,5,false,true,true,true,true,false,false,false
+583,Pepi,Jentges,20,Female,3.43,6.79,9.19,6.95,9.28,0.66,0.15,0.58,0.41,0.65,visual,otro,0,true,true,true,false,false,true,false,false
+584,Joyann,McGavin,26,Female,3.43,3.45,7.13,8.28,7.56,0.83,0.11,0.22,0.42,0.3,Multimodal,resúmenes,6,true,true,false,true,false,true,true,false
+585,Arlen,Astbery,34,Male,4.15,1.48,8.17,0.59,9.32,0.81,0.71,0.53,0.16,0.72,Lectura/Escritura,lectura activa,5,false,false,false,true,false,false,true,false
+586,Dalston,Bowcock,21,Male,9.97,9.37,9.15,3.47,4.38,0.58,0.36,0.39,0.36,0.8,Lectura/Escritura,enseñanza a otros,4,true,false,false,false,false,false,false,true
+587,Jase,Neumann,24,Male,3.91,6.29,4.58,9.15,0.71,0.23,0.98,0.68,0.23,0.94,otro,lectura activa,7,true,false,true,true,true,true,false,true
+588,Gustav,Gershom,26,Male,9.89,0.55,7.76,2.41,0.51,0.61,0.5,0.74,0.71,0.57,Lectura/Escritura,resúmenes,2,true,true,false,false,true,true,true,true
+589,Venus,Rolling,40,Female,8.93,1.43,5.37,0.72,6.71,0.18,0.71,0.78,0.28,0.78,otro,flashcards,6,true,false,true,true,false,false,true,true
+590,Ernie,Hebblethwaite,30,Male,2.68,9.89,9.84,5.05,3.64,0.58,0.06,0.4,0.36,0.73,Multimodal,técnica Pomodoro,8,false,true,true,false,false,true,true,false
+591,Stearn,Simoneton,29,Male,4.39,5.86,3.65,1.01,7.27,0.57,0.51,0.33,0.05,0.04,auditivo,Toma de apuntes,0,true,true,true,true,true,true,false,true
+592,Obadiah,Menendez,21,Male,3.46,7.42,0.61,5.02,6.25,0.76,0.72,0.51,0.74,0.32,visual,grupos de estudio,0,false,false,true,true,false,false,false,false
+593,Spike,Kliemke,28,Male,3.08,6.12,2.77,6.39,8.63,0.21,0.82,0.56,0.27,0.33,kinestésico,resúmenes,7,false,true,true,true,false,false,false,true
+594,Kattie,Petel,38,Female,1.35,5.31,9.48,4.92,4.73,0.75,0.79,0.42,0.71,0.21,Multimodal,técnica Pomodoro,1,false,false,false,false,false,false,false,false
+595,Bab,Bantick,35,Female,7.27,5.98,1.48,2.11,5.57,0.31,0.69,0.98,0.3,0.99,Lectura/Escritura,Toma de apuntes,6,false,true,false,false,true,true,true,false
+596,Chelsy,Swenson,25,Female,1.47,9.29,4.43,0.45,7.35,0.09,0.1,0.32,0.04,0.16,otro,mapas mentales,8,false,false,true,false,false,false,true,true
+597,Jimmie,Houtbie,29,Male,3.52,2.19,3.48,1.55,5.94,0.25,0.92,0.04,0.79,0.65,auditivo,grupos de estudio,6,false,true,false,true,true,false,true,false
+598,Rancell,Swindon,28,Male,5.67,0.1,1.85,8.1,4.43,0.47,0.13,0.54,0.05,0.74,auditivo,técnica Pomodoro,6,false,false,true,false,false,false,true,true
+599,Del,Pemberton,31,Female,5.15,6.15,7.13,7.41,8.56,0.54,0.62,0.79,0.04,0.18,Multimodal,mapas mentales,8,true,false,true,false,true,false,true,false
+600,Madelon,Nolte,18,Female,0.69,9.31,6.86,7.19,7.1,0.02,0.12,0.75,0.35,0.61,Lectura/Escritura,mapas mentales,5,false,true,true,false,true,false,false,true
+601,Lynnell,Knewstubb,31,Female,7.61,0.23,8.73,8.45,6.5,0.01,0.52,0.75,0.75,0.05,visual,Toma de apuntes,5,true,false,false,true,true,false,true,true
+602,Dorrie,Cowlin,37,Female,5.87,3.88,1.5,9.05,7.83,0.32,0.84,0.38,0.06,0.52,visual,enseñanza a otros,8,false,true,false,false,false,true,false,false
+603,Reynold,Perello,23,Male,0.99,6.61,4.83,7.56,9.08,0.54,0.81,0.11,0.52,0.6,kinestésico,lectura activa,2,true,true,false,true,false,false,false,true
+604,Jaquenetta,Cotmore,34,Female,7.94,5.63,9.8,1.94,4.47,0.7,0.23,0.97,0.01,0.89,auditivo,flashcards,4,false,true,false,true,true,false,false,true
+605,Stanly,Tansley,24,Male,4.06,6.54,2.19,8.83,4.56,0.83,0.9,0.7,0.41,0.58,kinestésico,mapas mentales,0,false,true,true,false,true,false,true,false
+606,Sanford,Hodgin,23,Male,1.24,3.04,9.1,0.67,3.14,0.75,0.96,0.75,0.87,0.44,auditivo,uso de tecnología,5,true,true,true,true,true,true,false,true
+607,Brody,Hattiff,22,Male,3.47,7.16,7.41,6.9,8.89,0.19,0.84,0.83,0.62,0.07,auditivo,Toma de apuntes,7,true,false,false,false,true,true,false,true
+608,Fancy,Philippe,24,Female,3.28,7.11,8.47,9.33,7.91,0.48,0.34,0.47,0.56,0.45,visual,lectura activa,3,false,false,true,true,true,false,false,true
+609,Danella,Rettie,24,Female,6.8,4.57,8.94,7.54,7.65,0.93,0.91,0.91,0.95,0.77,kinestésico,flashcards,0,true,false,false,false,true,false,true,false
+610,Freddy,Veneur,19,Male,3.53,6.08,7.91,9.97,4.99,0.68,0.31,0.66,0.66,0.78,Multimodal,lectura activa,4,true,false,false,true,false,true,true,true
+611,Jobey,McCutheon,40,Female,1.17,3.71,8.24,1.31,8.88,0.26,0.34,0.02,0.38,0.3,Multimodal,grupos de estudio,4,true,false,true,false,true,false,false,true
+612,Boyce,Varran,23,Male,1.42,9.3,0.69,4.7,9.36,0.06,0.97,0.74,0.96,0.12,kinestésico,uso de tecnología,2,false,false,false,true,false,true,false,true
+613,Raoul,Garmon,21,Male,4.89,8.59,4.34,9.67,5.6,0.54,0.66,0.69,0.77,0.25,visual,Toma de apuntes,5,true,false,true,false,true,false,true,true
+614,Orland,Cloney,28,Male,7.39,0.59,7.01,3.34,6.37,0.35,0.51,0.03,0.89,1.0,Multimodal,Toma de apuntes,5,false,true,true,false,false,false,true,false
+615,Drugi,Zecchinii,34,Male,1.31,7.8,4.13,0.61,7.42,0.04,0.93,0.95,0.7,0.33,auditivo,mapas mentales,7,true,false,false,true,false,true,true,true
+616,Maryanne,Greenrde,19,Female,9.6,5.67,6.19,8.78,7.96,0.76,0.4,0.32,0.39,0.31,Multimodal,lectura activa,3,false,true,true,true,false,true,true,false
+617,Aindrea,Tassel,38,Female,5.38,9.94,3.42,7.82,5.25,0.63,0.97,0.82,0.4,0.4,visual,Toma de apuntes,6,false,false,false,false,false,true,false,true
+618,Ronnie,Daunay,24,Male,6.14,0.79,9.1,1.02,8.21,0.63,0.8,0.38,0.79,0.99,otro,Toma de apuntes,1,false,true,true,false,false,false,false,false
+619,Aguistin,Le Port,35,Male,8.74,9.98,1.54,1.73,7.56,0.46,0.21,0.64,0.7,0.37,auditivo,flashcards,0,false,false,true,true,false,false,false,true
+620,Nessi,Iannazzi,40,Female,3.71,8.99,6.16,4.98,3.89,0.12,0.61,0.43,0.17,0.75,Multimodal,lectura activa,4,true,false,true,true,false,true,false,false
+621,Samson,Rudwell,23,Male,6.35,3.79,2.32,2.49,6.14,0.22,0.69,0.12,0.3,0.23,otro,grupos de estudio,1,false,false,true,true,false,true,true,true
+622,Chery,Botterill,19,Female,1.79,8.01,1.91,7.39,6.49,0.79,0.02,0.12,0.56,0.84,Multimodal,resúmenes,7,true,true,true,false,false,true,false,true
+623,Gilligan,Henden,31,Female,8.53,0.34,0.95,7.31,2.43,0.11,0.48,0.34,0.64,0.34,visual,grupos de estudio,0,false,true,true,false,true,true,true,false
+624,Alexi,Dannett,20,Female,9.67,6.0,3.99,2.2,3.86,0.04,0.75,0.11,0.9,0.9,auditivo,Toma de apuntes,5,true,false,false,false,false,true,false,false
+625,Rutherford,Paolazzi,19,Male,5.37,4.68,6.65,1.47,0.26,0.22,1.0,0.79,0.01,0.35,kinestésico,autoevaluación y pruebas prácticas,8,true,false,true,true,true,true,false,false
+626,Paolina,Boundy,22,Female,5.73,2.09,6.32,7.32,2.99,0.62,0.72,0.1,0.8,0.55,otro,Toma de apuntes,2,false,false,true,false,true,false,false,true
+627,King,Lies,32,Male,7.0,4.99,5.78,2.13,5.77,0.24,0.54,0.5,0.18,0.75,auditivo,autoevaluación y pruebas prácticas,0,true,true,true,false,true,true,false,true
+628,Denney,Castagnasso,30,Male,5.87,6.55,1.92,0.07,7.71,0.61,0.13,0.46,0.49,0.45,kinestésico,otro,1,false,false,true,true,true,false,false,false
+629,Orelle,Wastling,37,Female,1.47,5.43,4.51,7.86,7.86,0.46,0.18,0.38,0.93,0.13,Multimodal,otro,8,false,false,false,true,true,false,true,false
+630,Gaylor,Spurnier,33,Male,0.89,5.07,3.48,5.46,7.84,0.62,0.15,0.77,0.56,0.5,auditivo,lectura activa,2,false,true,false,false,true,true,true,false
+631,Chrystal,Durnin,38,Female,0.13,8.14,7.62,9.59,6.04,0.02,0.09,0.35,0.77,0.65,Multimodal,grupos de estudio,8,true,false,true,false,true,true,true,false
+632,Haslett,Fenelon,31,Male,3.57,9.65,5.16,9.3,3.76,0.69,0.0,0.97,0.33,0.37,auditivo,autoevaluación y pruebas prácticas,8,false,false,false,false,false,true,false,false
+633,Tracie,Corssen,40,Female,7.02,1.25,0.51,4.46,8.35,0.7,0.24,0.59,0.67,0.91,otro,técnica Pomodoro,4,true,true,false,true,false,false,true,true
+634,Augustin,Paske,23,Male,3.64,1.78,7.37,5.28,4.81,0.44,0.54,0.51,0.21,0.95,visual,enseñanza a otros,3,true,true,true,false,true,false,true,true
+635,Casi,Dragonette,25,Female,8.72,5.68,7.83,2.93,2.22,0.04,0.19,0.9,0.46,0.03,kinestésico,mapas mentales,2,true,false,false,true,false,true,true,false
+636,Kelila,Dunnett,32,Female,0.17,9.41,4.34,2.96,0.8,0.96,0.54,0.54,0.03,0.78,auditivo,Toma de apuntes,1,true,false,false,true,true,true,true,true
+637,Ardella,Crick,18,Female,5.25,7.44,2.48,7.39,5.78,0.96,0.4,0.75,0.97,0.8,Multimodal,mapas mentales,7,false,false,false,true,false,true,true,false
+638,Dennis,Hiskey,39,Male,3.97,4.5,3.17,7.4,7.62,0.88,0.97,0.61,0.52,0.17,visual,técnica Pomodoro,3,true,true,true,true,false,false,true,true
+639,Barth,Roelvink,22,Male,9.56,3.03,1.65,7.01,8.78,0.34,0.82,0.41,0.88,0.95,kinestésico,lectura activa,3,false,false,false,false,false,true,true,true
+640,Heath,Gerholz,28,Male,3.54,3.87,9.0,3.81,4.0,0.18,0.38,0.59,0.35,0.92,Multimodal,Toma de apuntes,6,false,false,false,true,false,false,false,false
+641,Ivory,Sorrel,40,Female,0.18,8.57,9.19,9.03,0.39,0.22,0.28,0.86,0.23,0.5,kinestésico,otro,5,true,false,true,false,true,true,true,false
+642,Rora,Belfit,26,Female,1.27,0.27,8.62,5.88,8.4,0.33,0.32,0.46,0.24,0.63,kinestésico,enseñanza a otros,4,true,false,true,true,true,true,true,true
+643,Hyacinth,Brammer,29,Female,9.78,0.83,0.91,0.64,2.29,0.22,0.33,0.82,0.38,0.42,kinestésico,lectura activa,8,true,false,false,false,false,true,true,true
+644,Keely,Kirgan,22,Female,9.94,3.22,4.83,0.88,8.96,0.05,0.53,0.06,0.04,0.3,visual,técnica Pomodoro,6,false,false,true,true,false,true,false,false
+645,Annabell,Dybell,22,Female,1.86,2.68,1.35,0.68,5.94,0.54,0.33,0.51,0.37,0.06,auditivo,lectura activa,2,false,true,true,true,false,true,true,true
+646,Quintina,Wotherspoon,19,Female,3.17,6.75,9.95,0.95,3.75,0.49,0.72,0.56,0.88,0.01,auditivo,Toma de apuntes,6,true,true,true,true,true,false,true,false
+647,Ginni,Burdoun,39,Female,5.16,9.56,6.21,7.64,3.12,0.63,0.76,0.52,0.53,0.9,kinestésico,grupos de estudio,7,true,false,true,false,true,true,false,false
+648,Hyacinthie,Ciccotti,18,Female,1.72,0.41,8.74,7.74,6.68,0.19,0.72,0.0,0.2,0.47,visual,mapas mentales,7,false,true,true,false,false,true,true,false
+649,Hilda,Duckers,18,Female,8.35,4.44,6.6,5.14,8.04,0.22,0.58,0.68,0.88,0.84,visual,Toma de apuntes,5,true,false,false,false,false,true,false,false
+650,Rudyard,Bendixen,25,Male,1.86,9.94,0.58,0.5,1.41,0.41,0.94,0.38,0.2,0.0,Multimodal,técnica Pomodoro,0,false,false,false,false,true,false,true,true
+651,Zola,McPhelim,21,Female,6.07,1.64,5.1,4.42,4.73,0.24,0.31,0.89,0.9,0.15,auditivo,flashcards,5,true,false,false,true,false,true,false,true
+652,Cosimo,Filipychev,37,Male,1.87,9.11,4.59,7.8,8.91,0.66,0.11,0.64,0.95,0.64,visual,flashcards,3,false,true,true,true,true,true,false,true
+653,Giorgi,O'Collopy,36,Male,1.99,3.91,1.14,3.8,1.95,0.14,0.42,0.21,0.08,0.88,Lectura/Escritura,flashcards,8,true,false,false,false,false,false,false,false
+654,Theresita,Esberger,22,Female,2.52,7.08,7.0,5.02,5.55,0.87,0.71,0.96,0.48,0.44,visual,enseñanza a otros,2,true,false,true,false,true,false,false,false
+655,Edvard,Weld,30,Male,7.91,1.3,1.96,1.17,2.25,0.18,0.33,0.76,0.7,0.26,kinestésico,Toma de apuntes,5,true,true,false,true,false,false,true,false
+656,Obadiah,Greneham,26,Male,6.32,2.86,2.75,8.16,8.65,0.56,0.82,0.29,0.68,0.45,auditivo,técnica Pomodoro,2,true,false,true,false,true,false,false,true
+657,Amity,Hebden,22,Female,8.03,4.8,2.88,7.46,7.84,0.72,0.35,0.68,0.58,0.68,auditivo,mapas mentales,5,false,false,true,false,false,true,true,true
+658,Wallis,Allenby,37,Male,2.88,1.2,0.24,0.56,1.64,0.01,0.78,0.25,0.34,0.44,Lectura/Escritura,Toma de apuntes,2,true,false,false,false,false,false,false,false
+659,Darlleen,Kristof,28,Female,0.77,1.67,9.31,3.48,5.28,0.76,0.88,0.73,0.58,0.54,visual,mapas mentales,6,false,false,true,false,false,false,true,true
+660,Beckie,Suart,40,Female,9.11,3.63,4.3,2.19,4.06,0.21,0.71,0.6,0.68,0.02,auditivo,grupos de estudio,1,true,false,true,true,true,false,false,true
+661,Pietra,Hazeldean,38,Female,0.14,4.81,9.39,9.39,0.86,0.59,0.67,0.03,0.68,0.45,Lectura/Escritura,grupos de estudio,7,true,false,true,true,true,false,true,true
+662,Kylen,Lattey,40,Female,4.91,7.82,4.67,8.21,8.43,0.34,0.96,0.82,0.94,0.23,otro,lectura activa,4,true,true,true,false,false,true,true,false
+663,Angelico,Venus,39,Male,6.01,0.62,7.72,4.81,2.58,0.44,0.49,0.23,0.6,0.11,Multimodal,Toma de apuntes,4,true,true,true,false,false,true,true,true
+664,Rennie,Hamments,26,Female,8.81,4.78,3.09,1.12,5.29,0.14,0.94,0.3,0.1,0.11,kinestésico,otro,2,true,true,false,true,false,false,false,true
+665,Kyle,Merigeau,29,Male,2.14,5.79,3.89,2.96,9.79,0.96,0.69,0.91,0.79,0.16,visual,lectura activa,8,true,true,false,true,true,false,false,false
+666,Shannon,Fowlie,31,Male,8.05,6.75,10.0,5.61,2.71,0.22,0.83,0.94,0.69,0.68,Multimodal,Toma de apuntes,2,true,false,true,true,false,false,false,true
+667,Claretta,Claiton,29,Female,6.29,0.91,2.73,5.79,7.14,0.39,0.3,0.89,0.79,0.85,auditivo,flashcards,6,true,true,true,false,false,false,true,true
+668,Pall,Cantu,19,Male,4.34,1.65,7.56,0.65,6.21,0.07,0.06,0.95,0.67,0.37,Multimodal,flashcards,0,true,true,true,false,true,false,false,false
+669,Lindsey,Petlyura,29,Male,2.3,0.62,4.57,6.27,4.77,0.17,0.44,0.18,0.07,0.79,auditivo,uso de tecnología,1,true,false,false,true,false,false,false,true
+670,Gabriellia,Pedrozzi,22,Female,6.0,8.01,4.59,5.75,4.89,0.56,0.27,0.07,0.17,0.4,otro,grupos de estudio,5,true,true,false,false,true,false,true,false
+671,Blaine,Lathaye,31,Male,4.94,1.41,1.5,5.39,9.16,0.13,0.74,0.56,0.16,0.34,otro,lectura activa,0,false,false,false,true,true,false,false,false
+672,Merwin,O'Neal,28,Male,4.84,3.38,6.23,9.0,5.98,0.53,0.69,0.99,0.38,0.86,Lectura/Escritura,resúmenes,2,true,true,false,true,true,true,false,true
+673,Cosmo,Fantini,29,Male,0.75,0.12,6.12,8.77,8.17,0.84,0.36,0.9,0.57,0.87,kinestésico,resúmenes,1,false,true,true,true,true,true,true,false
+674,Wayland,McMonnies,18,Male,7.46,3.08,4.18,7.46,1.23,0.78,0.31,0.55,0.23,0.69,Lectura/Escritura,lectura activa,1,false,true,false,false,true,true,false,false
+675,Mala,Dudleston,27,Female,7.71,1.53,1.16,4.15,9.11,0.2,0.74,0.68,0.65,0.39,kinestésico,flashcards,6,true,true,false,true,true,false,true,true
+676,Ches,Roxby,33,Male,9.52,8.95,5.36,0.63,8.75,0.93,0.31,0.9,0.17,0.84,auditivo,enseñanza a otros,7,false,true,true,true,true,true,true,false
+677,Fernanda,Irwin,34,Female,2.01,0.44,6.94,1.45,3.54,0.91,0.39,0.94,0.48,0.19,auditivo,grupos de estudio,7,true,false,false,true,false,false,true,false
+678,Butch,O'Curran,29,Male,8.17,4.66,5.53,6.49,0.08,0.52,0.67,0.84,0.9,0.46,auditivo,uso de tecnología,1,false,false,true,true,true,true,false,true
+679,Sibilla,Amy,18,Female,4.95,3.24,5.29,9.36,3.74,0.49,0.33,0.56,0.49,0.19,kinestésico,lectura activa,8,false,true,true,false,true,false,true,false
+680,Viv,Snowding,34,Female,3.35,0.16,9.66,8.21,8.07,0.61,0.61,0.75,0.96,0.58,kinestésico,técnica Pomodoro,7,false,false,false,false,false,false,true,false
+681,Rodney,Eldred,37,Male,6.21,5.55,2.19,5.68,0.3,0.43,0.36,0.18,0.49,0.18,auditivo,técnica Pomodoro,5,true,true,false,false,true,false,false,false
+682,Reinaldos,Olifaunt,25,Male,6.96,4.66,9.06,2.46,4.31,0.3,0.42,0.92,0.56,0.67,kinestésico,enseñanza a otros,8,true,false,false,true,true,true,true,true
+683,Stevie,Dowtry,39,Male,6.91,4.66,9.38,7.61,5.96,0.89,0.44,0.13,0.41,0.89,kinestésico,flashcards,3,false,true,true,false,true,false,true,true
+684,Elvin,Mikalski,19,Male,3.25,4.84,4.36,9.56,7.4,0.3,0.86,0.51,0.83,0.83,auditivo,uso de tecnología,5,false,true,false,true,false,false,false,true
+685,Peria,Panton,40,Female,4.59,5.15,9.29,7.03,2.16,0.59,0.45,0.91,0.21,0.04,visual,uso de tecnología,7,true,true,false,true,true,false,false,false
+686,Otis,Kedge,27,Male,4.26,8.75,7.18,6.14,4.42,0.16,0.53,0.81,0.5,0.25,visual,flashcards,8,true,false,true,true,false,false,true,false
+687,Aldis,Culpan,21,Male,0.67,1.51,8.2,6.38,4.13,0.67,0.84,0.94,0.16,0.81,otro,uso de tecnología,3,false,true,false,false,true,false,false,true
+688,Lambert,MacCaughan,29,Male,1.17,4.23,6.21,0.36,0.26,0.75,0.56,0.5,0.54,0.36,visual,enseñanza a otros,0,false,false,true,true,true,false,false,false
+689,Paula,Wybrow,19,Female,9.64,9.81,8.79,0.41,2.23,0.7,0.62,0.81,0.44,0.71,Multimodal,grupos de estudio,7,true,false,false,false,true,true,true,false
+690,Collette,Brusin,35,Female,7.47,6.14,6.19,8.22,4.9,0.44,0.24,0.16,0.91,0.19,Multimodal,uso de tecnología,7,false,true,false,true,false,false,true,true
+691,Ravid,Suston,29,Male,8.51,2.14,0.94,9.65,1.8,0.58,0.54,0.16,0.81,0.49,visual,enseñanza a otros,5,false,true,false,false,true,true,true,false
+692,Wait,Pflieger,25,Male,8.32,2.51,7.84,2.21,7.92,0.72,0.83,0.49,0.75,0.62,kinestésico,otro,3,true,false,false,false,false,false,true,true
+693,Clevey,Wardingley,36,Male,1.64,9.62,6.39,1.39,2.85,0.22,0.91,0.54,0.67,0.61,otro,grupos de estudio,4,true,false,true,false,true,false,false,false
+694,Gun,Hartnell,33,Male,6.65,0.18,5.23,3.82,6.81,0.24,0.72,0.23,0.22,0.16,Lectura/Escritura,enseñanza a otros,2,true,false,false,true,true,false,false,true
+695,Molly,Crowthe,27,Female,3.21,8.55,8.47,7.79,3.09,0.35,0.17,0.15,0.5,0.52,otro,enseñanza a otros,6,false,false,true,false,true,true,true,true
+696,Isis,Trudgeon,19,Female,4.54,2.41,8.76,9.31,8.58,0.73,0.56,0.49,0.38,0.48,kinestésico,autoevaluación y pruebas prácticas,4,true,false,true,true,false,false,false,false
+697,Dale,Dawson,31,Female,8.9,0.58,0.81,2.1,9.89,0.74,0.82,0.21,0.34,0.79,Lectura/Escritura,resúmenes,8,true,true,false,false,true,true,true,false
+698,Orson,Taleworth,36,Male,2.95,0.44,8.63,8.89,4.39,0.21,0.74,0.51,0.59,0.77,otro,Toma de apuntes,8,true,false,true,false,true,false,false,false
+699,Olva,Jerger,24,Female,7.02,3.13,7.81,8.49,1.33,0.63,0.57,0.42,0.56,0.74,auditivo,Toma de apuntes,1,true,false,true,false,true,false,true,true
+700,Shermy,Lobbe,40,Male,3.74,7.05,7.86,2.36,3.25,0.93,0.1,0.51,0.64,0.5,Lectura/Escritura,enseñanza a otros,3,false,true,true,false,false,true,false,false
+701,Remus,Shawdforth,31,Male,3.8,0.89,4.16,5.14,6.09,0.33,0.33,0.35,0.07,0.17,auditivo,flashcards,1,true,false,true,true,false,false,false,true
+702,Larina,Vossgen,36,Female,8.34,5.18,1.56,6.61,3.98,0.38,0.61,0.83,0.21,0.42,visual,uso de tecnología,4,false,false,true,false,false,true,false,true
+703,Waldo,Vanyushin,36,Male,4.1,7.69,0.13,6.35,2.17,0.66,0.27,0.86,0.05,0.98,Lectura/Escritura,lectura activa,5,false,true,false,true,false,true,false,false
+704,Rosalynd,Hallen,34,Female,7.8,0.98,9.12,5.65,5.64,0.73,0.87,0.12,0.2,0.46,kinestésico,Toma de apuntes,8,false,true,false,true,true,false,false,true
+705,Dmitri,Spoerl,36,Male,5.18,2.81,7.94,6.18,7.98,0.15,0.48,0.36,0.5,0.11,kinestésico,mapas mentales,1,false,false,false,false,false,false,false,true
+706,Lois,Issac,18,Female,7.66,2.33,6.43,8.99,6.18,0.22,0.11,0.82,0.66,0.31,kinestésico,mapas mentales,3,false,true,false,false,false,true,false,true
+707,Elia,Wiggam,25,Male,4.73,8.61,4.33,3.95,9.65,0.63,0.58,0.92,0.99,0.27,Multimodal,enseñanza a otros,2,true,false,false,false,true,true,true,true
+708,Laryssa,Fridlington,18,Female,4.23,8.01,4.53,9.87,0.36,0.7,0.76,0.93,0.09,0.5,auditivo,Toma de apuntes,5,false,true,true,false,false,false,false,true
+709,Ellsworth,Saggs,29,Male,0.47,8.42,3.81,1.06,6.0,0.13,0.06,0.26,0.27,0.15,auditivo,resúmenes,8,true,true,true,true,true,true,false,false
+710,Gwenny,Gheorghie,34,Female,7.94,4.34,3.74,8.05,3.6,0.65,0.93,0.95,0.46,0.12,kinestésico,enseñanza a otros,4,false,false,false,false,true,false,false,false
+711,Verge,Hindenburg,24,Male,7.62,7.64,5.87,4.99,5.55,0.85,0.23,0.21,0.04,0.1,Lectura/Escritura,resúmenes,0,false,false,false,true,false,false,false,true
+712,Brant,Gellately,36,Male,9.72,1.99,1.64,7.24,5.59,0.06,0.6,0.31,0.61,0.34,Multimodal,mapas mentales,3,false,false,true,false,false,true,false,true
+713,Crissie,Kernan,36,Female,5.23,4.8,1.39,7.51,9.0,0.18,0.83,0.72,0.56,0.58,auditivo,enseñanza a otros,2,true,false,true,true,false,true,false,false
+714,Abbi,Roarty,28,Female,5.45,0.38,4.25,1.13,4.67,0.39,0.89,0.99,0.91,0.91,Multimodal,técnica Pomodoro,8,false,false,false,false,true,false,true,false
+715,Grace,Henrot,22,Female,1.12,9.41,0.91,5.21,7.27,0.89,0.42,0.79,0.81,0.88,visual,enseñanza a otros,2,false,false,true,true,true,false,true,true
+716,Morena,Dinsale,35,Female,8.12,2.13,1.52,8.47,5.63,0.61,0.25,0.48,0.41,0.98,otro,resúmenes,6,true,false,false,true,true,false,false,false
+717,Shay,Righy,19,Male,0.22,7.48,3.47,0.47,5.38,0.47,0.89,0.38,0.22,0.16,Multimodal,enseñanza a otros,1,false,true,true,false,false,false,false,true
+718,Idette,Onians,40,Female,5.87,3.82,7.39,2.69,5.83,0.24,0.21,0.52,0.09,0.83,Lectura/Escritura,enseñanza a otros,2,true,false,false,false,false,false,false,true
+719,Archer,Monini,26,Male,6.45,2.59,3.14,6.67,4.26,0.09,0.49,0.75,0.61,0.48,Multimodal,enseñanza a otros,2,false,false,false,false,true,true,true,true
+720,Gretel,Baleine,27,Female,7.83,8.65,6.69,2.9,9.4,0.92,0.68,0.23,0.21,0.34,visual,resúmenes,0,false,false,true,false,true,true,true,true
+721,Claudine,Kik,26,Female,1.08,0.84,1.5,0.91,5.22,0.32,0.17,0.28,0.04,0.8,auditivo,uso de tecnología,0,false,true,false,true,false,true,true,false
+722,Martainn,Haxley,34,Male,2.76,9.68,2.08,1.51,8.16,0.83,0.28,0.19,0.11,0.21,otro,otro,7,false,false,true,false,false,false,true,true
+723,Freeman,Kembry,35,Male,5.0,8.02,2.35,6.12,1.72,0.17,0.78,0.29,0.66,0.36,visual,mapas mentales,1,true,false,true,true,false,true,true,true
+724,Ab,Hehl,18,Male,4.03,4.91,5.64,3.18,1.5,0.52,0.1,0.18,0.58,0.12,visual,resúmenes,1,false,false,false,false,true,true,true,false
+725,Shepard,Edyson,24,Male,6.35,8.01,1.22,2.82,3.36,0.63,0.7,0.29,0.47,0.13,Lectura/Escritura,lectura activa,8,true,true,true,false,true,true,true,true
+726,Allianora,Ahrend,27,Female,0.7,6.11,6.19,5.16,5.09,0.53,0.52,0.05,0.08,0.1,visual,mapas mentales,2,false,false,false,false,true,false,false,false
+727,Tiphani,Durman,34,Female,4.9,6.58,5.35,5.3,8.49,0.6,0.32,0.16,0.98,0.65,auditivo,enseñanza a otros,2,true,true,true,false,true,false,false,false
+728,Ty,Heakins,25,Male,1.62,5.06,9.51,0.26,9.54,0.97,0.37,0.76,0.84,0.66,otro,otro,3,true,false,true,true,false,false,false,false
+729,Miguela,Ferraraccio,38,Female,6.76,5.05,5.23,6.81,8.73,0.38,0.17,0.65,0.47,0.43,Multimodal,Toma de apuntes,0,true,false,false,true,true,false,true,false
+730,Catie,Clover,37,Female,6.67,9.42,5.24,9.54,3.44,0.05,0.89,0.42,0.03,0.67,otro,lectura activa,1,false,false,false,true,true,true,false,false
+731,Gilemette,Cornall,36,Female,3.84,2.08,0.19,4.44,3.85,0.86,0.06,0.49,0.44,0.02,kinestésico,flashcards,8,false,true,true,true,true,false,true,false
+732,Beatrice,Persian,26,Female,5.14,3.25,3.29,3.91,1.11,0.62,0.24,0.14,0.33,0.2,Lectura/Escritura,enseñanza a otros,5,false,true,true,true,true,true,false,true
+733,Eartha,Dhenin,35,Female,5.11,7.68,8.27,0.55,3.78,0.15,0.63,0.56,0.44,0.27,visual,resúmenes,2,false,false,false,true,true,false,true,false
+734,Roderich,Pirie,33,Male,0.28,4.7,5.2,5.23,4.83,0.79,0.97,0.76,0.41,0.37,otro,otro,0,true,false,true,true,true,false,true,false
+735,Rogerio,Hele,27,Male,0.1,9.41,5.61,5.53,8.28,0.6,0.17,0.81,0.36,0.4,Lectura/Escritura,mapas mentales,6,true,false,true,false,true,true,true,true
+736,Gretal,Lally,33,Female,7.74,9.05,6.5,3.93,0.77,0.26,0.59,0.08,0.61,0.76,otro,resúmenes,6,false,false,false,false,true,false,false,false
+737,Giustino,Burnhams,40,Male,7.3,0.07,3.07,3.74,6.01,0.19,0.78,0.95,0.37,0.65,kinestésico,uso de tecnología,5,false,false,true,false,false,false,true,false
+738,Lanie,Barme,33,Male,3.56,6.6,4.62,5.81,5.4,0.81,0.57,0.81,0.06,0.39,Multimodal,grupos de estudio,6,true,false,true,false,false,true,true,true
+739,Joyann,Keepence,27,Female,1.44,4.44,3.33,8.18,5.72,0.85,0.36,0.13,0.49,0.86,otro,Toma de apuntes,1,false,false,false,false,false,true,true,false
+740,Ber,Clohissy,27,Male,4.89,0.87,6.15,8.35,6.84,0.3,0.2,0.32,0.41,0.73,visual,resúmenes,6,true,true,false,true,false,true,true,true
+741,Phedra,Gribben,36,Female,9.89,1.71,0.81,9.37,9.82,0.65,0.17,0.29,0.57,0.89,Multimodal,lectura activa,1,false,true,false,true,false,true,false,false
+742,Kaiser,Derr,30,Male,6.68,4.05,2.84,0.66,3.68,0.49,0.57,0.6,0.68,0.63,Multimodal,Toma de apuntes,5,true,false,false,false,true,true,false,false
+743,Licha,Naseby,30,Female,3.33,8.56,4.52,4.44,3.94,0.65,0.99,0.4,0.13,0.61,auditivo,enseñanza a otros,1,true,false,false,true,false,false,false,false
+744,Fidel,Penreth,22,Male,9.68,9.51,7.0,0.96,3.7,0.87,0.8,0.08,0.72,0.74,auditivo,otro,5,true,false,true,false,true,false,false,false
+745,Delinda,Popley,24,Female,1.06,1.01,4.26,3.09,9.43,0.72,0.98,0.97,0.18,0.45,otro,grupos de estudio,8,false,true,true,false,true,false,false,false
+746,Deina,Atkins,23,Female,1.65,4.06,8.26,7.88,3.63,0.08,0.12,0.48,0.05,0.33,Multimodal,técnica Pomodoro,1,true,true,true,false,false,true,false,false
+747,Rycca,Atyeo,20,Female,3.88,0.9,7.68,9.26,1.65,0.66,0.57,0.6,0.3,0.21,Multimodal,uso de tecnología,0,true,true,true,false,false,true,true,true
+748,Meggy,Pautot,38,Female,2.28,3.44,5.37,4.48,7.92,0.09,0.39,0.95,0.07,0.0,otro,otro,1,true,false,false,false,true,false,false,false
+749,Simonette,Beecker,30,Female,5.85,8.08,9.63,9.03,9.46,0.3,0.9,0.18,0.63,0.86,kinestésico,Toma de apuntes,1,true,false,true,true,false,true,true,true
+750,Nealson,L' Estrange,37,Male,9.4,8.49,5.04,9.1,7.66,0.31,0.45,0.15,0.4,0.6,visual,mapas mentales,8,false,false,false,false,true,false,true,true
+751,Jolyn,Risely,27,Female,7.85,1.28,4.4,2.21,5.05,0.36,0.72,0.04,0.54,0.61,auditivo,uso de tecnología,7,false,false,true,true,true,true,true,true
+752,Ches,Saxon,26,Male,2.29,3.85,5.96,0.14,0.57,0.73,0.49,0.4,0.19,0.73,otro,otro,7,false,false,true,false,false,false,false,true
+753,Thomasa,Bygreaves,32,Female,2.05,2.07,4.04,9.06,7.15,0.14,0.15,0.55,0.31,0.13,auditivo,lectura activa,6,true,false,false,true,true,false,true,false
+754,Baily,Strand,38,Male,4.54,3.25,4.91,6.97,0.2,0.82,0.92,0.79,0.86,0.7,Multimodal,Toma de apuntes,1,true,true,false,true,true,true,false,true
+755,Robinett,Salvidge,31,Female,2.79,0.23,7.63,5.0,7.6,0.86,0.42,0.74,0.34,0.06,visual,grupos de estudio,1,true,false,false,false,false,true,false,false
+756,Pernell,Giacobazzi,27,Male,9.78,8.94,9.38,5.61,5.84,0.63,0.7,0.84,0.55,0.82,auditivo,Toma de apuntes,2,false,true,true,false,false,false,true,true
+757,Garrick,Loughran,25,Male,7.46,8.28,6.38,5.44,4.68,0.89,0.06,0.38,0.81,0.14,Multimodal,otro,0,true,false,true,false,false,false,false,false
+758,Eugenio,Robillart,27,Male,5.77,0.94,3.04,1.47,7.64,0.4,0.49,0.16,0.92,0.04,kinestésico,otro,2,true,true,true,false,true,false,true,false
+759,Linoel,Ridsdole,23,Male,8.33,9.31,4.72,6.93,3.62,0.57,0.93,0.85,0.32,0.45,auditivo,enseñanza a otros,2,true,true,false,true,false,false,true,false
+760,Clio,Balsom,19,Female,7.2,7.47,5.9,4.05,3.6,0.4,0.57,0.16,0.13,0.83,visual,uso de tecnología,0,false,true,true,false,false,false,false,false
+761,Martainn,Hakeworth,25,Male,8.94,8.08,1.48,8.04,8.08,0.31,0.35,0.54,0.98,0.41,otro,flashcards,5,false,false,false,true,true,false,true,false
+762,Dyanna,Reisenstein,35,Female,1.64,8.31,6.02,5.34,3.62,0.81,0.88,0.42,0.97,0.14,otro,resúmenes,6,true,true,false,false,true,false,false,false
+763,Lek,Haighton,39,Male,3.13,6.13,7.81,1.57,7.24,0.91,0.09,0.23,0.7,0.36,Multimodal,Toma de apuntes,6,false,true,false,true,false,false,false,false
+764,Maighdiln,Gaskamp,27,Female,4.63,2.3,1.46,8.09,7.43,0.67,0.61,0.86,0.48,0.55,kinestésico,técnica Pomodoro,6,false,false,false,true,true,true,false,false
+765,Mark,Lear,37,Male,1.69,5.24,6.99,7.37,9.13,0.44,0.98,0.15,0.81,0.6,kinestésico,lectura activa,8,false,false,false,false,true,true,false,false
+766,Ham,Drakes,25,Male,4.92,6.36,6.78,2.96,6.17,0.75,0.52,0.57,0.5,0.59,Multimodal,lectura activa,5,false,true,true,false,false,false,true,true
+767,Hashim,Nassy,30,Male,7.95,3.92,3.01,4.87,3.59,0.87,0.77,0.2,0.84,0.45,Multimodal,Toma de apuntes,1,false,true,true,true,false,false,true,true
+768,Silvano,Clutterham,28,Male,0.73,7.78,0.61,3.28,2.8,0.17,0.74,0.98,0.48,0.87,visual,resúmenes,1,false,false,false,false,true,false,true,false
+769,Deborah,Lumsdall,20,Female,6.27,4.94,2.28,9.98,1.21,0.02,0.47,0.64,0.34,0.21,Lectura/Escritura,Toma de apuntes,3,false,false,false,false,true,false,true,true
+770,Gabie,Bloxsom,21,Female,5.66,6.56,7.28,8.27,5.5,0.89,1.0,0.19,0.35,0.43,Multimodal,mapas mentales,1,true,true,true,false,true,true,true,false
+771,Waring,Bridgement,39,Male,0.54,6.0,8.07,0.08,8.49,0.78,0.41,0.23,0.57,0.28,visual,lectura activa,6,true,false,false,false,false,true,false,false
+772,Leela,Beal,29,Female,9.76,4.05,6.76,0.82,0.73,0.19,0.02,0.68,0.02,0.64,Lectura/Escritura,flashcards,1,false,false,true,false,false,true,false,false
+773,Huey,Harnor,36,Male,8.25,3.86,7.83,1.47,9.99,0.53,0.35,0.69,0.09,0.3,visual,enseñanza a otros,4,false,true,false,false,false,false,true,true
+774,Dorrie,Phare,22,Female,7.93,4.65,6.88,5.34,6.9,0.67,0.29,0.8,0.84,0.77,Multimodal,flashcards,4,false,true,false,true,true,false,true,true
+775,Aluin,Hardy,23,Male,6.34,0.99,6.69,3.58,2.8,0.46,0.08,0.59,0.21,0.78,Lectura/Escritura,flashcards,1,true,false,true,true,false,true,false,false
+776,Daveen,Fuzzard,38,Female,4.3,0.52,2.07,8.79,4.83,0.12,0.05,0.49,0.96,0.5,Multimodal,flashcards,5,false,true,false,false,true,true,true,true
+777,Sloane,Pheby,23,Male,3.83,3.88,6.19,1.13,1.39,0.51,0.47,0.83,0.44,0.4,auditivo,técnica Pomodoro,3,false,false,false,true,true,true,true,true
+778,Felicia,Oneil,18,Female,4.68,0.5,1.34,7.8,6.58,0.17,0.27,0.54,0.37,0.17,otro,lectura activa,5,false,false,true,true,true,true,true,true
+779,Nicolle,Reiners,18,Female,5.34,7.19,7.53,5.86,4.36,0.21,0.5,0.8,0.71,0.88,kinestésico,Toma de apuntes,7,false,true,false,false,false,false,false,true
+780,Chaddie,Haxby,20,Male,0.56,9.28,7.17,8.72,1.74,0.44,0.63,0.08,0.05,0.58,visual,otro,8,false,true,true,false,false,true,true,false
+781,Claus,Castille,22,Male,0.37,8.25,4.42,7.13,6.58,0.8,0.56,0.03,0.84,0.89,auditivo,lectura activa,6,true,false,false,true,true,true,false,false
+782,Dino,Bogace,40,Male,3.18,2.08,7.9,9.84,8.13,0.68,0.93,0.91,0.41,0.6,Lectura/Escritura,resúmenes,7,false,true,false,true,true,true,true,true
+783,Alphard,Moulster,36,Male,4.31,1.27,1.6,0.79,4.03,0.04,0.37,0.67,0.26,0.48,Multimodal,autoevaluación y pruebas prácticas,8,false,true,false,true,true,true,false,true
+784,Rebecca,Ludlow,31,Female,8.3,8.46,9.36,6.26,9.28,0.12,0.63,0.33,0.24,0.66,Lectura/Escritura,enseñanza a otros,8,false,false,false,true,true,true,false,false
+785,Bernadene,Klimkov,30,Female,0.21,7.91,6.25,3.37,6.72,0.13,0.36,0.8,0.6,0.39,otro,Toma de apuntes,1,false,true,false,false,false,true,false,false
+786,Victoria,Caesar,38,Female,1.95,4.69,2.15,9.93,5.26,0.66,0.61,0.61,0.58,0.51,otro,enseñanza a otros,8,true,true,false,true,false,false,false,true
+787,Neysa,Selly,35,Female,1.61,7.89,3.18,9.41,6.07,0.22,0.77,0.16,0.51,0.55,kinestésico,técnica Pomodoro,6,false,false,false,true,false,true,false,false
+788,Legra,Doniso,27,Female,1.91,5.83,8.52,8.48,0.1,0.65,0.08,1.0,0.02,0.68,kinestésico,autoevaluación y pruebas prácticas,7,true,true,true,true,true,false,false,false
+789,Tore,Splevins,28,Male,5.9,7.93,1.65,4.94,4.17,0.87,0.14,0.06,0.27,0.56,Lectura/Escritura,Toma de apuntes,5,true,false,true,true,false,false,false,false
+790,Lezlie,Tyhurst,40,Female,8.09,7.23,1.96,9.08,9.76,0.06,0.93,0.07,0.31,0.27,Lectura/Escritura,enseñanza a otros,8,false,true,false,true,true,true,false,true
+791,Rolland,Van Oort,37,Male,5.25,0.9,4.24,7.08,9.89,0.9,0.45,0.49,0.85,0.39,visual,enseñanza a otros,3,false,false,true,true,true,true,false,true
+792,Ulrika,Picken,28,Female,2.48,8.6,6.22,8.83,4.45,0.66,0.85,0.84,0.48,0.27,auditivo,uso de tecnología,4,false,true,true,true,true,false,false,false
+793,Neala,Marsland,25,Female,2.59,8.77,1.76,5.97,4.37,0.13,0.26,0.32,0.1,0.99,visual,mapas mentales,5,false,false,true,true,false,true,true,false
+794,Morse,Dunn,24,Male,4.38,7.68,1.27,7.08,5.91,0.67,0.85,0.36,0.33,0.86,visual,técnica Pomodoro,7,true,true,false,true,false,true,false,false
+795,Gus,Kleen,36,Male,6.37,9.86,4.36,9.12,3.51,0.33,0.65,0.04,0.46,0.89,kinestésico,enseñanza a otros,8,false,false,true,true,true,false,false,false
+796,Ricky,Stonebridge,26,Female,8.77,9.23,7.05,8.45,1.04,0.58,0.69,0.73,0.7,0.74,auditivo,uso de tecnología,0,false,false,false,false,false,true,true,false
+797,Hanna,Peinton,18,Female,2.1,9.33,0.7,0.13,2.9,0.99,0.48,0.88,0.59,0.38,Lectura/Escritura,otro,4,true,false,false,true,true,true,true,true
+798,Jermaine,Sagg,27,Female,1.22,3.5,0.92,9.34,2.32,0.83,0.88,0.82,0.49,0.64,kinestésico,uso de tecnología,2,false,false,false,false,true,false,true,true
+799,Shay,Malimoe,22,Male,3.21,3.35,3.11,4.32,7.86,0.68,0.42,0.37,0.36,0.17,auditivo,resúmenes,1,true,false,true,true,false,false,false,false
+800,Michele,Pritchard,38,Female,0.91,7.13,1.99,3.67,7.12,0.93,0.11,0.9,0.21,0.5,kinestésico,otro,0,false,true,false,true,true,true,false,true
+801,Alecia,Money,33,Female,4.82,5.88,8.81,8.73,8.35,0.56,0.23,0.47,0.42,0.9,Multimodal,flashcards,8,false,true,false,false,false,true,true,true
+802,Buddie,Gary,24,Male,1.44,1.59,9.11,5.09,2.43,0.27,0.15,0.17,0.53,0.05,otro,mapas mentales,8,false,true,false,false,false,true,true,true
+803,Jerrine,Dubock,24,Female,7.68,6.56,8.08,1.39,6.99,0.09,0.6,0.86,0.48,0.52,kinestésico,resúmenes,6,true,true,true,true,false,true,true,false
+804,Lezley,Craydon,28,Male,1.02,5.59,3.26,1.94,7.8,0.91,0.9,0.77,0.14,0.32,visual,Toma de apuntes,8,false,false,false,false,false,true,true,false
+805,Bryanty,Conaghan,34,Male,1.09,1.89,9.8,1.26,1.04,0.59,0.93,0.25,0.14,0.41,auditivo,grupos de estudio,8,false,true,true,false,true,false,false,true
+806,Anderson,Royl,32,Male,4.59,5.28,9.7,4.74,1.49,0.33,0.97,0.66,0.96,0.02,otro,otro,1,false,true,false,true,true,true,true,false
+807,Rolf,Ferencowicz,24,Male,5.72,9.43,4.48,1.8,8.85,0.23,0.37,0.32,0.57,0.75,otro,Toma de apuntes,8,true,false,true,true,true,false,false,true
+808,Valle,Minchinton,29,Male,1.68,8.19,5.07,5.61,9.87,0.63,0.71,0.56,0.44,0.07,otro,autoevaluación y pruebas prácticas,6,false,false,false,false,true,false,true,true
+809,Gleda,Rendle,39,Female,0.35,0.68,5.09,1.66,2.31,0.71,0.8,0.68,0.3,0.74,Lectura/Escritura,enseñanza a otros,4,false,false,true,false,true,true,true,true
+810,Cherise,Thomassin,37,Female,5.59,5.49,7.53,2.86,6.74,0.36,0.77,0.15,0.57,0.02,visual,uso de tecnología,1,false,true,false,false,false,true,true,true
+811,Angelina,Self,27,Female,7.81,7.16,2.42,2.57,4.88,0.75,0.26,0.04,0.12,0.1,otro,otro,5,true,true,true,true,true,false,true,true
+812,Boniface,Kochlin,27,Male,1.37,0.99,9.63,4.63,7.86,0.71,0.36,0.75,0.86,0.81,visual,autoevaluación y pruebas prácticas,4,true,true,false,true,true,true,true,false
+813,Lev,Barwise,39,Male,9.0,2.32,1.1,7.14,0.68,0.58,0.0,0.13,0.51,0.72,Multimodal,resúmenes,4,true,false,true,true,false,true,false,false
+814,Bartholemy,Heighton,22,Male,0.04,1.58,9.63,4.79,3.72,0.85,0.93,0.23,0.65,0.08,kinestésico,Toma de apuntes,8,true,false,false,true,true,false,false,false
+815,Bud,Klimt,29,Male,2.98,9.85,7.04,4.26,3.78,0.02,0.94,0.08,0.15,0.26,Lectura/Escritura,flashcards,3,true,false,false,true,true,false,false,false
+816,Darrelle,Karpychev,21,Female,1.57,3.96,1.06,1.44,7.74,0.96,0.93,0.37,0.9,0.98,Lectura/Escritura,grupos de estudio,1,true,false,false,false,true,true,false,false
+817,Fanchon,Tripean,36,Female,2.68,6.46,5.4,3.04,8.51,0.9,0.93,0.34,0.85,0.18,Multimodal,grupos de estudio,1,true,false,false,true,false,false,true,false
+818,Tamarah,Plampin,37,Female,7.28,9.74,1.68,1.11,1.07,0.52,0.15,0.66,0.76,0.9,Lectura/Escritura,otro,4,true,false,true,false,false,false,false,true
+819,Corella,Yeiles,18,Female,8.62,7.73,0.57,7.65,6.02,0.61,0.68,0.33,0.29,0.4,visual,Toma de apuntes,8,true,true,false,true,true,false,true,false
+820,Venita,Gatecliff,23,Female,6.89,9.45,3.29,4.42,7.79,0.16,0.97,0.27,0.25,0.36,Multimodal,otro,5,true,true,false,false,false,true,false,true
+821,Sande,Kitchinham,35,Female,7.42,0.48,3.52,9.66,7.78,0.79,0.5,0.27,0.3,0.05,Lectura/Escritura,uso de tecnología,3,false,false,false,false,false,true,true,false
+822,Cello,Beswetherick,20,Male,2.09,6.38,5.61,2.11,4.71,0.88,0.09,0.09,0.55,0.62,auditivo,Toma de apuntes,7,true,false,false,false,true,true,true,true
+823,Sergio,Symmons,21,Male,7.59,2.02,8.19,9.05,2.99,0.02,0.08,0.04,0.98,0.01,visual,flashcards,5,false,false,true,false,true,true,false,true
+824,Luz,Cheyenne,40,Female,3.63,0.54,1.31,8.05,6.33,0.62,0.2,0.27,0.13,0.41,auditivo,grupos de estudio,4,false,true,true,false,false,false,true,false
+825,Philipa,Jalland,40,Female,7.96,6.22,1.73,4.94,8.74,0.42,0.51,0.45,0.81,0.21,kinestésico,técnica Pomodoro,7,true,false,false,false,false,false,false,false
+826,Tara,Hedylstone,36,Female,9.79,5.87,5.48,4.79,1.43,0.58,0.92,0.24,0.38,0.42,otro,técnica Pomodoro,1,true,false,true,true,true,true,true,false
+827,Page,Dumpleton,34,Male,6.72,4.17,4.84,5.92,9.28,0.3,0.36,0.61,0.49,0.35,auditivo,resúmenes,2,false,false,true,false,false,true,false,true
+828,Sebastiano,Brito,39,Male,1.82,0.51,2.93,3.32,1.36,0.66,0.29,0.27,0.71,0.1,Lectura/Escritura,grupos de estudio,7,true,false,false,false,false,true,false,false
+829,Colver,Camellini,37,Male,7.74,4.87,3.92,8.81,8.77,0.96,0.47,0.81,0.42,0.16,otro,técnica Pomodoro,8,true,false,false,true,true,false,true,false
+830,Rodi,Ivy,20,Female,9.25,9.68,7.92,3.9,6.71,0.03,0.33,0.5,0.03,0.4,otro,técnica Pomodoro,2,false,true,false,false,true,false,true,true
+831,Codie,Labba,19,Male,1.65,1.42,7.23,4.36,3.51,0.73,0.75,0.47,0.32,0.42,otro,mapas mentales,7,true,true,true,true,true,true,false,false
+832,Mikkel,Laverenz,34,Male,4.93,2.45,3.59,3.29,2.36,0.43,0.5,0.23,0.61,0.83,otro,lectura activa,2,false,true,true,true,false,false,true,false
+833,Sonnnie,Ropert,18,Female,1.92,3.06,2.47,6.42,7.1,0.52,0.74,0.86,0.07,0.34,otro,enseñanza a otros,5,false,false,false,true,true,true,false,true
+834,Analiese,Blumson,29,Female,2.25,9.64,2.04,6.72,2.58,0.03,0.08,0.18,0.15,0.11,auditivo,lectura activa,4,false,true,true,true,false,true,true,false
+835,Anjanette,Kidston,20,Female,6.54,7.1,9.37,3.55,0.03,0.64,0.92,0.89,0.64,0.87,auditivo,técnica Pomodoro,1,false,false,false,false,true,true,true,true
+836,Gian,Omond,29,Male,1.39,6.81,6.1,1.23,4.7,0.47,0.44,0.5,0.93,0.99,Lectura/Escritura,resúmenes,4,true,true,true,false,true,false,true,true
+837,Ruthe,Duplan,28,Female,2.99,5.74,4.61,6.09,2.91,0.61,0.93,0.77,0.07,0.87,kinestésico,lectura activa,3,false,false,false,true,false,false,false,false
+838,Kyla,Treadwell,39,Female,8.09,9.73,3.08,4.9,6.33,0.69,0.74,0.6,0.15,0.01,auditivo,mapas mentales,4,false,true,false,true,false,false,true,false
+839,Sophi,Gillimgham,40,Female,3.28,6.03,1.82,1.66,9.36,0.93,0.21,0.27,0.47,0.18,Lectura/Escritura,flashcards,0,false,false,true,false,false,true,true,false
+840,Rebekah,McNelly,20,Female,0.61,4.31,4.12,6.02,8.99,0.85,0.42,0.43,0.83,0.46,auditivo,mapas mentales,5,true,false,false,true,true,false,false,true
+841,Hayward,Roff,18,Male,9.25,9.33,1.06,3.27,9.63,0.14,0.83,0.42,0.8,0.71,Multimodal,otro,0,true,true,false,true,false,false,true,false
+842,Evonne,Duckhouse,33,Female,3.0,7.93,4.03,0.11,7.63,0.81,0.81,0.19,0.28,0.43,Lectura/Escritura,otro,2,false,false,false,false,true,false,false,true
+843,Leigh,Dowding,29,Female,1.81,8.01,8.99,2.99,4.66,0.8,0.13,0.56,0.43,0.03,Multimodal,flashcards,2,false,true,false,true,false,true,false,true
+844,Bethina,Templman,22,Female,4.61,5.29,6.4,2.67,5.05,0.54,0.67,0.63,0.45,0.69,otro,uso de tecnología,8,false,false,true,true,true,false,false,false
+845,Doretta,Crowest,32,Female,2.34,7.19,9.06,6.28,5.03,0.76,0.97,0.32,0.64,0.5,kinestésico,grupos de estudio,4,true,true,false,false,true,true,true,false
+846,Arlee,Gillott,21,Female,3.33,1.48,6.95,8.06,6.3,0.32,0.28,0.06,0.68,0.4,Multimodal,enseñanza a otros,1,false,true,false,true,true,true,false,true
+847,Mae,Egan,26,Female,6.06,7.53,4.38,9.53,8.9,0.21,0.56,0.22,0.98,0.29,auditivo,enseñanza a otros,2,true,false,true,true,true,false,false,false
+848,Wang,Stack,37,Male,3.9,2.22,2.39,3.71,5.22,0.96,0.14,0.38,0.35,0.09,kinestésico,flashcards,1,false,false,true,false,true,true,false,false
+849,Tibold,Matic,38,Male,4.38,2.51,4.34,4.52,3.83,0.88,0.54,0.37,0.84,0.69,Lectura/Escritura,enseñanza a otros,4,false,true,false,false,false,false,false,true
+850,Hersch,Petcher,33,Male,0.39,1.9,7.5,8.0,2.85,0.49,0.99,0.09,0.94,0.15,Multimodal,técnica Pomodoro,6,false,true,true,true,true,true,false,true
+851,Matthaeus,Spanswick,28,Male,9.8,3.48,6.0,3.93,1.92,0.12,0.3,0.39,0.5,0.23,visual,uso de tecnología,6,true,false,true,true,false,true,true,false
+852,Carola,Lardge,31,Female,8.03,6.13,6.3,7.42,9.64,0.08,0.9,0.28,0.65,0.72,kinestésico,mapas mentales,6,false,true,false,true,true,false,false,true
+853,Elbert,McGarrie,20,Male,0.87,3.93,5.15,0.73,2.24,0.46,0.63,0.19,0.89,0.25,otro,lectura activa,8,false,false,true,false,false,true,false,true
+854,Gerome,Rutgers,32,Male,6.69,6.28,0.08,2.97,6.61,0.75,0.18,0.69,0.48,0.51,kinestésico,flashcards,7,true,true,true,false,false,false,false,true
+855,Austina,Blowin,20,Female,8.58,7.97,9.56,3.02,0.36,0.97,0.17,0.03,0.87,0.81,Multimodal,mapas mentales,3,true,false,true,false,true,true,true,true
+856,Vannie,Welbrock,24,Female,1.08,8.05,9.1,1.62,5.93,0.53,0.98,0.66,0.05,0.04,Lectura/Escritura,técnica Pomodoro,7,false,true,true,true,false,true,true,true
+857,Dorri,McKeady,32,Female,7.89,5.35,4.0,9.17,0.35,0.97,0.57,0.15,0.32,0.07,otro,autoevaluación y pruebas prácticas,0,true,false,true,true,false,true,false,true
+858,Conant,Pluthero,38,Male,1.25,6.56,6.06,9.78,7.14,0.24,0.72,0.94,0.59,0.53,auditivo,flashcards,5,true,false,false,true,true,true,true,false
+859,Darsie,Hanrott,34,Female,6.8,8.84,9.04,0.32,1.95,0.05,0.69,0.99,0.29,0.92,visual,técnica Pomodoro,3,true,true,false,true,true,false,false,true
+860,Effie,Gherardini,37,Female,9.53,5.31,9.16,9.54,9.37,0.26,0.58,0.79,0.11,0.85,auditivo,enseñanza a otros,0,false,true,false,false,false,false,false,false
+861,Carey,Andrejevic,33,Male,9.91,7.03,2.71,1.39,3.31,0.43,0.04,0.65,0.75,0.45,Multimodal,otro,0,false,false,false,false,false,true,false,false
+862,Hali,Grishinov,26,Female,8.49,1.74,3.74,2.53,2.45,0.9,0.14,0.27,0.43,0.52,auditivo,enseñanza a otros,8,true,false,false,true,false,true,true,true
+863,Bay,Doodson,32,Male,3.93,9.41,3.95,0.61,0.3,0.75,0.33,0.13,0.69,0.76,visual,otro,0,true,true,false,true,false,true,true,false
+864,Kipp,Sorby,22,Male,9.67,5.84,4.33,7.68,4.89,0.2,0.51,0.01,0.47,0.62,Multimodal,mapas mentales,1,true,false,true,true,false,false,true,true
+865,Archambault,Corbet,20,Male,4.24,4.18,4.48,3.9,9.18,0.56,0.76,0.69,0.76,0.92,kinestésico,enseñanza a otros,1,true,false,true,true,false,false,true,false
+866,Elane,Rooze,18,Female,3.63,3.66,3.3,2.95,1.55,0.11,0.48,0.32,0.71,0.51,kinestésico,resúmenes,3,true,false,true,true,true,false,true,true
+867,Amery,Lippo,20,Male,8.62,2.2,8.39,9.7,1.86,0.83,0.32,0.71,0.59,0.23,Lectura/Escritura,mapas mentales,4,false,false,false,false,false,false,false,true
+868,Gage,Glusby,39,Male,8.81,8.17,1.13,8.66,9.25,0.62,0.47,0.12,0.25,0.16,auditivo,autoevaluación y pruebas prácticas,5,true,false,false,true,false,true,false,false
+869,Rorke,McCaster,32,Male,0.84,8.29,1.1,7.28,2.71,0.47,0.54,0.13,0.82,0.26,Multimodal,técnica Pomodoro,2,false,false,false,true,true,false,true,true
+870,Ysabel,Barsham,29,Female,4.25,7.94,4.48,4.33,8.95,0.85,0.25,0.22,0.79,0.29,Multimodal,lectura activa,0,false,false,false,false,false,true,true,false
+871,Umeko,Biaggetti,25,Female,8.65,8.4,4.61,9.27,9.94,0.21,0.29,0.05,0.93,0.65,visual,enseñanza a otros,0,false,false,false,false,false,true,true,true
+872,Valentijn,Honnicott,33,Male,5.54,8.16,9.83,7.05,4.02,0.43,0.46,0.65,0.37,0.72,otro,resúmenes,2,false,false,false,false,true,true,false,true
+873,Scarface,Ure,36,Male,3.79,1.12,0.84,8.57,8.87,0.88,0.72,0.06,0.46,0.09,Multimodal,uso de tecnología,2,true,true,true,true,false,false,false,true
+874,Chase,Fibbens,24,Male,7.65,4.7,4.12,1.69,2.8,0.15,0.23,0.71,0.28,0.07,kinestésico,mapas mentales,0,true,true,false,false,false,false,false,false
+875,Darwin,Sleightholm,40,Male,8.61,7.49,3.65,0.87,2.76,0.73,0.24,0.52,0.75,0.82,visual,uso de tecnología,4,true,false,true,false,false,false,true,true
+876,Paula,Andretti,26,Female,5.6,5.92,0.65,3.71,3.29,0.58,0.15,0.22,0.26,0.57,visual,grupos de estudio,5,false,false,false,true,false,false,false,false
+877,Base,Giacomuzzo,29,Male,0.97,2.17,4.14,0.11,7.84,0.21,0.1,0.94,0.69,0.55,otro,mapas mentales,7,true,false,true,true,false,false,false,false
+878,Kelvin,Brunnstein,20,Male,9.35,5.2,4.46,1.94,2.87,0.87,0.55,0.9,0.19,0.32,otro,resúmenes,0,false,true,true,true,false,false,false,false
+879,Gibbie,Moppett,22,Male,2.68,1.5,3.01,7.53,5.19,0.93,0.21,0.0,0.61,0.67,Multimodal,grupos de estudio,1,false,false,false,false,false,true,false,false
+880,Victor,Stollsteiner,22,Male,4.03,7.52,8.93,4.93,4.93,0.43,0.8,0.22,0.67,0.82,Multimodal,enseñanza a otros,0,true,true,true,true,false,false,false,false
+881,Ainsley,Newcomen,18,Female,2.76,5.78,1.25,5.36,2.99,0.94,0.93,0.72,0.4,0.18,visual,autoevaluación y pruebas prácticas,6,false,true,true,false,true,true,false,true
+882,Alfonso,Tempest,34,Male,6.32,5.0,5.79,5.71,2.12,0.05,0.04,0.16,0.06,0.14,Multimodal,mapas mentales,4,true,true,true,false,true,false,false,true
+883,Kristina,Lasselle,33,Female,6.54,5.87,1.75,2.94,2.26,0.12,0.42,0.27,0.52,0.37,Multimodal,autoevaluación y pruebas prácticas,7,true,true,true,true,false,true,false,false
+884,Electra,Staynes,18,Female,6.1,0.32,8.41,3.98,3.19,0.2,0.49,0.49,0.55,0.31,Multimodal,uso de tecnología,6,false,true,true,true,true,true,false,true
+885,Brantley,Santus,29,Male,0.42,9.52,7.45,9.04,3.88,0.7,0.8,0.34,0.85,0.2,kinestésico,lectura activa,2,false,true,true,true,false,false,true,true
+886,Philip,Garnsey,37,Male,8.85,1.08,4.43,3.39,9.7,0.55,0.38,0.6,0.68,0.7,Multimodal,flashcards,1,false,true,false,false,true,true,false,true
+887,Broderick,Girardengo,20,Male,0.55,9.32,6.9,0.39,3.45,0.73,0.76,0.22,0.37,0.5,kinestésico,mapas mentales,6,false,true,false,false,true,false,true,true
+888,Corina,Skyppe,23,Female,7.32,6.98,7.9,5.42,7.9,0.62,0.96,0.38,0.93,1.0,auditivo,lectura activa,0,true,false,true,false,true,false,false,false
+889,Belita,Tarte,18,Female,6.44,1.65,6.78,0.52,5.67,0.13,0.03,0.25,0.22,0.43,kinestésico,Toma de apuntes,4,true,true,true,true,false,true,false,false
+890,Babb,Reedshaw,23,Female,2.46,0.78,4.43,8.75,5.55,0.98,0.68,0.74,0.59,0.55,otro,autoevaluación y pruebas prácticas,3,true,true,true,true,false,true,true,false
+891,Bronson,Scheffler,33,Male,0.44,2.87,0.11,5.45,3.94,0.23,0.09,0.48,0.65,0.68,Lectura/Escritura,técnica Pomodoro,0,true,true,true,false,true,false,false,true
+892,Brendin,Mordan,36,Male,1.76,0.75,3.12,1.32,4.27,0.81,0.95,0.49,0.24,0.42,auditivo,lectura activa,7,false,false,true,true,false,false,false,false
+893,Eudora,Clem,38,Female,1.51,3.86,4.08,6.3,1.94,0.13,0.35,0.32,1.0,0.72,Lectura/Escritura,técnica Pomodoro,2,true,false,false,false,false,false,false,true
+894,Jena,Houlson,29,Female,5.75,9.33,0.68,7.03,4.81,0.4,0.36,0.45,0.25,0.22,Multimodal,flashcards,8,false,false,false,true,false,false,false,true
+895,Lorrayne,Day,34,Female,8.84,3.25,5.21,3.73,0.08,0.7,0.08,0.36,0.7,0.39,kinestésico,resúmenes,4,false,false,false,false,false,true,true,true
+896,Hulda,Aspinal,40,Female,5.11,4.65,1.71,1.28,1.05,0.34,0.55,0.16,0.38,0.86,auditivo,uso de tecnología,5,false,false,false,true,true,true,false,false
+897,Jonas,Alishoner,39,Male,0.76,0.69,6.56,8.77,8.78,0.38,0.67,0.3,0.79,0.61,Lectura/Escritura,grupos de estudio,8,false,true,true,false,true,false,false,false
+898,Andeee,Mant,38,Female,1.4,8.57,9.95,2.04,6.35,0.72,0.94,0.12,0.42,0.35,visual,lectura activa,8,false,false,false,false,true,false,true,true
+899,Sal,Lutz,31,Female,5.67,6.65,4.52,7.12,6.03,0.04,0.23,0.22,0.82,0.13,otro,lectura activa,1,false,false,false,false,false,false,true,true
+900,Sisile,Hitzmann,23,Female,3.23,0.8,9.25,6.46,7.26,0.4,0.11,0.78,0.22,0.0,otro,resúmenes,5,false,true,false,false,false,false,false,true
+901,Vina,O'Lenechan,38,Female,1.84,6.24,0.89,8.78,1.65,0.46,0.53,0.58,0.11,0.7,Multimodal,autoevaluación y pruebas prácticas,2,false,true,false,true,true,true,true,true
+902,Keelby,Lickess,40,Male,5.11,1.72,9.2,4.47,5.63,0.71,0.04,0.27,0.67,0.06,auditivo,otro,4,false,false,false,false,false,true,true,false
+903,Howie,Ruddle,29,Male,4.7,0.46,9.0,4.72,0.8,0.11,0.65,0.16,0.05,0.75,auditivo,resúmenes,5,true,true,true,true,true,true,false,true
+904,Lynnet,Percifull,20,Female,2.01,9.27,1.22,0.34,9.88,0.94,0.71,0.1,0.72,0.28,Lectura/Escritura,otro,1,true,false,false,false,false,false,false,false
+905,Calla,Cope,28,Female,2.93,6.31,0.6,3.07,1.52,0.31,0.33,0.91,0.86,0.48,otro,resúmenes,4,true,false,true,false,true,false,false,true
+906,Kelsy,Airey,37,Female,2.42,2.93,0.59,4.26,1.03,0.73,0.74,0.07,0.5,0.28,otro,resúmenes,3,false,false,true,false,false,true,false,false
+907,Skye,Cookson,30,Male,3.06,8.84,1.16,9.38,7.38,0.56,0.17,0.88,0.34,0.83,otro,técnica Pomodoro,8,true,true,true,true,true,false,false,false
+908,Tye,De la Zenne,32,Male,5.02,0.07,3.6,3.19,8.86,0.87,0.42,0.99,0.72,0.64,visual,resúmenes,6,false,true,false,false,true,true,false,true
+909,Benedetto,Jozef,19,Male,0.75,3.61,6.18,1.86,8.46,0.44,0.02,1.0,0.88,0.38,Lectura/Escritura,autoevaluación y pruebas prácticas,1,false,false,true,false,false,false,true,true
+910,Katinka,Prator,23,Female,4.32,2.06,3.65,8.38,1.93,0.45,0.89,0.45,0.96,0.13,auditivo,mapas mentales,1,false,false,false,true,true,false,true,true
+911,Andromache,Filyukov,25,Female,4.09,8.7,2.63,3.65,4.17,0.31,0.35,0.65,0.85,0.68,auditivo,flashcards,8,false,true,true,true,true,false,false,false
+912,Lonnard,Hands,35,Male,3.21,0.42,7.95,4.88,7.11,0.85,0.95,0.65,0.96,0.24,Lectura/Escritura,técnica Pomodoro,5,true,true,false,false,false,true,false,false
+913,Donn,Rendle,26,Male,6.93,0.47,9.03,2.72,9.38,0.31,0.78,0.82,0.33,0.43,Multimodal,autoevaluación y pruebas prácticas,3,true,true,true,false,true,false,false,true
+914,Tersina,Cordery,40,Female,9.43,3.7,5.39,1.73,6.54,0.91,0.74,0.28,0.88,0.43,auditivo,resúmenes,3,false,false,true,false,false,false,false,true
+915,Weber,Brands,22,Male,5.41,8.81,1.98,8.53,9.97,0.03,0.8,0.06,0.05,0.41,otro,Toma de apuntes,3,true,true,false,true,false,true,true,false
+916,Bradley,Ely,38,Male,2.05,6.45,8.26,0.99,9.73,0.65,0.57,0.29,0.9,0.06,Multimodal,Toma de apuntes,6,false,false,true,false,false,false,true,true
+917,Brena,Rashleigh,32,Female,9.87,8.39,9.14,8.22,2.31,0.56,0.33,0.26,0.53,0.86,Multimodal,técnica Pomodoro,6,true,false,true,true,false,false,false,true
+918,Cleon,Faughnan,24,Male,7.7,3.47,9.41,2.97,8.48,0.17,0.46,0.95,0.13,0.51,visual,resúmenes,0,true,true,false,false,true,true,true,false
+919,Anne-marie,McNirlin,37,Female,7.97,8.86,7.85,1.69,8.74,0.43,0.39,0.98,0.24,0.33,visual,enseñanza a otros,1,true,true,true,true,false,true,true,false
+920,Robby,Harston,32,Female,2.95,2.61,2.2,2.98,5.78,0.09,0.84,0.37,0.68,0.79,kinestésico,mapas mentales,7,true,true,true,false,true,false,true,false
+921,Thornton,Potticary,22,Male,8.66,1.2,5.28,0.96,3.86,0.01,0.3,0.52,0.85,0.93,kinestésico,resúmenes,1,false,false,true,false,true,true,false,false
+922,Emyle,Lory,22,Female,5.24,9.45,2.03,7.7,8.6,0.39,0.45,0.59,0.28,0.49,kinestésico,grupos de estudio,1,true,false,true,false,false,false,false,true
+923,Marigold,Ashbey,22,Female,3.94,9.24,9.59,4.66,2.16,0.94,0.52,0.56,0.25,0.89,visual,uso de tecnología,1,true,false,true,false,false,false,true,false
+924,Agnella,Beardsdale,34,Female,5.57,6.55,0.79,1.27,8.3,0.72,0.24,0.37,0.8,0.01,kinestésico,resúmenes,0,true,false,false,true,false,true,true,false
+925,Remus,Welberry,29,Male,7.72,7.93,4.97,1.44,7.12,0.54,0.35,0.28,0.88,0.19,kinestésico,mapas mentales,4,true,true,false,false,true,false,true,true
+926,Carolyne,Shelp,23,Female,8.77,7.22,3.02,5.26,3.37,0.56,0.86,0.8,0.65,0.8,auditivo,enseñanza a otros,7,true,true,false,false,false,true,false,true
+927,Saundra,Andersen,36,Male,2.29,7.18,1.1,3.3,7.8,0.28,0.74,0.74,0.46,0.09,Lectura/Escritura,mapas mentales,2,true,true,false,false,true,true,true,false
+928,Anya,Dillow,34,Female,5.12,2.18,9.65,7.33,3.68,0.73,0.31,0.7,0.43,0.61,otro,otro,4,false,false,true,false,true,false,false,false
+929,Garret,Lumly,33,Male,4.97,8.71,0.82,0.39,1.07,0.34,0.26,0.48,0.51,0.59,kinestésico,lectura activa,0,true,false,false,true,false,true,true,true
+930,Jamison,Skarman,37,Male,2.9,9.88,1.55,9.71,0.87,0.52,0.69,0.42,0.69,0.92,auditivo,autoevaluación y pruebas prácticas,0,true,true,false,false,false,true,true,false
+931,Carly,Everitt,30,Male,0.16,6.97,6.19,3.9,4.18,0.71,0.21,0.62,0.4,0.94,otro,técnica Pomodoro,4,true,false,false,false,true,true,true,false
+932,Derrek,Schinetti,26,Male,4.12,5.99,4.67,5.6,4.3,0.4,0.39,0.73,0.18,0.77,Lectura/Escritura,autoevaluación y pruebas prácticas,5,true,false,true,false,true,false,true,false
+933,Meryl,Gentry,28,Male,9.66,7.14,6.09,5.87,4.62,0.16,0.85,0.73,0.31,0.31,auditivo,grupos de estudio,5,true,true,true,false,true,true,true,true
+934,Benoit,Lidgate,34,Male,4.51,6.87,6.01,0.13,5.01,0.77,0.16,0.35,0.54,0.01,Multimodal,mapas mentales,1,false,false,false,false,true,false,true,true
+935,Tate,Houseman,35,Female,6.7,0.39,6.48,0.59,1.14,0.14,0.85,0.28,0.93,0.07,auditivo,flashcards,6,true,true,true,false,false,false,false,true
+936,Germana,Connah,30,Female,2.97,6.27,1.36,6.0,6.39,0.32,0.91,0.68,0.45,0.33,kinestésico,flashcards,4,true,true,false,false,false,false,true,false
+937,Rodolphe,Giovanardi,25,Male,9.95,4.53,1.85,4.87,4.08,0.07,0.22,0.64,0.83,0.79,otro,técnica Pomodoro,2,true,true,true,false,false,false,false,false
+938,Sonja,Burnell,26,Female,2.77,7.25,4.26,0.6,4.66,0.69,0.41,0.88,0.82,0.03,visual,autoevaluación y pruebas prácticas,4,false,true,true,true,false,true,true,false
+939,Farris,Satterlee,34,Male,2.73,4.16,4.36,3.52,7.78,0.96,0.11,0.69,0.54,0.39,Multimodal,grupos de estudio,6,false,false,false,false,false,true,false,true
+940,Talbot,Ballay,37,Male,6.47,0.89,0.49,8.88,4.95,0.87,0.36,0.36,0.05,0.75,Multimodal,otro,5,true,true,true,false,false,false,true,true
+941,Halette,Frantsev,24,Female,8.42,4.31,3.73,1.06,1.07,0.85,0.11,0.45,0.8,0.82,otro,autoevaluación y pruebas prácticas,3,false,true,true,true,true,true,true,true
+942,Norbert,Duckworth,40,Male,7.65,3.05,5.05,9.97,8.61,0.87,0.01,0.04,0.12,0.83,visual,uso de tecnología,7,true,false,true,true,true,true,true,false
+943,Livvy,Leamy,33,Female,7.18,8.5,9.91,2.11,7.83,0.55,0.88,0.83,0.59,0.52,visual,técnica Pomodoro,0,false,true,false,false,true,true,false,false
+944,Teodor,Boorman,33,Male,5.58,8.9,4.18,9.36,1.24,0.49,0.72,0.55,0.54,0.57,Lectura/Escritura,lectura activa,0,true,false,true,false,true,false,false,false
+945,Gale,Nestor,38,Female,5.51,6.96,5.18,1.12,9.69,0.0,0.83,0.32,0.92,0.62,kinestésico,Toma de apuntes,2,true,false,true,false,true,false,true,true
+946,Bradly,de Pinna,20,Male,2.13,7.06,7.6,2.13,0.77,0.78,0.11,0.46,0.78,0.18,visual,otro,5,true,false,true,true,false,false,false,true
+947,Seka,Sibbit,25,Female,5.26,9.75,2.78,8.98,3.58,0.87,0.3,0.6,0.58,0.01,kinestésico,flashcards,6,true,true,false,false,true,true,true,true
+948,Laraine,Hrishanok,31,Female,1.17,9.11,1.84,0.11,3.26,0.59,0.67,0.28,0.4,0.79,otro,técnica Pomodoro,7,true,false,false,false,false,false,true,false
+949,Michale,Haydney,22,Male,5.34,9.42,7.97,8.16,7.22,0.26,0.48,0.22,0.58,0.69,kinestésico,resúmenes,3,false,true,true,false,true,true,false,true
+950,Xenos,Spurden,34,Male,1.1,0.19,2.62,5.18,8.77,0.56,0.66,0.36,0.32,0.37,Multimodal,resúmenes,6,true,false,false,true,true,false,false,false
+951,Kerry,Florio,24,Female,1.47,1.67,5.63,9.78,6.65,0.02,0.93,0.99,0.11,0.4,visual,Toma de apuntes,2,true,true,false,true,false,false,true,true
+952,Wilmar,Patchett,37,Male,4.84,1.62,2.97,6.87,3.36,0.09,0.25,0.89,0.1,0.81,otro,enseñanza a otros,1,false,false,false,true,true,true,false,false
+953,Harriett,Phetteplace,23,Female,2.21,3.82,9.13,9.04,2.48,0.63,0.13,0.82,0.25,0.03,visual,grupos de estudio,1,false,false,false,false,false,false,false,false
+954,Benetta,Wanjek,32,Female,9.53,9.36,9.3,0.78,4.35,0.39,0.02,0.32,0.71,0.86,otro,resúmenes,8,true,false,true,false,false,true,true,false
+955,Malissia,Caldron,24,Female,7.83,4.23,0.25,9.19,2.46,0.42,0.86,0.16,0.38,0.71,kinestésico,uso de tecnología,1,true,true,false,true,true,true,false,false
+956,Angeli,Leban,19,Male,5.27,3.52,5.6,1.2,2.87,0.41,0.99,0.58,0.51,0.47,visual,lectura activa,6,true,true,true,true,true,true,true,false
+957,Goldina,Basnall,32,Female,7.27,1.76,3.13,5.13,1.4,0.44,0.36,0.78,0.32,0.74,auditivo,otro,3,false,false,true,false,false,false,true,true
+958,Patsy,Cassam,40,Female,0.4,1.15,2.08,9.32,0.0,0.06,0.36,0.09,0.9,0.44,kinestésico,uso de tecnología,8,true,false,true,false,true,false,true,false
+959,Lindie,Gooderridge,18,Female,0.04,5.52,7.95,9.07,3.36,0.25,0.57,0.67,0.89,0.29,auditivo,Toma de apuntes,0,true,false,false,false,false,false,true,false
+960,Indira,Twydell,19,Female,1.06,7.35,4.52,1.22,1.8,0.36,0.72,0.22,0.55,0.29,Multimodal,resúmenes,1,true,false,true,false,false,false,false,false
+961,Johnny,Boycott,23,Male,5.15,2.22,1.53,3.9,4.25,0.11,0.29,0.59,0.15,0.69,Multimodal,técnica Pomodoro,7,false,false,false,false,false,true,true,false
+962,Amanda,Lodemann,26,Female,1.58,8.11,6.88,8.18,7.72,0.74,0.67,0.93,0.44,0.48,auditivo,grupos de estudio,2,false,false,false,false,true,true,true,true
+963,Bab,Devil,30,Female,0.38,5.49,9.01,9.59,0.76,0.83,0.71,0.01,0.92,0.44,Lectura/Escritura,otro,7,true,true,false,false,false,false,true,true
+964,Cahra,Greim,18,Female,1.75,7.8,2.91,7.23,6.98,0.19,0.87,0.84,0.2,0.02,Lectura/Escritura,resúmenes,4,false,true,true,true,true,false,true,false
+965,Hatty,Hillen,25,Female,6.04,3.64,5.2,4.76,5.66,0.21,0.3,0.52,0.84,0.06,Lectura/Escritura,resúmenes,6,true,false,true,true,true,false,true,true
+966,Demetri,Gerg,28,Male,1.31,8.16,7.73,7.9,4.25,0.4,0.1,0.11,0.31,0.98,visual,uso de tecnología,7,false,true,false,false,true,false,true,true
+967,Nanine,Blasiak,29,Female,1.21,0.64,0.49,6.67,2.05,0.01,0.39,0.31,0.25,0.56,auditivo,uso de tecnología,7,true,true,true,false,true,true,true,false
+968,Cathyleen,Gownge,39,Female,7.5,9.2,1.44,3.39,8.64,0.05,0.24,0.02,0.05,0.55,Multimodal,técnica Pomodoro,0,false,true,true,false,true,true,true,false
+969,Frederich,Sudron,38,Male,1.69,1.88,3.86,6.43,8.16,0.67,0.39,0.52,0.47,0.67,Multimodal,resúmenes,1,true,true,false,true,false,false,false,false
+970,Niles,Matijevic,35,Male,0.49,5.92,7.94,8.58,4.45,0.61,0.17,0.2,0.39,0.93,auditivo,resúmenes,6,true,false,true,true,false,false,false,false
+971,Saunder,Shedd,39,Male,8.41,4.82,8.62,6.29,4.11,0.59,0.27,0.78,0.73,0.26,Multimodal,técnica Pomodoro,7,false,true,false,true,true,false,true,true
+972,Webster,Lister,28,Male,3.28,6.37,7.9,5.97,0.26,0.21,0.64,0.6,0.72,0.43,visual,enseñanza a otros,7,false,false,true,true,false,false,true,false
+973,Bryanty,Giroldi,34,Male,5.85,0.15,8.09,8.0,9.52,0.58,0.82,0.5,0.17,1.0,Multimodal,técnica Pomodoro,3,true,false,false,false,false,false,true,true
+974,Brier,Aimeric,32,Female,2.7,0.44,7.31,2.67,2.46,0.5,0.84,0.38,0.78,0.23,Lectura/Escritura,mapas mentales,5,false,true,false,true,false,true,false,false
+975,Pepito,Vockings,30,Male,0.2,4.46,6.29,1.16,6.15,0.2,0.52,0.59,0.84,0.5,visual,resúmenes,3,false,true,true,false,true,false,true,false
+976,Jeri,Matschek,20,Female,7.99,3.37,3.34,2.55,5.39,0.58,0.79,0.46,0.3,0.04,visual,técnica Pomodoro,4,false,false,false,true,true,false,true,false
+977,Ransell,Shere,28,Male,0.12,6.2,7.72,3.39,8.21,0.79,0.38,0.08,0.64,0.96,Lectura/Escritura,enseñanza a otros,0,true,true,true,true,false,true,false,true
+978,Hercule,Timothy,32,Male,8.25,7.51,2.46,4.76,3.63,0.18,0.7,0.28,0.05,0.51,auditivo,grupos de estudio,7,false,true,false,false,true,true,false,true
+979,Patrizio,Hankard,34,Male,4.23,2.93,8.36,7.31,5.97,0.79,0.85,0.73,0.27,0.52,visual,lectura activa,0,true,false,false,false,true,false,true,false
+980,Joseph,McSparran,37,Male,6.65,8.82,0.35,8.88,1.2,0.06,0.06,0.35,0.79,0.11,visual,enseñanza a otros,3,false,false,false,true,false,false,true,false
+981,Brooks,Mapp,25,Male,7.14,7.87,6.59,6.15,2.39,0.65,0.85,0.83,0.72,0.01,auditivo,Toma de apuntes,1,false,false,false,true,false,false,true,false
+982,Shelby,Eley,30,Female,7.08,5.13,5.89,0.05,8.54,0.18,0.34,0.45,0.42,0.09,Multimodal,grupos de estudio,7,false,true,true,true,true,false,true,false
+983,Cleveland,Rapelli,40,Male,3.36,4.04,3.29,2.8,8.34,0.78,0.47,0.79,0.41,0.68,visual,técnica Pomodoro,7,true,true,false,true,true,true,false,false
+984,Grenville,Dregan,38,Male,1.61,0.67,7.14,8.64,7.72,0.13,0.25,0.27,0.53,0.19,otro,autoevaluación y pruebas prácticas,7,false,true,false,true,false,true,false,true
+985,Laryssa,Dossit,31,Female,0.14,1.54,2.45,0.98,7.79,0.29,0.29,0.19,0.38,0.64,Lectura/Escritura,resúmenes,1,false,false,false,true,false,false,false,false
+986,Corrinne,Groucock,26,Female,3.08,4.23,9.63,2.2,1.33,0.86,0.34,0.28,0.61,0.13,otro,técnica Pomodoro,5,false,false,true,true,false,true,false,true
+987,Mackenzie,Satterly,35,Male,7.3,6.97,1.97,0.44,6.49,0.51,0.58,0.67,0.86,0.24,otro,técnica Pomodoro,3,false,true,false,true,false,false,true,true
+988,Sherwood,Codling,23,Male,0.98,3.09,0.8,2.87,0.61,0.35,0.27,0.19,0.75,0.14,visual,flashcards,3,true,false,false,false,true,false,false,false
+989,Lilia,Heggadon,26,Female,2.14,4.74,6.86,5.46,8.92,0.13,0.33,0.87,0.07,0.65,auditivo,técnica Pomodoro,2,true,false,true,false,false,true,true,false
+990,Berrie,Schofield,38,Female,0.31,4.6,5.74,7.87,2.39,0.16,0.24,0.56,0.29,0.75,kinestésico,autoevaluación y pruebas prácticas,6,false,false,true,true,true,false,false,true
+991,Ailsun,Bjorkan,36,Female,8.99,8.18,6.75,4.34,2.43,0.15,0.04,0.66,0.52,0.53,Lectura/Escritura,enseñanza a otros,1,true,false,false,false,true,false,true,true
+992,Clementine,Dent,23,Female,1.96,2.06,1.8,7.69,2.05,0.28,0.96,0.34,0.12,0.04,visual,grupos de estudio,7,true,true,false,true,true,true,true,true
+993,Case,McCloy,39,Male,2.73,3.08,5.71,8.79,6.54,0.34,0.77,0.74,0.93,0.55,kinestésico,grupos de estudio,6,false,true,true,true,true,false,true,false
+994,Sela,Huggan,21,Female,0.58,6.74,6.33,9.76,6.18,0.22,0.6,0.32,0.85,0.88,Lectura/Escritura,grupos de estudio,4,true,true,false,true,false,false,true,false
+995,Adham,Roycroft,30,Male,6.72,1.68,4.84,7.02,9.03,0.53,0.11,0.56,0.7,0.24,auditivo,Toma de apuntes,6,true,true,false,true,true,false,true,true
+996,Federica,Mazillius,24,Female,7.64,9.17,2.34,7.34,9.83,0.16,0.7,0.95,0.43,0.22,Multimodal,otro,6,false,true,false,false,false,true,true,true
+997,Robb,Batchelder,32,Male,9.95,3.63,1.36,4.81,0.57,0.57,0.85,0.83,0.99,0.32,visual,mapas mentales,7,false,false,true,true,false,false,false,true
+998,Hestia,Rayner,26,Female,8.49,9.04,2.88,4.5,9.77,0.7,0.08,0.6,0.16,0.09,auditivo,flashcards,5,true,false,true,false,true,false,true,false
+999,Roland,Huby,35,Male,6.17,4.97,6.25,1.65,0.95,0.89,0.04,0.98,0.53,0.2,kinestésico,enseñanza a otros,1,true,true,false,true,false,true,true,true
+1000,Coreen,McCuaig,20,Female,7.57,8.65,2.28,4.29,3.92,0.92,0.51,0.76,0.7,0.86,Multimodal,mapas mentales,7,false,true,true,false,false,false,false,true
