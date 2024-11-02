@@ -13,4 +13,11 @@
         <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-2/aprendizaje-mqn">Aprendizaje de máquina</a>, 
         <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-2/bd-1">BD 1</a>.
     </li>
+    <li><strong>Ciclo 6:</strong>
+        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/anube">Aplicaciones en nube</a>,
+        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/aseguras">Aplicaciones seguras</a>,
+        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/fproy">Formulación de proyectos</a>,
+        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/ia">Inteligencia artificial</a>, 
+	<a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/ptec">Proyectos tecnológicos</a>.
+    </li>
 </ul>
