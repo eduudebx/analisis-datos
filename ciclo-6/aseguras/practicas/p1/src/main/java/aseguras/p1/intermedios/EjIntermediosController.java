@@ -3,8 +3,8 @@ package aseguras.p1.intermedios;
 
 public class EjIntermediosController {
     
-    public void ejercicio1(){}
+    public void ej1AutenticarEnArchivoTextoPlano(){}
     
     
-    public void ejercicio2(){}
+    public void ej2ConsultaPreparedStatement(){}
 }
