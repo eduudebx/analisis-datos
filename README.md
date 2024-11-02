@@ -16,8 +16,8 @@
     <li><strong>Ciclo 6:</strong>
         <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/anube">Aplicaciones en nube</a>,
         <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/aseguras">Aplicaciones seguras</a>,
-        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/fproy">Formulación de proyectos</a>,
-        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/ia">Inteligencia artificial</a>, 
+        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/fproy">FP</a>,
+        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/ia">IA</a>, 
 	<a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/ptec">Proyectos tecnológicos</a>.
     </li>
 </ul>
