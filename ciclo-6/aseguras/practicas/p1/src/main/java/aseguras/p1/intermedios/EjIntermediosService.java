@@ -1,14 +1,20 @@
 package aseguras.p1.intermedios;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import org.springframework.stereotype.Service;
 
-
+@Service
 public class EjIntermediosService {
     
     public boolean autenticarEnArchivoTextoPlano(String usuario, String contrasena) {
-        try (BufferedReader archivo = new BufferedReader(new FileReader("usuarios.txt"))) {
+        try (BufferedReader archivo = new BufferedReader(new InputStreamReader(getClass().getClassLoader().getResourceAsStream("usuarios.txt")))) {
             String registro;
             while ((registro = archivo.readLine()) != null) {
                 String[] datos = registro.split(",");
@@ -25,5 +31,39 @@ public class EjIntermediosService {
     }
     
     
+    private Connection getConnection() throws SQLException {
+        String url = "jdbc:mysql://localhost:3306/aseguras_p1"; 
+        String usuario = "ista";
+        String contrasena = "";
+
+        return DriverManager.getConnection(url, usuario, contrasena);
+    }
     
+    
+    public Estudiante buscarEstudiantePorCedula(String cedula) {
+        Estudiante estudiante = null;
+        String query = "SELECT * FROM estudiante WHERE cedula = ?";
+
+        try (Connection conn = getConnection();
+            PreparedStatement stmt = conn.prepareStatement(query)) {
+            stmt.setString(1, cedula);
+            ResultSet rs = stmt.executeQuery();
+            
+            if (rs.next()) {
+                estudiante = new Estudiante(
+                        rs.getLong("idestudiante"),
+                        rs.getString("cedula"),
+                        rs.getString("nombres"),
+                        rs.getString("direccion"),
+                        rs.getString("correo"),
+                        rs.getString("telefono"),
+                        rs.getInt("edad")
+                );
+            }
+        } catch (SQLException e) {
+            System.err.println("Error al conectarse a la BD: " + e.getMessage());
+        }
+
+        return estudiante;
+    }
 }
