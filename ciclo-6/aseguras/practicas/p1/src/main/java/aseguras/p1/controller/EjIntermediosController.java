@@ -1,5 +1,8 @@
-package aseguras.p1.intermedios;
+package aseguras.p1.controller;
 
+import aseguras.p1.service.EjIntermediosService;
+import aseguras.p1.model.Estudiante;
+import aseguras.p1.util.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

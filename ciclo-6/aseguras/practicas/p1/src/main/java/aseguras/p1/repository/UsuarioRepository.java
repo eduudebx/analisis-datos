@@ -1,5 +1,6 @@
-package aseguras.p1.avanzados;
+package aseguras.p1.repository;
 
+import aseguras.p1.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

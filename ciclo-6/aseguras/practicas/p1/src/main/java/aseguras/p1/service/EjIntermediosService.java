@@ -1,5 +1,6 @@
-package aseguras.p1.intermedios;
+package aseguras.p1.service;
 
+import aseguras.p1.model.Estudiante;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

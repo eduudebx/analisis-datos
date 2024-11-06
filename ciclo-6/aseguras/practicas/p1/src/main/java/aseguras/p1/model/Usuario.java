@@ -1,4 +1,4 @@
-package aseguras.p1.avanzados;
+package aseguras.p1.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

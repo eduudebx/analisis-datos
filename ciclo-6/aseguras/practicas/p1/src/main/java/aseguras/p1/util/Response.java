@@ -1,4 +1,4 @@
-package aseguras.p1.intermedios;
+package aseguras.p1.util;
 
 public class Response<T> {
     
