@@ -25,6 +25,25 @@ public class SecurityConfig {
     }
     
     
+    /**
+    * Configura la cadena de filtros de seguridad para la aplicación.
+    * 
+    * Este método configura el filtro de seguridad de la aplicación utilizando `HttpSecurity` para definir las políticas 
+    * de seguridad, como la protección CSRF, las reglas de autorización, la gestión de sesiones y el proveedor de autenticación.
+    * También agrega un filtro personalizado para la autenticación basada en JWT antes del filtro de autenticación estándar de Spring.
+    * 
+    * La configuración realiza las siguientes acciones:
+    * 1. Deshabilita la protección CSRF (Cross-Site Request Forgery).
+    * 2. Permite el acceso público a las rutas que coinciden con "/ejavanzado/**".
+    * 3. Requiere autenticación para cualquier otra solicitud.
+    * 4. Configura la gestión de sesiones para que no se utilicen sesiones de estado (sin estado).
+    * 5. Establece un proveedor de autenticación personalizado.
+    * 6. Añade un filtro de autenticación JWT antes del filtro de autenticación estándar de Spring (`UsernamePasswordAuthenticationFilter`).
+    * 
+    * @param http La configuración de seguridad HTTP de la aplicación.
+    * @return El objeto `SecurityFilterChain` que define la cadena de filtros de seguridad.
+    * @throws Exception Si ocurre un error durante la configuración de seguridad.
+    */
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{
         return http

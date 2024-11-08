@@ -19,6 +19,14 @@ import jakarta.persistence.Table;
 import jakarta.persistence.UniqueConstraint;
 
 
+/**
+ * Representa un usuario dentro del sistema y proporciona la implementación de la interfaz `UserDetails`.
+ * 
+ * Esta clase implementa la interfaz `UserDetails` de Spring Security, lo que permite que un objeto `Usuario` sea 
+ * utilizado en el proceso de autenticación y autorización dentro de la aplicación. La clase contiene la información básica 
+ * del usuario, como el nombre de usuario, la contraseña y los roles o autoridades asignadas. Estos datos son utilizados 
+ * por Spring Security para la gestión de la sesión y la autenticación de los usuarios.
+ */
 @Entity
 @Table(uniqueConstraints = {@UniqueConstraint(columnNames = {"username"})})
 public class Usuario implements UserDetails{

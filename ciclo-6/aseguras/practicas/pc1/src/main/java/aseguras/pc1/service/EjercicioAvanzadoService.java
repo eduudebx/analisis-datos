@@ -30,6 +30,18 @@ public class EjercicioAvanzadoService {
     }
     
     
+    /**
+    * Realiza el proceso de autenticación de un usuario y genera un token JWT.
+    *
+    * Esta función autentica al usuario utilizando el nombre de usuario y la contraseña
+    * proporcionados en el objeto `LoginRegisterRequest`. Si la autenticación es exitosa,
+    * se recupera el detalle del usuario desde el repositorio y se genera un token JWT
+    * para el usuario autenticado.
+    *
+    * @param request El objeto `LoginRegisterRequest` que contiene el nombre de usuario y la contraseña
+    *                del usuario que intenta iniciar sesión.
+    * @return Un token JWT generado para el usuario autenticado.
+    */
     public String login(LoginRegisterRequest request) {
         authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(
                 request.getUsername(), request.getPassword()));
@@ -38,6 +50,19 @@ public class EjercicioAvanzadoService {
 
     }
 
+    
+    /**
+    * Registra un nuevo usuario en el sistema y genera un token JWT.
+    *
+    * Esta función crea un nuevo objeto `Usuario` con el nombre de usuario y la contraseña
+    * proporcionados en el objeto `LoginRegisterRequest`. La contraseña se codifica antes
+    * de almacenarla en la base de datos. Después de guardar el usuario en el repositorio,
+    * se genera un token JWT para el nuevo usuario registrado.
+    *
+    * @param request El objeto `LoginRegisterRequest` que contiene el nombre de usuario y la contraseña
+    *                del usuario que se desea registrar.
+    * @return Un token JWT generado para el usuario recién registrado.
+    */
     public String register(LoginRegisterRequest request) {
         Usuario user = new Usuario(request.getUsername(), passwordEncoder.encode( request.getPassword()),Rol.USER);
 

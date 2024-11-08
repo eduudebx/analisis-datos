@@ -20,6 +20,15 @@ public class EjerciciosIntermediosController {
     }
     
     
+    /**
+    * Realiza la autenticación de un usuario utilizando un archivo de texto plano. El resultado de la autenticación 
+    * se devuelve como una cadena de texto que indica si la autenticación fue exitosa o fallida, dependiendo de las 
+    * credenciales proporcionadas.
+    *
+    * @param username El nombre de usuario que se va a autenticar.
+    * @param password La contraseña del usuario para la autenticación.
+    * @return Un objeto `Response<String>` que contiene el resultado de la autenticación.
+    */
     @GetMapping(value = "ej1")
     public Response<String> autenticacionArchivoTextoPlano(
             @RequestParam String username, @RequestParam String password){
@@ -29,6 +38,15 @@ public class EjerciciosIntermediosController {
     }
     
     
+    /**
+    * Realiza una consulta a la base de datos utilizando un `PreparedStatement` para obtener los datos de un estudiante.
+    * El servicio utiliza un `PreparedStatement` para consultar la base de datos en busca de un estudiante con la cédula 
+    * proporcionada.
+    * 
+    * @param cedula La cédula del estudiante que se va a consultar en la base de datos.
+    * @return Un objeto `Response<Estudiante>` que contiene un mensaje de estado y el objeto `Estudiante` con los datos 
+    *           del estudiante o `null` si no se encuentra.
+    */
     @GetMapping(value = "ej2")
     public Response<Estudiante> consultaPreparedStatement(@RequestParam String cedula){
         Estudiante estudiante = ejerciciosIntermediosService
