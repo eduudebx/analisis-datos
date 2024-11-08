@@ -1,10 +1,8 @@
 package aseguras.pc1.controller;
 
-
-import aseguras.pc1.jwt.AuthResponse;
 import aseguras.pc1.jwt.LoginRegisterRequest;
 import aseguras.pc1.service.EjercicioAvanzadoService;
-import org.springframework.http.ResponseEntity;
+import aseguras.pc1.util.Response;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,13 +23,13 @@ public class EjercicioAvanzadoController {
     
     
     @PostMapping(value = "login")
-    public ResponseEntity<AuthResponse> login(@RequestBody LoginRegisterRequest request){
-        return ResponseEntity.ok(authService.login(request));
+    public Response<String> login(@RequestBody LoginRegisterRequest request){
+        return new Response<>("JWT Token", authService.login(request));
     }
     
 
     @PostMapping(value = "register")
-    public ResponseEntity<AuthResponse> register(@RequestBody LoginRegisterRequest request){
-        return ResponseEntity.ok(authService.register(request));
+    public Response<String> register(@RequestBody LoginRegisterRequest request){
+        return new Response<>("JWT Token", authService.register(request));
     }
 }

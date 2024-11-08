@@ -1,7 +1,5 @@
 package aseguras.pc1.service;
 
-
-import aseguras.pc1.jwt.AuthResponse;
 import aseguras.pc1.jwt.JwtService;
 import aseguras.pc1.jwt.LoginRegisterRequest;
 import aseguras.pc1.model.Rol;
@@ -32,20 +30,20 @@ public class EjercicioAvanzadoService {
     }
     
     
-    public AuthResponse login(LoginRegisterRequest request) {
+    public String login(LoginRegisterRequest request) {
         authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(
                 request.getUsername(), request.getPassword()));
         UserDetails user = userRepository.findByUsername(request.getUsername()).orElseThrow();
-        return new AuthResponse(jwtService.getToken(user));
+        return jwtService.getToken(user);
 
     }
 
-    public AuthResponse register(LoginRegisterRequest request) {
+    public String register(LoginRegisterRequest request) {
         Usuario user = new Usuario(request.getUsername(), passwordEncoder.encode( request.getPassword()),Rol.USER);
 
         userRepository.save(user);
 
-        return new AuthResponse(jwtService.getToken(user));
+        return jwtService.getToken(user);
         
     }
 

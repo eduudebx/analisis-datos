@@ -26,17 +26,17 @@ public class Usuario implements UserDetails{
     
     @Id
     @GeneratedValue
-    Integer id;
+    private Integer id;
     
     @Basic
     @Column(nullable = false)          
-    String username;
+    private String username;
     
     @Column(nullable = false)
-    String password;
+    private String password;
     
     @Enumerated(EnumType.STRING) 
-    Rol role;
+    private Rol role;
     
 
     public Usuario(Integer id, String username, String password, Rol role) {
