@@ -15,6 +15,6 @@
     </li>
     <li><strong>Ciclo 6:</strong>
         <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/aseguras">Aplicaciones seguras</a>,
-        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/ia">Inteligencia Artificial</a>.
+        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/ia">Inteligencia artificial</a>.
     </li>
 </ul>
