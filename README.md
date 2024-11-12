@@ -10,8 +10,7 @@
     <li><strong>Ciclo 2:</strong>
         <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-2/probabilidad">Probabilidad</a>, 
         <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-2/mineria">Minería de datos</a>, 
-        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-2/aprendizaje-mqn">Aprendizaje de máquina</a>, 
-        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-2/bd-1">BD 1</a>.
+        <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-2/aprendizaje-mqn">Aprendizaje de máquina</a>.
     </li>
     <li><strong>Ciclo 6:</strong>
         <a href="https://github.com/eduudebx/analisis-datos/tree/main/ciclo-6/aseguras">Aplicaciones seguras</a>,
