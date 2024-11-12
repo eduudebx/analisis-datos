@@ -1,0 +1,171 @@
+\documentclass[12pt]{article}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[margin = 2.54cm]{geometry}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+
+\input{../../../docs/portada-tareas/formato}
+\input{../../../docs/portada-tareas/definicion}
+
+
+\rutaLogo{../../../docs/img/logo-ista.png}
+\tema{\\ \vspace{0.8cm} Taller de ejercicios N\degree1 - Probabilidades \\ \vspace{1.5cm}}
+\etiquetaAutores{Alumno: }
+\alumno{Eduardo Mendieta \vspace{0.8cm}}
+\materia{Probabilidad y estadística \vspace{0.8cm}}
+\docente{Eco. Hermann Seminario \vspace{0.8cm}}
+\ciclo{Segundo ciclo \vspace{0.8cm}}
+\fecha{11/11/2024 \vspace{0.8cm}}
+\periodo{ 2024 - II}
+\usepackage{gensymb}
+
+
+\begin{document}
+    \input{../../../docs/portada-tareas/plantilla}
+
+    \section*{\centering  Taller de ejercicios N\degree1 - Probabilidades} 
+    \vspace{0.5cm}\textbf{Resolver los siguientes ejercicios:} \vspace{0.5cm}
+
+    \begin{enumerate}[label=\textbf{\arabic*.}]
+        % Ejercicio 1: -------------------------------------------------------------
+        \item \textbf{Una urna tiene ocho bolas rojas, cinco amarillas y siete verdes. Si se extrae una bola al azar calcular la 
+                        probabilidad de:}
+
+                        \begin{itemize}
+                            \item \textbf{Sea roja:} \[\frac{8}{20} = 0.4 = 40\%\]
+                            \item \textbf{Sea verde:} \[\frac{7}{20} = 0.35 = 35\%\]
+                            \item \textbf{Sea amarilla:} \[\frac{5}{20} = 0.25 = 25\%\]
+                            \item \textbf{No sea roja:} \[\frac{12}{20} = 0.6 = 60\%\]
+                            \item \textbf{No sea amarilla:} \[\frac{15}{20} = 0.75 = 75\%\]
+                        \end{itemize}
+
+        % Ejercicio 2: -------------------------------------------------------------
+        \item \textbf{En una clase hay 10 alumnas rubias, 20 morenas, 5 alumnos rubios y 10
+                        morenos. Un día asisten 45 alumnos, encontrar la probabilidad de que un
+                        alumno:}
+
+                        \begin{itemize}
+                            \item \textbf{Sea hombre:}  \[\frac{15}{45} = 0.3333 = 33.33\%\]
+                            \item \textbf{Sea mujer morena:} \[\frac{20}{45} = 0.4444 = 44.44 \%\]
+                            \item \textbf{Sea hombre o mujer:} \[\frac{45}{45} = 1 = 100\%\]
+                        \end{itemize}
+        
+        % Ejercicio 3: -------------------------------------------------------------
+        \item \textbf{En una sala de clases hay 20 mujeres y 12 hombres. Si se escoge uno de ellos al
+                        azar. \textquestiondown Cuál es la probabilidad de que la persona escogida sea hombre?}
+
+                         \[\frac{12}{32} = 0.375 = 37.5\%\]
+        
+        % Ejercicio 4: -------------------------------------------------------------
+        \newpage
+        \item \textbf{En una comida hay 28 hombres y 32 mujeres. Han comido carne 16 hombres y
+                        20 mujeres, comiendo pescado el resto. Si se elige una de las personas al azar.
+                        \textquestiondown Cuál es la probabilidad de que?}
+
+                        \begin{itemize}
+                            \item \textbf{La persona escogida sea hombre:} \[\frac{28}{60} = 0.4666 = 46.66\%\]
+                            \item \textbf{La persona escogida sea mujer y que haya comido carne:} \[\frac{20}{60} = 0.3333 = 33.33\%\]
+                        \end{itemize}
+        
+        % Ejercicio 5: -------------------------------------------------------------
+        \item \textbf{La probabilidad de que al sacar una carta al azar de un naipe inglés (52 cartas), una de 
+                        ellas sea un AS.}
+
+                        \[\frac{4}{52} = 0.0769 = 7.69\%\]
+        
+        % Ejercicio 6: -------------------------------------------------------------
+        \item \textbf{En un jardín infantil hay 8 morenos y 12 morenas, así como 7 rubios y 5 rubias.
+                        Si se elige un integrante al azar, \textquestiondown Cuál es la probabilidad de que sea rubio o
+                        rubia ?}
+
+                        \[\frac{12}{32} = 0.375 = 37.5\%\]
+        
+        % Ejercicio 7: -------------------------------------------------------------
+        \item \textbf{En una encuesta, 70 personas prefieren el té, 30 prefieren el café y 50 no tienen
+                        preferencia. Si se elige una persona al azar, \textquestiondown cuál es la probabilidad de que
+                        prefiera el café? Emite tu criterio sobre las preferencias de la población
+                        encuestada.}
+
+                         \[\frac{30}{150} = 0.2 = 20\%\]
+
+                         \texttt{Criterio:} La población claramente tiene más preferencia por el té frente al café, tal vez 
+                                            debido a que este se percibe como más saludable, ya que contiene menos cafeína. 
+                                            En cambio, al resto de la población no le importa tanto cuál de las dos bebidas elegir.
+        
+        % Ejercicio 8: -------------------------------------------------------------
+        \item \textbf{En una tienda, el 15\% de las prendas están en descuento. Si seleccionas
+                        una prenda al azar, \textquestiondown cuál es la probabilidad de que no esté en descuento?}
+
+                        La probabilidad es el $85\%$ restante.
+        
+        % Ejercicio 9: -------------------------------------------------------------
+        \item \textbf{Se estima que el 40\% de los jóvenes utilizan redes sociales para noticias. Si
+                        eliges a un joven al azar, \textquestiondown  cuál es la probabilidad de que no utilice redes
+                        sociales para este fin?}
+
+                        La probabilidad es el $60\%$ restante.
+        
+        % Ejercicio 10: ------------------------------------------------------------
+        \item \textbf{En una encuesta, el 25\% de las personas dijeron que asistirían a un evento.
+                        Si seleccionas a una persona al azar, \textquestiondown  cuál es la probabilidad de que no
+                        asista al evento?}
+
+                        La probabilidad es el $75\%$ restante.
+        
+        % Ejercicio 11: ------------------------------------------------------------
+        \item \textbf{En una tienda, hay 10 manzanas, 5 plátanos y 15 naranjas. Si decides
+                        comprar una fruta al azar, \textquestiondown cuál es la probabilidad de que compres un
+                        plátano?}
+
+                        \[\frac{5}{30} = 0.1667 = 16.67\%\]
+        
+        % Ejercicio 12: ------------------------------------------------------------
+        \item \textbf{En una clase de 30 estudiantes, 18 asisten regularmente y 12 no. Si eliges a
+                        un estudiante al azar, \textquestiondown cuál es la probabilidad de que asista regularmente a
+                        clase?}
+
+                        \[\frac{18}{30} = 0.6 = 60\%\]
+        
+        % Ejercicio 13: ------------------------------------------------------------
+        \item \textbf{Supón que hay 8 restaurantes en tu barrio, de los cuales 3 son de comida
+                        italiana, 2 de comida china y 3 de comida mexicana. Si decides elegir un
+                        restaurante al azar para cenar, \textquestiondown cuál es la probabilidad de que elijas un
+                        restaurante de comida italiana?}
+
+                        \[\frac{3}{8} = 0.375 = 37.5\%\]
+        
+        % Ejercicio 14: ------------------------------------------------------------
+        \item \textbf{En una bolsa hay 5 bolas rojas, 3 bolas azules y 2 bolas verdes. Si se
+                        extraen 2 bolas sin reposición, \textquestiondown cuál es la probabilidad de que ambas sean
+                        rojas?}
+
+                        \[\frac{5}{10} \cdot \frac{4}{9} = 0.5 \cdot 0.4444 = 0.2222 = 22.22\%\]
+        
+        % Ejercicio 15: ------------------------------------------------------------
+        \item \textbf{En una baraja de 52 cartas, si se extraen 2 cartas sin reposición, \textquestiondown cuál es la
+                        probabilidad de que ambas sean ases?}
+
+                        \[\frac{4}{52} \cdot \frac{3}{51} = 0.0769 \cdot 0.0588 = 0.0452= 4.52\%\]
+        
+        % Ejercicio 16: ------------------------------------------------------------
+        \item \textbf{En una cesta hay 6 manzanas, 4 peras y 5 plátanos. Si se eligen 2 frutas al
+                        azar sin reposición, \textquestiondown cuál es la probabilidad de que ambas sean peras?}
+
+                        \[\frac{4}{15} \cdot \frac{3}{14} = 0.2667 \cdot 0.2143 = 0.0572 = 5.72\%\]
+        
+        % Ejercicio 17: ------------------------------------------------------------
+        \item \textbf{En una clase de 20 estudiantes, 8 son mujeres y 12 son hombres. Si se
+                        eligen 2 estudiantes sin reposición, \textquestiondown cuál es la probabilidad de que ambos
+                        sean hombres?}
+
+                        \[\frac{12}{20} \cdot \frac{11}{19} = 0.6 \cdot 0.5789 = 0.3474 = 34.74\%\]
+    \end{enumerate}
+
+\end{document}
