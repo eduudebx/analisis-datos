@@ -28,7 +28,7 @@ if [[ "${BASH_SOURCE[0]}" != "${0}" ]]; then
         echo -e "\ncls, src, linux_base, atajos, analisis_datos"
         echo -e "base, conda_list, deactivate"
         echo -e "gsavec, gadd, glist, gpush, gpull"
-        echo -e "docker_*, mysql_*, postgres_*\n"           
+        echo -e "docker_*, mongodb_*, mysql_*, postgres_*\n"           
     }
 
     # Miniconda ---------------------------------------------------
@@ -91,6 +91,28 @@ if [[ "${BASH_SOURCE[0]}" != "${0}" ]]; then
     postgres_restart(){
         sudo systemctl restart postgresql
     }
+
+    # MongoDB ----------------------------------------------------
+    mongodb_status(){
+        sudo systemctl status mongod
+    }
+
+    mongodb_stop(){
+        sudo systemctl stop mongod
+    }
+
+    mongodb_disable(){
+        sudo systemctl disable mongod
+    }
+
+    mongodb_start(){
+        sudo systemctl start mongod
+    }
+
+    mongodb_restart(){
+        sudo systemctl restart mongod
+    }
+
 
  # Docker ----------------------------------------------------
     docker_status(){
