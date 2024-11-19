@@ -13,20 +13,27 @@ if [[ "${BASH_SOURCE[0]}" != "${0}" ]]; then
     }
 
     atajos(){
-        nvim ~/Documentos/.Scripts/comandos.sh
+        nvim ~/Zbodhix/.Scripts/comandos.sh
     }
 
     analisis_datos(){
-        cd ~/Documentos/.Eduardo/GH/analisis-datos/
+        cd ~/Zbodhix/GH/analisis-datos/
     }
 
-    chrome(){
-        google-chrome --new-window $1        
+    linux_base(){
+	lsb_release -a
+    }
+
+    ayuda(){
+        echo -e "\ncls, src, linux_base, atajos, analisis_datos"
+        echo -e "base, conda_list, deactivate"
+        echo -e "gsavec, gadd, glist, gpush, gpull"
+        echo -e "docker_*, mysql_*, postgres_*\n"           
     }
 
     # Miniconda ---------------------------------------------------
     base(){
-        conda activate base
+        conda activate ista
     }
 
     deactivate(){
@@ -34,26 +41,10 @@ if [[ "${BASH_SOURCE[0]}" != "${0}" ]]; then
     }
 
     conda_list(){
-        echo -e "\nnumpy, pandas, statsmodels, scipy, seaborn, matplotlib"
-        echo -e "TKinter, pymysql, pymongo, fastapi.\n"
+        echo -e "\nnumpy, pandas, matplotlib, seaborn"
+        echo -e "\n"
     }
 
-    # Herramientas de Análisis de datos --------------------------
-    refine(){
-        ~/openrefine-3.8.2/./refine
-    }
-
-    weka(){
-        ~/weka-3-8-6/./weka.sh
-    }
-
-    magrada(){
-        java -jar ~/Magrada/Magrada.jar
-    }
-
-    tabula(){
-        java -jar ~/tabula/tabula.jar
-    }
  
     # MySQL ------------------------------------------------------
     mysql_status(){
@@ -61,8 +52,11 @@ if [[ "${BASH_SOURCE[0]}" != "${0}" ]]; then
     }
 
     mysql_stop(){
-        sudo systemctl disable mysql
         sudo systemctl stop mysql
+    }
+
+    mysql_disable(){
+        sudo systemctl disable mysql
     }
 
     mysql_start(){
@@ -73,30 +67,71 @@ if [[ "${BASH_SOURCE[0]}" != "${0}" ]]; then
         sudo systemctl restart mysql
     }
 
-    mongo_status(){
-        sudo systemctl status mongod
-    }
-
-    mysql_on(){
-        mysql_start
+    mysql_root(){
         mysql -u root -p
     }
 
-    # MongoDB ----------------------------------------------------
-    mongo_stop(){
-        sudo systemctl disable mongod
-        sudo systemctl stop mongod        
+    # Postgresql ----------------------------------------------------
+    postgres_status(){
+        sudo systemctl status postgresql
     }
 
-    mongo_start(){
-        sudo systemctl start mongod
+    postgres_stop(){
+        sudo systemctl stop postgresql
     }
 
-    mongo_restart(){
-        sudo systemctl restart mongod
+    postgres_disable(){
+        sudo systemctl disable postgresql
     }
 
-    mongo_on(){
-        mongosh
+    postgres_start(){
+        sudo systemctl start postgresql
+    }
+
+    postgres_restart(){
+        sudo systemctl restart postgresql
+    }
+
+ # Docker ----------------------------------------------------
+    docker_status(){
+        sudo systemctl status docker
+    }
+
+    docker_stop(){
+        sudo systemctl stop docker
+    }
+
+    docker_disable(){
+        sudo systemctl disable docker
+    }
+
+    docker_start(){
+        sudo systemctl start docker
+    }
+
+    docker_restart(){
+        sudo systemctl restart docker
+    }
+
+    # Git ----------------------------------------------------
+
+    gadd(){
+        git add .
+    }
+
+    gsavec(){
+        git config --global credential.helper store
+    }
+
+    glist(){
+        git config --list
+    }
+
+    gpush(){
+	git push
+    }
+
+    gpull(){
+	git pull
     }
 fi
