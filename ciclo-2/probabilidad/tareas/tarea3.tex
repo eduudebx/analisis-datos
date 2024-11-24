@@ -23,7 +23,7 @@
 \materia{Probabilidad y estadística \vspace{0.8cm}}
 \docente{Eco. Hermann Seminario \vspace{0.8cm}}
 \ciclo{Segundo ciclo \vspace{0.8cm}}
-\fecha{21/11/2024 \vspace{0.8cm}}
+\fecha{24/11/2024 \vspace{0.8cm}}
 \periodo{ 2024 - II}
 
 
@@ -39,46 +39,124 @@
         ensalada.\\
         Pregunta: ¿De cuántas maneras puedes seleccionar 3 frutas diferentes?}
 
+        El orden de selección de las frutas no importa: $n = 8$, $r = 3$\\
+
+        \[C(8, 3) = \frac{8!}{3!(8 - 3)!} = \frac{8\cdot 7\cdot 6\cdot 5!}{3!\cdot 5!} =  \frac{8\cdot 7\cdot 6}{6} = 56\]
+
+        \texttt{Respuesta:} Existen 56 maneras diferentes de seleccionar 3 frutas de las 8.
+
+
+
         % Ejercicio 2: -------------------------------------------------------------
         \item \textbf{En tu equipo de trabajo hay 10 personas, y necesitas formar un grupo de 4
         personas para un proyecto.\\
         Pregunta: ¿De cuántas maneras puedes elegir las 4 personas?}
+
+        El orden de selección de las personas no importa: $n = 10$, $r = 4$\\
+
+        \[C(10, 4) = \frac{10!}{4!(10 - 4)!} = \frac{10\cdot 9\cdot 8\cdot 7\cdot 6!}{4!\cdot 6!} =  \frac{10\cdot 9\cdot 8\cdot 7}{4\cdot 3\cdot 2\cdot 1} 
+        = \frac{5040}{24} = 210\]
+
+        \texttt{Respuesta:} Existen 210 maneras diferentes de elegir 4 personas de las 10.
         
+
+
         % Ejercicio 3: -------------------------------------------------------------
         \item \textbf{Tienes una lista de 12 películas y decides ver 5 de ellas durante un fin de
         semana, sin importar el orden.\\
         Pregunta: ¿De cuántas maneras puedes seleccionar las películas?}
+
+        El orden de selección de las películas no importa: $n = 12$, $r = 5$\\
+
+        \[C(12, 5) = \frac{12!}{5!(12 - 5)!} = \frac{12\cdot 11\cdot 10\cdot 9\cdot 8\cdot 7!}{5!\cdot 7!} =  
+        \frac{12\cdot 11\cdot 10\cdot 9\cdot 8}{5\cdot 4\cdot 3\cdot 2\cdot 1}  = \frac{95040}{120} = 792\]
+
+        \texttt{Respuesta:} Existen 792 maneras diferentes de elegir 5 películas de las 12.
         
+
+
         % Ejercicio 4: -------------------------------------------------------------
         \item \textbf{Hay 6 ponentes programados para una conferencia. El orden de las
         presentaciones importa.\\
         Pregunta: ¿De cuántas maneras pueden ordenarse los 6 ponentes?}
+
+        El orden en el que los ponentes se presentan sí importa.: $n = 6$, $r = 6$\\
+
+        \[P(6, 6) = \frac{6!}{(6 - 6)!} = 6! = 6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1 = 720\]
+
+        \texttt{Respuesta:} Existen 720 maneras diferentes de ordenar a los 6 ponentes.
         
+
+
         % Ejercicio 5: -------------------------------------------------------------
         \item \textbf{Tienes 10 libros diferentes y quieres organizarlos en un estante en un orden
         específico.\\
         Pregunta: ¿De cuántas maneras puedes organizar los 10 libros?}
+
+        El orden en el que se organizan los libros sí importa.: $n = 10$, $r = 10$\\
+
+        \[P(10, 10) = \frac{10!}{(10 - 10)!} = 10! = 10\cdot 9\cdot 8\cdot 7\cdot 6\cdot 5\cdot 4\cdot 3\cdot 2\cdot 1 = 3628800\]
+
+        \texttt{Respuesta:} Existen 3628800 maneras diferentes de ordenar los libros.
         
+        
+
+
         % Ejercicio 6: -------------------------------------------------------------
         \item \textbf{Una contraseña requiere 3 letras diferentes tomadas del alfabeto (26 letras), y
         el orden importa.\\
         Pregunta: ¿De cuántas maneras puedes crear la contraseña?}
+
+        El orden en el que se toman las letras sí importa.: $n = 26$, $r = 3$\\
+
+        \[P(26, 3) = \frac{26!}{(26 - 3)!} = \frac{26\cdot 25 \cdot 24\cdot 23!}{23!} = 
+        26\cdot 25\cdot 24 = 15600\]
+
+        \texttt{Respuesta:} Existen 15600 maneras diferentes de ordenar las letras.
+
+        
         
         % Ejercicio 7: -------------------------------------------------------------
         \item \textbf{En un concurso hay 5 finalistas, y se otorgan premios para el 1.º, 2.º y 3.º lugar,
         considerando el orden.\\
         Pregunta: ¿De cuántas maneras se pueden asignar los premios?}
 
+        El orden de los finalistas sí importa.: $n = 5$, $r = 3$\\
+
+        \[P(5, 3) = \frac{5!}{(5 - 3)!} = \frac{5\cdot 4 \cdot 3\cdot 2!}{2!} = 5\cdot 4 \cdot 3 = 60\]
+
+        \texttt{Respuesta:} Existen 60 maneras diferentes de ordenar a los finalistas.
+
+        
+
         % Ejercicio 8: -------------------------------------------------------------
         \item \textbf{Una contraseña requiere 3 letras diferentes tomadas del alfabeto (26 letras), y el
         orden importa.\\
         Pregunta: ¿De cuántas maneras puedes crear la contraseña?}
+
+        El orden en el que se toman las letras sí importa.: $n = 26$, $r = 3$\\
+
+        \[P(26, 3) = \frac{26!}{(26 - 3)!} = \frac{26\cdot 25 \cdot 24\cdot 23!}{23!} = 
+        26\cdot 25\cdot 24 = 15600\]
+
+        \texttt{Respuesta:} Existen 15600 maneras diferentes de ordenar las letras.
+
+
         
         % Ejercicio 9: -------------------------------------------------------------
         \item \textbf{Un estudiante tiene 4 camisas diferentes, 3 pares de pantalones y 2 pares de
         zapatos. Quiere saber cuántos conjuntos diferentes puede formar.\\
         Pregunta: ¿De cuántas maneras diferentes puede combinar una camisa, un
         pantalón y un par de zapatos?}
+
+        Aplicamos la regla del producto de la combinatoria: $n_1 = 4$ camisas, $n_2 = 3$ pares de pantalones y $n_3 = 2$ pares de
+        zapatos.
+
+        \[P(n_1, n_2, n_3) = 4 \cdot 3 \cdot 2 = 24\]
+
+        \texttt{Respuesta:} Se pueden combinar de 24 maneras diferentes.
+
+
         
         % Ejercicio 10: -------------------------------------------------------------
         \item \textbf{Para una contraseña, se necesita:}
@@ -89,7 +167,15 @@
             \end{itemize}
             \textbf{Pregunta: ¿Cuántas contraseñas diferentes pueden generarse combinando una
             letra, un número y un símbolo especial?}
+
+            Aplicamos la regla del producto de la combinatoria: $n_1 = 26$ posibles letras, $n_2 = 10$ posibles números y $n_3 = 5$ posibles números símbolos.
+
+            \[P(n_1, n_2, n_3) = 26 \cdot 10 \cdot 5 = 1300\]
+
+            \texttt{Respuesta:} Se pueden generar 1300 contraseñas diferentes.
         
+
+
         % Ejercicio 11: -------------------------------------------------------------
         \item \textbf{En un restaurante, un cliente puede elegir:}
             \begin{itemize}
@@ -99,6 +185,13 @@
             \end{itemize}
             \textbf{Pregunta: ¿Cuántas combinaciones diferentes de menú (entrada, plato principal
             y postre) puede elegir un cliente?}
+
+            Aplicamos la regla del producto de la combinatoria: $n_1 = 3$ tipos de entrada, $n_2 = 5$ tipos de plato principal y 
+            $n_3 = 4$ tipos de postre.
+
+            \[P(n_1, n_2, n_3) = 3 \cdot 5 \cdot 4 = 60\]
+
+            \texttt{Respuesta:} Se pueden generar 60 combinaciones diferentes.
 
     \end{enumerate}
 \end{document}
