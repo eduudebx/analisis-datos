@@ -165,7 +165,7 @@
         \item \textbf{En una fábrica, la probabilidad de que un producto sea defectuoso es 0.1. Si se seleccionan dos 
         productos al azar (de forma independiente), ¿cuál es la probabilidad de que ambos sean defectuosos?}
 
-        $A = $ un producto es defectuoso y $B = $ ambos productos son defectuosos.\\
+        $A = $ un producto es defectuoso y $B = $ ambos productos son defectuosos.
 
         \[P(B) = P(A) \times P(A) = 0.1 \cdot 0.1 = 0.01\]
 
@@ -174,12 +174,22 @@
 
 
         % Ejercicio 9: -------------------------------------------------------------
+        \newpage
         \item \textbf{En una semana, la probabilidad de que una persona llegue a tiempo al trabajo
         cada día es 0.9. \textquestiondown Cuál es la probabilidad de que llegue tarde al menos un día?}
 
+        $A = $ llegua a tiempo al trabajo cada día, $B = $ llegue a tiempo al trabajo todos los días.\\
+
+        Dias laborables (Lunes a Viernes). Los eventos se producen de forma independiente:
+
+        \[P(B) = P(A)^{5} = 0.9^{5} = 0.5905\]
+
+        \[P(B') = 1 - P(B) = 1 - 0.5905 = 0.4095\]
+
+        \texttt{Respuesta:} La probabilidad de que llegue tarde al menos un día es del 40.95\%.
         
         
-        
+
         % Ejercicio 10: -------------------------------------------------------------
         \item \textbf{En una clase, la probabilidad de que un estudiante no apruebe un examen es
         0.2. \textquestiondown Cuál es la probabilidad de que lo apruebe?}
@@ -198,35 +208,89 @@
 
         \texttt{Respuesta:} La probabilidad de no sacar un As en un solo intento es del 92.30\%.
 
+
+
         % Ejercicio 12: -------------------------------------------------------------
         \item \textbf{Se lanzan dos monedas. La probabilidad de que una moneda caiga en cara es
         0.5. \textquestiondown Cuál es la probabilidad de que ambas monedas caigan en cara?}
         
+        $A = $ una moneda cae en cara y $B = $ ambas monedas caen en cara.\\
+
+        Los eventos se producen de forma independiente:
+
+        \[P(B) = P(A) \times P(A) = 0.5 \cdot 0.5 = 0.25\]
+
+        \texttt{Respuesta:} La probabilidad de que ambas monedas caigan en cara es del 25\%.
+
+
+
         % Ejercicio 13: -------------------------------------------------------------
+        \newpage
         \item \textbf{Un amigo tiene dos boletos para una rifa. La probabilidad de ganar con cada
         boleto es 0.05. Si los resultados son independientes, \textquestiondown cuál es la probabilidad de
         que gane con ambos boletos?}
+
+        $A = $ ganar con un boleto y $B = $ gana con ambos boletos.
+
+        \[P(B) = P(A) \times P(A) = 0.05 \cdot 0.05 = 0.0025\]
+
+        \texttt{Respuesta:} La probabilidad de que gane con ambos boletos es del 0.25\%.
         
+
+
         % Ejercicio 14: -------------------------------------------------------------
         \item \textbf{Un estudiante responde al azar 3 preguntas de opción múltiple. La probabilidad
         de acertar cada pregunta es 0.25. Si las respuestas son independientes, \textquestiondown cuál es
         la probabilidad de acertar todas las preguntas?}
         
+        $A = $ acierta una pregunta y $B = $ acierta todas las preguntas.
+
+        \[P(B) = P(A)^{3} = 0.25^{3} = 0.0156\]
+
+        \texttt{Respuesta:} La probabilidad de que acierte todas las preguntas es del 1.56\%.
+        
+
+        
         % Ejercicio 15: -------------------------------------------------------------
         \item \textbf{Una bombilla tiene una probabilidad de encender correctamente del 0.9. Si se
         encienden dos bombillas independientes, \textquestiondown cuál es la probabilidad de que ambas
         funcionen?}
+
+        $A = $ una bombilla enciende correctamente y $B = $ ambas bombillas encienden correctamente.
+
+        \[P(B) = P(A) \times P(A) = 0.9 \cdot 0.9 = 0.81\]
+
+        \texttt{Respuesta:} La probabilidad de que ambas bombillas encienden correctamente es del 81\%.
+
+        
         
         % Ejercicio 16: -------------------------------------------------------------
         \item \textbf{En una encuesta, el 60\% de las personas prefieren pizza y el 30\% de los que
         prefieren pizza también prefieren hamburguesas. Si se elige a alguien al azar,
         \textquestiondown cuál es la probabilidad de que prefiera hamburguesas dado que prefiere pizza?}
+
+        $A = $ las personas prefieren hamburguesas y $B = $ las personas prefieren pizza.\\
+
+        \[P(A \cap B) = \frac{30 \cdot 60}{100} = 18\% = 0.18\]
+        \[P(A \mid B) = \frac{P(A \cap B)}{P(B)} = \frac{0.18}{0.6} = 0.3\]
+
+        \texttt{Respuesta:} La probabilidad de que prefiera hamburguesas dado que prefiere pizza es del 30\%.
         
+
+
         % Ejercicio 17: -------------------------------------------------------------
         \item \textbf{En una universidad, el 30\% de los estudiantes están inscritos en Matemáticas, y
         el 40\% de los inscritos en Matemáticas también están inscritos en Física. \textquestiondown Cuál
         es la probabilidad de que un estudiante esté inscrito en Física dado que ya se
         sabe que está inscrito en Matemáticas?}
+
+        $A = $ los estudiantes están inscritos en Matemática y $B = $ los estudiantes están inscritos en Física.\\
+
+        \[P(A \cap B) = \frac{40 \cdot 30}{100} = 12\% = 0.12\]
+        \[P(A \mid B) = \frac{P(A \cap B)}{P(B)} = \frac{0.12}{0.3} = 0.4\]
+
+        \texttt{Respuesta:} La probabilidad de que un estudiante esté inscrito en Física dado que 
+         está inscrito en Matemáticas es del 40\%.
 
     \end{enumerate}
 \end{document}
