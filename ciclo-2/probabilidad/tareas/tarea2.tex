@@ -10,6 +10,7 @@
 \usepackage{xcolor}
 \usepackage{enumitem}
 \usepackage{gensymb}
+\usepackage{venndiagram}
 
 
 \input{../../../docs/portada-tareas/formato}
@@ -23,7 +24,7 @@
 \materia{Probabilidad y estadística \vspace{0.8cm}}
 \docente{Eco. Hermann Seminario \vspace{0.8cm}}
 \ciclo{Segundo ciclo \vspace{0.8cm}}
-\fecha{20/11/2024 \vspace{0.8cm}}
+\fecha{23/11/2024 \vspace{0.8cm}}
 \periodo{ 2024 - II}
 
 
@@ -40,11 +41,28 @@
         tanto en la mañana como en la tarde es 0.2, \textquestiondown cuál es la probabilidad de que
         llueva al menos en una parte del día?}
 
+        $A = $ llueve en la mañana y $B = $ llueve en la tarde.\\
+
+        Para calcular la probabilidad de que llueva al menos en una parte del día 
+        los eventos deben ser mutuamente excluyentes:
+
+        \[P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0.4 + 0.5 - 0.2 = 0.7\]
+
+        \texttt{Respuesta:} La probabilidad de que llueva al menos en una parte del día es del 70\%.
+        
+
+
         % Ejercicio 2: -------------------------------------------------------------
         \item \textbf{La probabilidad de que una persona no conteste su teléfono cuando recibe una
         llamada es 0.15. Si recibe una llamada, \textquestiondown cuál es la probabilidad de que sí
         conteste?}
+
+        \[P(A') = 1 - P(A) = 1 - 0.15 = 0.85\]
+
+        \texttt{Respuesta:} La probabilidad de que sí conteste es del 85\%.
         
+
+
         % Ejercicio 3: -------------------------------------------------------------
         \item \textbf{Un grupo de amigos tiene tres opciones de películas para ver en casa: acción,
         comedia o drama. La probabilidad de que elijan una película de acción es 0.3, la
@@ -52,23 +70,79 @@
         guste tanto una película de acción como de comedia es 0.1. \textquestiondown Cuál es la
         probabilidad de que elijan una película de acción o de comedia?}
         
+        $A = $ elijen una película de acción y $B = $ elijen una película de comedia.\\
+
+        Para calcular la probabilidad de que elijan una película de acción o de comedia  
+        los eventos deben ser mutuamente excluyentes:
+
+        \[P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0.3 + 0.5 - 0.1 = 0.7\]
+
+        \texttt{Respuesta:} La probabilidad de que elijan una película de acción o de comedia es del 70\%.
+
+
+
         % Ejercicio 4: -------------------------------------------------------------
+        \newpage
         \item \textbf{En un supermercado, la probabilidad de que una persona compre frutas es 0.6,
         y la probabilidad de que compre verduras es 0.5. Si la probabilidad de que
         compre ambas cosas es 0.3, \textquestiondown cuál es la probabilidad de que compre al menos
         frutas o verduras?}
+
+        $A = $ compra una fruta y $B = $ compra una verdura.\\
+
+        Para calcular la probabilidad de que compre al menos frutas o verduras 
+        los eventos deben ser mutuamente excluyentes:
+
+        \[P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0.6 + 0.5 - 0.3 = 0.8\]
+
+        \texttt{Respuesta:} La probabilidad de que compre al menos frutas o verduras es del 80\%.
+
+
         
         % Ejercicio 5: -------------------------------------------------------------
         \item \textbf{El 70\% de los clientes de una tienda en línea compran productos electrónicos.
         De ellos, el 20\% también compran accesorios. Si un cliente ya compró un
         producto electrónico, \textquestiondown cuál es la probabilidad de que también compre
         accesorios?}
+
+        $A = $ compra accesorios y $B = $ compra productos electrónicos.\\
+
+        \[P(A \cap B) = \frac{20 \cdot 70}{100} = 14\% = 0.14\]
+        \[P(A \mid B) = \frac{P(A \cap B)}{P(B)} = \frac{0.14}{0.7} = 0.2\]
+
+        \texttt{Respuesta:} La probabilidad de que también compre accesorios es del 20\%.
+
+
         
         % Ejercicio 6: -------------------------------------------------------------
         \item \textbf{Se lanzan dos dados estándar. \textquestiondown Cuál es la probabilidad de que la suma sea un
         número impar o que salga al menos un número ``6''? (Nota: Algunos resultados
         pueden cumplir ambas condiciones, así que no son eventos mutuamente
         excluyentes).}
+
+        $A = $ la suma es un número impar y $B = $ sale al menos un número ``6''.\\
+
+        Para que la suma de los dos posibles resultados sea un número impar el primer dado debe caer en (1, 3, 5) y el
+        segundo en (2, 4, 6) o viceversa $\rightarrow m \times n = 3 \cdot 3 \cdot 2 = 18$. Posibles combinaciones de los
+        dos dados $\rightarrow m \times n = 6 \cdot 6 = 36$.
+
+        \[P(A) = \frac{18}{36} = \frac{1}{2}\]
+
+        Para obtener un ``6'' en las posibles combinaciones de los dos dados, el orde sí importa por lo que 
+        $\rightarrow 1 \cdot 6 + 1 \cdot 5 = 11$. \\
+
+        \[P(B) = \frac{11}{36}\]
+
+        Las combinaciones que forman parte de la intersección de estos dos conjuntos deben cumplir la condición de tener el número ``6'' 
+        y un número impar (1, 3, 5) o viceversa $\rightarrow 1 \cdot 3 \cdot 2 = 6$
+
+        \[P(A \cap B) = \frac{6}{36} = \frac{1}{6}\] \\
+
+        \[P(A \cup B) = P(A) + P(B) - P(A \cap B) = \frac{1}{2} + \frac{11}{36} - \frac{1}{6} = \frac{23}{36} = 0.6388\]
+
+        \texttt{Respuesta:} La probabilidad de que la suma sea un número impar o que salga al menos un número ``6''es del 63.88\%.
+
+
         
         % Ejercicio 7: -------------------------------------------------------------
         \item \textbf{En un parque, la probabilidad de que una persona elija practicar fútbol es 0.4, la
@@ -76,23 +150,53 @@
         deportes es 0.1. \textquestiondown Cuál es la probabilidad de que una persona elija al menos uno
         de estos deportes?}
 
+        $A = $ elije practicar fútbol y $B = $ elije practicar baloncesto.\\
+
+        Para calcular la probabilidad de que una persona elija al menos uno de estos deportes 
+        los eventos deben ser mutuamente excluyentes:
+
+        \[P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0.4 + 0.3 - 0.1 = 0.6\]
+
+        \texttt{Respuesta:} La probabilidad de que una persona elija al menos uno de estos deportes es del 60\%.
+
+
+
         % Ejercicio 8: -------------------------------------------------------------
-        \item \textbf{En un parque, la probabilidad de que una persona elija practicar fútbol es 0.4, la
-        probabilidad de que elija baloncesto es 0.3, y la probabilidad de que elija ambos
-        deportes es 0.1. \textquestiondown Cuál es la probabilidad de que una persona elija al menos uno
-        de estos deportes?}
+        \item \textbf{En una fábrica, la probabilidad de que un producto sea defectuoso es 0.1. Si se seleccionan dos 
+        productos al azar (de forma independiente), ¿cuál es la probabilidad de que ambos sean defectuosos?}
+
+        $A = $ un producto es defectuoso y $B = $ ambos productos son defectuosos.\\
+
+        \[P(B) = P(A) \times P(A) = 0.1 \cdot 0.1 = 0.01\]
+
+        \texttt{Respuesta:} La probabilidad de que ambos productos sean defectuosos es del 1\%.
         
+
+
         % Ejercicio 9: -------------------------------------------------------------
         \item \textbf{En una semana, la probabilidad de que una persona llegue a tiempo al trabajo
         cada día es 0.9. \textquestiondown Cuál es la probabilidad de que llegue tarde al menos un día?}
+
+        
+        
         
         % Ejercicio 10: -------------------------------------------------------------
         \item \textbf{En una clase, la probabilidad de que un estudiante no apruebe un examen es
         0.2. \textquestiondown Cuál es la probabilidad de que lo apruebe?}
+
+        \[P(A') = 1 - P(A) = 1 - 0.2 = 0.8\]
+
+        \texttt{Respuesta:} La probabilidad de apruebe el examen es del 80\%.
+
+
         
         % Ejercicio 11: -------------------------------------------------------------
         \item \textbf{En una baraja estándar de 52 cartas, la probabilidad de sacar un As es 4/52.
         \textquestiondown Cuál es la probabilidad de no sacar un As en un solo intento?}
+
+        \[P(A') = 1 - P(A) = 1 - \frac{4}{52} = \frac{12}{13} = 0.9230\]
+
+        \texttt{Respuesta:} La probabilidad de no sacar un As en un solo intento es del 92.30\%.
 
         % Ejercicio 12: -------------------------------------------------------------
         \item \textbf{Se lanzan dos monedas. La probabilidad de que una moneda caiga en cara es
