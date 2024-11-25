@@ -1,0 +1,105 @@
+\documentclass[12pt]{article}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[margin = 2.54cm]{geometry}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{gensymb}
+
+
+\input{../../../docs/portada-tareas/formato}
+\input{../../../docs/portada-tareas/definicion}
+
+
+\rutaLogo{../../../docs/img/logo-ista.png}
+\tema{\\ \vspace{0.8cm} Tarea de lección de la unidad N\degree1 \\ \vspace{1.5cm}}
+\etiquetaAutores{Integrantes: }
+\alumno{Juan Orellana\\ Freddy Moltalván\\ Adrian Sumba\\ Eduardo Mendieta \vspace{0.8cm}}
+\materia{Probabilidad y estadística \vspace{0.8cm}}
+\docente{Eco. Hermann Seminario \vspace{0.8cm}}
+\ciclo{Segundo ciclo \vspace{0.8cm}}
+\fecha{25/11/2024 \vspace{0.8cm}}
+\periodo{ 2024 - II}
+
+
+\begin{document}
+    \input{../../../docs/portada-tareas/plantilla}
+
+    \section*{\centering  Tarea de lección de la unidad N\degree1} 
+    \vspace{0.5cm}\textbf{En base a los siguientes ejercicios de tablas de contingencia, elabore las
+    probabilidades: marginal, conjunta y condicional, además interprete los
+    resultados y genere las conclusiones:} \vspace{0.5cm}
+
+    \section*{\centering Tabla de contingencia y cálculo de probabilidades}
+
+        \vspace{0.5cm}\textbf{Se evalúa si existe relación entre el género del usuario y el tipo de
+        contenido preferido (películas o series) en una plataforma de
+        streaming.} \vspace{0.5cm}
+
+        \begin{figure}[ht]
+            \centering
+            \includegraphics[width=1\textwidth]{img/tabla_contigencia.png}
+        \end{figure}
+
+        \begin{enumerate}
+            \item \textbf{Probabilidad conjunta:}
+                \begin{enumerate}
+                    \item $A = $ Masculino y prefiere peliculas, $N =$ total:
+                        \[P = \frac{A}{N} = \frac{500}{1500} = 0.3333 = 33.33\%\]
+                    \item $A = $ Masculino y prefiere series, $N =$ total:
+                        \[P = \frac{A}{N} = \frac{300}{1500} = 0.2 = 20\%\]
+                    \item $A = $ Femenino y prefiere peliculas, $N =$ total:
+                        \[P = \frac{A}{N} = \frac{300}{1500} = 0.2 = 20\%\]
+                    \item $A = $ Femenino y prefiere series, $N =$ total:
+                        \[P = \frac{A}{N} = \frac{400}{1500} = 0.2667 = 26.67\%\]
+                \end{enumerate}
+
+                \texttt{Conclusión:} Las películas son más apreciadas por los hombres (33,33\%), en cambio, las series 
+                tienen una inclinación ligeramente superior entre las mujeres (26,67\%). 
+                Las películas (800 personas) superan a las series (700), aunque las preferencias fluctúan dependiendo del género, 
+                siendo la mezcla menos habitual la de hombres que prefieren las series (20\%). 
+
+            \item \textbf{Probabilidad marginal:}
+                \begin{enumerate}
+                    \item $A = $Probabilidad de que les gusta las series, $N =$ total:
+                        \[P = \frac{A}{N} = \frac{700}{1500} = 0.46 = 46\%\]
+                    \item $A = $Probabilidad de que les gusta las peliculas, $N =$ total:
+                        \[P = \frac{A}{N} = \frac{800}{1500} = 0.53 = 53\%\]
+                    \item $A = $Probabilidad de que sea masculino, $N =$ total:
+                        \[P = \frac{A}{N} = \frac{800}{1500} = 0.53 = 53\%\]
+                    \item $A = $Probabilidad de que sea femenino, $N =$ total:
+                        \[P = \frac{A}{N} = \frac{700}{1500} = 0.46 = 46\%\]
+                \end{enumerate}
+
+                \texttt{Conclusiones:} 
+                \begin{itemize}
+                    \item La probabilidad total del publico femenino es equivalente al total de las series con un 46\%.
+                    \item La probabilidad total del publico masculino es equivalente al total de la probabilidad de las peliculas con un total del 53\%.
+                \end{itemize}
+
+            \item \textbf{Probabilidad condicional:}
+                \begin{enumerate}
+                    \item $A = $Probabilidad de que le guste las peliculas, $B = $dado que sea femenino:
+                        \[P(A \cap B) = \frac{A \cap B}{P(B)} = \frac{300}{700} = 0.42 = 42\%\]
+                    \item $A = $Probabilidad de que le guste las peliculas, $B = $dado que sea Masculino:
+                        \[P(A \cap B) = \frac{A \cap B}{P(B)} = \frac{500}{800} = 0.625 = 62.5\%\]
+                    \item $A = $Probabilidad de que le guste las series, $B = $ dado que sea femenino:
+                        \[P(A \cap B) = \frac{A \cap B}{P(B)} = \frac{400}{700} = 0.57 = 57 \%\]
+                    \item $A = $Probabilidad de que le guste las series, $B = $dado que sea Masculino: 
+                        \[P(A \cap B) = \frac{A \cap B}{P(B)} = \frac{300}{800} = 0.375 = 37.5\%\]
+                \end{enumerate}
+                \texttt{Conclusiones:} 
+                \begin{itemize}
+                    \item Los resultados muestran que los usuarios de la plataforma tienen diferentes preferencias según su género, prefiriendo las mujeres series y los hombres películas.
+                    \item Si la plataforma quiere atraer a más público femenino, podría considerar agregar más contenido de series. Por otro lado, si quiere atraer a más espectadores masculinos, puedes reforzar el catálogo de películas.
+                    \item Es mas probable que un espectador que ve una pelicula sea del genero masculino, que uno que vea una serie y sea del genero femenino.
+                \end{itemize}
+                
+        \end{enumerate}
+
+\end{document}
