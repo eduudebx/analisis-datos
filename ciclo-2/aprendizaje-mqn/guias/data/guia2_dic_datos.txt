@@ -1,0 +1,345 @@
+Verificacion|VERIFICACION
+Estado|ESTADO
+ApellidosNombres|1.- Nombres y Apellidos del encuestado (Adulto mayor)
+CodSuj|3.- Código del sujeto (ECU-IUTA-R-XXX)
+Edad|EDAD
+Profesion|2.- profesion
+Sexo|6.- Sexo
+ECivil|7.- Estado civil
+Lateralidad|9.- Lateralidad
+DSF|10.- Déficit sensorial Física
+EnfermedadPA|11.- Enfermedad psiquiátrica activa. Si presenta alguno de estos Ejemplos entonces escribirlo caso contrario colocar N/A (Ansiedad, Depresión,Trastorno de oposición desafiante, Trastorno de la conducta, Trastorno por estrés postraumático.  .  ) 
+HistoriaAD|12.- Escribir si presenta una Historia de Alcohol/Drogas caso contrario colocar N/A
+CondicionesMNS|13.- Escribir sí presenta  Condiciones medicas y/o neurológicas subyacentes (Toma medicina para dormir, toma medicina neurológico) caso contrario colocar N/A.
+Medicacion|14.- Medicación (especificar) en caso de haberlo caso contrario colocar N/A.
+ObservacionMed|OBSERVACIÓN: Comenta si observas alguna novedad aparte de las anteriores (es parálitico, es activo, no habla bien, es sociable, no ve etc) caso contrario colocar la palabra NINGUNA
+AniosEstudio|8.- Años de estudio
+CT1|
+CT2|
+CT3|
+CT4|
+CT5|
+CT6|
+CT7|
+CT8|
+TotalPBT1|TOTAL PREGUNTAS BASICAS TAREA 1
+CT9|
+CT10|
+CT11|
+CT12|
+TotalPMT2|TOTAL PREGUNTAS MUSICA  TAREA 2
+CT13|
+CT14|
+CT15|
+CT16|
+CT17|
+CT18|
+CT19|
+CT20|
+TotalPMT3|TOTAL PREGUNTAS MEMORIA  TAREA 3
+CT21|
+CT22|
+TotalPPT4|TOTAL PREGUNTAS PHONE TAREA 4
+CT23|
+CT24|
+CT25|
+CT26|
+CT27|
+CT28|
+CT29|
+CT30|
+TotalCIT5|TOTAL CASA INTELIGENTE TAREA 5
+TotalTareas|TOTAL TAREAS
+DispDSFE|dispositivo con un diseño simple y fácil de entender.  3MUCHO, 2 BASTANTE,1 ALGO, 0 NADA
+IdiomaDisp|Idioma del dispositivo- 3MUCHO, 2 BASTANTE,1 ALGO, 0 NADA
+PrefContenido|Preferencia de contenido- 3MUCHO, 2 BASTANTE,1 ALGO, 0 NADA
+VolumenAC|volumen alto y claro.  3MUCHO, 2 BASTANTE,1 ALGO, 0 NADA
+RespComBas|Respuesta de comando basicos. 3MUCHO, 2 BASTANTE,1 ALGO, 0 NADA
+VisivilidadC|visibilidad con claridad,  3MUCHO, 2 BASTANTE,1 ALGO, 0 NADA
+DiscapacidadC|Discapacidad (cualquiera)-0 NADA, 1 BASTANTE, 2 ALGO, 3 MUCHO
+TotalCaractPerf|TOTAL CARACT PERFIL
+Item1PreSg|ITEM1-PRE-SG ¿Con qué frecuencia realizas ejercicio físico?(1-2-3-4-5(1nada-5mucho)
+Item2PreSg|ITEM2-PRE-SG ¿Con qué frecuencia realizas alguna actividad para ejercitar tu cerebro?(1-2-3-4-5(1nada-5mucho)
+Item3PreSg|ITEM3-PRE-SG ¿Estás interesado/a en las nuevas tecnologías? (1-2-3-4-5(1nada-5mucho)
+Item4PreSg|ITEM4-PRE-SG ¿Con qué frecuencia juegas con videojuegos? (1-2-3-4-5(1nada-5mucho)
+Item5PreSg|ITEM5-PRE-SG ¿Cuál es tu motivación para jugar a videojuegos? (1-2-3-4-5(1nada-5mucho) 
+Item6PreSg|ITEM6-PRE-SG ¿Sueles pasar mucho tiempo solo/a? (1-2-3-4-5(1nada-5mucho tiempo en soledad) 
+Item7PreSg|ITEM7-PRE-SG ¿Sueles realizar actividades sociales con amigos, familiares, pareja…? 
+Item8PreSg|8. ¿Con qué frecuencia utilizas el móvil?
+Item9PreSg|9. ¿Con qué frecuencia utilizas ordenadores o tablets?
+Item10PreSg|10.¿Consideras que tienes un buen manejo de la tecnología? 
+Item11PreSg|11. ¿Qué nivel de ansiedad/malestar te produce utilizar las nuevas tecnologías? 
+Item12PreSg|ITEM12-PRE-SG ¿Cómo de útil consideras que puede ser el uso de las nuevas tecnologías para evaluar la salud cognitiva? 
+Item13PreSg|ITEM13-PRE-SG ¿Cómo de útil consideras que puede ser el uso de videojuegos para evaluar la salud cognitiva? 
+Item14PreSg|14.¿Estás interesado/a en la memoria y su evaluación? 
+Item15PreSg|ITEM15-PRE-SG ¿Crees que una persona mayor podría tener un buen manejo de las nuevas tecnologías? 
+ResFinalPre|RESULTADO FINAL PRE
+Item1APostSg|ITEM1A-POST-SEG           Preguntas POST                                                                                                                                   1.A ¿Cómo te has sentido durante la prueba? (1: nada relajado,.... 5: muy relajado)
+Item1BPostSg|ITEM1B-POST-SEG        Preguntas POST                                                                                                                                   1. B ¿Cómo te has sentido durante la prueba? (1: aburrido...... 5: muy aburrido)
+Item2PostSg|2. ¿Cómo evaluarías tu experiencia con los juegos y el dispositivo? (PROMEDIO 1-5)
+Item3PostSg|3. ¿Cómo evaluarías tu experiencia con las pruebas de papel y lápiz? 
+Item4APostSg|4.A¿Qué tipo de prueba prefieres? ¿Con el dispositivo o las de papel y lápiz? (lapiz puntuacion 1 y dispositivos 2)
+Item4BPostSg|4.B¿Qué tipo de prueba prefieres? ¿Con el dispositivo o las de papel y lápiz? CALF1-5.
+Item5PostSg|ITEM5-POST-SG ¿Te atreverías a tener este dispositivo en casa, y realizar las pruebas por tu cuenta? CONTESTA SÍ O NO. (SI 1, NO 2) 
+Item6PostSg|ITEM6-POST-SG ¿Cómo de útil consideras que puede ser el uso de videojuegos para evaluar la salud cognitiva? (3 util 2 no util) calif:1-5.
+Item7PostSg|ITEM7-POST-SG ¿Cómo de útil consideras que puede ser el uso de las nuevas tecnologías para evaluar la salud cognitiva? 
+Item8PostSg|ITEM8-POST-SG  ¿Consideras que es una prueba fácil? (3  util -todos)calif:1-5.
+Item9PostSg|ITEM9-POST-SG ¿Consideras que es una prueba útil?(PREGUNTA 7). 
+Item10PostSg|ITEM10-POST-SG ¿Utilizarías los juegos con el fin de entretenimiento y diversión?. CONTESTA SÍ O NO. (PREGUNTA 7).
+Item11PostSg|ITEM11-POST-SG ¿Te gustaría utilizar esta herramienta con más frecuencia? CONTESTA SÍ O NO. (respuesta Comandos  basicos).
+Item12PostSg|12.¿Qué prueba te ha parecido más fácil? ¿La de colores/animales/vehículos o la de dígitos? (COLORES).
+Item13PostSg|13.¿Qué prueba te ha parecido más interesante? ¿La de colores/animales/vehículos o la de dígitos? (COLORES).
+Item14PostSg|ITEM14-POST-SG ¿Te has sentido seguro/a durante la prueba? (PREGUNTA7)
+Item15PostSg|15.¿Consideras que es una forma ecológica de evaluación? Es decir, es una prueba más natural y podría parecer que no es para evaluar 
+Item16PostSg|ITEM16-POST-SG La apariencia de los juegos, ¿Te ha parecido atractiva? (PREGUNTA 7).
+Item17PostSg|ITEM17-POST-SG ¿Has entendido las instrucciones de Alexa en todo momento? (PREGUNTA7).
+Item18PostSg|18.¿Crees que Alexa ha dicho el nombre de los ítems (colores, animales, vehículos y números) a una velocidad adecuada? 
+Item19PostSg|ITEM19-POST-SG ¿Te ha parecido una prueba intuitiva? 
+Item20PostSg|ITEM20.¿Has visualizado las imágenes y escuchado los ítems (colores, animales, vehículos y números) correctamente en todo momento? 
+Item21PostSg|ITEM21-POST-SG ¿Crees que una persona mayor podría utilizar esta herramienta? (PREGUNTA 7)
+Item22PostSg|ITEM22-POST-SG ¿Crees que utilizar este dispositivo es una buena forma de evaluar la memoria? 
+Item23PostSg|23.A la hora de responder, ¿prefieres dar la respuesta por voz o de forma táctil en la pantalla? (3. voz y 2 tactil).
+Item24PostSg|24.¿Crees que los juegos deberían tener un componente de desafío? 
+Item25PostSg|25.¿Añadirías algún cambio a los juegos? En caso afirmativo, ¿cuál? (Respuestas comando basico 0 ,1 y 2=NO ,3 si).
+ResFinalPost|RESULTADO FINAL POST
+ResDir1_1|1. ( 1-7)    
+ResDir1_2|2. (6-3)
+ResDir1|RESULTADO 1
+ResDir2_1|1. ( 5-8-2)    
+ResDir2_2|2. (6-9-4)
+ResDir2|RESULTADO 2
+ResDir3_1|1. ( 6-4-3-9)  
+ResDir3_2|2. (7-2-8-6)
+ResDir3|RESULTADO 3
+ResDir4_1|1. ( 4-2-7-3-1)    
+ResDir4_2|2. (7-5-8-3-6)
+ResDir4|RESULTADO 4
+ResDir5_1|1. ( 6-1-9-4-7-3)    
+ResDir5_2|2. (3-9-2-4-8-7)
+ResDir5|RESULTADO 5
+ResDir6_1|1. ( 5-9-1-7-4-2-8)     
+ResDir6_2|2. (4-1-7-9-3-8-6)
+ResDir6|RESULTADO 6
+ResDir7_1|1.(5-8-1-9-2-6-4-7)    
+ResDir7_2|2. (3-8-2-9-5-1-7-4)
+ResDir7|RESULTADO 7
+ResDir8_1|1. ( 2-7-5-8-6-2-5-8-4)   
+ResDir8_2|2. (7-1-3-9-4-2-5-6-8)
+ResDir8|RESULTADO 8
+ResFinalDirecto|RESULTADO DIRECTO FINAL 
+ResInv1_1|1. (2-4)        
+ResInv1_2|2.(5-7)
+ResInv1|RESULTADO INV 1
+ResInv2_1|1.(6-2-9)       
+ResInv2_2|2. (4-1-5)
+ResInv2|RESULTADO INV 2
+ResInv3_1|1.(3-2-7-9)     
+ResInv3_2|2. (4-9-6-8)
+ResInv3|RESULTADO INV 3
+ResInv4_1|1.(1-5-2-8-6)   
+ResInv4_2|2.(6-1-8-4-3)
+ResInv4|RESULTADO INV 4
+ResInv5_1|1.(5-3-9-4-1-8)   
+ResInv5_2|2.(7-2-4-8-5-6)
+ResInv5|RESULTADO INV 5
+ResInv6_1|1.(8-1-2-9-3-6-5)       
+ResInv6_2|2.(4-7-3-9-1-2-8)
+ResInv6|RESULTADO INV 6
+ResInv7_1|1.(9-4-3-7-6-2-5-8)     
+ResInv7_2|2. (7-2-8-1-9-6-5-3)
+ResInv7|RESULTADO INV 7
+ResFinalInverso|RESULTADO INVERSO FINAL
+ResFinalDirInv|RESULTADO FINAL DIRECTO-INVERSO
+LN1_I1|E1Intento 1
+LN1_I2|E1Intento 2
+LN1_I3|E1Intento 3
+LN1|RESULTADO 1 Letras y num
+LN2_I1|E2Intento1
+LN2_I2|E2Intento2
+LN2_I3|E2Intento3
+LN2|RESULTADO 2 Letras y num
+LN3_I1|E3Intento 1
+LN3_I2|E3Intento 2
+LN3_I3|E3Intento 3
+LN3|RESULTADO 3 Letras y num
+LN4_I1|E4Intento 1
+LN4_I2|E4Intento 2
+LN4_I3|E4Intento 3
+LN4|RESULTADO 4 Letras y num
+LN5_I1|E5Intento 1
+LN5_I2|E5Intento 2
+LN5_I3|E5Intento 3
+LN5|RESULTADO 5 Letras y num
+LN6_I1|E6Intento 1
+LN6_I2|E6Intento 2
+LN6_I3|E6Intento 3
+LN6|RESULTADO 6 Letras y num
+LN7_I1|E7Intento 1
+LN7_I2|E7Intento 2
+LN7_I3|E7Intento 3
+LN7|RESULTADO 7 Letras y num
+ResFinalLN|RESULTADO FINAL LETRAS Y NUMEROS
+1_20T|
+1_20E|
+1_20P|
+1_20BT|
+ABC_T|
+ABC_E|
+ABC_P|
+ABC_BT|
+DIAS_T|
+DIAS_E|
+DIAS_P|
+DIAS_BT|
+MESES_T|
+MESES_E|
+MESES_P|
+MESES_BT|
+20_1_T|
+20_1_E|
+20_1_P|
+20_1_BT|
+DIAS_INV_T|
+DIAS_INV_E|
+DIAS_INV_P|
+DIAS_INV_BT|
+MESES_INV_T|
+MESES_INV_E|
+MESES_INV_P|
+MESES_INV_BT|
+DIAS_ALT_T|
+DIAS_ALT_E|
+DIAS_ALT_P|
+DIAS_ALT_BT|
+TotalPContMental|TOTAL_P_CONT_MENTAL
+PuntSBControlM|PUNT_SUMAD_BONIFICA_CONTROL_M
+TotalWais|TOTAL WAIS
+OTR|OT/R
+OER|OE/R
+AcPelBanRes|AC/PEL-BAN(RES)
+AcPelBanEns|AC/PEL-BAN(ENS)
+ACR|AC/R
+ACODNUM|AC/ODNUM
+ValorAltoACRO|VALOR ALTO DE (AC/R-AC/ODNUM)
+AC2PUN|AC2/PUN
+MPelBanR|M/PEL-BAN(R)
+ME|M/E
+MERepeticion|M/E-Repeticion
+ValorAltoMEER|VALOR ALTO (M/E-M/E-Repeticion)
+MRET|M/RET
+FLR|F/L(R)
+FCO|F/C®
+LCAR|L/C-A(R)
+LCBR|L/C-B(R)
+LER|L/E(R)
+LRPSR|L/R-PS(R)
+LRF1|L/R(F1)
+LRF2|L/R(F2)
+LDREL|L/D(REL)
+LGR10I|L/GR10I
+LCR|L/C(R)
+LLI|L/LI
+HVPS|HV/PS
+HVC|HV/C
+HVR|HV/R
+HVCP|HV/CP
+HVIL|HV/IL
+MDRD|MD/RD
+RSiNoRec|R/SINO REC
+ResACER|RESULTADO A-CER
+AE1|1. A-E Me siento calmado (-)
+AE2|2. A-E Me siento seguro (-)
+AE3|3. A-E Estoy tenso.
+AE4|4.A-E Estoy contrariado.
+AE5|5. A-E Me siento cómodo (estoy a gusto). (-)
+AE6|6. A-E Me siento alterado.
+AE7|7. A-E Estoy preocupado por posibles desgracias futuras.
+AE8|8.A-E Me siento descansado. (-)
+AE9|9. A-E Me siento angustiado.
+AE10|10. A-E Me siento confortable.(-)
+AE11|11. A-E Tengo confianza en mí mismo.(-)
+AE12|12. Me siento nerviosa.
+AE13|13. A-E Estoy desasosegado.
+AE14|14. A-E Me siento muy "atado" (como oprimido) .
+AE15|15. A-E Estoy relajado.(-)
+AE16|16. A-E Me siento satisfecho.(-)
+AE17|17. A-E Estoy preocupado.
+AE18|18. A-E Me siento aturdido y sobreexcitado.
+AE19|19. A-E Me siento alegre (-)
+AE20|20. A-E En este momento me siento bien. (-)
+TotalAE|TOTAL A-E
+AR21|A-R 21. Me siento bien. (-)
+AR22|A-R 22. Me canso rápidamente.
+AR23|A-R 23. Siento ganas de llorar.
+AR24|A-R 24. Me gustaría ser tan feliz como otros.
+AR25|A-R 25. Pierdo oportunidades por no decidirme pronto.
+AR26|A-R 26. Me siento descansado (-)
+AR27|A-R 27. Soy una persona tranquila, serena y sosegada. (-)
+AR28|A-R 28. Veo que las dificultades se amontonan y no puedo con ellas.
+AR29|A-R 29. Me preocupo demasiado por cosas sin importancia.
+AR30|A-R 30. Soy feliz (-)
+AR11|A-R 31. Suelo tomar las cosas demasiado seriamente.
+AR32|A-R 32. Me falta confianza en mí mismo.
+AR33|A-R 33. Me siento seguro.(-)
+AR34|A-R34. Evito enfrentarme a las crisis o dificultades.
+AR35|35. Me siento triste (melancólico).
+AR36|36. Estoy satisfecho.(-)
+AR37|37. Me rondan y molestan pensamientos sin importancia.
+AR38|38. Me afectan tanto los desengaños, que no puedo olvidarlos.
+AR39|39. Soy una persona estable. (-)
+AR40|A-R 40. Cuando pienso sobre asuntos
+TotalAR|TOTAL A-R
+BDI1|1. TRISTEZA
+BDI2|2. PESIMISMO
+BDI3|3. SENTIMIENTOS DE FRACASO
+BDI4|4. PÉRDIDA DE PLACER
+BDI5|5. SENTIMIENTOS DE CULPA
+BDI6|6. SENTIMIENTOS DE CASTIGO
+BDI7|7. INSATISFACCIÓN CON UNO MISMO
+BDI8|8. AUTO-CRÍTICAS
+BDI9|9. PENSAMIENTOS O DESEOS DE SUICIDIO
+BDI10|10. LLANTO
+BDI11|11.AGITACIÓN
+BDI12|12. PÉRDIDA DE INTERÉS
+BDI13|13. INDECISIÓN
+BDI14|14. INUTILIDAD
+BDI15|15. PÉRDIDA DE ENERGÍA
+BDI16|16. CAMBIOS EN EL PATRÓN DE SUEÑO
+BDI17|17. IRRITABILIDAD
+BDI18|18. CAMBIOS EN EL APETITO
+BDI19|19. DIFICULTAD DE CONCENTRACION
+BDI20|20. CANSANCIO O FATIGA
+BDI21|21. PÉRDIDA DE INTERES EN EL SEXO
+TotalBDI|TOTAL BDI
+ClasItemsxBDI|CLASIFICACION ITEMS POR BDI
+ClasItemsxBDI2|CLASIFICACION ITEMS POR BDI 1=0-13;2=14-19;3=20o+
+AnioEstudio|AÑO DE ESTUDIO
+SD_1|1:-0;2:-8;3:+8
+SD_2|1-ninguno;2-básicos;3-primarios;4-medios o secundario
+SD_3|Unnamed: 318
+ResDirFinal1|RESULTADO DIRECTO FINAL .1
+ResInvFinal1|RESULTADO INVERSO FINAL.1
+ResFinalDirInv1|RESULTADO FINAL DIRECTO-INVERSO.1
+ResFinalLN1|RESULTADO FINAL LETRAS Y NUMEROS.1
+TotalPContMental1|TOTAL_P_CONT_MENTAL.1
+TotalWais1|TOTAL WAIS.1
+ResACER1|RESULTADO A-CER.1
+TotalAR1|TOTAL A-R.1
+TotalBDI1|TOTAL BDI.1
+PuntAlexaDir|PUNTUACION ALEXA DIRECTA: 0a2/16
+PuntAlexaIndir|PUNTUACION ALEXA INDIRECTA:0-2/16
+TotalAlexaDirIndir|TOTAL ALEXA-DIRECTA-INDIRECTA
+TotalAlexaCodaCol|TOTAL ALEXA-CODA COLORES/8
+TareasAlexaDir|Tareas Alexa Directa 3-4=2;5-6=3;7-8=4
+MedEfecCodaDir|Medicion efectividad Coda directo
+TiempoCodaDir|Tiempo Coda directo
+MedEficCodaDir|Medicion eficiencia Coda directo
+TareasAlexaInv|Tareas Alexa Inverso 3-4=2;5-6=3;7-8=4
+MedEfecCodaInv|Medicion efectividad Coda Inverso
+TiempoCodaInv|Tiempo Coda Inverso
+MedEficCidaInv|Medicion eficiencia Coda Inverso
+TareasAlexaCodaCol|Tareas Alexa Coda colores 2=1;4=2;6=3;8=4
+MedEfecCodaCol|Medicion efectividad Coda colores
+TiempoCodaCol|Tiempo Coda colores
+MedEficCodaCol|Medicion eficiencia Coda colores
+FrmConsentimiento|firma de consentimiento
