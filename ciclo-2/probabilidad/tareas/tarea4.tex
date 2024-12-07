@@ -1,0 +1,178 @@
+\documentclass[12pt]{article}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[margin = 2.54cm]{geometry}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{gensymb}
+
+
+\input{../../../docs/portada-tareas/formato}
+\input{../../../docs/portada-tareas/definicion}
+
+
+\rutaLogo{../../../docs/img/logo-ista.png}
+\tema{\\ \vspace{0.8cm} Taller de ejercicios N\degree4 - Distribución binomial \\ \vspace{1.5cm}}
+\etiquetaAutores{Alumno: }
+\alumno{Eduardo Mendieta \vspace{0.8cm}}
+\materia{Probabilidad y estadística \vspace{0.8cm}}
+\docente{Eco. Hermann Seminario \vspace{0.8cm}}
+\ciclo{Segundo ciclo \vspace{0.8cm}}
+\fecha{06/12/2024 \vspace{0.8cm}}
+\periodo{ 2024 - II}
+
+
+\begin{document}
+    \input{../../../docs/portada-tareas/plantilla}
+
+    \section*{\centering  Taller de ejercicios N\degree4 - Distribución binomial} 
+    \vspace{0.5cm}\textbf{Resolver los siguientes ejercicios:} \vspace{0.5cm}
+
+    \begin{enumerate}[label=\textbf{\arabic*.}]
+        % Ejercicio 1: -------------------------------------------------------------
+        \item \textbf{La última novela de un autor ha tenido un gran éxito, hasta el punto de que el 80\% de
+        los lectores ya la han leído. \\
+        Un grupo de 4 amigos son aficionados a la lectura:}
+
+        \begin{enumerate}[label=\textbf{\alph*.}]
+            \item \textbf{¿Cuál es la probabilidad de que en el grupo hayan leído la novela 2 personas?}
+            \[p = 0.8 \mid q = 0.2 \mid n = 4 \mid x = 2\]
+            \[C^{n}_{x} = \frac{4!}{2!(4-2)!} = \frac{4\cdot 3\cdot 2!}{2!\cdot 2!} = 6\]
+            \[x \mapsto B(n, p) = 6 \cdot 0.8^{2} \cdot 0.2^{4-2} = 6 \cdot 0.64 \cdot 0.04 = 0.1535 \rightarrow 15.35\%\]
+
+            \texttt{Respuesta:} La probabilidad de que en el grupo hayan leído la novela 2 personas es del 15.35\%.
+
+            \item \textbf{¿Y cómo máximo 2?}
+            \[x = 0\]
+            \[C^{n}_{x} = \frac{4!}{0!(4-0)!} = \frac{4!}{4!} = 1\]
+            \[x \mapsto B(n, p) = 1 \cdot 0.8^{0} \cdot 0.2^{4-0} = 1 \cdot 1 \cdot 0.0016 = 0.0016 \rightarrow 0.16\%\]
+
+            \[x = 1\]
+            \[C^{n}_{x} = \frac{4!}{1!(4-1)!} = \frac{4\cdot 3!}{3!} = 4\]
+            \[x \mapsto B(n, p) = 4 \cdot 0.8^{1} \cdot 0.2^{4-1} = 4 \cdot 0.8 \cdot 0.008 = 0.0256 \rightarrow 2.56\%\]
+
+            \[x = 0, 1, 2\]
+            \[x \mapsto B(n, p) = 0.0016 + 0.0256 +0.1535 = 0.1807 = 18.07\%\]
+
+            \texttt{Respuesta:} La probabilidad de que en el grupo hayan leído la novela cómo máximo 2 personas es del 18.07\%.
+            
+        \end{enumerate}
+
+
+        % Ejercicio 2: -------------------------------------------------------------
+        \newpage
+        \item \textbf{Un agente de seguros vende pólizas a cinco personas de la misma edad y que disfrutan
+        de buena salud. Según las tablas actuales, la probabilidad de que una persona en estas
+        condiciones viva 30 años o más es 2/3.\\
+        Hállese la probabilidad de que, transcurridos 30 años, vivan:}
+
+        \begin{enumerate}[label=\textbf{\alph*.}]
+            \item \textbf{Las cinco personas:}
+            \[p = 0.6667 \mid q = 0.3333 \mid n = 5 \mid x = 5\]
+            \[C^{n}_{x} = \frac{5!}{5!(5-5)!} = \frac{5!}{5!} = 1\]
+            \[x \mapsto B(n, p) = 1 \cdot 0.6667^{5} \cdot 0.3333^{5-5} = 1 \cdot 0.1317 \cdot 1 = 0.1317 \rightarrow 13.17\%\]
+            
+            \texttt{Respuesta:} La probabilidad de que, transcurridos 30 años, vivan las cinco personas es del 13.17\%.
+
+            \item \textbf{Al menos tres personas:}
+            \[x = 2\]
+            \[C^{n}_{x} = \frac{5!}{2!(5-2)!} = \frac{5!}{2!\cdot 3!} = \frac{5 \cdot 4\cdot 3!}{2\cdot 3!} = 10\]
+            \[x \mapsto B(n, p) = 10 \cdot 0.6667^{2} \cdot 0.3333^{5-2} = 10 \cdot 0.4445 \cdot 0.037 = 0.1645 \rightarrow 16.45\%\]
+
+            \[x = 1\]
+            \[C^{n}_{x} = \frac{5!}{1!(5-1)!} = \frac{5!}{4!} = \frac{5 \cdot 4!}{4!} = 5\]
+            \[x \mapsto B(n, p) = 5 \cdot 0.6667^{1} \cdot 0.3333^{5-1} = 5 \cdot 0.6667 \cdot 0.0411 =  \rightarrow 4.11\%\]
+
+            \[x = 0\]
+            \[C^{n}_{x} = \frac{5!}{0!(5-0)!} = \frac{5!}{5!} = 1\]
+            \[x \mapsto B(n, p) = 1 \cdot 0.6667^{0} \cdot 0.3333^{5-0} = 1 \cdot 1 \cdot 0.0041 =  \rightarrow 0.41\%\]
+
+            \[x = 3, 4, 5\]
+            
+            \[x \mapsto B(n, p) = 1 - 0.1645 - 0.0411 - 0.0041 = 0.7903 \rightarrow 79.03\%\]
+            
+            \texttt{Respuesta:} La probabilidad de que, transcurridos 30 años, vivan al menos tres personas es del 79.03\%.
+
+            \item \textbf{Exactamente dos personas:}
+            \[x = 2\]
+            \[x \mapsto B(n, p) = 0.1645 \rightarrow 16.45\%\]
+
+            \texttt{Respuesta:} La probabilidad de que, transcurridos 30 años, vivan exactamente dos personas es del 16.45\%.
+
+            
+        \end{enumerate}
+
+
+        % Ejercicio 3: -------------------------------------------------------------
+        \item \textbf{El número de pinchazos en los neumáticos de cierto vehículo industrial tiene una
+        media de 0,3 por cada 50000 kilómetros. Si el vehículo recorre 100000 km, calcula la
+        probabilidad de que tenga menos de 3 pinchazos.}
+
+        
+
+
+        % Ejercicio 4: -------------------------------------------------------------
+        \item \textbf{En una línea de producción, se sabe que el 2\% de los productos son defectuosos. Si se
+        revisan 50 productos, ¿cuál es la probabilidad de que exactamente 3 sean
+        defectuosos?}
+        
+        \[p = 0.02 \mid q = 0.98 \mid n = 50 \mid x = 3\]
+            \[C^{n}_{x} = \frac{50!}{3!(50-3)!} = \frac{50\cdot 49\cdot 48\cdot 47!}{6\cdot 47!} = 50\cdot 49\cdot 8 = 19600\]
+            \[x \mapsto B(n, p) = 19600 \cdot 0.02^{3} \cdot 0.98^{50-3} = 19600 \cdot 0.000008 \cdot 0.3869 = 0.0607 \rightarrow 6.07\%\]
+            
+            \texttt{Respuesta:} La probabilidad de que exactamente 3 productos sean defectuosos es del 6.07\%.
+
+
+        % Ejercicio 5: -------------------------------------------------------------
+        \item \textbf{En una encuesta, el 80\% de los clientes están satisfechos con un servicio. Si se encuesta
+        a 15 clientes, ¿cuál es la probabilidad de que al menos 12 estén satisfechos?}
+
+        \[p = 0.8 \mid q = 0.2 \mid n = 15 \mid x = 12\]
+            \[C^{n}_{x} = \frac{15!}{12!(15-12)!} = \frac{15\cdot 14\cdot 13\cdot 12!}{12!\cdot 3!} = \frac{2700}{6} = 455\]
+            \[x \mapsto B(n, p) = 455 \cdot 0.8^{12} \cdot 0.2^{15-12} = 455 \cdot 0.0687 \cdot 0.008 = 0.2501 \rightarrow 25.01\%\]
+
+            \[x = 13\]
+            \[C^{n}_{x} = \frac{15!}{13!(15-13)!} = \frac{15\cdot 14\cdot 13!}{13!\cdot 2!} = \frac{210}{2} = 105\]
+            \[x \mapsto B(n, p) = 105 \cdot 0.8^{13} \cdot 0.2^{15-13} = 105 \cdot 0.0549 \cdot 0.04 = 0.2309 \rightarrow 23.09\%\]
+
+            \[x = 14\]
+            \[C^{n}_{x} = \frac{15!}{14!(15-14)!} = \frac{15\cdot 14!}{14!\cdot 1!} = 15\]
+            \[x \mapsto B(n, p) = 15 \cdot 0.8^{14} \cdot 0.2^{15-14} = 15 \cdot 0.04398 \cdot 0.2 = 0.1319 \rightarrow 13.19\%\]
+
+            \[x = 15\]
+            \[C^{n}_{x} = \frac{15!}{15!(15-15)!} = \frac{15!}{15!} = 1\]
+            \[x \mapsto B(n, p) = 1 \cdot 0.8^{15} \cdot 0.2^{15-15} = 1 \cdot 0.0352 \cdot 1 = 0.0352 \rightarrow 3.52\%\]
+
+            \[x = 12, 13, 14, 15\]
+            \[x \mapsto B(n, p) = 0.2501 + 0.2309 + 0.1319 + 0.0352 = 0.6481 \rightarrow 64.81\%\]
+            
+            \texttt{Respuesta:} La probabilidad de que al menos 12 clientes estén satisfechos es del 64.81\%.
+
+
+        % Ejercicio 6: -------------------------------------------------------------
+        \item \textbf{Un estudiante tiene un 70\% de probabilidad de aprobar un examen. Si el estudiante
+        presenta 5 exámenes, ¿cuál es la probabilidad de que apruebe exactamente 4?}
+
+            \[p = 0.7 \mid q = 0.3 \mid n = 5 \mid x = 4\]
+            \[C^{n}_{x} = \frac{5!}{4!(5-4)!} = \frac{5\cdot 4!}{4!} = 5\]
+            \[x \mapsto B(n, p) = 5 \cdot 0.7^{4} \cdot 0.3^{5-4} = 5 \cdot 0.2401 \cdot 0.3 = 0.3602 \rightarrow 36.02\%\]
+
+            \texttt{Respuesta:} La probabilidad de que apruebe exactamente 4 exámenes es del 36.02\%.
+        
+        % Ejercicio 7: -------------------------------------------------------------
+        \item \textbf{Un arquero tiene una tasa de acierto del 60\%. Si dispara 8 flechas, ¿cuál es la
+        probabilidad de que acierte exactamente 5?}
+
+        \[p = 0.6 \mid q = 0.4 \mid n = 8 \mid x = 5\]
+            \[C^{n}_{x} = \frac{8!}{5!(8-5)!} = \frac{8\cdot 7\cdot 6\cdot 5!}{5!\cdot 3!} = 56\]
+            \[x \mapsto B(n, p) = 56 \cdot 0.6^{5} \cdot 0.4^{8-5} = 56 \cdot 0.0778 \cdot 0.064 = 0.2788 \rightarrow 27.88\%\]
+
+            \texttt{Respuesta:} La probabilidad de que acierte exactamente 5 flechas es del 27.88\%.
+
+    \end{enumerate}
+\end{document}
