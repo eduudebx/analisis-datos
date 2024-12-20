@@ -1,0 +1,79 @@
+\documentclass[12pt]{article}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[margin = 2.54cm]{geometry}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{gensymb}
+
+
+\input{../../../docs/portada-tareas/formato}
+\input{../../../docs/portada-tareas/definicion}
+
+
+\rutaLogo{../../../docs/img/logo-ista.png}
+\tema{\\ \vspace{0.8cm} Evaluación interciclo \\ \vspace{1.5cm}}
+\etiquetaAutores{Alumno: }
+\alumno{Eduardo Mendieta \vspace{0.8cm}}
+\materia{Probabilidad y estadística \vspace{0.8cm}}
+\docente{Eco. Hermann Seminario \vspace{0.8cm}}
+\ciclo{Segundo ciclo \vspace{0.8cm}}
+\fecha{19/12/2024 \vspace{0.8cm}}
+\periodo{ 2024 - II}
+
+
+\begin{document}
+    \input{../../../docs/portada-tareas/plantilla}
+
+    \section*{\centering LECCIÓN} 
+    \vspace{0.5cm}\textbf{Encuentre el resultado de los siguientes ejercicios con su respectivo desarrollo:} \vspace{0.5cm}
+
+    \begin{enumerate}[label=\textbf{\arabic*.}]
+        % Ejercicio 1: -------------------------------------------------------------
+        \item \textbf{Un centro de atención telefónica recibe en promedio 3 llamadas por minuto. ¿Cuál es la probabilidad de que 
+        en un minuto determinado reciban exactamente 5 llamadas?}
+
+        \[\mu = 3 \mid x = 5 \mid e = 2.72\]
+
+        \[P(x) = \frac{e^{-\mu}\cdot \mu^x}{x!} = P(5) = \frac{2.72^{-3}\cdot 3^5}{5!}
+            = \frac{12.08}{120} = 0.1006 \longrightarrow 10.06\%
+        \]
+
+        \texttt{Respuesta:} laprobabilidad de que en un minuto determinado reciban exactamente 5 llamadas
+        es del 10.06\%
+
+        % Ejercicio 2: -------------------------------------------------------------
+        \item \textbf{La altura de los estudiantes de una escuela sigue una distribución normal con una media de 170 cm y una 
+        desviación estándar de 10 cm. ¿Cuál es la probabilidad de que un estudiante seleccionado al azar tenga una altura menor de 160 cm?}
+
+        \[\mu = 170cm \mid x = 160cm \mid \sigma = 10cm\]
+
+        \[z = \frac{x - \mu}{\sigma} = \frac{160 - 170}{10} = \frac{-10}{10} = -1\]
+
+        Buscando $z = -1$ en la tabla, es igual a $1 - 0.8413 = 0.1587$
+
+        \[P(x < 160) = 15.87\%\]
+
+        \texttt{Respuesta:} La probabilidad de que un estudiante tenga una altura menor de 160cm es del 15.87\%
+
+        % Ejercicio 3: -------------------------------------------------------------
+        \item \textbf{Los tiempos de entrega de un servicio de mensajería siguen una distribución normal con una media de 30 minutos y 
+        una desviación estándar de 5 minutos. ¿Cuál es la probabilidad de que un paquete se entregue en más de 35 minutos?}
+
+        \[\mu = 30min \mid x = 35min \mid \sigma = 5min\]
+
+        \[z = \frac{x - \mu}{\sigma} = \frac{35 - 30}{5} = \frac{5}{5} = 1\]
+
+        Buscando $z = 1$ en la tabla, es igual a $0.8413$
+
+        \[P(x > 35)= 1 - 0.8413 = 0.1587 \longrightarrow 15.87\%\]
+
+        \texttt{Respuesta:} La probabilidad de que un paquete se entregue en más de 35 minutos es del 15.87\%
+        
+    \end{enumerate}
+\end{document}
